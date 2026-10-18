@@ -1,0 +1,95 @@
+# Memória do projeto Federal-Curso (marca "Inteligência Ambiental")
+
+Leia antes de mexer. Decisões do dono do projeto (Francisco, "O Analista Ambiental"). Vale para toda sessão, de qualquer
+conta.
+
+## O que é este repositório
+- A **casa principal** da frente federal:
+  - o canal do YouTube e o Instagram da marca **"Inteligência Ambiental"**;
+  - os vídeos tutoriais de serviços ambientais **federais** e, depois, de **outros estados de alta demanda**;
+  - o curso **Rota Federal**.
+- Mostra como **conseguir e executar o serviço**, com o passo a passo na tela real e com a **IA** ajudando (rascunho,
+  conferência e prospecção), sempre com revisão humana.
+- **Separado do curso de MG.** O repositório `oanalistaambiental/CURSO` (A Rota Ambiental, Minas Gerais) continua ativo.
+  Daqui se pode **ler** o CURSO e, vez ou outra, atualizar algo pequeno nele. **As grandes mudanças e a informação
+  federal ficam aqui**, para não poluir o outro projeto (decisão do dono, 18/10/2026).
+
+## Primeiro passo de toda sessão
+1. `git fetch origin` e partir do ramo mais novo.
+2. Ler `LEMBRETES.md` (o que lembrar ao dono) e o roteiro em andamento em `roteiros/`.
+3. Ao terminar, atualizar `LEMBRETES.md` e o estado do roteiro.
+
+## Decisões do dono
+- 18/10/2026: **o canal é dele.**
+  - Instagram: `@ambientalinteligencia`.
+  - YouTube: "Ambiental Inteligência I.A." (`@ambientalinteligencia`). O nome exato do canal o dono ainda vai confirmar.
+- 18/10/2026: **começar pelo federal.** Os estados (SP, BA, MT, PR, GO; MS como "relâmpago") vêm depois. A pauta está em
+  `CURSO/novas-frentes/CANAL_INTELIGENCIA_AMBIENTAL.md`.
+- 18/10/2026: **primeiro vídeo, só para o YouTube:** "Outorga na Plataforma Águas Brasil (ANA)".
+  - A escolha seguiu o critério que ele pediu: tema com vídeo **desatualizado ou com poucas views**, para o canal ocupar
+    a plataforma nova.
+  - **Lembrar o dono** de que este tema **não é dos mais vistos**. O tutorial oficial tem só ~1,3 mil views, e o vídeo
+    antigo da ANA tem 150 mil. Se ele desanimar com as views, isso é esperado, e não é falha do vídeo.
+- 18/10/2026: **segundo vídeo: CAR (Cadastro Ambiental Rural), nacional.** É o tema de maior demanda.
+- 18/10/2026: **estudar a fundo** os dois temas antes do roteiro:
+  - a ANA, as outorgas federais e todo o contexto;
+  - o CAR.
+- 18/10/2026: **lembrar o dono se ele demorar a responder** sobre o vídeo 1. O primeiro vídeo deve sair.
+
+## Regras que não mudam (herdadas do CURSO)
+- **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
+- **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
+- **Nunca fabricar dado normativo.** Toda regra cita a fonte (norma, artigo, link oficial). Sem confirmação, marcar
+  **[conferir]**.
+- **Manual oficial primeiro:** antes de todo roteiro de passo a passo, ler o manual atual do sistema e os vídeos oficiais
+  e conferir com a tela real. Fonte, versão e data vão no topo do roteiro, e a aula leva o selo
+  "Manual conferido em mm/aaaa".
+- **Sistema real:**
+  - preencher e explicar o máximo de telas, campo a campo (para que serve, de onde vem a informação, onde reaparece no
+    ato final);
+  - **nunca concluir a etapa final** (enviar, protocolar, assinar, pagar);
+  - se der para apagar o rascunho, apagar ao final;
+  - **o dono faz o login.** Nenhuma IA digita senha ou CPF.
+- **LGPD (regra de dados do dono):**
+  - pessoa física: ocultar CPF, sobrenome e endereço;
+  - pessoa jurídica: o nome aparece, e o CNPJ fica parcialmente oculto (ex.: `12.345.***/****-90`);
+  - aparecem sempre: nº do ato, data, coordenadas, vazão, finalidade, município, corpo hídrico.
+- **Transparência sobre IA:** a marca usa avatar e voz gerados por IA, declarados na descrição e na bio, com revisão
+  humana. Frase fixa: **"A IA rascunha; quem assina responde."**
+- **Conflito de interesse:** o dono é servidor da FEAM (MG). Esta marca não trata de processo de MG nem de dado interno.
+  Só dado público.
+- **Tema sindical fora.**
+- **Vídeo e áudio nunca no git** (Drive). Chaves de API só como segredo do ambiente.
+
+## Grátis × pago (regra de 18/10, adaptada a esta marca)
+- **Grátis no canal:** cadastro, consulta ou emissão simples, de uma tela.
+- **Curso (Rota Federal):** o caminho inteiro do "como obter" e do documento técnico, com:
+  - checklist;
+  - caso completo;
+  - modelos;
+  - tira-dúvidas.
+- **Exceção decidida pelo dono em 18/10:** o vídeo 1 (outorga na ANA) sai no YouTube como **porta de entrada**. O vídeo
+  mostra o pedido até antes do envio. O curso guarda o aprofundamento: cálculo da vazão, regime mensal, exigências e
+  casos de indeferimento.
+
+## Estrutura
+- `pesquisa/`: dossiês de cada tema (Etapa 0: normas, manuais, vídeos, casos reais, perguntas reais).
+- `roteiros/`: um arquivo por vídeo (`V01_...`, `V02_...`).
+- `manuais/` e `pauta/`: começam vazios. A base de hoje ainda mora no CURSO e é **lida de lá**:
+  - `CURSO/producao/manuais/LEVANTAMENTO_ANA_SINIR.md` (ANA e SINIR);
+  - `CURSO/producao/manuais/LEVANTAMENTO_IBAMA.md`;
+  - `CURSO/producao/manuais/LEVANTAMENTO_CAR_SINAFLOR.md`;
+  - `CURSO/LINHA_FEDERAL_E_ESTADOS.md`;
+  - `CURSO/novas-frentes/CANAL_INTELIGENCIA_AMBIENTAL.md` (pauta: demanda, estados, 40 títulos).
+
+  Trazer cópias para cá só com o "sim" do dono.
+- `LEMBRETES.md`: o que lembrar ao dono e quando.
+
+## Produção (a mesma linha do CURSO)
+- **Esta sessão (Conta C):** pesquisa, dossiê, roteiro e pauta.
+- **Cowork:**
+  - abre as telas logadas com o dono;
+  - assiste aos vídeos do YouTube;
+  - faz a junção final.
+- Voz e avatar: ElevenLabs e HeyGen, na conta do dono (ver `CURSO/producao/VOZ_E_ROSTO.md`).
+- Modelo por etapa: Opus só em julgamento normativo e decisão; Sonnet no resto; script no mecânico.
