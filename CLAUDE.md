@@ -24,7 +24,7 @@ conta.
   - Instagram: `@ambientalinteligencia`.
   - YouTube: "Ambiental Inteligência I.A." (`@ambientalinteligencia`). O nome exato do canal o dono ainda vai confirmar.
 - 18/10/2026: **começar pelo federal.** Os estados (SP, BA, MT, PR, GO; MS como "relâmpago") vêm depois. A pauta está em
-  `CURSO/novas-frentes/CANAL_INTELIGENCIA_AMBIENTAL.md`.
+  `pauta/PAUTA_CANAL.md`.
 - 18/10/2026: **primeiro vídeo, só para o YouTube:** "Outorga na Plataforma Águas Brasil (ANA)".
   - A escolha seguiu o critério que ele pediu: tema com vídeo **desatualizado ou com poucas views**, para o canal ocupar
     a plataforma nova.
@@ -73,17 +73,15 @@ conta.
   casos de indeferimento.
 
 ## Estrutura
+- `pauta/`: pauta do canal (demanda, estados, 40 títulos) e linha federal.
 - `pesquisa/`: dossiês de cada tema (Etapa 0: normas, manuais, vídeos, casos reais, perguntas reais).
+- `manuais/`: inventário dos manuais oficiais (ANA/SINIR, Ibama, CAR/Sinaflor), com versão e data.
 - `roteiros/`: um arquivo por vídeo (`V01_...`, `V02_...`).
-- `manuais/` e `pauta/`: começam vazios. A base de hoje ainda mora no CURSO e é **lida de lá**:
-  - `CURSO/producao/manuais/LEVANTAMENTO_ANA_SINIR.md` (ANA e SINIR);
-  - `CURSO/producao/manuais/LEVANTAMENTO_IBAMA.md`;
-  - `CURSO/producao/manuais/LEVANTAMENTO_CAR_SINAFLOR.md`;
-  - `CURSO/LINHA_FEDERAL_E_ESTADOS.md`;
-  - `CURSO/novas-frentes/CANAL_INTELIGENCIA_AMBIENTAL.md` (pauta: demanda, estados, 40 títulos).
-
-  Trazer cópias para cá só com o "sim" do dono.
+- `referencias-do-curso-mg/`: roteiros do curso de MG, só como modelo de formato. **Não editar.**
 - `LEMBRETES.md`: o que lembrar ao dono e quando.
+
+Os arquivos de `manuais/` e `pauta/` vieram do CURSO em 18/10/2026, com o "sim" do dono. A versão viva passa a ser a
+daqui.
 
 ## Produção (a mesma linha do CURSO)
 - **Esta sessão (Conta C):** pesquisa, dossiê, roteiro e pauta.
