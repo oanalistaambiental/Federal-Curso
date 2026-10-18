@@ -78,6 +78,7 @@ conta.
 - `manuais/`: inventário dos manuais oficiais (ANA/SINIR, Ibama, CAR/Sinaflor), com versão e data.
 - `roteiros/`: um arquivo por vídeo (`V01_...`, `V02_...`).
 - `referencias-do-curso-mg/`: roteiros do curso de MG, só como modelo de formato. **Não editar.**
+- `telas/`: capturas de tela públicas (sem dado pessoal), como a do domínio dos rios no SNIRH.
 - `LEMBRETES.md`: o que lembrar ao dono e quando.
 
 Os arquivos de `manuais/` e `pauta/` vieram do CURSO em 18/10/2026, com o "sim" do dono. A versão viva passa a ser a
