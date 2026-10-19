@@ -42,3 +42,11 @@ Os PNGs de `assets/` (figuras dos tutoriais e ato mascarado) e o vídeo ficam fo
    isso.
 3. **Voz definitiva:** escolher entre Antonio (Azure F0, oficial e grátis) e a voz clonada do dono (Chatterbox).
 4. Nada vai ao ar sem o "sim" do dono.
+
+
+## Conferências feitas em 19/10/2026
+- **"Outorga não é licença":** a Res. ANA 236/2024, art. 95, diz que, "para o efetivo uso da água objeto da outorga, o
+  usuário deve obter as demais licenças e autorizações necessárias". O art. 96 diz que "a outorga não dá direito ao uso do
+  solo". Lido na página oficial da ANA (gov.br/ana, resoluções regulatórias 2024/236). Confirmado.
+- **Juazeiro (BA, 2918407) está no Semiárido:** consta na lista oficial do IBGE (`lista_municipios_Semiarido_2022.xlsx`,
+  delimitação da Sudene, Res. Condel 150/2021). O vídeo não afirma isso; o dado fica para o curso.

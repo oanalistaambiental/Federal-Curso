@@ -48,8 +48,11 @@ Página: `site/artigos/calculadora-imovel-rural-car.html`. Dados: `site/artigos/
   - "de 10 a 50 m" é lido como 50 m;
   - "até 4 MF" inclui os 4.
 - Acima de 4 MF na área consolidada, o valor exato é o do PRA estadual.
-- **[conferir]:** o recibo de Paranaguá declara 0,7971 ha de Reserva Legal, contra 0,8314 ha de 20 % da área total. Ver se o
-  Sicar calcula sobre a área líquida (sem a servidão administrativa) antes de pôr isso na ferramenta.
+- **Conferido em 19/10/2026:** a servidão administrativa sai da área total no cálculo da Reserva Legal (IN MMA nº 2/2014,
+  art. 43, XI: "exclusão das áreas de servidão administrativa da área total, para efeito do cálculo da área de Reserva
+  Legal"). A ferramenta ganhou o campo "Área de servidão administrativa". Em Paranaguá, o mínimo fica em 0,7271 ha (20 % de
+  3,6354 ha); o recibo declara 0,7971 ha, acima do mínimo. Fonte lida na LegisWeb, porque o PDF oficial do car.gov.br não
+  abre daqui.
 
 ## Próximas melhorias (sugestão)
 - Bioma predominante do município (IBGE) como dica para a escolha floresta, cerrado ou campos na Amazônia Legal.
