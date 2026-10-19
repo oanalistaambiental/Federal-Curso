@@ -56,7 +56,7 @@ O modelo segue a opção E aprovada para a Rota MG (perpétuo, Anual + Vitalíci
    de publicar. O RAPP de 2026 foi prorrogado até 31/05/2026 pela IN Ibama 06/2026 (fonte FIERGS); conferir a regra de
    2027.
 3. **Modelos:** proposta, contrato, procuração e checklist por serviço.
-4. **Prompts de IA conferidos**, com o ponto de revisão humana.
+4. **Bônus "IA no trabalho do consultor"** (aprovado pelo dono em 19/10): como usar a IA para rascunhar, conferir e prospectar, com os prompts conferidos e o ponto de revisão humana em cada um. "A IA rascunha; quem assina responde."
 5. **App Chão Geo (bases federais)**, em acesso antecipado: repositório `oanalistaambiental/Chao-Geo`.
 6. **Calculadoras federais:**
    - **faixa de APP:** pronta, no site;

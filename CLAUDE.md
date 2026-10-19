@@ -65,6 +65,21 @@ conta.
 - 19/10/2026: **ferramentas federais aprovadas** (imóvel rural, TCFA, rio federal ou estadual, calendário; PR #11 do site).
   Pode executar, revisar e estudar mais sobre elas.
 
+- 19/10/2026 (noite): **rodada de decisões do dono** (todas as recomendações "A" aceitas):
+  - **Títulos:** V02 "Como fazer o CAR em 2026 pelo gov.br: passo a passo no Sicar"; V01 "Outorga da ANA na Plataforma Águas
+    Brasil: passo a passo 2026". Publicar primeiro o CAR e, uma semana depois, a outorga. Encerramento com a frase das fontes
+    (tela final de 15 s).
+  - **Plano Anual na Hotmart:** assinatura anual **sem renovação automática** (acesso acaba em 12 meses), configurada pelo Cowork.
+  - **Ferramentas:** modo guiado aprovado; o selo do kit acende também no modo completo; o exemplo de rio estadual fica.
+    Próxima ferramenta: **enquadramento no CTF/APP do Ibama**.
+  - **Divisão das contas aprovada:** Conta C = CAR, ANA, Ibama (CTF/AIDA, RAPP, TCFA) e vídeo 4; Conta B = vídeo 3 (CTF/APP +
+    Certificado de Regularidade), Lei 15.190, MTR/SINIR e Sinaflor/DOF.
+  - **Voz:** Antonio (grátis) como padrão; a voz real do dono só nos vídeos de maior procura.
+  - **Projeto federal separado no Cowork:** sim. **Postar no YouTube daqui:** sim (sempre privado; público só com o "sim").
+  - **Próximos vídeos:** V04 "retificar e trocar o titular do CAR"; depois, um vídeo curto por ferramenta do site.
+  - **Ritmo:** 2 vídeos longos por mês + 3 cortes curtos por semana no primeiro mês.
+  - **"IA no trabalho do consultor" vira bônus da Rota Federal.** **Recusados (não avançar):** série "Fiz com IA" e convidados.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.

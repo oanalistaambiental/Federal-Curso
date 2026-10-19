@@ -26,7 +26,14 @@ chame o Francisco. Vídeo sobe sempre como PRIVADO. No fim de cada demanda, marq
 | 5 | **Mandar à Conta C os links de checkout da Hotmart** (Anual e Vitalício), para ela pôr na página do site | `curso/PEDIDO_COWORK_HOTMART.md`, §6 | — | **feito 19/10** |
 | 6 | **Telas logadas** que substituem as figuras dos manuais: V01, cenas o14–o18 (pedido na Plataforma Águas Brasil até antes de "Solicitar Outorga"; conferir se ainda redireciona ao REGLA); V02, cenas n10–n15 (CAR pré-preenchido até antes de "Finalizar") | `producao/V02/PACOTE_COWORK_V02.md`, §3; `producao/V01/LEIA.md`; a fila da Conta B em `producao/TELAS_LOGADAS_COWORK.md` | login gov.br; um imóvel ou ponto dele ou autorizado | a fazer |
 | 7 | **Abrir no navegador os sites estaduais de outorga** e mandar o link exato da **página de outorga** de cada um: AL, AP, AM, CE, MT, PE, RJ, RN, RR, SP (www.spaguas.sp.gov.br) e TO (Naturatins). Os nomes já foram conferidos em norma em 19/10. Conferir também o Decreto TO 6.934/2025 (competência do Naturatins) | `ferramentas/DOMINIALIDADE.md` | — | **feito 19/10** (6 de 11 conferidos; ver `ferramentas/OUTORGA_PAGINAS_ESTADUAIS_COWORK.md`; Decreto TO 6.934/2025 só revoga) |
+| 9 | **Anual como assinatura sem renovação** (§9) | este arquivo, §9 | login | a fazer |
 | 8 | **Conferir na tela do SINIR o dia final da DMR** de cada trimestre (a Portaria MMA 280/2020 não fixa o dia). As outras datas do calendário foram conferidas em 19/10 | `ferramentas/CALENDARIO_OBRIGACOES.md` | login no SINIR, se pedir | **bloqueado: precisa do login gov.br do dono** (19/10, 18h). O FAQ público do MTR não fala da DMR; blogs citam janelas fixas (abr/jul/out/jan) sem fonte oficial — não usar |
+
+## 9. Plano Anual como assinatura sem renovação (decisão do dono, 19/10)
+Na Hotmart, transformar a oferta Anual (R$ 97) em **assinatura anual com uma única cobrança** (sem renovação automática), para
+o acesso acabar em 12 meses, como promete a página. Se a Hotmart exigir um produto do tipo "assinatura" à parte, criar
+"Rota Federal · Anual" com o mesmo conteúdo da área de membros e mandar à Conta C o novo link de checkout. O Vitalício
+(R$ 147) não muda.
 
 ## 1. Texto da aula "Ferramentas federais" (Hotmart, Módulo 0, aula 2)
 ```
@@ -68,4 +75,4 @@ Encontrou um erro ou sentiu falta de algo? Escreva nos comentários desta aula.
    - **Tela final**, nos últimos 15 s: um vídeo no retângulo da direita (x 1060, y 190, 720×405) e o botão de inscrição no círculo (centro x 1420, y 800). Os tempos estão em `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`.
    - **Cards:** os tempos sugeridos estão no mesmo arquivo.
 5. **Visibilidade: PRIVADO.** Mandar ao Francisco o link do vídeo privado e esperar o "sim" para publicar ou agendar.
-6. A ordem sugerida de publicação é primeiro o CAR (maior procura) e depois a outorga. O dono decide.
+6. **Decidido pelo dono (19/10):** primeiro o CAR; a outorga uma semana depois. Títulos: CAR "Como fazer o CAR em 2026 pelo gov.br: passo a passo no Sicar"; outorga "Outorga da ANA na Plataforma Águas Brasil: passo a passo 2026".
