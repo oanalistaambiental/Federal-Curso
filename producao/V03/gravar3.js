@@ -69,6 +69,10 @@ async function rolaAte(page, el, margem = 160, ms = 1200) {
     if (Math.abs(d) < 30) break;
     const y = await page.evaluate(d => scrollY + d, d); await rola(page, y, k ? 450 : ms);
   }
+  // rolagem interna (ex.: caixa do formulário do Ibama): o scroll da janela não alcança
+  const d = await el.evaluate((e, m) => e.getBoundingClientRect().top - m, margem);
+  if (Math.abs(d) > 60) { await el.evaluate((e, m) => { let p = e.parentElement; while (p && !(p.scrollHeight > p.clientHeight + 20 && /(auto|scroll)/.test(getComputedStyle(p).overflowY))) p = p.parentElement;
+    if (p) p.scrollBy({ top: e.getBoundingClientRect().top - m, behavior: 'smooth' }); }, margem); await espera(1300); }
 }
 // escolhe numa lista: mostra as opções abertas (lista visível no vídeo), marca a opção e fecha
 async function escolhe(page, R, sel, re, abertoMs = 1600) {
@@ -87,6 +91,13 @@ async function semCookies(page) {
   await espera(600);
   await page.evaluate(() => { const b = [...document.querySelectorAll('button,a')].find(e => /Rejeitar cookies/i.test(e.textContent)); let r = b;
     while (r && r !== document.body) { if (['fixed', 'sticky'].includes(getComputedStyle(r).position)) { r.style.display = 'none'; break; } r = r.parentElement; } });
+}
+async function limpaGov(page) {
+  await semCookies(page);
+  await page.evaluate(() => {
+    document.querySelectorAll('*').forEach(e => { const st = getComputedStyle(e); if (st.filter && st.filter !== 'none') e.style.filter = 'none'; if (st.backdropFilter && st.backdropFilter !== 'none') e.style.backdropFilter = 'none'; });
+    [...document.querySelectorAll('div,section,aside')].forEach(e => { const t = e.textContent; if ((/Para começar/.test(t) && t.length < 200) || (/Rejeitar cookies/.test(t) && t.length < 1500)) { const st = getComputedStyle(e); if (['fixed', 'absolute', 'sticky'].includes(st.position)) e.style.display = 'none'; } });
+  });
 }
 const tag = (page, t) => page.addInitScript(t => { window.__TAG = t; }, t);
 const cons = (page, tit, itens, src) => page.evaluate(([a, b, c]) => window.__cons(a, b, c), [tit, itens, src || '']);
@@ -176,9 +187,11 @@ const CENA = {
 
   async n06(ctx, P) { const M = P.m;
     await gravaCena(ctx, 'n06', async page => { await tag(page, `TELA REAL · gov.br/ibama · CTF/APP · página atualizada em 26/08/2026`);
-      await abre(page, URL.ctfapp, 1.15, semCookies); },
+      await abre(page, URL.ctfapp, 1.15, limpaGov); },
     async (page, R) => {
-      await R.ate(M['Esta é a página oficial'] - 0.3); const f = await linha(page, '^\\s*1\\.3\\.?\\s*Formulários de inscrição\\s*$', 200); if (f) await vaiPara(page, f);
+      await R.ate(0.5); await rola(page, 520, 1500);
+      await R.ate(M['Esta é a página oficial'] - 0.6); await clica(page, R, page.locator('a[href="#formularios-de-inscricao"]').first()); await espera(900);
+      const f = await acha(page, '1.3. Formulários de inscrição', 'h3'); if (f.asElement()) { await rolaAte(page, f, 200, 900); await real(page, f); await vaiPara(page, f.asElement()); }
       await espera(1200); const pf = await acha(page, 'Pessoa física', 'a'); if (pf.asElement()) await aponta(page, R, pf.asElement());
       await R.ate(M['Primeiro:']); await cons(page, 'Separe antes', ['Responsável legal e declarante já inscritos como PF', 'Cartão do CNPJ, com a data de abertura', 'Coordenadas do empreendimento', 'Receita bruta de cada ano (porte)', 'Um e-mail que você acessa'], 'IN Ibama 13/2021, arts. 22 e 23 · formulário PJ');
       for (const [k, i] of [['Primeiro:', 0], ['Segundo:', 1], ['Terceiro:', 2], ['Quarto:', 3], ['E quinto:', 4]]) { await R.ate(M[k]); await consItem(page, i); }
@@ -206,8 +219,8 @@ const CENA = {
       await R.ate(M['Na categoria']); await escolhe(page, R, '#cod_des_app_categoria', '^\\s*21\\b');
       await page.waitForFunction(() => document.querySelector('#cod_app_detalhe') && document.querySelector('#cod_app_detalhe').options.length > 2, null, { timeout: 15000 }).catch(() => {});
       await R.ate(M['Na descrição']); await escolhe(page, R, '#cod_app_detalhe', 'motosserra', 1400);
-      await R.ate(M['E a data de início']); await clica(page, R, page.locator('#dat_inicial_atv')); await digita(page, R, '01/10/2026', 90);
-      await R.ate(M['Lá no final']); const t = page.locator('#termo_responsabilidade_S'); await rolaAte(page, t, 560, 1800);
+      await R.ate(M['E a data de início']); await aponta(page, R, page.locator('#dat_inicial_atv')); await nota(page, 'Data de início: a data em que a atividade começou (ex.: a da licença)');
+      await R.ate(M['Lá no final']); await nota(page, ''); const t = page.locator('#termo_responsabilidade_S'); await rolaAte(page, t, 560, 1800);
       const tt = await acha(page, 'TERMO DE CIÊNCIA'); if (tt.asElement()) await vaiPara(page, tt.asElement());
       await R.ate(M['Repare: ele cita']); const a82 = await acha(page, 'art. 82 do Decreto'); await real(page, a82); if (a82.asElement()) await vaiPara(page, a82.asElement());
       await R.ate(M['E este é o botão']); await vaiPara(page, page.locator('#btnGravar')); await real(page, await page.$('#btnGravar'));
@@ -319,12 +332,12 @@ const CENA = {
     ]), P.dur); },
 
   async n16(ctx, P) { const M = P.m;
-    await gravaCena(ctx, 'n16', async page => { await tag(page, `TELA REAL · gov.br/ibama · CTF/APP · página atualizada em 26/08/2026`); await abre(page, URL.ctfapp, 1.15, semCookies); },
+    await gravaCena(ctx, 'n16', async page => { await tag(page, `TELA REAL · gov.br/ibama · CTF/APP · página atualizada em 26/08/2026`); await abre(page, URL.ctfapp, 1.15, limpaGov); },
     async (page, R) => {
-      await R.ate(0.4); const s = await acha(page, 'Alterar data de início'); if (s.asElement()) { await rolaAte(page, s, 300, 1600); await real(page, s); await vaiPara(page, s.asElement()); }
+      await R.ate(0.4); const s = await acha(page, 'Até 48 horas após a declaração de atividade', 'p,td'); if (s.asElement()) { await rolaAte(page, s, 300, 1600); await real(page, s); await vaiPara(page, s.asElement()); }
       await cons(page, 'Os 5 erros que mais travam', ['Data de início errada', 'Porte desatualizado', 'Esquecer o RAPP (até 31/3)', 'Situação cadastral parada', 'Tabela de atividades nova até 26/12/2026'], 'IN 13/2021, arts. 24, 39 e Anexo II · IN 23/2025, art. 4º, par. único');
       for (const [k, i] of [['Um:', 0], ['Dois:', 1], ['Três:', 2], ['Quatro:', 3], ['E cinco:', 4]]) { await R.ate(M[k]); await consItem(page, i); }
-      await R.ate(M['Cadastro com indício']); const r = await acha(page, 'Reativação'); if (r.asElement()) { await rolaAte(page, r, 300, 1400); await real(page, r); }
+      await R.ate(M['Cadastro com indício']); const r = await acha(page, '2.4. Recadastramento', 'h3'); if (r.asElement()) { await rolaAte(page, r, 300, 1400); await real(page, r); }
       await R.ate(M['Antes de enquadrar']); await nota(page, 'Antes de enquadrar, confira a FTE · tabela em transição');
     }, P.dur); },
 
@@ -340,7 +353,7 @@ const CENA = {
 
   async n18(ctx, P) { const M = P.m;
     await gravaCena(ctx, 'n18', async page => { await page.goto(PALCO); }, async (page, R) => palco(page, R, [
-      [0, `tag('');selo(false);fim({foto:'assets/dono.jpg',curso:'CTF/APP, RAPP, TCFA e o caso completo de uma empresa',link:'oanalistaambiental.com/rota-federal · link na descrição',prox:'Em breve: o cadastro do consultor (CTF/AIDA)'});setTimeout(()=>{fimOn('.foto');fimOn('.like')},200);setTimeout(()=>{fimOn('.insc');vai(1060,330)},1300);setTimeout(()=>{const b=document.querySelector('.insc').getBoundingClientRect();vai(b.x+b.width/2,b.y+b.height/2);setTimeout(()=>anel(b.x+b.width/2,b.y+b.height/2),950)},2200)`],
+      [0, `tag('');selo(false);fim({foto:'assets/dono.jpg',curso:'CTF/APP, RAPP, TCFA e o caso completo de uma empresa',link:'www.oanalistaambiental.com/rota-federal.html · link na descrição',prox:'Em breve: o cadastro do consultor (CTF/AIDA)'});setTimeout(()=>{fimOn('.foto');fimOn('.like')},200);setTimeout(()=>{fimOn('.insc');vai(1060,330)},1300);setTimeout(()=>{const b=document.querySelector('.insc').getBoundingClientRect();vai(b.x+b.width/2,b.y+b.height/2);setTimeout(()=>anel(b.x+b.width/2,b.y+b.height/2),950)},2200)`],
       [M['Toda semana'], `fimOn('.sem')`],
       [M['E se você quer ir além'], `fimOn('.curso')`],
       [M['O link está'], `const b=document.querySelector('.curso small').getBoundingClientRect();vai(b.x+60,b.y+b.height/2)`],

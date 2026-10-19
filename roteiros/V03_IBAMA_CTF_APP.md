@@ -1,6 +1,10 @@
 # V03 · Cadastro no Ibama (CTF/APP) e Certificado de Regularidade: passo a passo 2026
 
-**Situação (19/10/2026):** versão 1 montada pela Conta B com a voz grátis, sem o Cowork. **Aguarda o "sim" do dono.** Nada foi
+**Situação (19/10/2026):** versão 1 montada pela Conta B com a voz grátis, sem o Cowork.
+- Duração: 9 min 19 s, 1080p.
+- Áudio: -16,2 LUFS, pico -1,9 dBTP.
+- Legenda `.srt` e capa 1280×720 prontas.
+- Os arquivos foram entregues ao dono no chat, para subir no Drive (`Inteligência Ambiental/Vídeos/V03_IBAMA_CTF_APP/`). **Aguarda o "sim" do dono.** Nada foi
 publicado.
 **Pedido do dono (19/10):** "Vamos gravar esse vídeo mesmo do cadastro no Ibama e emissão do certificado de regularidade",
 "lembre-se de fornecer os links oficiais na descrição".
@@ -87,7 +91,7 @@ Quando chegarem, entram na cena n12 (e numa cena nova n12b, se precisar) sem ref
 2. Como fazer o cadastro no Ibama e tirar o Certificado de Regularidade (tela real 2026)
 3. CTF/APP do Ibama: quem precisa, como se inscrever e o Certificado de Regularidade
 
-**Capítulos:** ver o bloco "Capítulos" no fim deste arquivo, gerado da montagem.
+**Capítulos:** já estão na descrição abaixo (gerados da montagem v1).
 
 **Descrição:**
 ```
@@ -117,7 +121,23 @@ RAPP, TCFA (porte, cálculo, compensação e parcelamento) e o caso completo de 
 👉 https://www.oanalistaambiental.com/rota-federal.html
 
 ⏱️ CAPÍTULOS
-(colar o bloco de capítulos)
+0:00 Abertura: 520 mil empresas no cadastro
+0:29 O que é o CTF/APP (Lei 6.938)
+0:52 Multa por não se inscrever
+1:22 Quem precisa: a FTE (exemplo do posto)
+1:55 Pessoa física também se inscreve
+2:25 O que separar antes
+2:59 Formulário de pessoa física
+4:04 Formulário de pessoa jurídica
+4:34 Coordenadas, atividade e data de início
+5:10 Porte ano a ano
+5:39 Login e regra das 48 horas
+6:14 O que trava o Certificado
+6:51 Validade e consulta pública
+7:24 O Certificado não é licença
+7:52 Os 5 erros que mais travam
+8:26 Inteligência artificial conferida na FTE
+8:53 Encerramento
 
 Um projeto de @oanalistaambiental.
 Transparência: este vídeo usa voz gerada por inteligência artificial, com roteiro pesquisado e revisão humana. A IA rascunha; quem assina responde.
@@ -131,3 +151,15 @@ federal, como fazer cadastro no ibama, ibama 2026, tcfa, rapp, fte ibama, consul
 - "Conteúdo alterado ou sintético": Sim (voz de IA);
 - categoria: Educação;
 - legenda: o `.srt` da montagem.
+
+## Portões da v1 (19/10/2026)
+- **Mosaico de quadros de todas as cenas:** conferido. Três correções foram feitas:
+  - página do gov.br desfocada pelo aviso de cookies;
+  - aviso de "data de nascimento obrigatória" ao digitar a data;
+  - rolagem interna do formulário.
+- **Transcrição automática das 18 cenas:** feita. As frases de risco foram trocadas ("desço", "redação nova", "comprovante inativo",
+  "o próprio Ibama").
+- **Volume:** -16,2 LUFS; pico -1,9 dBTP (limite -1,5).
+- **Dado pessoal na tela:** nenhum. Só dado de exemplo e páginas públicas; o painel é agregado.
+- **Encerramento:** a v1 usa o encerramento próprio (like, inscrição, "vídeo toda semana", curso com a foto). Quando o
+  `PADRAO_YOUTUBE_ENCERRAMENTO.md` da Conta C chegar ao ramo, trocar pela **variação C**.

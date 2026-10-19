@@ -13,9 +13,9 @@
   #ia-nota.on{opacity:1}
   #ia-cons{text-align:left;position:fixed;right:28px;top:90px;width:600px;background:rgba(10,44,34,.95);border:4px solid #E7B84A;border-radius:22px;padding:26px 28px;z-index:2147483645;opacity:0;transform:translateX(40px);transition:all .5s;box-shadow:0 20px 60px rgba(0,0,0,.45);font-family:Montserrat,Arial,sans-serif;color:#fff}
   #ia-cons.on{opacity:1;transform:none}
-  #ia-cons h4{font-size:22px;letter-spacing:2px;text-transform:uppercase;color:#E7B84A;margin:0 0 14px}
+  #ia-cons h4{font-family:Montserrat,Arial,sans-serif !important;font-size:22px;letter-spacing:2px;text-transform:uppercase;color:#E7B84A;margin:0 0 14px}
   #ia-cons ul{margin:0;padding:0}
-  #ia-cons li{list-style:none;font-size:30px;font-weight:700;line-height:1.3;margin-bottom:12px;padding-left:32px;position:relative;opacity:0;transition:opacity .4s}
+  #ia-cons li{display:block !important;float:none !important;color:#fff !important;list-style:none;font-size:30px;font-weight:700;line-height:1.3;margin-bottom:12px;padding-left:32px;position:relative;opacity:0;transition:opacity .4s}
   #ia-cons li::before{content:'';position:absolute;left:2px;top:12px;width:16px;height:16px;border-radius:50%;background:#2BD48A}
   #ia-cons li.on{opacity:1}
   #ia-cons .src{font-size:17px;color:#B8CFC6;margin-top:4px}
