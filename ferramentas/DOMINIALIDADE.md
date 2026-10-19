@@ -65,23 +65,40 @@ site foi aberto daqui em 19/10.
 - SC Semae;
 - SE Semac (`se.gov.br/semac`).
 
-**[conferir], porque o site não abriu daqui** (tempo esgotado no proxy, 403 ou Cloudflare). O nome vem da lista da ANA ou
-da busca:
-- AL Semarh;
-- AP SEMA;
-- AM IPAAM (Portaria IPAAM 148/2025 cita outorga entre as atividades);
-- CE SRH;
-- MT SEMA;
-- MS Imasul (portarias de outorga do Imasul de 2025 publicadas no próprio site);
-- PE APAC;
-- RJ Inea;
-- RN Igarn (SIGA-Igarn, 2025);
-- RR Femarh;
-- SP SP Águas (ex-DAEE; portarias SP-ÁGUAS de 2025);
-- TO Semarh.
+**Conferência de 19/10 (2ª rodada, pelo nome na norma)**
+Os 12 sites abaixo não abrem daqui: o proxy recusa, há 403 ou Cloudflare, e o WebFetch dá 503. Todos os domínios
+existem no DNS. Por isso cada nome e cada competência foram conferidos em norma ou em documento oficial. Na página, o selo
+fica "nome conferido em norma", com a fonte embaixo.
 
-**Para o Cowork:** abrir os 12 "[conferir]" no navegador do dono e confirmar o nome e o link da página de outorga de
-cada um.
+| UF | Órgão que emite a outorga estadual | Link | Fonte da conferência |
+|---|---|---|---|
+| AL | Secretaria de Estado do Meio Ambiente e dos Recursos Hídricos (Semarh/AL) | semarh.al.gov.br | Decreto 6/2001, alterado pelo Decreto 49.419/2016 (outorga por ato do Secretário); Portaria Semarh 197/2017 |
+| AP | Secretaria de Estado do Meio Ambiente (Sema/AP) | sema.portal.ap.gov.br | Lei 686/2002; relatório Progestão 2025 (ANA, de 31/03/2026) |
+| AM | Instituto de Proteção Ambiental do Amazonas (Ipaam), com a Sema/AM na política | ipaam.am.gov.br | Portaria conjunta Sema/Ipaam 01/2016; apresentação do AM no seminário FNOGA (ANA, 2018) |
+| CE | Secretaria dos Recursos Hídricos (SRH/CE), com análise técnica da Cogerh | **ce.gov.br/srh** (o srh.ce.gov.br redireciona com 301) | Outorga é ato do Secretário; a Cogerh analisa os pedidos e é a agência de bacia (Lei 14.844/2010) |
+| MT | Secretaria de Estado de Meio Ambiente (Sema/MT) | sema.mt.gov.br | IN Sema 05/2017; portarias de outorga recentes no Iomat |
+| MS | Imasul. **Site aberto**: o WebFetch leu o serviço "outorga e CEURH" | página de outorga em ms.gov.br | site oficial, 19/10/2026 |
+| PE | Agência Pernambucana de Águas e Clima (APAC) | apac.pe.gov.br | Portaria conjunta APAC/CPRH 1/2017; Resolução CRH 5/2022 |
+| RJ | Instituto Estadual do Ambiente (Inea) | inea.rj.gov.br | Resolução Inea 172/2019 (NOP-INEA-37 e 38); parecer da procuradoria do Inea (2025), no site do órgão |
+| RN | Instituto de Gestão das Águas do RN (Igarn) | igarn.rn.gov.br | LC estadual 483/2013, art. 3º |
+| RR | Fundação Estadual do Meio Ambiente e Recursos Hídricos (Femarh) | femarh.rr.gov.br | Lei 547/2006; ofício da Femarh à ANA (Progestão, out/2023) |
+| SP | Agência de Águas do Estado de São Paulo (SP Águas, antigo DAEE) | **www.spaguas.sp.gov.br** | Outorgas da SP Águas de 2025 com base no Decreto 63.262/2018. **Erro corrigido:** sem "www", o domínio não existe no DNS |
+| TO | **Instituto Natureza do Tocantins (Naturatins)** | **naturatins.to.gov.br** | Lei 1.307/2002 e decreto de outorga (o 2.432/2005 dava a competência ao Naturatins e foi substituído pelo 6.934/2025). **Erro corrigido:** a página dizia Semarh/TO |
+
+Fontes da busca:
+- [Progestão AP 2025](https://progestao.ana.gov.br/progestao-1/certificacao/certificacoes-2013-a-2018/certificacao-2025/certificacao-das-metas-federativas-2025/relatorios-progestao-2025/ap_relatorio_progestao_2025.pdf)
+- [FNOGA AM 2018](https://progestao.ana.gov.br/destaque-superior/eventos/fnoga/i-seminario-fnoga-fev-2018/am_apres-semin-fnoga_fev18_instrumgestao.pdf)
+- [Portaria conjunta APAC/CPRH 1/2017](https://www.normasbrasil.com.br/norma/portaria-conjunta-1-2017-pe_345241.html)
+- [Resolução Inea 162](https://www.inea.rj.gov.br/wp-content/uploads/2019/01/RESOLUÇÃO-INEA-Nº-162-1.pdf)
+- [Decreto TO 2.432/2005](https://www.legisweb.com.br/legislacao/?id=171073)
+- [Lei TO 1.307/2002](https://progestao.ana.gov.br/acoes-estados/to/lei-no-1307-02_to.pdf)
+- [Lei RR 547/2006](https://progestao.ana.gov.br/acoes-estados/rr/lei-no547-06_rr.pdf)
+- [Portaria Semarh/AL 197/2017](https://www.normasbrasil.com.br/norma/portaria-197-2017-al_343387.html)
+
+**Ainda [conferir]:**
+- o texto do Decreto TO 6.934/2025, para confirmar que a competência continua no Naturatins (a lei estadual e o decreto
+  anterior dizem que sim);
+- a página exata de outorga de cada órgão, que o Cowork abre no navegador.
 
 ## 4. Testes (Chromium/Playwright, 1366 px e 390 px)
 | Caso | Coordenada | Resultado |
@@ -100,11 +117,17 @@ cada um.
 - A decisão vale na Plataforma Águas Brasil.
 - **Obra da União:** há parecer de 2024 da PFE-ANA/AGU sobre obras federais em rio estadual
   ([AGU, Parecer 00025/2024](https://www.gov.br/agu/pt-br/composicao/procuradoria-geral-federal-1/subprocuradoria-federal-de-consultoria-juridica/PARECERn.000252024PFEANAPFEANAPGFAGUNUP00765000094202451.pdf)).
-  Em açude, confirmar com a ANA ou com o estado. **[conferir]** o teor exato do parecer antes de citar mais que isso.
+  Ementa lida no PDF (19/02/2024, NUP 00765.000094/2024-51): o simples fato de a União executar ou participar de obra em
+  rio estadual **não basta para mudar o domínio** nem a competência estadual de gestão. O aproveitamento hidrelétrico em
+  rio estadual também não muda. A consulta nasceu de divergência entre a ANA e a PGE/RS. A conclusão devolve o processo
+  à SRE e sugere solução política ou jurídica se o impasse continuar. A página resume isso. Em açude, confirmar com a ANA
+  ou com o estado.
 - A ferramenta não diz se o uso precisa de outorga (uso insignificante e nível de risco).
 
 ## 6. Pontos [conferir]
-1. Os 12 órgãos da seção 3 que não abriram daqui.
-2. O teor do parecer AGU/PFE-ANA de 2024 sobre a obra da União.
-3. Se o SNIRH publica uma camada mais nova da BHO com dominialidade, mais próxima da que a Plataforma Águas Brasil usa
-   (ex.: BHO 2017 5k). Hoje a página usa a `IG/Servicos_Base_IG`.
+1. ~~Os 12 órgãos~~: nomes conferidos em norma (seção 3). Falta só o Decreto TO 6.934/2025 e o Cowork abrir as páginas.
+2. ~~O teor do parecer~~: lido (seção 5).
+3. **Camada mais nova:** a pasta `IG` do SNIRH tem `Servicos_Base_IG_v6`, com as mesmas 11 camadas. A descrição dela diz
+   "FlowAccumulation gerado para a base de 2012", ou seja, **não é mais nova**. A página continua na `Servicos_Base_IG`,
+   que já traz trechos da BHO 2017 e recortes de 2022. A camada da Plataforma Águas Brasil não tem CORS. Fica assim até a
+   ANA publicar a BHO 2017 5k como serviço aberto.
