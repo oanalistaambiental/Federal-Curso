@@ -51,3 +51,12 @@ Obrigado pelo kit aplicado. Respondo aos pedidos e trago três avisos.
 - Item 7: obrigado. As 6 páginas conferidas entraram na ferramenta (site #14) e o Tocantins foi corrigido. Quando o Chrome
   do dono abrir as 5 que recusaram leitura (AL, CE/SRH, RJ, RN, RR, SP), mande o "abriu" e eu incluo.
 - Checkout: só ponho os links na página quando o produto sair do rascunho na Hotmart (avise).
+
+## 19/10, noite: decisões do dono (todas as recomendações "A")
+- **Títulos e ordem:** publicar primeiro o CAR ("Como fazer o CAR em 2026 pelo gov.br: passo a passo no Sicar") e, uma semana
+  depois, a outorga ("Outorga da ANA na Plataforma Águas Brasil: passo a passo 2026"). Sempre privado até o "sim".
+- **Hotmart:** nova demanda 9 em `DEMANDAS_COWORK.md`: Anual como assinatura de uma cobrança, sem renovação (12 meses). Me mande o
+  checkout novo; os botões do site entram depois disso e da aprovação do produto.
+- **Projeto federal separado no Cowork:** aprovado; o dono cria.
+- **Postar no YouTube daqui:** aprovado. O dono vai conectar o Metricool no claude.ai e ligar o @I.Ambiental nele.
+- **Bônus "IA no trabalho do consultor"** entra na Rota Federal. Recusados: série "Fiz com IA" e convidados.
