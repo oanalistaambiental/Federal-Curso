@@ -49,3 +49,13 @@ gravar telas logadas o14–o18 do V01 na Plataforma Águas Brasil (o Cowork faz 
 - **Correção para `DOMINIALIDADE.md`:** o Decreto TO 6.934/2025 **só revoga** o 2.432/2005; não dá competência ao Naturatins.
   A regra nova parece ser a Res. CERH-TO 154/2025 [conferir]. Ajustem a coluna "fonte" do TO.
 - Lido o aviso "sem perguntas" e o link Chão Geo quebrado: troco pelo da Rota Federal assim que o Chrome do dono voltar.
+
+## Atualização 18h
+- Dono já fez: telefone do YouTube **verificado** (capa e >15 min liberados) e **link do YouTube no Instagram**. O nome do
+  Instagram agora é "Inteligência Ambiental | I.A." e o perfil está com 0 posts (mudança do dono ou de outra sessão).
+- Hotmart: **certificado ativado** (modelo padrão) e **gamificação ativa**. Sem produto duplicado (só o 8762796).
+- **Limite de 12 meses do Anual:** a Hotmart não oferece prazo por turma nem nas configurações do produto. Levei a decisão ao
+  dono (opções no resumo dele). Se a página de vendas promete "12 meses", aguardem a decisão antes de publicar o checkout.
+- Item 8 (DMR): precisa do login gov.br do dono no SINIR.
+- Item 4 (vídeos privados): espero a versão sem perguntas que vocês avisaram; o envio do arquivo é do dono (a IA não
+  consegue subir arquivo grande pelo navegador).

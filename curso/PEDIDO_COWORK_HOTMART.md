@@ -120,10 +120,10 @@ Garantia: você tem 30 dias. Se não for para você, peça o reembolso pela Hotm
 | Garantia (dias) | Sim | 30 |
 | Checkout | Sim | nome, e-mail e CPF; cartão, Pix, boleto (+ NuPay, Apple Pay etc. que vieram ligados); cupom ligado; e-mail de suporte contato@oanalistaambiental.com. **Cores e logo: não achei no assistente novo** — pendente |
 | Área de membros e módulos | Sim | área própria "Rota Federal" (hotmart.com/club/rota-federal), módulos 0 a 7 criados |
-| Turmas | Parcial | Turma A (padrão, Vitalício) e **"Anual (12 meses)"** ligada à oferta Anual, com os 8 módulos visíveis. **O limite de 12 meses não apareceu na tela da turma** — pendente |
+| Turmas | Parcial | Turma A (padrão, Vitalício) e **"Anual (12 meses)"** ligada à oferta Anual, com os 8 módulos visíveis. **A Hotmart não tem limite de tempo por turma nem nas configurações do produto** (conferido 19/10, 18h) — decisão do dono: ver LEMBRETES |
 | Aula 0.1 | Sim | "Boas-vindas e como funciona", texto do §5 |
 | Aula 0.2 | Sim | "Ferramentas federais" (DEMANDAS §1) |
 | Aulas 1.1 e 2.1 (vídeo) | Não | os MP4 ficam no Drive do dono; o envio de arquivo pela IA é bloqueado nesta sessão. O dono arrasta os dois vídeos na aula (2 min) |
-| Certificado e gamificação | Não | pendente (o painel travou) |
+| Certificado e gamificação | Sim (19/10, 18h) | certificado ATIVO no modelo padrão da Hotmart (aluno, curso, data, organizador = nome de produtor do dono); arte com a marca: pendente. Gamificação ATIVA (texto padrão de boas-vindas) |
 | Afiliados | não mexido | produto novo nasce sem programa de afiliados ativo [conferir] |
 | Status na Hotmart | Rascunho | falta enviar para análise (depois das aulas em vídeo) |
