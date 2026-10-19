@@ -14,13 +14,15 @@ Recados para esta frente: escrever aqui embaixo, em "Recados recebidos", ou o do
 - **Lote 01, parte pública explorada** (sem gravar): `producao/captura-de-telas/exploracao/LOTE_01_IBAMA_publico.md`.
   Mudou em relação ao lote: V03_t02 e AIDA_t01 são **links**, não abas. Captcha invisível (não apareceu). Chrome com zoom 100 %
   (o Windows já está em 125 %). **Atenção LGPD:** o login do Ibama vem com um CPF real preenchido pelo Chrome.
+- **Lote 02, parte pública explorada:** `exploracao/LOTE_02_ANA_publico.md`. Mudou: a página inicial tem 4 cartões; o
+  **REGLA antigo foi desligado** (redireciona para a Águas Brasil); cena extra pública sugerida: ponto no mapa → domínio do rio.
 - OBS e o controle do computador caíram desta sessão; a gravação volta quando o dono reconectar o app do Claude no PC.
 
 ## Lotes
 | Lote | Situação |
 |---|---|
 | 01 Ibama | parte pública explorada; falta logar e gravar |
-| 02 ANA | pronto para gravar |
+| 02 ANA | parte pública explorada; falta logar e gravar |
 | 03 CAR | depende de imóvel/titular |
 | 04 SINIR | depende de CNPJ gerador |
 
