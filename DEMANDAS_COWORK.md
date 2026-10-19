@@ -65,7 +65,7 @@ Encontrou um erro ou sentiu falta de algo? Escreva nos comentários desta aula.
    - **Legenda:** enviar o `.srt` em Português.
    - **Categoria:** Educação.
 4. **Elementos do vídeo:**
-   - **Tela final**, nos últimos 13,6 s: um vídeo no retângulo da direita (x 1060, y 190, 720×405) e o botão de inscrição no círculo (centro x 1420, y 800). Os tempos estão em `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`.
+   - **Tela final**, nos últimos 15 s: um vídeo no retângulo da direita (x 1060, y 190, 720×405) e o botão de inscrição no círculo (centro x 1420, y 800). Os tempos estão em `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`.
    - **Cards:** os tempos sugeridos estão no mesmo arquivo.
 5. **Visibilidade: PRIVADO.** Mandar ao Francisco o link do vídeo privado e esperar o "sim" para publicar ou agendar.
 6. A ordem sugerida de publicação é primeiro o CAR (maior procura) e depois a outorga. O dono decide.
