@@ -83,7 +83,7 @@ fica "nome conferido em norma", com a fonte embaixo.
 | RN | Instituto de Gestão das Águas do RN (Igarn) | igarn.rn.gov.br | LC estadual 483/2013, art. 3º |
 | RR | Fundação Estadual do Meio Ambiente e Recursos Hídricos (Femarh) | femarh.rr.gov.br | Lei 547/2006; ofício da Femarh à ANA (Progestão, out/2023) |
 | SP | Agência de Águas do Estado de São Paulo (SP Águas, antigo DAEE) | **www.spaguas.sp.gov.br** | Outorgas da SP Águas de 2025 com base no Decreto 63.262/2018. **Erro corrigido:** sem "www", o domínio não existe no DNS |
-| TO | **Instituto Natureza do Tocantins (Naturatins)** | **naturatins.to.gov.br** | Lei 1.307/2002 e decreto de outorga (o 2.432/2005 dava a competência ao Naturatins e foi substituído pelo 6.934/2025). **Erro corrigido:** a página dizia Semarh/TO |
+| TO | **Instituto Natureza do Tocantins (Naturatins)** | **naturatins.to.gov.br** | Lei 1.307/2002; o CIGMA (governo do TO) confirma que o Naturatins analisa e concede a outorga. **Corrigido em 19/10 (Cowork):** o Decreto 6.934/2025 só revoga o 2.432/2005 e não trata de competência; a regra nova parece ser a Res. CERH-TO 154/2025 [conferir]. **Erro corrigido:** a página dizia Semarh/TO |
 
 Fontes da busca:
 - [Progestão AP 2025](https://progestao.ana.gov.br/progestao-1/certificacao/certificacoes-2013-a-2018/certificacao-2025/certificacao-das-metas-federativas-2025/relatorios-progestao-2025/ap_relatorio_progestao_2025.pdf)
@@ -131,3 +131,6 @@ Fontes da busca:
    "FlowAccumulation gerado para a base de 2012", ou seja, **não é mais nova**. A página continua na `Servicos_Base_IG`,
    que já traz trechos da BHO 2017 e recortes de 2022. A camada da Plataforma Águas Brasil não tem CORS. Fica assim até a
    ANA publicar a BHO 2017 5k como serviço aberto.
+
+## Páginas de outorga dos estados (19/10/2026)
+O Cowork abriu as páginas no navegador (`OUTORGA_PAGINAS_ESTADUAIS_COWORK.md`). As 6 conferidas (AP, AM, CE/Cogerh, MT, PE, TO/CIGMA) entraram na ferramenta como "página de outorga". As outras 5 (AL, CE/SRH, RJ, RN, RR, SP) recusaram a leitura automática e também não abrem daqui: ficam fora até o Cowork confirmar no navegador.
