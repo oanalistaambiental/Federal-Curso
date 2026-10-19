@@ -66,7 +66,7 @@ Instagram: @ambientalinteligencia
 ```
 4. **Links** (Adicionar link):
    - título `Instagram`, URL `https://www.instagram.com/ambientalinteligencia/`;
-   - título `Apps Chão Geo`, URL `https://oanalistaambiental.com/chaogeo/` (sem "www").
+   - título `Curso Rota Federal`, URL `https://www.oanalistaambiental.com/rota-federal.html` (com "www": sem ele o endereço cai na página inicial).
 5. **Detalhes de contato (e-mail):** **perguntar ao Francisco** antes. Se ele disser sim, usar
    `contato@oanalistaambiental.com`; se não responder, deixar em branco.
 6. **Publicar.**
