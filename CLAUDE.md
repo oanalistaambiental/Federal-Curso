@@ -50,6 +50,14 @@ conta.
   (Antonio). Pronúncia em `producao/GLOSSARIO_PRONUNCIA_FEDERAL.md`; a clonagem grátis da voz do dono (Chatterbox) está em
   `producao/VOZ_GRATIS_E_CLONAGEM.md`.
 
+- 19/10/2026: **Rota Federal aprovada e publicada no site** (`https://www.oanalistaambiental.com/rota-federal.html`, PR #10 do
+  site). Turma fundadora: Anual R$ 97 e Vitalício R$ 147, garantia de 30 dias. Revisão de todo o conteúdo por Francisco de
+  Assis e equipe; transparência sobre IA. Curso e ofertas: `curso/ROTA_FEDERAL.md`; a Hotmart quem cria é o Cowork
+  (`curso/PEDIDO_COWORK_HOTMART.md`). Os links de checkout entram em `CHECKOUT`, no fim da página.
+- 19/10/2026: **o dono quer a marca ligada a ele na divulgação:** descrição do vídeo, site e Instagram trazem "um projeto
+  de @oanalistaambiental". No vídeo, não. Todo vídeo do YouTube leva o encerramento padrão (like, inscrição, "vídeo toda
+  semana" e o curso de forma discreta, com a foto dele): `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
