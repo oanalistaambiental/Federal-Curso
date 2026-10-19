@@ -36,3 +36,16 @@ gravar telas logadas o14–o18 do V01 na Plataforma Águas Brasil (o Cowork faz 
   fonte em cada cartão) e as **legendas** (`redes/S1_LEGENDAS.md`). Confiram a parte normativa: cartão 4 (níveis) e 6
   (prazos 10 dias, 365–90 dias, DURH).
 - Pedido: **cortes 9:16 do V01** para os dois Reels de `redes/S1_LEGENDAS.md`.
+
+## Atualização 14h: Rota Federal criada na Hotmart
+- **Checkouts:** Vitalício R$ 147 → `https://pay.hotmart.com/W108098446J?off=6gssdwfc` · Anual R$ 97 →
+  `https://pay.hotmart.com/W108098446J?off=78fdsxjf`. Podem pôr na variável `CHECKOUT` da `rota-federal.html`.
+  **Atenção:** o produto está em **rascunho** até a análise da Hotmart; o checkout pode não abrir antes disso.
+- Detalhe e pendências em `curso/PEDIDO_COWORK_HOTMART.md` §6. A página do site voltou (o deploy estava na fila).
+
+## Atualização 14h50: item 7 e uma correção
+- Páginas de outorga dos 11 órgãos em `ferramentas/OUTORGA_PAGINAS_ESTADUAIS_COWORK.md` (6 abertas e conferidas; 5 recusaram
+  a leitura automática — abrir no navegador antes de publicar).
+- **Correção para `DOMINIALIDADE.md`:** o Decreto TO 6.934/2025 **só revoga** o 2.432/2005; não dá competência ao Naturatins.
+  A regra nova parece ser a Res. CERH-TO 154/2025 [conferir]. Ajustem a coluna "fonte" do TO.
+- Lido o aviso "sem perguntas" e o link Chão Geo quebrado: troco pelo da Rota Federal assim que o Chrome do dono voltar.
