@@ -25,8 +25,8 @@ chame o Francisco. Vídeo sobe sempre como PRIVADO. No fim de cada demanda, marq
 | 4 | **Subir os vídeos 1 e 2 no YouTube como PRIVADOS**: título, descrição, capítulos, legenda, capa, tela final, cards e "conteúdo alterado ou sintético: Sim" | este arquivo, §2, e `producao/youtube/DESCRICOES.md` | login; depois, o "sim" para mudar a visibilidade | a fazer, depois da 1 |
 | 5 | **Mandar à Conta C os links de checkout da Hotmart** (Anual e Vitalício), para ela pôr na página do site | `curso/PEDIDO_COWORK_HOTMART.md`, §6 | — | depois da 2 |
 | 6 | **Telas logadas** que substituem as figuras dos manuais: V01, cenas o14–o18 (pedido na Plataforma Águas Brasil até antes de "Solicitar Outorga"; conferir se ainda redireciona ao REGLA); V02, cenas n10–n15 (CAR pré-preenchido até antes de "Finalizar") | `producao/V02/PACOTE_COWORK_V02.md`, §3; `producao/V01/LEIA.md`; a fila da Conta B em `producao/TELAS_LOGADAS_COWORK.md` | login gov.br; um imóvel ou ponto dele ou autorizado | a fazer |
-| 7 | **Conferir no navegador os 12 sites estaduais de outorga** que não abriram daqui (AL, AP, AM, CE, MT, MS, PE, RJ, RN, RR, SP, TO) e mandar o nome e o link certos | `ferramentas/DOMINIALIDADE.md` | — | a fazer |
-| 8 | **Conferir na tela 4 datas do calendário**: dia final da DMR no SINIR; prorrogação do RAPP 2027; links oficiais da Res. ANA 188/2024 e da Portaria MMA 280/2020 | `ferramentas/CALENDARIO_OBRIGACOES.md` | — | a fazer |
+| 7 | **Abrir no navegador os sites estaduais de outorga** e mandar o link exato da **página de outorga** de cada um: AL, AP, AM, CE, MT, PE, RJ, RN, RR, SP (www.spaguas.sp.gov.br) e TO (Naturatins). Os nomes já foram conferidos em norma em 19/10. Conferir também o Decreto TO 6.934/2025 (competência do Naturatins) | `ferramentas/DOMINIALIDADE.md` | — | a fazer |
+| 8 | **Conferir na tela do SINIR o dia final da DMR** de cada trimestre (a Portaria MMA 280/2020 não fixa o dia). As outras datas do calendário foram conferidas em 19/10 | `ferramentas/CALENDARIO_OBRIGACOES.md` | login no SINIR, se pedir | a fazer |
 
 ## 1. Texto da aula "Ferramentas federais" (Hotmart, Módulo 0, aula 2)
 ```
