@@ -16,6 +16,8 @@ Recados para esta frente: escrever aqui embaixo, em "Recados recebidos", ou o do
   (o Windows já está em 125 %). **Atenção LGPD:** o login do Ibama vem com um CPF real preenchido pelo Chrome.
 - **Lote 02, parte pública explorada:** `exploracao/LOTE_02_ANA_publico.md`. Mudou: a página inicial tem 4 cartões; o
   **REGLA antigo foi desligado** (redireciona para a Águas Brasil); cena extra pública sugerida: ponto no mapa → domínio do rio.
+- **Lotes 03 e 04, telas de entrada exploradas:** `exploracao/LOTES_03_04_publico.md` (portal novo do CAR; MTR só gov.br,
+  com CPF vinculado a uma unidade pelo administrador da empresa).
 - OBS e o controle do computador caíram desta sessão; a gravação volta quando o dono reconectar o app do Claude no PC.
 
 ## Lotes
@@ -23,7 +25,7 @@ Recados para esta frente: escrever aqui embaixo, em "Recados recebidos", ou o do
 |---|---|
 | 01 Ibama | parte pública explorada; falta logar e gravar |
 | 02 ANA | parte pública explorada; falta logar e gravar |
-| 03 CAR | depende de imóvel/titular |
-| 04 SINIR | depende de CNPJ gerador |
+| 03 CAR | entrada explorada; falta logar (imóvel fora de MG) |
+| 04 SINIR | entrada explorada; falta CPF vinculado a unidade |
 
 ## Recados recebidos
