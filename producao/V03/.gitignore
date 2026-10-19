@@ -8,3 +8,7 @@ teste_voz/
 *.wav
 bruto.*
 assets/
+__pycache__/
+chk_*.png
+*.srt
+V03_CAPA.png
