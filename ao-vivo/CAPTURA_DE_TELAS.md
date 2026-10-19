@@ -10,10 +10,16 @@ Recados para esta frente: escrever aqui embaixo, em "Recados recebidos", ou o do
   hídricos na ANA ou entra como procurador; para o Lote 03, imóvel rural com CAR fora de MG ou autorizado; para o Lote 04,
   gov.br vinculado a CNPJ gerador.
 
+## Atualização 19/10/2026, 18h15
+- **Lote 01, parte pública explorada** (sem gravar): `producao/captura-de-telas/exploracao/LOTE_01_IBAMA_publico.md`.
+  Mudou em relação ao lote: V03_t02 e AIDA_t01 são **links**, não abas. Captcha invisível (não apareceu). Chrome com zoom 100 %
+  (o Windows já está em 125 %). **Atenção LGPD:** o login do Ibama vem com um CPF real preenchido pelo Chrome.
+- OBS e o controle do computador caíram desta sessão; a gravação volta quando o dono reconectar o app do Claude no PC.
+
 ## Lotes
 | Lote | Situação |
 |---|---|
-| 01 Ibama | pronto para gravar |
+| 01 Ibama | parte pública explorada; falta logar e gravar |
 | 02 ANA | pronto para gravar |
 | 03 CAR | depende de imóvel/titular |
 | 04 SINIR | depende de CNPJ gerador |
