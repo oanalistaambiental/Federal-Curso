@@ -22,7 +22,8 @@ conta.
 ## Decisões do dono
 - 18/10/2026: **o canal é dele.**
   - Instagram: `@ambientalinteligencia`.
-  - YouTube: "Ambiental Inteligência I.A." (`@ambientalinteligencia`). O nome exato do canal o dono ainda vai confirmar.
+  - YouTube: **"Inteligência Ambiental", `@I.Ambiental`** (ID `UC0pOar9-tZP7rVLpt2sg0EA`, confirmado pelo link do Studio em
+    19/10/2026). O `@ambientalinteligencia` do YouTube é outro canal. Identidade e textos: `identidade/CANAL_YOUTUBE.md`.
 - 18/10/2026: **começar pelo federal.** Os estados (SP, BA, MT, PR, GO; MS como "relâmpago") vêm depois. A pauta está em
   `pauta/PAUTA_CANAL.md`.
 - 18/10/2026: **primeiro vídeo, só para o YouTube:** "Outorga na Plataforma Águas Brasil (ANA)".

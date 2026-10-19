@@ -1,0 +1,22 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+ <defs>
+  <radialGradient id="g" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#1B5A2C"/><stop offset="1" stop-color="#0B1A12"/></radialGradient>
+  <linearGradient id="f" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#2BD48A"/><stop offset="1" stop-color="#9BE7B9"/></linearGradient>
+  <clipPath id="c"><circle cx="400" cy="400" r="400"/></clipPath>
+ </defs>
+ <g clip-path="url(#c)"><rect width="800" height="800" fill="url(#g)"/>
+  <g fill="none" stroke="#2E6B3E" stroke-opacity=".55" stroke-width="3">
+   <path d="M-40 640 C160 560 300 700 480 620 S760 520 860 600"/><path d="M-40 700 C180 620 320 760 500 680 S780 590 860 660"/>
+   <path d="M-40 580 C140 500 280 640 460 560 S740 450 860 540"/></g></g>
+ <g transform="translate(400 410) rotate(-38)">
+  <path d="M0 -270 C150 -190 175 40 0 230 C-175 40 -150 -190 0 -270 Z" fill="url(#f)"/>
+  <g stroke="#0B1A12" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none">
+   <path d="M0 225 L0 -200"/>
+   <path d="M0 110 L-62 48 L-62 0"/><path d="M0 40 L70 -22 L70 -70"/><path d="M0 -40 L-58 -98"/><path d="M0 -120 L48 -168"/>
+  </g>
+  <g fill="#C79A2E" stroke="#0B1A12" stroke-width="8">
+   <circle cx="-62" cy="-6" r="22"/><circle cx="70" cy="-76" r="22"/><circle cx="-62" cy="-104" r="18"/><circle cx="52" cy="-172" r="16"/><circle cx="0" cy="-206" r="16"/>
+  </g>
+ </g>
+</svg>

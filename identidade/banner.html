@@ -1,0 +1,29 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap">
+<style>
+html,body{margin:0}
+#b{width:2560px;height:1440px;position:relative;overflow:hidden;background:radial-gradient(120% 90% at 50% 45%,#16422A 0%,#0B1A12 62%,#070F0B 100%);font-family:Montserrat,Arial,sans-serif}
+#topo{position:absolute;inset:0;opacity:.5}
+#safe{position:absolute;left:507px;top:508px;width:1546px;height:423px;display:flex;align-items:center;gap:48px;box-sizing:border-box;padding:0 40px}
+#safe img{width:270px;height:270px;flex:none;filter:drop-shadow(0 10px 30px rgba(0,0,0,.45))}
+h1{margin:0;color:#EEF0EA;font-weight:800;font-size:84px;letter-spacing:-1px;white-space:nowrap;line-height:1}
+h1 span{color:#2BD48A}
+p{margin:22px 0 0;color:#C9D7CC;font-weight:500;font-size:36px;line-height:1.25;white-space:nowrap}
+.chips{display:flex;gap:16px;margin-top:26px}
+.chip{border:2px solid #C79A2E;color:#E9C46A;border-radius:999px;padding:8px 22px;font-weight:700;font-size:28px;letter-spacing:.5px}
+</style>
+<div id="b"><svg id="topo" viewBox="0 0 2560 1440" preserveAspectRatio="none"></svg>
+<div id="safe"><img id="logo"><div>
+<h1>Inteligência <span>Ambiental</span></h1>
+<p>Serviço ambiental na tela real, passo a passo, com IA</p>
+<div class="chips"><span class="chip">CAR</span><span class="chip">Outorga ANA</span><span class="chip">Ibama · CTF</span><span class="chip">MTR</span></div>
+</div></div></div>
+<script>
+// curvas de nível e trilhas de circuito ao fundo (pseudoaleatórias, fixas)
+const s=document.getElementById('topo');let r=7;const rnd=()=>(r=(r*16807)%2147483647)/2147483647;let h='';
+for(let k=0;k<16;k++){const y=120+k*80;let d=`M-50 ${y}`;for(let x=0;x<=2650;x+=260){d+=` S${x+130} ${y+(rnd()-.5)*120} ${x+260} ${y+(rnd()-.5)*90}`}
+h+=`<path d="${d}" fill="none" stroke="#2E6B3E" stroke-width="2" stroke-opacity="${.18+.25*rnd()}"/>`}
+for(let k=0;k<26;k++){const x=rnd()*2560,y=rnd()*1440,l=80+rnd()*220,u=rnd()<.5?1:-1;
+h+=`<path d="M${x} ${y} h${l} l${40*u} ${40*u} h${l*.6}" fill="none" stroke="#2BD48A" stroke-opacity=".16" stroke-width="3"/><circle cx="${x+l*1.6+40*u}" cy="${y+40*u}" r="7" fill="#C79A2E" fill-opacity=".45"/>`}
+s.innerHTML=h;
+</script>
