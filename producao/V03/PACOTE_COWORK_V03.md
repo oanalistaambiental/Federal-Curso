@@ -31,4 +31,4 @@ As telas abaixo **só existem depois do login** e vão substituir as figuras de 
 | 10 | (Se o dono tiver AIDA) CTF/AIDA > **Modificações da Inscrição** e o CR do AIDA | Só abrir | gancho para o vídeo do consultor |
 
 Nome dos arquivos: `V03_tl01_login.mp4` a `V03_tl10_aida.mp4`, na pasta do Drive
-`Inteligência Ambiental/Vídeos/V03_IBAMA/telas_logadas/`. Basta a tela, sem narração.
+`Inteligência Ambiental/Vídeos/V03_IBAMA_CTF_APP/telas_logadas/`. Basta a tela, sem narração.
