@@ -58,6 +58,11 @@ conta.
   de @oanalistaambiental". No vídeo, não. Todo vídeo do YouTube leva o encerramento padrão (like, inscrição, "vídeo toda
   semana" e o curso de forma discreta, com a foto dele): `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`.
 
+- 19/10/2026: **telas logadas sempre que agregarem.** O dono quer o vídeo dentro do sistema: rolar, abrir menus, mostrar
+  botões, preencher, de onde vem cada dado e qual sistema é mais apto. Quando a tela pede login, **pedir ao Cowork**; o
+  dono faz o login ou passa pela verificação. Marcar cada cena como pública ou logada já no roteiro e mandar o pacote
+  junto. Regra e fila: `producao/TELAS_LOGADAS_COWORK.md`.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.

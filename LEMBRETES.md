@@ -19,6 +19,7 @@ Pedido do dono (18/10/2026): "me lembre se eu demorar a responder". O primeiro v
 | 12 | **Gravar o vídeo 2 com voz e rosto reais:** teleprompter em https://claude.ai/artifact/JVMfFNnTdsNTvR6FXibr8r (8 pares de áudio + rosto, uma palma no começo de cada um). Subir em `Inteligência Ambiental/Vídeos/V02_CAR/voz_real/` e avisar | 19/10/2026 | 2 dias sem os arquivos |
 | 11 | **Postar no YouTube daqui:** conectar o Metricool (ou dar OAuth da YouTube Data API) no claude.ai; o envio entra privado ou agendado e só sai com o "sim" | 19/10/2026 | No próximo contato |
 | 9 | **Vídeo 2 v1 pronto:** o dono assiste, aprova ou pede ajustes; o Cowork pode trocar as figuras do manual por tela real (`producao/V02/PACOTE_COWORK_V02.md`) | 19/10/2026 | 24 h sem resposta |
+| 16 | **Telas logadas com o Cowork** (pedido do dono, 19/10): fila em `producao/TELAS_LOGADAS_COWORK.md`. O V03 (Ibama/CR) já tem o pedido pronto (`producao/V03/PACOTE_COWORK_V03.md`); V01 e V02 seguem esperando | 19/10/2026 | Junto com a entrega de cada vídeo |
 | 5 | Perguntas abertas da pauta (`pauta/PAUTA_CANAL.md`, §9): ritmo, trilha de IA, convidados | 18/10/2026 | Junto com o lembrete 1 |
 
 ## Resolvidos
