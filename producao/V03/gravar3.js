@@ -131,8 +131,8 @@ const CENA = {
       [0, `tag('TELA REAL · Painel do CTF/APP (Ibama, Power BI) · atualizado em 28/09/2026');selo(false);fig('assets/painel.png','Painel de informações do CTF/APP, página 2 · gov.br/ibama')`],
       [0.4, `zoom(0.1,0.05,0.8,0.5,2200);vaiF(0.5,0.3)`],
       [M['Olha aqui'], `caixa(0.349,0.114,0.128,0.085,'empresas inscritas');vaiF(0.41,0.16)`],
-      [M['E sabe qual'], `semcaixa();zoom(0.66,0.47,0.24,0.26,1600);setTimeout(()=>vaiF(0.72,0.525),900)`],
-      [M['Posto de combustível'], `caixa(0.683,0.512,0.197,0.024,'18-6 · 66.859');clicaF(0.75,0.524)`],
+      [M['E a atividade número um'], `semcaixa();zoom(0.66,0.47,0.24,0.26,1600);setTimeout(()=>vaiF(0.72,0.525),900)`],
+      [M['é o posto de combustível'], `caixa(0.683,0.512,0.197,0.024,'18-6 · 66.859');clicaF(0.75,0.524)`],
       [M['Só no segundo semestre'], `tag('DOCUMENTO OFICIAL · Boletim de auditagem do CTF/APP, 2º semestre de 2025');fig('assets/bol-6.png','Boletim informativo do CTF/APP, p. 6 · gov.br/ibama, 09/06/2026');setTimeout(()=>zoom(0,0.36,1,0.62,1600),200);setTimeout(()=>{vaiF(0.76,0.86);caixa(0.72,0.79,0.12,0.16,'16.541')},1300)`],
       [M['Só no segundo semestre'] + 4.2, `conselho('Auditagem 2025 · 2º semestre',['16.541 cadastros auditados','15.544 por cruzamento com a Receita e as Fazendas','15.977 passaram a “Encerrado”'],'Boletim de auditagem do CTF/APP, 2º sem. 2025');consTodos()`],
       [M['Hoje eu te mostro'], `semCons();conselho('Neste vídeo',['Quem precisa se inscrever','Como preencher sem errar','Como tirar o Certificado de Regularidade']);consItem(0)`],
@@ -155,7 +155,7 @@ const CENA = {
     await gravaCena(ctx, 'n03', async page => { await tag(page, `TELA REAL · planalto.gov.br · Decreto 6.514/2008 · ${HOJE}`);
       await abre(page, URL.dec, 1.6); const a = await P_(page, '^\\s*Art\\. 76\\.'); if (a.asElement()) await a.evaluate(e => { for (let k = 0; k < 4; k++) scrollBy(0, e.getBoundingClientRect().top - 500); }); },
     async (page, R) => {
-      await R.ate(M['Multa, no artigo 76'] - 0.4); const a = await linha(page, '^\\s*Art\\. 76\\. Deixar de inscrever-se', 200); if (a) await vaiPara(page, a);
+      await R.ate(M['leva multa'] - 0.4); const a = await linha(page, '^\\s*Art\\. 76\\. Deixar de inscrever-se', 200); if (a) await vaiPara(page, a);
       await R.ate(M['Vai de 50 reais']); const i1 = await linha(page, '^\\s*I - R\\$ 50,00'); if (i1) await vaiPara(page, i1);
       await R.ate(M['até 9 mil reais']); const i5 = await linha(page, '^\\s*V - R\\$ 9\\.000,00'); if (i5) await vaiPara(page, i5);
       await R.ate(M['Mas o problema']); await cons(page, 'O que pesa de verdade', ['TCFA cobrada desde a data de início da atividade', 'Sem cadastro, sem Certificado de Regularidade', 'O certificado é pedido em licença e licitação'], 'Lei 6.938/1981, arts. 17-B a 17-G · IN Ibama 13/2021, art. 47');
@@ -182,7 +182,7 @@ const CENA = {
       for (let i = 0; i < 4; i++) { await consItem(page, i); await espera(700); }
       await R.ate(M['Uma diferença importante']); await cons(page, ''); await nota(page, 'Categorias 21 e 22: só a inscrição. Sem TCFA e sem RAPP (IN Ibama 13/2021, art. 2º, I)');
       const o = await linha(page, '^\\s*Observações:?\\s*$', 300); if (o) await vaiPara(page, o);
-      await R.ate(M['E me conta']); await nota(page, '💬 Comenta: qual é a sua atividade?');
+      await R.ate(M['Na dúvida']); await nota(page, 'Na dúvida, vale a FTE da atividade');
     }, P.dur); },
 
   async n06(ctx, P) { const M = P.m;
@@ -294,15 +294,15 @@ const CENA = {
       [M['falta de porte'], `caixa(0.11,0.29,0.31,0.028,'');vaiF(0.27,0.305)`],
       [M['situação cadastral'], `caixa(0.11,0.323,0.37,0.028,'');vaiF(0.3,0.338)`],
       [M['E o campeão'], `semcaixa();caixa(0.11,0.39,0.6,0.028,'RAPP · até 31/3');clicaF(0.4,0.405)`],
-      [M['Agora uma pergunta'], `conselho('TCFA atrasada trava o certificado?',['Não. O certificado não tem vínculo com a TCFA','Débito se prova com a Certidão Negativa de Débito'],'Perguntas frequentes da TCFA · gov.br/ibama (04/08/2023)');consItem(0)`],
-      [M['A resposta está'] + 1.5, `consItem(1)`],
+      [M['E um detalhe'], `conselho('TCFA atrasada não trava o certificado',['O certificado não tem vínculo com a TCFA','Débito se prova com a Certidão Negativa de Débito'],'Perguntas frequentes da TCFA · gov.br/ibama (04/08/2023)');consItem(0)`],
+      [M['Está nas perguntas frequentes'] + 1.5, `consItem(1)`],
     ]), P.dur); },
 
   async n14(ctx, P) { const M = P.m; const c1 = M['Por isso, quem confere'], c2 = M['E se você recebeu'];
     await gravaCena(ctx, 'n14', async page => { await page.goto(PALCO); }, async (page, R) => palco(page, R, [
       [0, `tag(${J(DOC)});selo(true);fig('assets/in13-15.png','IN Ibama 13/2021, art. 46 · validade do Certificado de Regularidade')`],
       [0.3, `zoom(0.05,0.08,0.9,0.3,1600)`],
-      [M['Ele vale três meses'], `caixa(0.09,0.243,0.87,0.028,'3 meses');vaiF(0.5,0.257)`],
+      [M['O certificado vale três meses'], `caixa(0.09,0.243,0.87,0.028,'3 meses');vaiF(0.5,0.257)`],
       [M['E pode ser cancelado'], `semcaixa();caixa(0.09,0.302,0.87,0.028,'cancelado a qualquer momento');vaiF(0.5,0.316)`],
     ]), c1 - 0.2);
     await gravaCena(ctx, 'n14b', async page => { await tag(page, `TELA REAL · Consulta pública do Certificado de Regularidade · ${HOJE}`); await abre(page, URL.cr, 1.6); },
@@ -345,9 +345,9 @@ const CENA = {
     await gravaCena(ctx, 'n17', async page => { await tag(page, `TELA REAL · FTE 18-6 · sei.ibama.gov.br · ${HOJE}`); await abre(page, URL.fte186, 1.35);
       const pa = await P_(page, 'o Ponto de Abastecimento \\(PA\\) \\(18 – 5\\)'); if (pa.asElement()) await pa.evaluate(e => { for (let k = 0; k < 4; k++) scrollBy(0, e.getBoundingClientRect().top - 700); }); },
     async (page, R) => {
-      await R.ate(M['Eu descrevo']); await cons(page, 'Pergunta para a inteligência artificial', ['“Empresa com tanque para abastecer a própria frota: qual o código no CTF/APP?”', 'Ela rascunha um código. A conferência é na FTE'], 'Exemplo de uso · confira sempre na ficha oficial');
+      await R.ate(M['Eu descrevo']); await cons(page, 'Pedido à inteligência artificial', ['“Enquadre no CTF/APP uma empresa com tanque para abastecer a própria frota”', 'Ela rascunha um código. A conferência é na FTE'], 'Exemplo de uso · confira sempre na ficha oficial');
       await consItem(page, 0); await R.ate(M['Mas a conferência']); await consItem(page, 1);
-      await R.ate(M['Lembra do tanque']); await cons(page, ''); const pa = await linha(page, 'o Ponto de Abastecimento \\(PA\\) \\(18 – 5\\)', 420); if (pa) await aponta(page, R, pa);
+      await R.ate(M['O tanque da frota própria']); await cons(page, ''); const pa = await linha(page, 'o Ponto de Abastecimento \\(PA\\) \\(18 – 5\\)', 420); if (pa) await aponta(page, R, pa);
       await R.ate(M['A inteligência artificial rascunha']); await nota(page, 'A IA rascunha; quem assina responde.');
     }, P.dur); },
 

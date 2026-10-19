@@ -3,18 +3,18 @@
 # Fontes de cada frase: roteiros/V03_IBAMA_CTF_APP.md (bloco "Fontes por cena").
 CENAS = [
 ("n01", "Mais de quinhentas mil empresas estão no cadastro do Ibama. Olha aqui, no painel oficial. "
-        "E sabe qual é a atividade número um? Posto de combustível. "
+        "E a atividade número um é o posto de combustível. "
         "Só no segundo semestre de 2025, o Ibama auditou mais de dezesseis mil cadastros, a maioria cruzando os dados com a Receita. "
         "Hoje eu te mostro, na tela real, quem precisa se inscrever, como preencher sem errar, e como tirar o Certificado de Regularidade."),
 ("n02", "Tudo começa nesta lei, a Política Nacional do Meio Ambiente, aqui no site do Planalto. "
         "O artigo 17 criou dois cadastros. O inciso um é o CTF/AIDA, do consultor. "
         "O inciso dois é o CTF/APP: de quem exerce atividade potencialmente poluidora, ou usa recursos ambientais. "
         "É dele que a gente fala hoje."),
-("n03", "E quem não se inscreve? Multa, no artigo 76 do decreto de infrações ambientais. "
-        "Vai de 50 reais, para pessoa física, até 9 mil reais, para empresa grande. Parece pouco, né? "
+("n03", "Quem não se inscreve leva multa, no artigo 76 do decreto de infrações ambientais. "
+        "Vai de 50 reais, para pessoa física, até 9 mil reais, para empresa grande. O valor é baixo. "
         "Mas o problema de verdade vem depois. A taxa do Ibama, a TCFA, é cobrada desde a data de início da atividade. "
         "E sem cadastro não tem Certificado de Regularidade, que é pedido em licença e em licitação."),
-("n04", "Como saber se o seu cliente precisa? Pela ficha técnica de enquadramento, a FTE. "
+("n04", "Para saber se o seu cliente precisa, use a ficha técnica de enquadramento, a FTE. "
         "Abro a do posto de combustível: código 18-6, comércio de combustíveis e derivados de petróleo. Só pessoa jurídica. "
         "Descendo a página, o que a descrição compreende: distribuidora, TRR, posto revendedor. "
         "Agora a pegadinha. Um pouco mais abaixo: o ponto de abastecimento, aquele tanque da frota própria, não entra aqui. "
@@ -23,7 +23,7 @@ CENAS = [
         "Vale para pessoa física e jurídica. "
         "Na mesma categoria estão o passarinheiro, a criação de animais e a irrigação. "
         "Uma diferença importante: as categorias 21 e 22 só obrigam a inscrição. Não geram TCFA nem relatório anual. "
-        "E me conta aqui nos comentários: qual atividade é a sua?"),
+        "Na dúvida, quem manda é a FTE da atividade."),
 ("n06", "Antes de abrir o formulário, separe cinco coisas. Esta é a página oficial do CTF/APP, no item de formulários de inscrição. "
         "Primeiro: o responsável legal e o declarante precisam estar inscritos antes, como pessoa física. "
         "Segundo: o cartão do CNPJ, com a data de abertura. "
@@ -33,7 +33,7 @@ CENAS = [
 ("n07", "Este é o formulário de pessoa física, a tela real de hoje. Não pede login: a senha você cria aqui no final. "
         "Repare: campo com rótulo azul, como o complemento, é opcional. "
         "Nome completo, sem abreviar. O CPF e os documentos, você digita os seus. "
-        "Descendo a página, a pergunta mais importante: qual o motivo da sua inscrição? "
+        "Descendo a página, o campo mais importante: o motivo da inscrição. "
         "Se você é só o responsável pela empresa, é a primeira opção. Se exerce a atividade como pessoa física, a segunda."),
 ("n08", "Marquei a segunda, e o sistema abriu as atividades. Na categoria, escolho a 21. "
         "Na descrição, porte e uso de motosserra. E a data de início da atividade. "
@@ -54,31 +54,31 @@ CENAS = [
         "pequeno até 4 milhões e 800 mil, médio até 12 milhões, e grande acima disso. "
         "Empresa que ainda não faturou declara a receita esperada. "
         "E atenção: o porte do ano corrente só pode ser corrigido no sistema até 31 de dezembro."),
-("n12", "Gravou a inscrição? Agora é o login. São três caminhos: a conta gov.br, o certificado digital, ou o CPF ou CNPJ com a senha. "
+("n12", "Com a inscrição gravada, o próximo passo é o login. São três caminhos: a conta gov.br, o certificado digital, ou o CPF ou CNPJ com a senha. "
         "Lá dentro você declara e confere as atividades. "
-        "E uma regra que pega muita gente: errou a data de início? Você tem até 48 horas para corrigir sozinho. "
+        "E uma regra que pega muita gente: a data de início errada você mesmo corrige, mas só em até 48 horas. "
         "Depois disso, só por requerimento ao Ibama, com documento. "
         "Primeiro sai o comprovante de inscrição. Depois, o Certificado de Regularidade."),
-("n13", "E o que trava o certificado? Está aqui, no anexo dois da instrução normativa 13, com a redação dada em dezembro de 2025. "
+("n13", "O que trava o certificado está aqui, no anexo dois da instrução normativa 13, com a redação dada em dezembro de 2025. "
         "Comprovante de inscrição inativo, falta de porte ou de atividade, situação cadastral que não está ativa. "
         "E o campeão: relatório anual não entregue, o RAPP, até 31 de março. "
-        "Agora uma pergunta: TCFA atrasada trava o certificado? Não. "
-        "A resposta está nas perguntas frequentes do Ibama: o certificado não tem vínculo com a taxa. Para débito, o documento é a certidão negativa."),
-("n14", "Saiu o certificado? Ele vale três meses, conforme o artigo 46. "
+        "E um detalhe que pouca gente sabe: TCFA atrasada não trava o certificado. "
+        "Está nas perguntas frequentes do Ibama: o certificado não tem vínculo com a taxa. Para débito, o documento é a certidão negativa."),
+("n14", "O certificado vale três meses, conforme o artigo 46. "
         "E pode ser cancelado a qualquer momento, se aparecer uma pendência. "
         "Por isso, quem confere não olha o papel: olha a consulta pública. Basta digitar o CPF ou o CNPJ. "
         "Dica de consultor: antes de contratar quem vai levar ou receber o resíduo do seu cliente, consulte o certificado dele aqui. "
         "E se você recebeu um certificado em PDF, confira a chave na verificação de autenticidade."),
-("n15", "E o certificado é uma licença? Não. O artigo 48 é claro: ele não desobriga ninguém de obter licença, autorização ou alvará. "
+("n15", "E o certificado não é licença. O artigo 48 é claro: ele não desobriga ninguém de obter licença, autorização ou alvará. "
         "Ele prova uma coisa só: que o cadastro e os relatórios estão em dia. "
         "Por isso ele é pedido em tanto lugar: no licenciamento, na renovação da licença e em licitação. "
-        "E a pessoa física que é só responsável pela empresa não tem certificado. Quem tem é a empresa."),
+        "E a pessoa física que é só responsável pela empresa não tem certificado. O certificado é da empresa."),
 ("n16", "Resumo dos erros que mais travam. Um: data de início errada, que gera taxa a mais ou a menos. "
         "Dois: porte desatualizado. Três: esquecer o relatório anual. "
         "Quatro: deixar a situação cadastral parada. Cadastro com indício de irregularidade vira suspenso para averiguações, e o certificado trava. "
         "E cinco: a tabela de atividades vai mudar. A nova entra em vigor até 26 de dezembro de 2026. Antes de enquadrar, confira a FTE."),
-("n17", "Onde a inteligência artificial ajuda? Em rascunhar o enquadramento. Eu descrevo a atividade do cliente, e ela sugere o código. "
-        "Mas a conferência é na FTE. Lembra do tanque da frota própria? Parece posto, e não é: é 18-5. "
+("n17", "A inteligência artificial ajuda a rascunhar o enquadramento. Eu descrevo a atividade do cliente, e ela sugere o código. "
+        "Mas a conferência é na FTE. O tanque da frota própria, por exemplo, parece posto, mas é 18-5. "
         "Essa diferença está escrita aqui, na ficha oficial. "
         "A inteligência artificial rascunha; quem assina responde."),
 ("n18", "Se esse vídeo te ajudou, deixa o like e se inscreve no canal. Toda semana tem vídeo novo, sempre com a tela real. "

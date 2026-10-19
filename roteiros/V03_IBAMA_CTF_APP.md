@@ -1,7 +1,7 @@
 # V03 · Cadastro no Ibama (CTF/APP) e Certificado de Regularidade: passo a passo 2026
 
 **Situação (19/10/2026):** versão 1 montada pela Conta B com a voz grátis, sem o Cowork.
-- Duração: 9 min 19 s, 1080p.
+- Duração: 9 min 9 s, 1080p.
 - Áudio: -16,2 LUFS, pico -1,9 dBTP.
 - Legenda `.srt` e capa 1280×720 prontas.
 - Os arquivos foram entregues ao dono no chat, para subir no Drive (`Inteligência Ambiental/Vídeos/V03_IBAMA_CTF_APP/`). **Aguarda o "sim" do dono.** Nada foi
@@ -50,12 +50,12 @@ Dossiê completo da pesquisa: `pesquisa/V03_IBAMA_DOSSIE.md`. Inventário dos ma
 | n02 | Lei 6.938, art. 17 (tela real) | CTF/AIDA (inciso I) × CTF/APP (inciso II) |
 | n03 | Decreto 6.514, art. 76 (tela real) | Multa de R$ 50 a R$ 9.000; o que pesa é a TCFA e o CR travado |
 | n04 | FTE 18-6 (tela real) | "Compreende" e "não compreende": o ponto de abastecimento vai na 18-5 |
-| n05 | FTE 21-27 (tela real) | Pessoa física: motosserra, passeriformes, criação, irrigação; categorias 21 e 22 sem TCFA nem RAPP. Pergunta ao público |
+| n05 | FTE 21-27 (tela real) | Pessoa física: motosserra, passeriformes, criação, irrigação; categorias 21 e 22 sem TCFA nem RAPP. |
 | n06 | Página do CTF/APP, item 1.3 (tela real) | Cinco coisas para separar antes |
 | n07–n08 | Formulário PF (tela real) | Campos, motivo da inscrição, atividade 21-27, termo de ciência (art. 82). Para no "Gravar inscrição" |
 | n09–n11 | Formulário PJ (tela real) | Responsável legal e declarante, coordenadas, atividade 18-6, balão da data × art. 24 da IN, porte ano a ano. Faixa "Inscreva-se" no meio |
 | n12 | Login do Serviços Ibama (tela real) | gov.br, certificado ou senha; regra das 48 h; comprovante antes do CR |
-| n13 | IN 13, Anexo II (documento oficial) | Os impeditivos do CR; a TCFA atrasada não trava (FAQ). Pergunta ao público |
+| n13 | IN 13, Anexo II (documento oficial) | Os impeditivos do CR; a TCFA atrasada não trava (FAQ). |
 | n14 | IN 13, art. 46, mais a consulta pública e a autenticidade (tela real) | 3 meses; cancelamento em tempo real; consultar o fornecedor de resíduo |
 | n15 | IN 13, arts. 48 e 50 (documento oficial) | CR não é licença; PF só responsável não tem CR |
 | n16 | Página do CTF/APP (tela real) | Os 5 erros que mais travam; a tabela nova até 26/12/2026 |
@@ -122,22 +122,22 @@ RAPP, TCFA (porte, cálculo, compensação e parcelamento) e o caso completo de 
 
 ⏱️ CAPÍTULOS
 0:00 Abertura: 520 mil empresas no cadastro
-0:29 O que é o CTF/APP (Lei 6.938)
-0:52 Multa por não se inscrever
-1:22 Quem precisa: a FTE (exemplo do posto)
-1:55 Pessoa física também se inscreve
-2:25 O que separar antes
-2:59 Formulário de pessoa física
-4:04 Formulário de pessoa jurídica
-4:34 Coordenadas, atividade e data de início
-5:10 Porte ano a ano
-5:39 Login e regra das 48 horas
-6:14 O que trava o Certificado
-6:51 Validade e consulta pública
-7:24 O Certificado não é licença
-7:52 Os 5 erros que mais travam
-8:26 Inteligência artificial conferida na FTE
-8:53 Encerramento
+0:27 O que é o CTF/APP (Lei 6.938)
+0:51 Multa por não se inscrever
+1:20 Quem precisa: a FTE (exemplo do posto)
+1:53 Pessoa física também se inscreve
+2:22 O que separar antes
+2:55 Formulário de pessoa física
+4:00 Formulário de pessoa jurídica
+4:30 Coordenadas, atividade e data de início
+5:06 Porte ano a ano
+5:36 Login e regra das 48 horas
+6:10 O que trava o Certificado
+6:45 Validade e consulta pública
+7:16 O Certificado não é licença
+7:44 Os 5 erros que mais travam
+8:18 Inteligência artificial conferida na FTE
+8:43 Encerramento
 
 Um projeto de @oanalistaambiental.
 Transparência: este vídeo usa voz gerada por inteligência artificial, com roteiro pesquisado e revisão humana. A IA rascunha; quem assina responde.
@@ -163,3 +163,6 @@ federal, como fazer cadastro no ibama, ibama 2026, tcfa, rapp, fte ibama, consul
 - **Dado pessoal na tela:** nenhum. Só dado de exemplo e páginas públicas; o painel é agregado.
 - **Encerramento:** a v1 usa o encerramento próprio (like, inscrição, "vídeo toda semana", curso com a foto). Quando o
   `PADRAO_YOUTUBE_ENCERRAMENTO.md` da Conta C chegar ao ramo, trocar pela **variação C**.
+- **Sem pergunta-e-resposta** (decisão do dono de 19/10, repassada pela Conta C e conferida no CLAUDE.md): as falas com
+  pergunta retórica foram reescritas em frases afirmativas, e as cenas n01, n03–n05, n07, n12–n15 e n17 foram regravadas.
+  A legenda final não tem nenhum "?".

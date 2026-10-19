@@ -17,8 +17,8 @@ do canal e das aulas da Rota Federal. Ele soma com:
 4. **Números oficiais para o gancho:** painel, boletim, dados abertos, sempre com a fonte na tela.
 5. **Divergências oficiais:** quando a tela, o manual e a norma discordam, o vídeo mostra a tela e diz o que vale (no V03,
    o balão da data de início × o art. 24 da IN).
-6. **Perguntas frequentes oficiais:** costumam ter a resposta-surpresa do vídeo (no V03: "a TCFA atrasada não trava o
-   certificado").
+6. **Perguntas frequentes oficiais:** costumam trazer o detalhe-surpresa do vídeo, dito como afirmação (no V03: "a TCFA
+   atrasada não trava o certificado").
 7. **Dossiê** em `pesquisa/Vxx_*_DOSSIE.md`, com o link e a data de cada fato.
 
 ## 2. Roteiro
@@ -36,7 +36,7 @@ do canal e das aulas da Rota Federal. Ele soma com:
   9. erros que mais travam;
   10. IA conferida na fonte;
   11. encerramento.
-- **Duas perguntas ao público** no meio (comentário e pergunta-surpresa), mais uma "dica de consultor" prática.
+- **Sem pergunta-e-resposta e sem quiz** (decisão do dono, 19/10): nada de pergunta retórica seguida de resposta. A informação-surpresa vira frase afirmativa ("um detalhe que pouca gente sabe: …"). Entra uma "dica de consultor" prática.
 - **Fontes por cena** no roteiro (`roteiros/Vxx_*.md`), com o selo "Manual conferido em mm/aaaa".
 - **Descrição do YouTube** com todos os links oficiais usados, o bloco do curso, "Um projeto de @oanalistaambiental", o
   aviso de IA e "canal independente".

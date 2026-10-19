@@ -1,14 +1,14 @@
 {
  "n01": {
-  "dur": 27.984,
+  "dur": 26.76,
   "m": {
    "Olha aqui": 3.962,
-   "E sabe qual": 6.557,
-   "Posto de combustível": 9.222,
-   "Só no segundo semestre": 11.25,
-   "Hoje eu te mostro": 19.552,
-   "como preencher": 23.314,
-   "e como tirar": 24.917
+   "E a atividade número um": 6.557,
+   "é o posto de combustível": 7.854,
+   "Só no segundo semestre": 10.024,
+   "Hoje eu te mostro": 18.325,
+   "como preencher": 22.087,
+   "e como tirar": 23.691
   }
  },
  "n02": {
@@ -22,35 +22,35 @@
   }
  },
  "n03": {
-  "dur": 29.16,
+  "dur": 28.056,
   "m": {
-   "Multa, no artigo 76": 2.099,
-   "Vai de 50 reais": 6.71,
-   "até 9 mil reais": 9.257,
-   "Parece pouco": 12.453,
-   "Mas o problema": 14.481,
-   "E sem cadastro": 23.267
+   "leva multa": 1.017,
+   "Vai de 50 reais": 5.861,
+   "até 9 mil reais": 8.408,
+   "O valor é baixo": 11.604,
+   "Mas o problema": 13.361,
+   "E sem cadastro": 22.146
   }
  },
  "n04": {
-  "dur": 32.568,
+  "dur": 31.992,
   "m": {
-   "Pela ficha técnica": 2.901,
-   "Abro a do posto": 5.66,
-   "Só pessoa jurídica": 12.606,
-   "Descendo a página": 14.646,
-   "Agora a pegadinha": 21.427,
-   "Ele vai no código": 29.658
+   "use a ficha técnica": 2.267,
+   "Abro a do posto": 5.144,
+   "Só pessoa jurídica": 12.04,
+   "Descendo a página": 14.08,
+   "Agora a pegadinha": 20.861,
+   "Ele vai no código": 29.092
   }
  },
  "n05": {
-  "dur": 29.04,
+  "dur": 28.728,
   "m": {
    "Olha esta outra FTE": 2.925,
    "Vale para pessoa física": 8.703,
    "Na mesma categoria": 11.415,
    "Uma diferença importante": 16.274,
-   "E me conta": 24.953
+   "Na dúvida": 24.953
   }
  },
  "n06": {
@@ -65,7 +65,7 @@
   }
  },
  "n07": {
-  "dur": 32.544,
+  "dur": 32.04,
   "m": {
    "Este é o formulário": 0.097,
    "a senha você cria": 5.271,
@@ -73,8 +73,8 @@
    "Nome completo": 12.512,
    "O CPF e os documentos": 15.248,
    "Descendo a página": 19.127,
-   "Se você é só": 24.481,
-   "Se exerce": 28.738
+   "Se você é só": 23.986,
+   "Se exerce": 28.243
   }
  },
  "n08": {
@@ -125,47 +125,47 @@
   }
  },
  "n12": {
-  "dur": 33.768,
+  "dur": 33.24,
   "m": {
-   "Agora é o login": 2.017,
-   "a conta gov.br": 5.083,
-   "o certificado digital": 6.899,
-   "ou o CPF ou CNPJ": 8.514,
-   "E uma regra": 15.436,
-   "Depois disso": 23.125,
-   "Primeiro sai o comprovante": 27.394
+   "o próximo passo é o login": 1.595,
+   "a conta gov.br": 5.059,
+   "o certificado digital": 6.875,
+   "ou o CPF ou CNPJ": 8.491,
+   "E uma regra": 15.413,
+   "Depois disso": 22.606,
+   "Primeiro sai o comprovante": 26.875
   }
  },
  "n13": {
-  "dur": 36.6,
+  "dur": 34.632,
   "m": {
-   "Está aqui": 2.382,
-   "Comprovante de inscrição inativo": 9.304,
-   "falta de porte": 11.321,
-   "situação cadastral": 13.125,
-   "E o campeão": 15.979,
-   "Agora uma pergunta": 21.533,
-   "A resposta está": 27.017
+   "Está aqui": 1.383,
+   "Comprovante de inscrição inativo": 8.184,
+   "falta de porte": 10.2,
+   "situação cadastral": 12.005,
+   "E o campeão": 14.858,
+   "E um detalhe": 20.413,
+   "Está nas perguntas frequentes": 25.719
   }
  },
  "n14": {
-  "dur": 32.352,
+  "dur": 30.816,
   "m": {
-   "Ele vale três meses": 2.146,
-   "E pode ser cancelado": 6.25,
-   "Por isso, quem confere": 10.625,
-   "Basta digitar": 15.083,
-   "Dica de consultor": 18.809,
-   "E se você recebeu": 26.427
+   "O certificado vale três meses": 0.097,
+   "E pode ser cancelado": 4.729,
+   "Por isso, quem confere": 9.104,
+   "Basta digitar": 13.561,
+   "Dica de consultor": 17.288,
+   "E se você recebeu": 24.906
   }
  },
  "n15": {
-  "dur": 27.192,
+  "dur": 26.592,
   "m": {
-   "O artigo 48": 3.785,
-   "Ele prova uma coisa só": 9.941,
-   "Por isso ele é pedido": 14.434,
-   "E a pessoa física": 20.637
+   "O artigo 48": 2.771,
+   "Ele prova uma coisa só": 8.927,
+   "Por isso ele é pedido": 13.42,
+   "E a pessoa física": 19.623
   }
  },
  "n16": {
@@ -181,14 +181,14 @@
   }
  },
  "n17": {
-  "dur": 25.584,
+  "dur": 24.36,
   "m": {
-   "Em rascunhar": 2.925,
-   "Eu descrevo": 5.248,
-   "Mas a conferência": 9.399,
-   "Lembra do tanque": 11.108,
-   "Essa diferença": 17.736,
-   "A inteligência artificial rascunha": 21.486
+   "ajuda a rascunhar": 1.477,
+   "Eu descrevo": 3.927,
+   "Mas a conferência": 8.078,
+   "O tanque da frota própria": 10.767,
+   "Essa diferença": 16.521,
+   "A inteligência artificial rascunha": 20.271
   }
  },
  "n18": {

@@ -4,23 +4,23 @@ sys.path.insert(0, '.')
 from cenas3 import CENAS, voz
 
 MARCAS = {
- 'n01': ['Olha aqui', 'E sabe qual', 'Posto de combustível', 'Só no segundo semestre', 'Hoje eu te mostro', 'como preencher', 'e como tirar'],
+ 'n01': ['Olha aqui', 'E a atividade número um', 'é o posto de combustível', 'Só no segundo semestre', 'Hoje eu te mostro', 'como preencher', 'e como tirar'],
  'n02': ['aqui no site do Planalto', 'O artigo 17', 'O inciso um', 'O inciso dois', 'É dele'],
- 'n03': ['Multa, no artigo 76', 'Vai de 50 reais', 'até 9 mil reais', 'Parece pouco', 'Mas o problema', 'E sem cadastro'],
- 'n04': ['Pela ficha técnica', 'Abro a do posto', 'Só pessoa jurídica', 'Descendo a página', 'Agora a pegadinha', 'Ele vai no código'],
- 'n05': ['Olha esta outra FTE', 'Vale para pessoa física', 'Na mesma categoria', 'Uma diferença importante', 'E me conta'],
+ 'n03': ['leva multa', 'Vai de 50 reais', 'até 9 mil reais', 'O valor é baixo', 'Mas o problema', 'E sem cadastro'],
+ 'n04': ['use a ficha técnica', 'Abro a do posto', 'Só pessoa jurídica', 'Descendo a página', 'Agora a pegadinha', 'Ele vai no código'],
+ 'n05': ['Olha esta outra FTE', 'Vale para pessoa física', 'Na mesma categoria', 'Uma diferença importante', 'Na dúvida'],
  'n06': ['Esta é a página oficial', 'Primeiro:', 'Segundo:', 'Terceiro:', 'Quarto:', 'E quinto:'],
  'n07': ['Este é o formulário', 'a senha você cria', 'Repare', 'Nome completo', 'O CPF e os documentos', 'Descendo a página', 'Se você é só', 'Se exerce'],
  'n08': ['Marquei a segunda', 'Na categoria', 'Na descrição', 'E a data de início', 'Lá no final', 'Repare: ele cita', 'E este é o botão', 'Aqui eu paro'],
  'n09': ['Primeiro bloco', 'Você clica na lupa', 'Por isso ele tem', 'Depois, o declarante', 'Pode ser o contador', 'Nos dados básicos', 'E a data de abertura'],
  'n10': ['Mais abaixo, as coordenadas', 'O ícone do mapa', 'mas a dica de ouro', 'Agora as atividades', 'E na descrição', 'Olha o balão', 'Mas a instrução normativa'],
  'n11': ['Escolho o ano', 'o tipo, com fins lucrativos', 'microempresa até', 'Empresa que ainda não faturou', 'E atenção'],
- 'n12': ['Agora é o login', 'a conta gov.br', 'o certificado digital', 'ou o CPF ou CNPJ', 'E uma regra', 'Depois disso', 'Primeiro sai o comprovante'],
- 'n13': ['Está aqui', 'Comprovante de inscrição inativo', 'falta de porte', 'situação cadastral', 'E o campeão', 'Agora uma pergunta', 'A resposta está'],
- 'n14': ['Ele vale três meses', 'E pode ser cancelado', 'Por isso, quem confere', 'Basta digitar', 'Dica de consultor', 'E se você recebeu'],
+ 'n12': ['o próximo passo é o login', 'a conta gov.br', 'o certificado digital', 'ou o CPF ou CNPJ', 'E uma regra', 'Depois disso', 'Primeiro sai o comprovante'],
+ 'n13': ['Está aqui', 'Comprovante de inscrição inativo', 'falta de porte', 'situação cadastral', 'E o campeão', 'E um detalhe', 'Está nas perguntas frequentes'],
+ 'n14': ['O certificado vale três meses', 'E pode ser cancelado', 'Por isso, quem confere', 'Basta digitar', 'Dica de consultor', 'E se você recebeu'],
  'n15': ['O artigo 48', 'Ele prova uma coisa só', 'Por isso ele é pedido', 'E a pessoa física'],
  'n16': ['Um:', 'Dois:', 'Três:', 'Quatro:', 'Cadastro com indício', 'E cinco:', 'Antes de enquadrar'],
- 'n17': ['Em rascunhar', 'Eu descrevo', 'Mas a conferência', 'Lembra do tanque', 'Essa diferença', 'A inteligência artificial rascunha'],
+ 'n17': ['ajuda a rascunhar', 'Eu descrevo', 'Mas a conferência', 'O tanque da frota própria', 'Essa diferença', 'A inteligência artificial rascunha'],
  'n18': ['Toda semana', 'E se você quer ir além', 'conheça o curso', 'O link está', 'Em breve'],
 }
 def norm(s):
