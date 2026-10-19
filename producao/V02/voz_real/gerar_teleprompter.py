@@ -122,6 +122,7 @@ js = '''<script>
   document.addEventListener('keydown',e=>{if(on&&e.code==='Space'){e.preventDefault();liga(!roda)}});
 })();
 </script>'''
+base = base.replace('<span class="chip pergunta">pergunta</span>', '')
 out = base.replace('<!--SECOES-->', corpo).replace('<!--TOTAL-->', str(total)) + js
 out = out.replace('<title>Roteiro da Voz Real</title>', '<title>Teleprompter do CAR</title>')
 saida = sys.argv[1] if len(sys.argv) > 1 else os.path.join(AQUI, 'teleprompter_v02.html')

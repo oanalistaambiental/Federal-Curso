@@ -42,8 +42,7 @@ Instagram: @ambientalinteligencia
 
 **Links** (aparecem no topo do canal):
 1. Instagram: `https://www.instagram.com/ambientalinteligencia/`
-2. Apps Chão Geo (Inteligência Ambiental): `https://oanalistaambiental.com/chaogeo/`
-   - O link responde 200. Com `www.` dá 404: usar sem `www`.
+2. Curso Rota Federal: `https://www.oanalistaambiental.com/rota-federal.html` (sempre com `www`: sem ele, o endereço cai na página inicial).
 
 **E-mail de contato** (opcional, decisão do dono): `contato@oanalistaambiental.com`. É o e-mail que já aparece no site e
 na conta de desenvolvedor "Inteligência Ambiental" da Google Play. Deixar fora se quiser manter a marca separada do

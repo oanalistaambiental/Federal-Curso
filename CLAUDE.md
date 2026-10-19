@@ -69,6 +69,12 @@ conta.
 - 19/10/2026: **frente nova no Cowork: "Captura de Telas"**. O dono senta com o Cowork e gravam vários sistemas de uma vez,
   em **lotes** (Ibama; ANA; CAR; SINIR...). Prompt da frente, regras, lotes e manifesto: **`producao/captura-de-telas/`**. A
   conta dona do vídeo escreve o lote junto com o roteiro e faz a edição fina com o material que chega.
+- 19/10/2026: **nunca quiz nem pergunta-e-resposta**, em nenhum vídeo (YouTube e treinamento) e na Hotmart da Rota
+  Federal. Nada de pergunta retórica seguida de resposta, cartão de pergunta nem aba de questões. O foco é o uso da
+  plataforma, passo a passo, com frases afirmativas. As chamadas de inscrição e do curso devem ser naturais, em tom de
+  conversa (`producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`).
+- 19/10/2026: **ferramentas federais aprovadas** (imóvel rural, TCFA, rio federal ou estadual, calendário; PR #11 do site).
+  Pode executar, revisar e estudar mais sobre elas.
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
