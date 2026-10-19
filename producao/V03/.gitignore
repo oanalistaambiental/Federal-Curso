@@ -1,0 +1,10 @@
+audio/
+quadros/
+cenas_mp4/
+teste_voz/
+*.mp4
+*.mov
+*.mp3
+*.wav
+bruto.*
+assets/
