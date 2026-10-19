@@ -23,14 +23,14 @@ A IA rascunha; quem assina responde.
 **Texto alternativo (cartão 1):** "Carrossel: outorga de água na ANA em 2026, na Plataforma Águas Brasil: domínio do rio,
 três níveis do pedido, documentos e prazos."
 
-## Ter 19h · Instagram · Reel "Seu rio é federal ou estadual?" (30 a 45 s, corte do V01)
+## Ter 19h · Instagram · Reel "Rio federal ou estadual: a ANA mostra em 30 segundos" (30 a 45 s, corte do V01)
 Depende do corte 9:16 (pedido à Conta C em `ao-vivo/COWORK_PARA_CONTA_C.md`).
-- **Texto no 1º quadro:** "OUTORGA: ANA OU ESTADO?"
+- **Texto no 1º quadro:** "RIO FEDERAL OU ESTADUAL: A PLATAFORMA MOSTRA"
 - **Fala-chave** (o Instagram transcreve): "outorga", "ANA", "rio federal".
 
 **Legenda:**
 ```
-Outorga de água: ANA ou órgão do estado? Errar aqui faz o pedido voltar.
+Outorga de água: primeiro descubra se o rio é da União (ANA) ou do estado. Errar aqui faz o pedido voltar.
 
 Rio que passa por mais de um estado é da União (ANA). Poço é sempre do estado. E vale a coordenada da bomba, não a da sede.
 Na Plataforma Águas Brasil você digita a coordenada e ela mesma responde.

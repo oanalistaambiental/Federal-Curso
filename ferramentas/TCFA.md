@@ -80,11 +80,26 @@ Estado: pronta e testada. O pai integra a página no menu e na página Ferrament
   - entidade filantrópica dá "Isento";
   - prints conferidos.
 
-## 5. [conferir]
-- **Ano da receita × exercício cobrado:** qual ano de receita vale para o porte de cada exercício. A ferramenta deixa o
-  usuário escolher o ano e não presume.
-- **Correção dos valores depois de 2015:** a página do Ibama ainda mostra a tabela "a partir do 4º trimestre de 2015"
-  (consultada em 19/10/2026). Reconferir no radar mensal.
-- **Prazo do RAPP de 2027:** em 2026 houve prorrogação até 31/05 (IN Ibama 06/2026, segundo a FIERGS). A página manda
-  conferir a prorrogação do ano.
+## 5. Conferências de 19/10/2026 (segunda passada)
+- **Correção dos valores depois de 2015: não houve.** A página "Sobre a TCFA" do Ibama, atualizada em 24/04/2026, ainda
+  traz o Anexo IX "atualizado pela Lei 13.196, de 01/12/2015, a partir do 4º trimestre de 2015" e a Portaria
+  Interministerial 812/2015, com os mesmos valores da ferramenta. O Planalto mostra no Anexo IX os valores originais de
+  2000. **Resolvido.** Os testes de fronteira foram rodados de novo e passaram.
+- **Silvicultura:** a [Lei 14.876/2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14876.htm) mudou a
+  descrição do Código 20 "para excluir a silvicultura do rol de atividades potencialmente poluidoras". O texto atual do
+  Anexo VIII no Planalto (compilado) não tem "silvicultura".
+  - Na página, a busca por "silvicultura", "eucalipto", "pinus", "reflorestamento" ou "floresta plantada" mostra o aviso;
+    a madeira ou lenha nativa continua na categoria 20.
+  - A fonte cita a lei com link. **Resolvido.**
+- **Ano da receita × exercício:** a Lei 6.938 (art. 17-D, § 1º) fala em "receita bruta anual" sem dizer o ano.
+  - A IN Ibama 17/2011 (art. 5º) também não diz. A página do Ibama diz que o porte é "aquele que corresponder à Receita
+    Bruta Global auferida pelo estabelecimento em cada ano calendário de referência".
+  - Não há regra escrita que ligue o ano da receita ao exercício cobrado. A ferramenta continua deixando a pessoa escolher,
+    agora com uma dica que diz isso e manda conferir a receita declarada no CTF. **[conferir]**, por pedido ao Ibama, se
+    preciso.
+- **Prazo do RAPP de 2027:** a IN Ibama 6/2026 valeu só para 2026 (parágrafo único, lido no DOU). Em 2027, até 31/03.
+  **Resolvido.**
+
+## 6. [conferir] que ficou
+- O ano da receita × o exercício cobrado (acima).
 - **Dia útil:** a ferramenta não conta feriados nem calcula o vencimento exato do ano.

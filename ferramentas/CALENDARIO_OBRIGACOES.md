@@ -75,13 +75,31 @@ boleto do Ibama.
   - "Salvar cliente" grava, e o cliente volta ao recarregar;
   - os filtros por órgão funcionam.
 
-## [conferir]
-1. **Dia final da DMR no SINIR:** conferir no sistema ou numa portaria nova. A revisão da Portaria 280/2020 esteve em
-   consulta pública em jan–fev/2025.
-2. **Prorrogação do RAPP de 2027:** só se o Ibama publicar outra IN (a de 2026 foi a IN 06/2026, até 31/05/2026).
-3. **Lei 15.190/2025, art. 7º:** conferido na página do Planalto. Por regra do repositório `federal`, o texto que vale é o
-   "texto atualizado" da Câmara, por causa dos vetos derrubados e das Leis 15.269 e 15.300/2025. O art. 7º não foi alvo
-   dessas mudanças até onde li [conferir].
-4. **Fonte da Res. ANA 188/2024:** o link é uma cópia hospedada pelo CBHSF, com o código de verificação da ANA. Trocar pelo
-   link da ANA quando achar.
-5. **Portaria MMA 280/2020:** o link é do Normas Brasil, porque o PDF do DOU não abriu. Trocar pelo in.gov.br.
+## Conferências de 19/10/2026 (segunda passada)
+1. **DMR:** lida no DOU a [Portaria MMA 280/2020](https://www.in.gov.br/web/dou/-/portaria-n-280-de-29-de-junho-de-2020-264244199).
+   - O art. 2º, III, define a DMR; o art. 15 só diz que o órgão acessa a DMR no SINIR; a portaria não fixa o dia final.
+   - Não há portaria nova publicada: a [revisão de 2025](https://www.gov.br/participamaisbrasil/revisao-da-portaria-n-280-2020-mtr)
+     ficou só na consulta pública (23/01 a 22/02/2025).
+   - O trimestre civil está confirmado pelo Comunicado DGR/MMA 006/2024, que fala do "4º trimestre de 2024, de 01/10 a
+     31/12/2024".
+   - Sites de consultoria citam o "último dia do mês seguinte ao trimestre", sem norma federal. Fica como lembrete, e o
+     prazo que vale é o que o SINIR mostra. **[conferir no SINIR]**
+2. **RAPP:** lida no DOU a [IN Ibama 6/2026](https://www.in.gov.br/web/dou/-/instrucao-normativa-ibama-n-6-de-3-de-marco-de-2026-690538430).
+   - Art. 1º: prorroga a entrega até 31/05/2026.
+   - Parágrafo único: vale "exclusivamente ao Rapp do ano 2026 (ano-base 2025)".
+   - Para 2027 vale a regra da Lei 6.938, art. 17-C, § 1º (até 31/03). Não há prorrogação de 2027 publicada até 19/10/2026.
+   - **Resolvido.** A página explica que a prorrogação foi só de 2026.
+3. **Links oficiais:** os dois abrem (HTTP 200).
+   - [Res. ANA 188/2024 no site da ANA](https://www.gov.br/ana/pt-br/legislacao/resolucoes/resolucoes-regulatorias/2024/188):
+     o art. 6º, §§ 1º, 2º e 4º, foi conferido no texto.
+   - Portaria 280/2020 no DOU (in.gov.br): o art. 20 (inventário até 31/03) foi conferido no texto.
+   - **Resolvido.**
+4. **Lei 15.190/2025, art. 7º:** conferido no [texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15190-8-agosto-2025-797833-normaatualizada-pl.html).
+   - O caput fala em renovação requerida "com antecedência mínima de 120 dias", com prorrogação automática até a
+     manifestação definitiva.
+   - O § 4º permite renovação automática, por declaração, para atividade de baixo ou médio potencial e pequeno ou médio
+     porte, por ato da autoridade licenciadora.
+   - O link da página passou a ser o da Câmara. **Resolvido.**
+
+## [conferir] que ficou
+1. **Dia final da DMR:** o que o próprio SINIR mostra, a conferir na tela pelo Cowork (demanda 8 de `DEMANDAS_COWORK.md`).
