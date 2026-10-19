@@ -6,8 +6,13 @@
 - citar com discrição o treinamento (Rota Federal), com a foto dele;
 - usar as animações padrão do YouTube, sem ficar repetitivo nem vendedor.
 
-Vale para **todo vídeo do canal @I.Ambiental**. Aplicado pela primeira vez em `V01_OUTORGA_ANA_v2_youtube` e
-`V02_CAR_v3_youtube`.
+Vale para **todo vídeo do canal @I.Ambiental**. Versão atual (19/10/2026, pedido do dono): `V01_OUTORGA_ANA_v3_youtube` e
+`V02_CAR_v4_youtube`.
+
+> **Regra fixa do dono (19/10/2026): nunca quiz, nunca pergunta-e-resposta**, em nenhum vídeo do YouTube nem do curso. Nada
+> de "Sabe quantos? Um em cada quatro", "Travou? Então…", "Funcionou aí?". O vídeo mostra a plataforma e o passo a passo, com
+> frases afirmativas. O pedido de like, de inscrição e a menção ao treinamento são **naturais e curtos**, sem tom de
+> propaganda.
 
 Scripts: `producao/youtube/`:
 - `anim.html`: as três animações;
@@ -19,8 +24,8 @@ Scripts: `producao/youtube/`:
 | # | Peça | Quando | Duração | Onde na tela | Voz |
 |---|---|---|---|---|---|
 | 1 | **Lembrete de inscrição:** pílula com "Inscrever-se", o cursor clica, vira "Inscrito" e o sininho balança, com som baixo de clique | **uma vez**, entre 30 % e 40 % do vídeo, logo depois de um momento de valor (uma conta que fecha, uma regra que destrava) | 4 s | canto direito, x 1590–1880, y 770–860 (acima da marca "Inteligência Ambiental") | não |
-| 2 | **Faixa do treinamento:** foto do dono + "Quer o passo a passo completo, com casos e modelos?" + "Rota Federal · link na descrição" | **uma vez**, perto do fim do conteúdo, antes do fechamento | 6 s | embaixo à esquerda, x 40, y 930–1020 | não |
-| 3 | **Encerramento:** like (joinha), inscrição (botão + sininho), cartão Rota Federal com a foto, e as vagas da tela final | substitui o "Até lá!" | ~26 s | tela cheia, texto à esquerda e vagas à direita | sim (4 frases) |
+| 2 | **Faixa do treinamento:** foto do dono + "Passo a passo completo no treinamento Rota Federal" + "link na descrição" | **uma vez**, perto do fim do conteúdo, antes do fechamento | 6 s | embaixo à esquerda, x 40, y 930–1020 | não |
+| 3 | **Encerramento:** like (joinha), inscrição (botão + sininho), cartão Rota Federal com a foto, e as vagas da tela final | substitui o "Até lá!" | ~19 s | tela cheia, texto à esquerda e vagas à direita | sim (4 frases) |
 
 Por quê:
 - Pedido curto, **depois** de entregar valor, converte mais e irrita menos.
@@ -33,39 +38,39 @@ Por quê:
   que a narração esteja citando. Se cobrirem, mudar o tempo (nunca a posição padrão, para o canal ficar reconhecível).
 
 ## 2. Variações para não ficar repetitivo
-Alternar por vídeo, numa ordem fixa (vídeo 1 = A, vídeo 2 = B, vídeo 3 = C e recomeça). Os vídeos 1 e 2 desta rodada
-saíram com a versão A, porque foram reeditados juntos; do vídeo 3 em diante, seguir a ordem.
+Sempre afirmativas, curtas e naturais (sem pergunta). Alternar por vídeo (A, B, C e recomeça). Os vídeos 1 e 2 usam a A.
 
-**Frase do like e da inscrição (voz do encerramento):**
-- **A:** "Se este vídeo te ajudou, deixa o seu like, que isso ajuda o canal a chegar em mais gente. E se inscreve: tem vídeo
-  novo toda semana sobre os serviços ambientais federais, sempre com a tela real."
-- **B:** "Funcionou aí? Então deixa o like, que é o que mostra este vídeo para outros consultores. E toda semana tem tutorial
-  novo aqui, na tela real: se inscreve pra não perder."
-- **C:** "Se te poupou uma hora de tentativa e erro, o like já paga. Tem vídeo novo toda semana: se inscreve e ativa o sininho."
+**Like e inscrição (voz do encerramento):**
+- **A (usada nos vídeos 1 e 2):** "Se este vídeo te ajudou, deixa o like. E se inscreve no canal: toda semana sai um passo a
+  passo novo de serviço ambiental federal."
+- **B:** "Se te ajudou, deixa o like, que isso faz o vídeo chegar em mais gente. E se inscreve: toda semana tem um sistema novo
+  aqui, na tela real."
+- **C:** "Deixa o like se o passo a passo te poupou tempo. E se inscreve, que toda semana sai um serviço federal novo."
 
-**Menção ao curso:**
-- **A:** "Se você quer ir mais fundo, com tutoriais mais detalhados, casos completos e modelos, tem o treinamento Rota
-  Federal, sempre revisado. O link está na descrição."
-- **B:** "Travou em algum passo? No treinamento Rota Federal cada tela vem explicada, com o caso completo e os modelos. Tem o
-  link na descrição, sem compromisso."
+**Menção ao treinamento:**
+- **A (vídeos 1 e 2):** "E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link
+  da descrição."
+- **B:** "O caminho completo deste serviço, com o caso inteiro e os modelos, está no treinamento Rota Federal. O link está na
+  descrição."
 
 **Faixa do treinamento (texto da tela):**
-- **A:** "Quer o passo a passo completo, com casos e modelos? · Rota Federal · link na descrição"
-- **B:** "Caso completo e modelos deste serviço · Rota Federal · link na descrição"
+- **A:** "Passo a passo completo no treinamento Rota Federal · link na descrição"
+- **B:** "Caso completo e modelos deste serviço no treinamento Rota Federal · link na descrição"
 
-**Animação do meio:**
-- **A:** a pílula de inscrição.
-- **B:** (a partir do vídeo 4) o joinha pequeno com "Te ajudou até aqui? Deixa o like", no mesmo lugar e no mesmo tempo.
+**Animação do meio:** a pílula de inscrição (sem voz). Variação a partir do vídeo 4: o joinha pequeno com "Deixa o like",
+no mesmo lugar e no mesmo tempo.
 
 ## 3. Encerramento: roteiro de tempos (o que foi usado)
 | Tempo no encerramento | Tela | Voz |
 |---|---|---|
 | 0,0–0,4 s | fusão do último quadro do vídeo | — |
-| 0,5 s | joinha pulando + "Se este vídeo te ajudou, deixa o seu like" | frase 1 |
-| 6,1 s | botão Inscrever-se, cursor clica, "Inscrito", sininho balança + "Vídeo novo toda semana" | frase 2 |
-| 12,7 s | cartão Rota Federal com a foto, "Francisco de Assis · revisão de todo o conteúdo", "Link na descrição"; aparecem as vagas da tela final | frase 3 |
-| 21,2 s | mesmo cartão | "O link está na descrição. Até a próxima!" |
-| até 26,3 s | mesmo cartão (1,8 s de folga para clicar) | — |
+| 0,5 s | joinha pulando + "Se este vídeo te ajudou, deixa o like" | "Se este vídeo te ajudou, deixa o like." |
+| 3,6 s | botão Inscrever-se, cursor clica, "Inscrito", sininho balança + "Toda semana, um passo a passo novo" | "E se inscreve no canal: toda semana sai um passo a passo novo de serviço ambiental federal." |
+| 9,2 s | cartão Rota Federal com a foto, "Francisco de Assis · revisão de todo o conteúdo", "Link na descrição"; aparecem as vagas da tela final | "E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link da descrição." |
+| 16,2 s | mesmo cartão | "Até a próxima." |
+| até 19,0 s | mesmo cartão (1,8 s de folga) | — |
+
+A tela final do YouTube vai de 9,2 s a 19,0 s do encerramento (cerca de 9,8 s; o YouTube aceita de 5 a 20 s).
 
 Cores e fonte: verde-escuro `#0B1A12`/`#16422A`, menta `#2BD48A`, ouro `#C79A2E`, Montserrat. A foto vem de
 `site/assets/avatar.jpg`.

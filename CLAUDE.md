@@ -58,6 +58,13 @@ conta.
   de @oanalistaambiental". No vídeo, não. Todo vídeo do YouTube leva o encerramento padrão (like, inscrição, "vídeo toda
   semana" e o curso de forma discreta, com a foto dele): `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`.
 
+- 19/10/2026: **nunca quiz nem pergunta-e-resposta**, em nenhum vídeo (YouTube e treinamento) e na Hotmart da Rota
+  Federal. Nada de pergunta retórica seguida de resposta, cartão de pergunta nem aba de questões. O foco é o uso da
+  plataforma, passo a passo, com frases afirmativas. As chamadas de inscrição e do curso devem ser naturais, em tom de
+  conversa (`producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`).
+- 19/10/2026: **ferramentas federais aprovadas** (imóvel rural, TCFA, rio federal ou estadual, calendário; PR #11 do site).
+  Pode executar, revisar e estudar mais sobre elas.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.

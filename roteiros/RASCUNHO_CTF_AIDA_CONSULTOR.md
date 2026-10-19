@@ -35,10 +35,10 @@ Duração-alvo: 8 a 10 min. Padrão da aula: curadoria, seção 3.1.
 | 7 | Conferir | "Depois, confira na consulta pública de inscritos e emita o seu Certificado de Regularidade. Ele vale 3 meses: tire um novo quando o cliente pedir." | Consulta pública + emissão do CR |
 | 8 | O erro que trava | "O erro mais comum é confundir o AIDA com o APP. O APP é da atividade do **cliente**; o AIDA é do **consultor**. Um não substitui o outro." | Quadro APP × AIDA |
 | 9 | Validade | "A inscrição é gratuita e vale 2 anos. Anote na agenda para renovar." | Lembrete |
-| 10 | Quiz | 2 perguntas (abaixo) | Cena de quiz |
+| 10 | (removido) | sem quiz, decisão do dono de 19/10 | — |
 | 11 | Desafio | "Faça a sua inscrição ou confira a sua e poste na comunidade o print da consulta pública, **com o CPF coberto**." | Cartela de encerramento |
 
-## Quiz
+## Quiz (REMOVIDO: o dono não quer quiz em nenhum vídeo, 19/10/2026; não usar)
 1. O CTF/AIDA é de quem? **(a) do consultor** · (b) da empresa cliente · (c) do órgão estadual.
    Fonte: IN Ibama 12/2021, compilada.
 2. Quanto tempo vale o Certificado de Regularidade? (a) 1 ano · **(b) 3 meses** · (c) 2 anos.

@@ -88,7 +88,8 @@ Curso independente, sem vínculo com órgãos públicos. Um projeto de @oanalist
   - progresso;
   - selos por módulo;
   - comentários abertos;
-  - certificado ao concluir 100 % das aulas e dos quizzes.
+  - certificado ao concluir 100 % das aulas.
+- **Sem quiz** e sem aba de questões (decisão do dono, 19/10): não criar perguntas na área de membros.
 - **Certificado:** em nome de **Francisco de Assis** + "Engenheiro florestal · O Analista Ambiental"; carga horária: deixar
   em branco ou "conforme aulas concluídas" até o curso ter a grade completa (não inventar horas).
 - **Comentários:** respostas assinadas como "Equipe".

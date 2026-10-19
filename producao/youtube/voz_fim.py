@@ -1,14 +1,13 @@
 # Voz do encerramento (Microsoft Antonio, edge-tts), uma frase por arquivo, com o tempo de cada palavra.
 import asyncio, json, ssl, sys, edge_tts, edge_tts.communicate as c
 c._SSL_CTX = ssl.create_default_context(cafile='/root/.ccr/ca-bundle.crt')
-FRASES = {
- 'f1': ('Se este vídeo te ajudou, deixa o seu like, que isso ajuda o canal a chegar em mais gente.',
-        'Se este vídeo te ajudou, deixa o seu láique, que isso ajuda o canal a chegar em mais gente.'),
- 'f2': ('E se inscreve: tem vídeo novo toda semana sobre os serviços ambientais federais, sempre com a tela real.',
-        'E se inscreve: tem vídeo novo toda semana sobre os serviços ambientais federais, sempre com a tela real.'),
- 'f3': ('Se você quer ir mais fundo, com tutoriais mais detalhados, casos completos e modelos, tem o treinamento Rota Federal, sempre revisado.',
-        'Se você quer ir mais fundo, com tutoriais mais detalhados, casos completos e modelos, tem o treinamento Rota Federal, sempre revisado.'),
- 'f4': ('O link está na descrição. Até a próxima!', 'O link está na descrição. Até a próxima!'),
+FRASES = {  # versão natural (19/10): sem pergunta e resposta, sem tom de propaganda
+ 'f1': ('Se este vídeo te ajudou, deixa o like.', 'Se este vídeo te ajudou, deixa o láique.'),
+ 'f2': ('E se inscreve no canal: toda semana sai um passo a passo novo de serviço ambiental federal.',
+        'E se inscreve no canal: toda semana sai um passo a passo novo de serviço ambiental federal.'),
+ 'f3': ('E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link da descrição.',
+        'E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link da descrição.'),
+ 'f4': ('Até a próxima.', 'Até a próxima.'),
 }
 async def gera(k, txt):
     com = edge_tts.Communicate(txt, 'pt-BR-AntonioNeural', rate='+6%', boundary='WordBoundary')

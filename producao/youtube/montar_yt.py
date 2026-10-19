@@ -71,10 +71,10 @@ cues = []
 for bl in open(srt_ent, encoding='utf-8').read().strip().split('\n\n'):
     l = bl.split('\n'); a, b = [seg(x.strip()) for x in l[1].split('-->')]
     if a < CORTE - .05: cues.append((a, min(b, CORTE - XF), '\n'.join(l[2:])))
-LEG = {'f1': ['Se este vídeo te ajudou, deixa o seu like,', 'que isso ajuda o canal a chegar em mais gente.'],
-       'f2': ['E se inscreve: tem vídeo novo toda semana', 'sobre os serviços ambientais federais, sempre com a tela real.'],
-       'f3': ['Se você quer ir mais fundo, com tutoriais mais detalhados,', 'casos completos e modelos, tem o treinamento Rota Federal, sempre revisado.'],
-       'f4': ['O link está na descrição.', 'Até a próxima!']}
+LEG = {'f1': ['Se este vídeo te ajudou,', 'deixa o like.'],
+       'f2': ['E se inscreve no canal: toda semana sai', 'um passo a passo novo de serviço ambiental federal.'],
+       'f3': ['E se você quiser o caminho completo, com os casos e os modelos,', 'o treinamento Rota Federal está no link da descrição.'],
+       'f4': ['Até a próxima.']}
 base = CORTE - XF
 for k, t0 in vozes:
     pal = json.load(open(f'{AQUI}/{k}.pal.json')); n1 = len(LEG[k][0].split())

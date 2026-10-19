@@ -11,7 +11,7 @@ clique e de tecla, e voz grátis.
 | 2 | **Sem ponteiro** nas figuras do manual e **sem som** de clique ou de tecla. Parecia apresentação, não tela | c10–c18 | alto |
 | 3 | **Monólogo longo** sobre a mesma imagem (c17 com 55 s) | c17 | alto |
 | 4 | Pausa fixa de 0,35 s em tudo; o padrão-ouro pede pausa por tipo (pergunta 0,7; dica 0,55; troca de tela 0,9) | montagem | médio |
-| 5 | Poucas perguntas ao público (o padrão pede uma a cada 3–4 passos) | roteiro | médio |
+| 5 | ~~Poucas perguntas ao público~~ — superado: o dono não quer pergunta-e-resposta (19/10) | roteiro | — |
 | 6 | Abertura e fechamento sem rosto nem avatar (HeyGen sem saldo na API) | c01, c23 | médio |
 | 7 | Texto pequeno na Consulta Pública e no Planalto (corrigido na própria v1 no Planalto) | c02, c05 | médio |
 | 8 | A figura 64 do manual ("enviado com sucesso") aparecia logo depois de "aqui eu paro", o que confunde | c18 | baixo |
@@ -52,7 +52,8 @@ clique e de tecla, e voz grátis.
 4. **Teoria em cima da tela:** conselho (painel) ou nota curta, nunca cartão separado.
 5. **Exemplo prático em toda cena:** número real, documento real, caso real público (caminho de volta).
 6. **Cena de até 40 s.** Passou disso, dividir.
-7. **Pergunta ao público a cada 3–4 passos**, com pausa de 0,7 s depois.
+7. **Sem perguntas retóricas nem quiz** (decisão do dono, 19/10/2026): frases afirmativas e diretas, com o foco no uso da
+   plataforma e no passo a passo. Nada de "pergunta e resposta" na voz, nos painéis ou nas notas, no YouTube e no curso.
 8. **Pronúncia:** só pelo `GLOSSARIO_PRONUNCIA_FEDERAL.md`; teste da frase na voz antes da montagem.
 9. **Portões antes de entregar:** amostra de quadros (mosaico) de todas as cenas, transcrição automática da voz,
    -16 LUFS e pico até -1,5 dBTP, nenhum dado pessoal na tela.
