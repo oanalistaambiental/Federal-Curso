@@ -1,0 +1,610 @@
+{
+ "c01": {
+  "dur": 18.808,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);grande({\"linhas\": [\"<b>8,38 milhões</b>de imóveis no CAR\", \"<b>1 em cada 4</b>já foi analisado\"], \"fonte\": \"Fonte: base pública do Sicar (Consulta Pública), lote de 16/10/2026: 8.348.162 imóveis rurais; 25,4% analisados\"})"
+   ],
+   [
+    0.65,
+    "reveal('.l',0)"
+   ],
+   [
+    6.281,
+    "reveal('.l',1)"
+   ]
+  ]
+ },
+ "c02": {
+  "dur": 36.493,
+  "marcas": {
+   "artigo 29": 11.064,
+   "Três coisas": 12.446,
+   "não é título": 15.256,
+   "gratuita": 19.772,
+   "prazo indeterminado": 24.52,
+   "O que venceu": 26.482
+  }
+ },
+ "c03": {
+  "dur": 33.698,
+  "marcas": {
+   "Esta é a Consulta": 8.789,
+   "Eu digito": 10.855,
+   "clico em buscar": 15.279,
+   "O mapa vai": 16.37,
+   "Logo abaixo": 18.344,
+   "Para baixar": 25.531,
+   "E se o imóvel": 29.919
+  }
+ },
+ "c04": {
+  "dur": 42.475,
+  "palco": [
+   [
+    0.0,
+    "tag('Documento real e público · recibo do CAR');selo(false);fig('assets/recibo-1m.png','Recibo de inscrição · PR-4118204-29174E3E36E84373ADE2199E7B78B190 · anexo público de processo da Prefeitura de Paranaguá (PR)')"
+   ],
+   [
+    0.8,
+    "zoom(0.05,0.11,0.9,0.2,1500)"
+   ],
+   [
+    10.879,
+    "fig('assets/recibo-2m.png','Recibo, página 2 · CNPJ parcialmente oculto (LGPD)')"
+   ],
+   [
+    11.879,
+    "zoom(0.05,0.63,0.9,0.2,1400)"
+   ],
+   [
+    12.492,
+    "caixa(0.418,0.700,0.054,0.022)"
+   ],
+   [
+    15.499,
+    "caixa(0.851,0.700,0.054,0.022)"
+   ],
+   [
+    23.893,
+    "caixa(0.851,0.719,0.054,0.022)"
+   ],
+   [
+    26.807,
+    "caixa(0.418,0.719,0.054,0.022)"
+   ],
+   [
+    30.964,
+    "soma([['Consolidada','2,4372'],['Vegetação nativa','1,1982'],['Servidão','0,5216']],['Total','4,1570 ha'])"
+   ],
+   [
+    36.989,
+    "semcaixa();caixa(0.851,0.758,0.054,0.022)"
+   ]
+  ]
+ },
+ "c05": {
+  "dur": 14.028,
+  "marcas": {
+   "Na própria Consulta": 2.694,
+   "eu ligo a camada": 3.959,
+   "aparecem os polígonos": 6.42,
+   "Foi a partir": 9.706
+  }
+ },
+ "c06": {
+  "dur": 25.992,
+  "palco": [
+   [
+    0.0,
+    "tag('Situação hoje · base pública do Sicar (WFS), 19/10/2026');selo(false);tabela({\"kicker\": \"O filme: a situação de hoje\", \"titulo\": \"PR-4118204-…B190 · Paranaguá (PR)\", \"l\": [[\"Situação\", \"Ativo\"], [\"Condição\", \"Analisado, em conformidade com a Lei 12.651/2012, com ativos ambientais\"], [\"Retificações\", \"0 (nunca retificado)\"], [\"Última atualização\", \"29/05/2026\"], [\"Sobreposição com TI, UC, quilombo, embargo\", \"Nenhuma\"]], \"fonte\": \"Fonte: consulta.car.gov.br/geoserver, camada consulta_publica:iru e camadas temáticas do imóvel, lidas em 19/10/2026\"})"
+   ],
+   [
+    0.0,
+    "reveal('tr',0)"
+   ],
+   [
+    7.941,
+    "reveal('tr',1)"
+   ],
+   [
+    19.574,
+    "reveal('tr',2);reveal('tr',3)"
+   ],
+   [
+    20.724,
+    "reveal('tr',4)"
+   ]
+  ]
+ },
+ "c07": {
+  "dur": 36.362,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);card({\"kicker\": \"Antes de começar\", \"titulo\": \"O que separar\", \"duas\": true, \"itens\": [\"Conta gov.br do dono\", \"CPF e data de nascimento de todos os donos (ou CNPJ)\", \"CCIR atualizado no nome do dono atual\", \"Matrícula: número, data, livro, folha, cartório\", \"Certidão da Reserva Legal averbada (se houver)\", \"Limite do imóvel em KML ou shapefile\", \"Rios (com a largura) e nascentes\", \"Uso anterior a 22/07/2008\"], \"fonte\": \"Base: Manual do Módulo Pré-Preenchido V2.0 (abr/2026), itens 7 a 11; Lei 12.651/2012, arts. 3º, IV, e 4º\"})"
+   ],
+   [
+    2.043,
+    "reveal('li',0)"
+   ],
+   [
+    5.526,
+    "reveal('li',1)"
+   ],
+   [
+    11.923,
+    "reveal('li',2)"
+   ],
+   [
+    16.706,
+    "reveal('li',3)"
+   ],
+   [
+    21.199,
+    "reveal('li',4)"
+   ],
+   [
+    24.021,
+    "reveal('li',5)"
+   ],
+   [
+    29.001,
+    "reveal('li',6)"
+   ],
+   [
+    32.774,
+    "reveal('li',7)"
+   ]
+  ]
+ },
+ "c08": {
+  "dur": 16.431,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);ufs([\"AL\", \"AM\", \"AP\", \"CE\", \"DF\", \"MA\", \"MG\", \"PB\", \"PE\", \"PI\", \"PR\", \"RJ\", \"RN\", \"RR\", \"RS\", \"SE\"],[\"AC\", \"BA\", \"ES\", \"GO\", \"MS\", \"MT\", \"PA\", \"RO\", \"SC\", \"SP\", \"TO\"])"
+   ],
+   [
+    1.242,
+    "for(let i=0;i<16;i++)setTimeout(()=>reveal('.uf',i),i*90)"
+   ],
+   [
+    6.687,
+    "for(let i=16;i<27;i++)setTimeout(()=>reveal('.uf',i),(i-16)*90)"
+   ]
+  ]
+ },
+ "c09": {
+  "dur": 30.772,
+  "corte": 5.236,
+  "palco": [
+   [
+    0,
+    "tag('');selo(true);fig('assets/man-002.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 2: escolha da UF')"
+   ],
+   [
+    1.393,
+    "fig('assets/man-004.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 4: UF que usa o Sicar federal')"
+   ],
+   [
+    10.403,
+    "caixa(0.12,0.55,0.76,0.2,'pré-preenchido')"
+   ],
+   [
+    12.133,
+    "fig('assets/man-010.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 10: login pelo gov.br')"
+   ],
+   [
+    17.926,
+    "zoom(0.5,0.0,0.5,0.6,1600)"
+   ]
+  ],
+  "marcas": {
+   "clique em Faça seu CAR": 3.924
+  }
+ },
+ "c10": {
+  "dur": 29.336,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(true);fig('assets/man-012.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 11')"
+   ],
+   [
+    0.8,
+    "zoom(0.08,0.12,0.86,0.42,1500)"
+   ],
+   [
+    6.223,
+    "fig('assets/man-013.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 12: Gerenciar cadastrante')"
+   ],
+   [
+    7.023,
+    "zoom(0,0.18,1,0.35,1500)"
+   ],
+   [
+    11.68,
+    "caixa(0.01,0.255,0.96,0.07,'perde o acesso')"
+   ],
+   [
+    18.553,
+    "fig('assets/man-015.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 14: as 7 etapas')"
+   ]
+  ]
+ },
+ "c11": {
+  "dur": 21.864,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(true);fig('assets/man-019.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 18: Identificação (CPF)')"
+   ],
+   [
+    0.8,
+    "zoom(0,0.3,1,0.5,1500)"
+   ],
+   [
+    8.046,
+    "caixa(0.58,0.58,0.34,0.06,'vem da Receita')"
+   ],
+   [
+    17.089,
+    "fig('assets/man-017.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 16: alerta')"
+   ],
+   [
+    19.644,
+    "fig('assets/man-018.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 17: pendência')"
+   ]
+  ]
+ },
+ "c12": {
+  "dur": 25.025,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(true);fig('assets/man-021.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 20: etapa Imóvel')"
+   ],
+   [
+    0.8,
+    "zoom(0,0.55,1,0.45,1600)"
+   ],
+   [
+    11.088,
+    "fig('assets/man-027.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 26: parcelas do SIGEF')"
+   ],
+   [
+    14.966,
+    "fig('assets/man-029.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 28: associar o SNCR')"
+   ],
+   [
+    15.895,
+    "fig('assets/man-030.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 29: confirmação')"
+   ],
+   [
+    20.48,
+    "zoom(0.25,0.15,0.5,0.45,1400)"
+   ]
+  ]
+ },
+ "c13": {
+  "dur": 12.304,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);blocos({\"kicker\": \"Travou no SNCR?\", \"titulo\": \"O imóvel não apareceu na lista\", \"b\": [[\"Causa comum\", \"CCIR no nome do antigo dono\", \"alerta\"], [\"Outra causa\", \"Dado diferente da Receita Federal\", \"alerta\"], [\"O que fazer\", \"Atualizar primeiro no Incra\"], [\"Onde\", \"CCIR pelo app Meu Imóvel Rural\"]], \"fonte\": \"Base: Manual V2.0, itens 8.1 a 8.4 (um SNCR por CAR; SNCR cancelado não associa)\"})"
+   ],
+   [
+    1.614,
+    "reveal('.bloco',0)"
+   ],
+   [
+    5.213,
+    "reveal('.bloco',1)"
+   ],
+   [
+    6.78,
+    "reveal('.bloco',2)"
+   ],
+   [
+    8.371,
+    "reveal('.bloco',3)"
+   ]
+  ]
+ },
+ "c14": {
+  "dur": 24.842,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(true);fig('assets/man-031.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 30: imóvel desmembrado')"
+   ],
+   [
+    7.93,
+    "fig('assets/man-033.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 32: área em 22/07/2008')"
+   ],
+   [
+    12.527,
+    "fig('assets/man-035.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 34: documentação vinda do SNCR')"
+   ],
+   [
+    13.327,
+    "zoom(0,0.55,1,0.3,1400)"
+   ],
+   [
+    15.51,
+    "fig('assets/man-040.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 39: Reserva Legal averbada')"
+   ],
+   [
+    16.31,
+    "zoom(0,0.6,1,0.4,1400)"
+   ]
+  ]
+ },
+ "c15": {
+  "dur": 11.781,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(true);fig('assets/man-044.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 42: Representante')"
+   ],
+   [
+    0.8,
+    "zoom(0,0.3,1,0.45,1500)"
+   ],
+   [
+    5.921,
+    "fig('assets/man-045.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 43: adicionar representante')"
+   ]
+  ]
+ },
+ "c16": {
+  "dur": 28.238,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(true);fig('assets/man-047.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 45: etapa Geo')"
+   ],
+   [
+    3.611,
+    "zoom(0.15,0.25,0.7,0.12,1400)"
+   ],
+   [
+    5.851,
+    "zoom(0,0.3,0.6,0.22,1400)"
+   ],
+   [
+    10.391,
+    "semzoom(1400)"
+   ],
+   [
+    19.609,
+    "zoom(0.6,0.55,0.4,0.45,1600)"
+   ]
+  ]
+ },
+ "c17": {
+  "dur": 55.406,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);tabela({\"kicker\": \"Etapa Geo\", \"titulo\": \"Cobertura do solo, servidão, APP e Reserva Legal\", \"l\": [[\"Consolidada\", \"uso antes de 22/07/2008\"], [\"Sem classificar\", \"vira aberta após 2008 (manual V2.0)\"], [\"Servidão\", \"linha + largura, recorte automático\"], [\"APP: rio até 10 m\", \"30 m de cada lado\"], [\"APP: rio de 10 a 50 m\", \"50 m\"], [\"APP: nascente\", \"50 m de raio\"], [\"Reserva Legal (fora da Amazônia Legal)\", \"20% do imóvel\"]], \"fonte\": \"Fonte: Manual V2.0, itens 11.5 a 11.8; Lei 12.651/2012, art. 3º, IV, art. 4º e art. 12\"})"
+   ],
+   [
+    3.239,
+    "reveal('tr',0)"
+   ],
+   [
+    13.27,
+    "reveal('tr',1)"
+   ],
+   [
+    18.959,
+    "reveal('tr',2)"
+   ],
+   [
+    31.254,
+    "reveal('tr',3)"
+   ],
+   [
+    33.913,
+    "reveal('tr',4)"
+   ],
+   [
+    37.407,
+    "reveal('tr',5)"
+   ],
+   [
+    42.655,
+    "reveal('tr',6)"
+   ],
+   [
+    50.527,
+    "selo(true);fig('assets/man-059.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 46: quadro de áreas')"
+   ]
+  ]
+ },
+ "c18": {
+  "dur": 38.531,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(true);fig('assets/man-060.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 47: alertas e pendências')"
+   ],
+   [
+    0.8,
+    "zoom(0,0.25,1,0.3,1400)"
+   ],
+   [
+    11.819,
+    "fig('assets/man-062.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 48: sobreposições')"
+   ],
+   [
+    21.246,
+    "fig('assets/man-063.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 50: bloco Adesão ao PRA')"
+   ],
+   [
+    22.046,
+    "zoom(0,0.62,1,0.38,1400)"
+   ],
+   [
+    27.69,
+    "semzoom(800)"
+   ],
+   [
+    29.222,
+    "caixa(0.935,0.882,0.055,0.035,'Finalizar');carimbo()"
+   ],
+   [
+    34.017,
+    "fig('assets/man-064.png','Tela do manual oficial · Módulo de Cadastro Pré-Preenchido V2.0 (SFB/MGI, abr/2026) · figura 50: o que aparece depois de finalizar')"
+   ]
+  ]
+ },
+ "c19": {
+  "dur": 23.223,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);blocos({\"kicker\": \"Depois do envio\", \"titulo\": \"Ativo não quer dizer aprovado\", \"b\": [[\"Situação inicial\", \"Ativo · aguardando análise\"], [\"Vale para tudo\", \"até o órgão do estado analisar (Decreto 7.830/2012, art. 7º, § 2º)\"], [\"Central do Proprietário\", \"análise, notificação e retificação\"], [\"Atenção\", \"perdeu o prazo da notificação: CAR suspenso; suspenso ou cancelado trava o crédito rural\", \"erro\"]], \"fonte\": \"Fontes: Decreto 7.830/2012; IN MMA 2/2014, art. 51; Res. SFB 3/2018; Res. CMN 5.193/2024\"})"
+   ],
+   [
+    0.998,
+    "reveal('.bloco',0)"
+   ],
+   [
+    3.39,
+    "reveal('.bloco',1)"
+   ],
+   [
+    10.519,
+    "reveal('.bloco',2)"
+   ],
+   [
+    17.09,
+    "reveal('.bloco',3)"
+   ]
+  ]
+ },
+ "c20": {
+  "dur": 42.762,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);chat([['eu','Some 2,4372 + 1,1982 + 0,5216 e compare com a área total de 4,1570 ha do recibo.'],['ia','2,4372 + 1,1982 + 0,5216 = <b>4,1570 ha</b>. Igual à área total: nenhuma área ficou sem classificar.'],['eu','Rio de 12 m de largura: qual é a faixa de APP?'],['ia','<b>50 m</b> de cada lado (Lei 12.651/2012, art. 4º, I, b: cursos d’água de 10 a 50 m).']],'Conversa feita com IA (Claude) e conferida no recibo e no texto da lei.')"
+   ],
+   [
+    4.76,
+    "reveal('.msg',0)"
+   ],
+   [
+    12.399,
+    "reveal('.msg',1)"
+   ],
+   [
+    16.533,
+    "reveal('.msg',2)"
+   ],
+   [
+    19.748,
+    "reveal('.msg',3)"
+   ],
+   [
+    24.299,
+    "blocos({\"kicker\": \"Cuidado\", \"titulo\": \"Texto antigo engana a IA\", \"b\": [[\"FAQ oficial do CAR (mai/2026)\", \"“prazo… até 31 de dezembro de 2018”\", \"erro\"], [\"Lei 12.651/2012, art. 29, § 3º\", \"inscrição por prazo indeterminado\"], [\"A IA rascunha\", \"quem assina responde\", \"alerta\"]], \"fonte\": \"Fontes: gov.br/car, Perguntas frequentes (modificada em mai/2026); Lei 12.651/2012, art. 29, § 3º (red. Lei 13.887/2019)\"});reveal('.bloco',0)"
+   ],
+   [
+    36.431,
+    "reveal('.bloco',1)"
+   ],
+   [
+    39.16,
+    "reveal('.bloco',2)"
+   ]
+  ]
+ },
+ "c21": {
+  "dur": 23.589,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);card({\"kicker\": \"Curiosidades\", \"titulo\": \"Você sabia?\", \"itens\": [\"O número do CAR traz o código IBGE do município\", \"Módulo fiscal: de 5 a 110 hectares\", \"Mentir no CAR é crime (art. 299 do Código Penal, citado no recibo)\", \"Qualquer pessoa consulta qualquer CAR, sem nome nem CPF do dono\"], \"fonte\": \"Fontes: recibo oficial do CAR; Embrapa/Incra (módulo fiscal); IN MMA 2/2014, art. 12\"})"
+   ],
+   [
+    1.324,
+    "reveal('li',0)"
+   ],
+   [
+    6.885,
+    "reveal('li',1)"
+   ],
+   [
+    13.886,
+    "reveal('li',2)"
+   ],
+   [
+    18.274,
+    "reveal('li',3)"
+   ]
+  ]
+ },
+ "c22": {
+  "dur": 12.852,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);card({\"kicker\": \"Atenção\", \"titulo\": \"Os 6 erros que mais travam\", \"itens\": [\"x CAR novo em cima de um que já existe\", \"x CCIR no nome do antigo dono\", \"x Área sem classificar\", \"x Largura do rio errada\", \"x Reserva Legal diferente da matrícula\", \"x Consultor só como cadastrante\"]})"
+   ],
+   [
+    1.533,
+    "reveal('li',0)"
+   ],
+   [
+    3.75,
+    "reveal('li',1)"
+   ],
+   [
+    5.689,
+    "reveal('li',2)"
+   ],
+   [
+    7.5,
+    "reveal('li',3)"
+   ],
+   [
+    8.696,
+    "reveal('li',4)"
+   ],
+   [
+    10.495,
+    "reveal('li',5)"
+   ]
+  ]
+ },
+ "c23": {
+  "dur": 17.45,
+  "palco": [
+   [
+    0.0,
+    "tag('');selo(false);card({\"kicker\": \"Recapitulando\", \"titulo\": \"Consultar · entender · fazer\", \"itens\": [\"Consulte antes de fazer\", \"Recibo = foto · demonstrativo = filme\", \"7 etapas no pré-preenchido, pelo gov.br\"]})"
+   ],
+   [
+    0.813,
+    "reveal('li',0)"
+   ],
+   [
+    1.509,
+    "reveal('li',1)"
+   ],
+   [
+    2.682,
+    "reveal('li',2)"
+   ],
+   [
+    6.792,
+    "prox('Próximo vídeo: retificar e trocar o dono do CAR')"
+   ]
+  ]
+ }
+}

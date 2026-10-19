@@ -36,6 +36,14 @@ conta.
   - o CAR.
 - 18/10/2026: **lembrar o dono se ele demorar a responder** sobre o vídeo 1. O primeiro vídeo deve sair.
 
+- 19/10/2026: **roteiro do vídeo 2 (CAR) aprovado**, com o caminho de volta pelo CAR público de **Paranaguá (PR)**
+  (`PR-4118204-29174E3E36E84373ADE2199E7B78B190`). Versão 1 do vídeo montada pela Conta C, sem o Cowork:
+  `producao/V02/`.
+- 19/10/2026: **ideia do dono: um projeto próprio no Cowork só para a frente federal**. Ele pode clicar na tela e mexer
+  nos sistemas, sem confundir com o projeto do curso de MG. Ainda não foi criado: lembrar o dono.
+- 19/10/2026: **economia na narração.** O dono prefere voz gratuita e pediu o estudo de custo e retorno:
+  `pesquisa/ORCAMENTO_VOZ_E_RETORNO.md`. Aguarda a escolha depois do teste A/B de vozes.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
