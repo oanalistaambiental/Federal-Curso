@@ -1,0 +1,139 @@
+<title>Roteiro da Voz Real</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: coluna única de leitura (teleprompter), régua de controles fixa no topo, trechos numerados em sequência */
+:root{
+  --bg:#F6F5EF; --papel:#FFFFFF; --tinta:#16201B; --suave:#5B6660; --linha:#DDDCD2;
+  --ouro:#9A6F12; --ouro-f:#F6E9C6; --tela:#2D5A86; --tela-f:#E3ECF5; --pausa:#A8452A; --verde:#2E6B3E; --verde-f:#E1EEDF;
+  --display:"Archivo", "Helvetica Neue", Arial, sans-serif; --texto:"Newsreader", Georgia, "Times New Roman", serif; --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --tam:24px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1512; --papel:#151E1A; --tinta:#EEF0EA; --suave:#9AA59E; --linha:#2A3530;
+  --ouro:#E2B54E; --ouro-f:#3A2E12; --tela:#8DB8E3; --tela-f:#1B2A38; --pausa:#E07A5A; --verde:#7CC48C; --verde-f:#1C3123; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1512; --papel:#151E1A; --tinta:#EEF0EA; --suave:#9AA59E; --linha:#2A3530;
+  --ouro:#E2B54E; --ouro-f:#3A2E12; --tela:#8DB8E3; --tela-f:#1B2A38; --pausa:#E07A5A; --verde:#7CC48C; --verde-f:#1C3123; color-scheme:dark}
+body{background:var(--bg);color:var(--tinta);font-family:var(--texto);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:860px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+.topo{padding-block:28px 8px}
+.eyebrow{font-family:var(--display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--suave);margin:0 0 6px}
+h1{font-size:clamp(28px,5vw,40px);font-weight:800;letter-spacing:-.01em}
+.lead{font-size:19px;line-height:1.5;color:var(--suave);max-width:64ch;margin:10px 0 0}
+.grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:22px 0}
+.cx{background:var(--papel);border:1px solid var(--linha);border-radius:10px;padding:14px 16px;min-width:0}
+.cx h3{font-size:15px;margin-bottom:8px}
+.cx p,.cx li{font-size:16px;line-height:1.45;margin:0}
+.cx ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.reco{border-left:4px solid var(--verde);background:var(--verde-f)}
+.legenda{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:16px;align-items:center}
+.lg{display:inline-flex;gap:6px;align-items:center}
+.regua{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--linha);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.regua button,.regua select{font-family:var(--display);font-size:14px;border:1px solid var(--linha);background:var(--papel);color:var(--tinta);border-radius:8px;padding:7px 12px;cursor:pointer}
+.regua button[aria-pressed="true"]{background:var(--tinta);color:var(--bg)}
+.regua button:focus-visible,.regua select:focus-visible,input:focus-visible{outline:3px solid var(--ouro);outline-offset:2px}
+.prog{margin-left:auto;font-family:var(--mono);font-size:13px;color:var(--suave);font-variant-numeric:tabular-nums}
+.aula{margin-top:28px}
+.aula-h{padding-block:6px 4px}
+.aula-h h2{font-size:clamp(24px,4vw,32px)}
+.rosto{margin:14px 0;padding:14px 16px;border:2px dashed var(--verde);border-radius:10px}
+.rosto-t{font-family:var(--display);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--verde);margin:0 0 6px}
+.cap{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;font-size:20px;margin:26px 0 6px;padding-top:12px;border-top:1px solid var(--linha)}
+.cap-r{font-family:var(--mono);font-size:13px;color:var(--ouro)}
+.cap-p{font-family:var(--display);font-size:12px;color:var(--pausa);letter-spacing:.04em;text-transform:uppercase}
+.lista{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.tr{display:grid;grid-template-columns:44px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--linha)}
+.tr.feito{opacity:.45}
+.ck{display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer}
+.ck input{width:22px;height:22px;accent-color:var(--verde)}
+.nu{font-family:var(--mono);font-size:13px;color:var(--suave)}
+.tx{min-width:0}
+.tela{margin:0 0 4px;font-family:var(--display);font-size:13.5px;color:var(--tela);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.olho{background:var(--tela-f);color:var(--tela);border-radius:4px;padding:1px 6px;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.fala{margin:0;font-size:var(--tam);line-height:1.55}
+.pr{background:var(--ouro-f);color:var(--tinta);border-bottom:2px solid var(--ouro);border-radius:3px;padding:0 3px;white-space:nowrap}
+.si{font-family:var(--mono);font-size:.55em;color:var(--ouro);margin-left:4px;vertical-align:.2em;letter-spacing:.02em}
+.si b{font-weight:500;text-decoration:underline;text-underline-offset:2px}
+.ij{color:var(--verde);font-style:italic}
+.pz{font-family:var(--mono);font-weight:500;color:var(--pausa);margin-left:4px}
+.cont{font-family:var(--display);font-size:.6em;color:var(--pausa);letter-spacing:.04em;margin-left:6px;white-space:nowrap}
+.chip{font-family:var(--display);font-size:11px;letter-spacing:.06em;text-transform:uppercase;border-radius:20px;padding:2px 8px;border:1px solid currentColor}
+.chip.pergunta{color:var(--tela)} .chip.dica{color:var(--ouro)} .chip.humor{color:var(--verde)} .chip.aviso{color:var(--pausa)}
+body.limpo .tela{display:none} body.limpo .si{display:none}
+@media (max-width:520px){:root{--tam:20px}.tr{grid-template-columns:34px 1fr}}
+@media (prefers-reduced-motion:no-preference){.tr{transition:opacity .2s}}
+</style>
+<div class="wrap">
+<header class="topo">
+  <p class="eyebrow">A Rota Ambiental 2.0 · EcoSistemas · narração com a sua voz</p>
+  <h1>Roteiro da voz real</h1>
+  <p class="lead">Leia no seu ritmo, do seu jeito. Pode trocar uma palavra, acelerar ou dar uma pausa maior: eu acerto tudo na edição e encaixo cada trecho na tela.</p>
+</header>
+
+<div class="grade">
+  <div class="cx reco"><h3>Como vamos fazer (recomendação)</h3>
+    <p>A tela já está gravada e montada (edição 3.1). Então: <b>você grava a voz, eu encaixo</b>. Leio seu áudio com o Whisper, acho cada trecho pelas palavras e pelas pausas, e ajusto a tela de cada passo ao seu tempo (acelero ou seguro a imagem). Nas próximas aulas o ideal inverte: <b>sua voz primeiro, tela depois</b>, gravada no ritmo da sua fala.</p></div>
+  <div class="cx"><h3>Antes de gravar</h3><ul>
+    <li>Celular ou microfone a um palmo da boca, sempre na mesma distância.</li>
+    <li>Quarto com cortina, cama ou armário de roupa (menos eco). Sem ventilador.</li>
+    <li>Um áudio por aula, do começo ao fim. WAV ou o gravador do celular.</li>
+    <li>Água por perto. Leia os trechos com <span class="pr" style="font-size:15px">pronúncia</span> uma vez em voz alta antes.</li></ul></div>
+  <div class="cx"><h3>Durante a leitura</h3><ul>
+    <li>Errou? Pare, diga <b>"de novo"</b> e repita a frase inteira. Eu fico com a última.</li>
+    <li>Em <span class="pz">//</span>, respire 1 segundo. É ali que eu corto.</li>
+    <li>Em <span class="cont" style="font-size:13px">→ continua</span>, emende na frase seguinte.</li>
+    <li>Na troca de passo, pausa de 2 segundos.</li></ul></div>
+</div>
+
+<div class="cx" style="margin-bottom:8px"><h3>Legenda das cores</h3>
+  <div class="legenda">
+    <span class="lg"><span style="font-size:18px">Texto</span> o que você lê</span>
+    <span class="lg"><span class="pr">Sisema<span class="si">si-<b>ZÊ</b>-ma</span></span> pronúncia, sílaba forte sublinhada</span>
+    <span class="lg"><span class="ij">né</span> interjeição: fale se sair natural</span>
+    <span class="lg"><span class="olho">Tela</span> o que aparece (não ler)</span>
+    <span class="lg"><span class="pz">//</span> pausa curta</span>
+    <span class="lg"><span class="chip pergunta">pergunta</span><span class="chip dica">dica</span><span class="chip humor">humor</span><span class="chip aviso">aviso</span> tom do trecho</span>
+  </div></div>
+
+<nav class="regua" aria-label="Controles de leitura">
+  <button type="button" id="b-a1" data-ir="AULA1">Aula 1</button>
+  <button type="button" id="b-a2" data-ir="AULA2">Aula 2</button>
+  <button type="button" id="b-menos" aria-label="Diminuir letra">A−</button>
+  <button type="button" id="b-mais" aria-label="Aumentar letra">A+</button>
+  <button type="button" id="b-limpo" aria-pressed="false">Só o texto</button>
+  <button type="button" id="b-zera">Desmarcar tudo</button>
+  <span class="prog" id="prog">0 de <!--TOTAL--> lidos</span>
+</nav>
+
+<!--SECOES-->
+
+<div class="cx" style="margin-top:28px"><h3>Depois de gravar</h3>
+  <p>Mande os dois áudios aqui na conversa (ou na pasta da aula no Drive). Eu corto, encaixo, nivelo o volume e te devolvo as duas aulas com a sua voz, junto com a versão de voz sintética, para comparar lado a lado.</p></div>
+</div>
+
+<script>
+(function(){
+  const raiz=document.documentElement;
+  const ler=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
+  const gravar=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+  let tam=parseInt(ler('rv-tam')||'0',10)||0;
+  const aplicaTam=()=>{if(tam)raiz.style.setProperty('--tam',tam+'px')};aplicaTam();
+  document.getElementById('b-mais').addEventListener('click',()=>{tam=Math.min(40,(tam||24)+2);aplicaTam();gravar('rv-tam',tam)});
+  document.getElementById('b-menos').addEventListener('click',()=>{tam=Math.max(16,(tam||24)-2);aplicaTam();gravar('rv-tam',tam)});
+  const bl=document.getElementById('b-limpo');
+  const setLimpo=v=>{document.body.classList.toggle('limpo',v);bl.setAttribute('aria-pressed',String(v));gravar('rv-limpo',v?'1':'0')};
+  setLimpo(ler('rv-limpo')==='1');
+  bl.addEventListener('click',()=>setLimpo(!document.body.classList.contains('limpo')));
+  document.querySelectorAll('[data-ir]').forEach(b=>b.addEventListener('click',()=>document.getElementById(b.dataset.ir).scrollIntoView({behavior:'smooth',block:'start'})));
+  const caixas=[...document.querySelectorAll('.ck input')];
+  const prog=document.getElementById('prog');
+  const atualiza=()=>{const n=caixas.filter(c=>c.checked).length;prog.textContent=n+' de '+caixas.length+' lidos'};
+  caixas.forEach(c=>{const k='rv-'+c.dataset.k;if(ler(k)==='1'){c.checked=true;c.closest('.tr').classList.add('feito')}
+    c.addEventListener('change',()=>{c.closest('.tr').classList.toggle('feito',c.checked);gravar(k,c.checked?'1':'0');atualiza()})});
+  document.getElementById('b-zera').addEventListener('click',()=>{caixas.forEach(c=>{c.checked=false;c.closest('.tr').classList.remove('feito');gravar('rv-'+c.dataset.k,'0')});atualiza()});
+  atualiza();
+})();
+</script>
