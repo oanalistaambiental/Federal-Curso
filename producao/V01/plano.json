@@ -1,0 +1,218 @@
+{
+ "o01": {
+  "dur": 28.464,
+  "m": {
+   "Olha esta aqui": 6.486,
+   "Digito o número": 11.887,
+   "Outorga de direito de uso": 16.215,
+   "E repare na frase": 20.637,
+   "Hoje eu faço": 24.717
+  }
+ },
+ "o02": {
+  "dur": 23.856,
+  "m": {
+   "Outorga é a autorização": 1.312,
+   "Ela está aqui": 6.969,
+   "Quando o rio é da União": 14.233,
+   "E guarda isso": 17.748
+  }
+ },
+ "o03": {
+  "dur": 24.36,
+  "m": {
+   "Desde dezembro": 0.097,
+   "Ela veio substituir": 6.309,
+   "Na página inicial": 11.545,
+   "primeiro acesso, já sou": 13.915,
+   "quero ser representado": 16.038,
+   "e consulta de atos": 17.205,
+   "E dá para começar": 19.175
+  }
+ },
+ "o04": {
+  "dur": 20.376,
+  "m": {
+   "O primeiro erro": 0.097,
+   "Rio que passa": 2.854,
+   "E quem decide": 9.316,
+   "O tutorial pergunta": 14.186,
+   "Continuar": 18.88
+  }
+ },
+ "o05": {
+  "dur": 24.936,
+  "m": {
+   "Aqui eu indico": 0.097,
+   "Superficial, porque": 2.217,
+   "Formato em graus": 4.729,
+   "Latitude": 7.925,
+   "Repare: o decimal": 12.7,
+   "Longitude": 16.144,
+   "Confirmar coordenadas": 22.665
+  }
+ },
+ "o06": {
+  "dur": 24.12,
+  "m": {
+   "Olha que interessante": 0.097,
+   "E a plataforma lista": 7.028,
+   "Dois trechos": 11.002,
+   "E um riacho": 15.684,
+   "Qual escolher": 18.679,
+   "Confira antes": 21.969
+  }
+ },
+ "o07": {
+  "dur": 14.424,
+  "m": {
+   "E se eu marcar": 0.097,
+   "Confirmo a geolocalização": 2.759,
+   "e oferece me levar": 7.818,
+   "Ou seja": 10.767
+  }
+ },
+ "o08": {
+  "dur": 17.64,
+  "m": {
+   "Agora, o poço": 0.097,
+   "marco subterrânea": 2.748,
+   "e confirmo as mesmas": 4.127,
+   "A resposta": 6.781,
+   "Poço é sempre": 11.002
+  }
+ },
+ "o09": {
+  "dur": 21.432,
+  "m": {
+   "Volto ao rio federal": 0.097,
+   "Seleciono o São Francisco": 2.17,
+   "e confirmo": 3.774,
+   "E aqui a plataforma": 6.156,
+   "Daqui para frente": 10.519,
+   "Por isso": 16.392
+  }
+ },
+ "o10": {
+  "dur": 37.968,
+  "m": {
+   "Mas antes": 0.097,
+   "A Resolução ANA 236": 4.021,
+   "Nível um": 10.955,
+   "Está dispensado": 19.446,
+   "Nível dois": 21.344,
+   "Se você aceitar": 30.035,
+   "O resto é nível três": 34.387
+  }
+ },
+ "o11": {
+  "dur": 19.896,
+  "m": {
+   "Agora, o caminho de volta": 0.097,
+   "Esta é a outorga real": 2.642,
+   "Cada linha veio": 7.217,
+   "o corpo hídrico": 10.873,
+   "as coordenadas": 12.936,
+   "E a vigência": 14.67
+  }
+ },
+ "o12": {
+  "dur": 33.264,
+  "m": {
+   "Na segunda página": 0.097,
+   "Área irrigada": 3.172,
+   "Um volume para cada": 5.92,
+   "Volume anual": 10.142,
+   "Vazão máxima": 14.446,
+   "Será que bate": 18.939,
+   "Por 15 hectares": 27.5,
+   "Exatamente": 30.955
+  }
+ },
+ "o13": {
+  "dur": 20.256,
+  "m": {
+   "Antes de entrar": 0.097,
+   "a coordenada do ponto": 4.342,
+   "É consultor": 9.375,
+   "E atenção": 14.564
+  }
+ },
+ "o14": {
+  "dur": 27.888,
+  "m": {
+   "Já logado": 0.097,
+   "e clica em nova outorga": 4.189,
+   "Continuar": 6.356,
+   "Primeiro, o termo": 7.842,
+   "Finalidade: irrigação": 14.764,
+   "Tipo de interferência": 17.358,
+   "Depois, o nome do ponto": 20.259,
+   "Um pedido por ponto": 25.248
+  }
+ },
+ "o15": {
+  "dur": 22.248,
+  "m": {
+   "As coordenadas de novo": 0.097,
+   "Confirmar coordenadas": 4.304,
+   "A plataforma mostra": 6.568,
+   "Concordo com as informações": 10.955,
+   "Se ela errar o rio": 13.502,
+   "O pedido vai": 19.54
+  }
+ },
+ "o16": {
+  "dur": 19.152,
+  "m": {
+   "Nos dados da irrigação": 0.097,
+   "Incluir": 6.191,
+   "Dá para incluir": 7.594,
+   "e a lixeira": 10.366,
+   "Observações": 13.396,
+   "Continuar": 16.073,
+   "E confirmar": 17.559
+  }
+ },
+ "o17": {
+  "dur": 32.256,
+  "m": {
+   "Este é o momento": 0.097,
+   "A plataforma calcula": 2.7,
+   "Concorda com o cálculo": 6.84,
+   "Discorda": 11.191,
+   "Depois, o tipo": 16.439,
+   "A preventiva": 21.262,
+   "E este é o botão": 26.568,
+   "Aqui eu paro": 29.481
+  }
+ },
+ "o18": {
+  "dur": 20.16,
+  "m": {
+   "Depois do pedido": 0.097,
+   "Se a ANA mandar": 5.047,
+   "Perdeu o prazo": 9.693,
+   "E a outorga saiu": 13.16
+  }
+ },
+ "o19": {
+  "dur": 23.928,
+  "m": {
+   "Três erros": 0.097,
+   "Mudar a coordenada": 2.594,
+   "A renovação": 8.986,
+   "E a inteligência artificial ajuda": 14.422,
+   "A inteligência artificial rascunha": 19.835
+  }
+ },
+ "o20": {
+  "dur": 19.992,
+  "m": {
+   "Agora você sabe": 0.097,
+   "E fique de olho": 4.493,
+   "a lista de interferências": 7.641,
+   "No próximo vídeo": 13.62
+  }
+ }
+}
