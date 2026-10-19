@@ -35,6 +35,9 @@ na verificação ou faz o login com a conta dele, e o Cowork grava.
 
    Basta a tela, sem narração: a voz já existe.
 
+**Desde 19/10/2026 os pedidos saem em lotes pela frente "Captura de Telas" do Cowork:** `producao/captura-de-telas/`
+(LEIA.md com o prompt da frente; LOTE_01 Ibama, LOTE_02 ANA, LOTE_03 CAR, LOTE_04 SINIR). A fila abaixo é o resumo.
+
 ## Fila de pedidos (atualizar a cada vídeo)
 | Vídeo | O que falta gravar logado | Pacote | Situação |
 |---|---|---|---|

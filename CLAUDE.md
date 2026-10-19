@@ -63,6 +63,13 @@ conta.
   dono faz o login ou passa pela verificação. Marcar cada cena como pública ou logada já no roteiro e mandar o pacote
   junto. Regra e fila: `producao/TELAS_LOGADAS_COWORK.md`.
 
+- 19/10/2026: **padrão do vídeo 3 aprovado para todos os próximos** ("salve sempre elas para as próximas configurações"):
+  pesquisa (manual e norma mais nova, tela pública, vídeos em alta no vidIQ, números oficiais, FAQ, divergências), roteiro,
+  gravação, voz e portões em **`producao/PADRAO_PRODUCAO_VIDEO.md`**.
+- 19/10/2026: **frente nova no Cowork: "Captura de Telas"**. O dono senta com o Cowork e gravam vários sistemas de uma vez,
+  em **lotes** (Ibama; ANA; CAR; SINIR...). Prompt da frente, regras, lotes e manifesto: **`producao/captura-de-telas/`**. A
+  conta dona do vídeo escreve o lote junto com o roteiro e faz a edição fina com o material que chega.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
