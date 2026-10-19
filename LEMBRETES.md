@@ -11,7 +11,9 @@ Pedido do dono (18/10/2026): "me lembre se eu demorar a responder". O primeiro v
 | 4 | **Nome exato do canal no YouTube** ("Ambiental Inteligência I.A."?) e busca no INPI | 18/10/2026 | No próximo contato |
 | 6 | **Vídeo 3 sugerido:** retificar e trocar o titular do CAR (maior lacuna nos comentários) | 19/10/2026 | Quando o vídeo 2 for aprovado |
 | 7 | **Projeto federal separado no Cowork** (ideia do dono, 19/10): criar quando ele puder | 19/10/2026 | No próximo contato |
-| 8 | **Voz:** teste A/B de 3 min (Chirp 3 HD × Chatterbox com a voz dele × ElevenLabs) e escolha da voz da marca | 19/10/2026 | Junto com o vídeo 2 |
+| 8 | **Voz:** ouvir as 3 amostras (Antonio, Thalita, a voz dele clonada no Chatterbox) e escolher a voz da marca. Testar o Chatterbox no computador dele pelo guia com prints (`producao/VOZ_GRATIS_E_CLONAGEM.md`) | 19/10/2026 | Junto com o vídeo 2 |
+| 10 | **Vídeo 2 v2 (voz grátis, mais tela real, clique e tecla):** assistir e comparar com a v1. Revisão e regras novas em `producao/V02/REVISAO_V1_E_LICOES.md` | 19/10/2026 | 24 h sem resposta |
+| 11 | **Postar no YouTube daqui:** conectar o Metricool (ou dar OAuth da YouTube Data API) no claude.ai; o envio entra privado ou agendado e só sai com o "sim" | 19/10/2026 | No próximo contato |
 | 9 | **Vídeo 2 v1 pronto:** o dono assiste, aprova ou pede ajustes; o Cowork pode trocar as figuras do manual por tela real (`producao/V02/PACOTE_COWORK_V02.md`) | 19/10/2026 | 24 h sem resposta |
 | 5 | Perguntas abertas da pauta (`pauta/PAUTA_CANAL.md`, §9): ritmo, trilha de IA, convidados | 18/10/2026 | Junto com o lembrete 1 |
 

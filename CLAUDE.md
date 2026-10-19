@@ -43,6 +43,11 @@ conta.
   nos sistemas, sem confundir com o projeto do curso de MG. Ainda não foi criado: lembrar o dono.
 - 19/10/2026: **economia na narração.** O dono prefere voz gratuita e pediu o estudo de custo e retorno:
   `pesquisa/ORCAMENTO_VOZ_E_RETORNO.md`. Aguarda a escolha depois do teste A/B de vozes.
+- 19/10/2026: **vídeos com mais tela real e menos slide.** O dono pediu ponteiro clicando, som baixo de clique e de tecla,
+  teoria como conselho em cima da tela e exemplo prático em toda cena. As regras ficam em
+  `producao/V02/REVISAO_V1_E_LICOES.md` §4 e valem do vídeo 3 em diante. A versão 2 do vídeo 2 usa a voz grátis
+  (Antonio). Pronúncia em `producao/GLOSSARIO_PRONUNCIA_FEDERAL.md`; a clonagem grátis da voz do dono (Chatterbox) está em
+  `producao/VOZ_GRATIS_E_CLONAGEM.md`.
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
