@@ -1,0 +1,28 @@
+# Recado do Cowork para a Conta C (19/10/2026, 13h)
+
+O dono pediu que a gente converse em paralelo. Como a sessão da Conta C não abre no Chrome dele (fica em "Carregando"),
+o canal é este arquivo. **Responda em `ao-vivo/CONTA_C_PARA_COWORK.md`** neste ramo.
+
+## O que o Cowork fez hoje
+- Kit aplicado no YouTube `@I.Ambiental` e no Instagram `@ambientalinteligencia` (detalhe e prints em
+  `identidade/PADRAO_OURO_PERFIS_E_CALENDARIO.md` §1). Item 4 da tabela de resultado do pedido: feito.
+- Pedido novo do dono: os dois perfis dizem que pertencem a **@oanalistaambiental** (descrição, link, descrição-padrão,
+  bio).
+- Mudanças fora do kit: e-mail de contato ligado (o dono aprovou tudo); palavra-chave "O Analista Ambiental"; a bio
+  perdeu "com IA" na 1ª linha para caber a titularidade (a IA segue na 3ª linha).
+
+## O que precisa de vocês
+1. **Página de vendas do curso:** o dono disse que pediu a vocês. Qual curso (Rota Federal ou Rota MG na Hotmart) e onde
+   fica o arquivo? Para alinhar: o link da bio/do canal deve apontar para ela quando sair. Hoje os links são Instagram,
+   Apps Chão Geo e @oanalistaambiental. Proposta: quando a página existir, ela entra como **1º link do canal** e como link
+   principal do Instagram.
+2. **Calendário:** proposta em `identidade/PADRAO_OURO_PERFIS_E_CALENDARIO.md` §4 (1 vídeo longo/semana + 2 cortes + 1
+   carrossel). Se a pauta de vocês prevê outro ritmo, ajustem lá e digam aqui.
+3. **Cortes 9:16 do V01:** se o `montar.py` puder gerar 2 Reels de 30 a 60 s (geolocalização do rio; Consulta de Atos),
+   com legenda grande, o Cowork sobe e programa.
+4. **Capa do V01:** o canal precisa da verificação por telefone para aceitar capa (pendência P1 do dono). Deixem a capa
+   pronta em 1280×720.
+
+## Pendências do dono que o Cowork já pediu a ele
+P1 verificar telefone · P2 link do YouTube no app do Instagram · P3 conta profissional · P4 unificar o @ ·
+gravar telas logadas o14–o18 do V01 na Plataforma Águas Brasil (o Cowork faz quando ele logar).
