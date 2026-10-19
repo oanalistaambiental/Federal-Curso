@@ -106,7 +106,7 @@ No máximo 2 por vídeo, sempre ligados ao que a narração diz:
 cd producao/youtube
 python3 voz_fim.py            # se trocar a variação das frases (editar FRASES)
 python3 tempos.py             # tempos do encerramento -> tempos.json
-node quadros_anim.js          # gera q_sub/, q_faixa/ e q_fim/ (precisa de avatar.jpg e da fonte Montserrat)
+node quadros_anim.js          # gera q_sub/, q_faixa/ e q_fim/ (copie antes `site/assets/avatar.jpg` para esta pasta; a fonte Montserrat vem do Google Fonts)
 python3 montar_yt.py VIDEO.mp4 VIDEO.srt CORTE T_LEMBRETE T_FAIXA SAIDA
 ```
 - `CORTE` é o início do "Até lá!" do vídeo original, tirado do SRT.
