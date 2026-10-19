@@ -1,4 +1,4 @@
-// Camada injetada nas páginas reais: etiqueta "tela real", marca, cursor, nota e destaque.
+// Vídeo 3. Camada injetada nas páginas reais: etiqueta "tela real", marca, cursor, nota e destaque.
 (() => {
   if (window.__camada || location.protocol === 'file:') return; window.__camada = true;
   const css = `
@@ -19,12 +19,17 @@
   #ia-cons li::before{content:'';position:absolute;left:2px;top:12px;width:16px;height:16px;border-radius:50%;background:#2BD48A}
   #ia-cons li.on{opacity:1}
   #ia-cons .src{font-size:17px;color:#B8CFC6;margin-top:4px}
+  .grecaptcha-badge{display:none !important}
+  #ia-carimbo{position:fixed;right:140px;top:380px;z-index:2147483646;transform:rotate(-8deg) scale(.6);opacity:0;transition:all .4s;border:8px solid #E5484D;color:#E5484D;background:rgba(255,255,255,.94);font:800 56px Montserrat,Arial,sans-serif;padding:10px 30px;border-radius:14px}
+  #ia-carimbo.on{opacity:1;transform:rotate(-8deg) scale(1)}
+  #ia-insc{position:fixed;right:24px;top:18px;z-index:2147483646;font:800 22px Montserrat,Arial,sans-serif;color:#fff;background:#E5484D;padding:10px 18px;border-radius:12px;opacity:0;transform:translateY(-20px);transition:all .5s}
+  #ia-insc.on{opacity:1;transform:none}
   .ia-real{outline:5px solid #E5484D !important;outline-offset:4px;border-radius:6px;background:rgba(242,201,76,.35) !important;transition:all .3s}`;
   const monta = () => {
     if (document.getElementById('ia-tag')) return;
     const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
     const d = document.createElement('div');
-    d.innerHTML = `<div id="ia-tag"></div><div id="ia-marca">Inteligência <span>Ambiental</span></div><div id="ia-nota"></div><div id="ia-cons"></div><div id="ia-anel"></div>
+    d.innerHTML = `<div id="ia-tag"></div><div id="ia-marca">Inteligência <span>Ambiental</span></div><div id="ia-nota"></div><div id="ia-cons"></div><div id="ia-anel"></div><div id="ia-carimbo">NÃO CLICAMOS AQUI</div><div id="ia-insc">▶ Inscreva-se · vídeo toda semana</div>
     <svg id="ia-cursor" viewBox="0 0 24 24"><path d="M3 2 L3 20 L8 15 L11.5 22 L14.5 20.5 L11 13.8 L18 13.8Z" fill="#fff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
     document.body.appendChild(d);
     document.getElementById('ia-tag').textContent = window.__TAG || '';
@@ -36,6 +41,8 @@
   window.__nota = (t) => { monta(); const n = document.getElementById('ia-nota'); if (!t) { n.classList.remove('on'); return; } n.textContent = t; n.classList.add('on'); };
   window.__cons = (tit, itens, src) => { monta(); const c = document.getElementById('ia-cons'); if (!tit) { c.classList.remove('on'); return; } c.innerHTML = `<h4>${tit}</h4><ul>${itens.map(i => `<li>${i}</li>`).join('')}</ul>${src ? `<div class="src">${src}</div>` : ''}`; c.classList.add('on'); };
   window.__consItem = (i) => { const l = document.querySelectorAll('#ia-cons li'); if (l[i]) l[i].classList.add('on'); };
+  window.__carimbo = (on = true) => { monta(); document.getElementById('ia-carimbo').classList.toggle('on', on); };
+  window.__insc = (on = true) => { monta(); document.getElementById('ia-insc').classList.toggle('on', on); };
   window.__real = (el, on = true) => { if (el) el.classList.toggle('ia-real', on); };
   // menor elemento visível que contém o texto (fora de trechos riscados)
   window.__acha = (txt, tags) => {

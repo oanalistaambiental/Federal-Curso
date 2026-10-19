@@ -85,6 +85,20 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:radial-gradient(
 #cons li::before{content:'';position:absolute;left:2px;top:13px;width:16px;height:16px;border-radius:50%;background:#2BD48A}
 #cons li.on{opacity:1}
 #cons .src{font-size:18px;color:#B8CFC6;margin-top:6px}
+/* encerramento */
+.fim{position:absolute;inset:0;display:flex;align-items:center;gap:80px;padding:0 150px}
+.fim .foto{width:420px;height:420px;border-radius:50%;object-fit:cover;border:8px solid var(--menta);box-shadow:0 20px 60px rgba(0,0,0,.5);flex:none;opacity:0;transform:scale(.8);transition:all .7s}
+.fim .foto.on{opacity:1;transform:none}
+.fim .bt{display:flex;gap:24px;margin-bottom:40px}
+.fim .b{font-size:40px;font-weight:800;padding:18px 34px;border-radius:16px;opacity:0;transform:translateY(20px);transition:all .5s}
+.fim .b.on{opacity:1;transform:none}
+.fim .like{background:#fff;color:var(--bg)} .fim .insc{background:var(--verm);color:#fff}
+.fim .sem{font-size:40px;font-weight:700;margin-bottom:44px;opacity:0;transition:opacity .6s} .fim .sem.on{opacity:1}
+.fim .curso{border:4px solid var(--ambar);border-radius:20px;padding:26px 32px;opacity:0;transition:opacity .6s;max-width:1000px}
+.fim .curso.on{opacity:1}
+.fim .curso h3{color:var(--ambar);font-size:26px;letter-spacing:3px;text-transform:uppercase;margin-bottom:10px}
+.fim .curso p{font-size:40px;font-weight:800;line-height:1.2} .fim .curso small{display:block;font-size:26px;color:var(--cinza);margin-top:10px;font-weight:600}
+.fim .prox2{margin-top:36px;font-size:32px;font-weight:700;color:var(--menta);opacity:0;transition:opacity .6s} .fim .prox2.on{opacity:1}
 </style></head>
 <body>
 <div id="palco"></div>
@@ -128,6 +142,9 @@ function blocos(o){limpa();P.innerHTML=`<div class="card" style="top:110px"><div
 <div class="quadro" style="top:${o.top||330}px">${o.b.map(b=>`<div class="bloco ${b[2]||''}"><h3>${b[0]}</h3><p>${b[1]}</p></div>`).join('')}</div>${o.fonte?`<div class="fonte">${o.fonte}</div>`:''}`}
 function tabela(o){limpa();P.innerHTML=`<div class="card" style="top:110px"><div class="kicker">${o.kicker}</div><div class="titulo" style="font-size:56px">${o.titulo}</div>
 <table class="tab">${o.l.map(l=>`<tr><td>${l[0]}</td><td class="v">${l[1]}</td></tr>`).join('')}</table></div>${o.fonte?`<div class="fonte">${o.fonte}</div>`:''}`}
+function fim(o){limpa();P.innerHTML=`<div class="fim"><img class="foto" src="${o.foto}"><div><div class="bt"><div class="b like">👍 Gostei</div><div class="b insc">Inscrever-se</div></div>
+<div class="sem">Vídeo novo toda semana, com a tela real.</div><div class="curso"><h3>Curso Rota Federal</h3><p>${o.curso}</p><small>${o.link}</small></div><div class="prox2">${o.prox}</div></div></div>`}
+function fimOn(sel){P.querySelectorAll(sel).forEach(e=>e.classList.add('on'))}
 function prox(t){const d=document.createElement('div');d.className='prox';d.textContent=t;P.appendChild(d);requestAnimationFrame(()=>d.classList.add('on'))}
 
 window.__ev=[];const EV=t=>window.__ev.push({t:Date.now()/1000,tipo:t});
