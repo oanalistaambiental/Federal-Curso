@@ -2,17 +2,17 @@
 # Cada capítulo = um áudio (e um vídeo do rosto). Cada trecho = (cena da v2, o que aparece na tela, fala).
 ABERTURA = ("Mais de oito milhões de imóveis já estão no Cadastro Ambiental Rural, e só um em cada quatro foi analisado. "
             "Hoje você sai sabendo consultar um CAR, ler cada número dele e o caminho para fazer o seu. Bora nessa.")
-FECHAMENTO = ("Então: consulte antes de fazer, e confira tudo na lei. No próximo vídeo, como retificar e trocar o dono do CAR. "
-              "Deixa aqui embaixo a sua maior dúvida de CAR. Até a próxima.")
+FECHAMENTO = ("Se este vídeo te ajudou, deixa o like e se inscreve no canal, que toda semana sai um passo a passo novo. "
+              "E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link da descrição. Até a próxima.")
 
 CAPITULOS = [
  ("Passo 1 de 6", "O tamanho do CAR e o que diz a lei", [
   ("n01", "Consulta Pública do CAR: contador de imóveis cadastrados", "Prontinho, essa aqui é a Consulta Pública do CAR, o site oficial. Olha o número: oito milhões, trezentos e setenta e oito mil imóveis cadastrados."),
-  ("n01", "Painel dourado: só 25,4% analisados", "E sabe quantos já foram analisados pelo órgão? Só vinte e cinco por cento. Um em cada quatro."),
+  ("n01", "Painel dourado: só 25,4% analisados", "E só vinte e cinco por cento já foram analisados pelo órgão. Um em cada quatro."),
   ("n02", "Planalto: Lei 12.651, artigo 29 destacado", "Antes de clicar em qualquer coisa, um minutinho de lei, aqui no site do Planalto. O artigo vinte e nove do Código Florestal diz que o CAR é obrigatório para todo imóvel rural."),
   ("n02", "Parágrafo 2º destacado", "Repara no parágrafo segundo: o CAR não é título. Ele não prova que a terra é sua."),
   ("n02", "Parágrafo 3º destacado", "E no terceiro: a inscrição é por prazo indeterminado."),
-  ("n02", "Parágrafo 4º e nota do PRA", "Então o prazo do CAR acabou? Não. O que acabou foi a janela do PRA, aqui no parágrafo quarto. Fim de 2023 para os imóveis maiores, e fim de 2025 para os menores."),
+  ("n02", "Parágrafo 4º e nota do direito ao PRA", "A inscrição no CAR não tem prazo para acabar. O que acabou foi o prazo para inscrever e ainda ter direito ao PRA, aqui no parágrafo quarto: fim de 2023 para os imóveis maiores que quatro módulos fiscais, e fim de 2025 para os menores."),
   ("n03", "gov.br/car: Perguntas frequentes, clique em Inscrição no CAR", "Agora olha que curioso. No site oficial do CAR, eu abro as perguntas frequentes e clico em inscrição no CAR."),
   ("n03", "Resposta aberta: prazo de 2018 destacado", "Está escrito aqui que o prazo ia até 2018. É texto antigo, que ficou no site. Vale a lei."),
   ("n03", "Nota: vale a lei", "Guarda isso, porque é bem o tipo de coisa que a inteligência artificial repete errado."),
@@ -29,9 +29,9 @@ CAPITULOS = [
  ("Passo 3 de 6", "O caminho de volta: o recibo e a situação de hoje", [
   ("n06", "Recibo do CAR de Paranaguá (CNPJ parcialmente oculto)", "E aqui está o recibo dele, que é público: está num processo da prefeitura de Paranaguá. Desço até as áreas declaradas."),
   ("n06", "Áreas: consolidada, nativa e servidão circuladas", "Consolidada: dois vírgula quarenta e quatro hectares. Vegetação nativa: um vírgula vinte. Servidão: zero vírgula cinquenta e dois."),
-  ("n06", "Soma das áreas", "Quanto dá a soma? Quatro vírgula dezesseis, a área total exata. Nenhum pedaço ficou sem classificar, e é assim que tem que ser."),
+  ("n06", "Soma das áreas", "Somando, dá quatro vírgula dezesseis, a área total exata. Nenhum pedaço ficou sem classificar, e é assim que tem que ser."),
   ("n07", "Consulta Pública: botão Baixar demonstrativo", "O recibo é a foto do dia do envio. Pra ver o filme, a situação de hoje, é aqui: baixar demonstrativo. O site pede a verificação de que você não é um robô, e aí sai o PDF."),
-  ("n07", "Painel dourado: situação hoje", "E como está esse CAR hoje? Analisado, em conformidade com a lei, com ativos ambientais. Ou seja, o órgão conferiu, e sobrou vegetação."),
+  ("n07", "Painel dourado: situação hoje", "Hoje esse CAR está analisado, em conformidade com a lei, com ativos ambientais. Ou seja, o órgão conferiu, e sobrou vegetação."),
  ]),
  ("Passo 4 de 6", "Antes de começar: manual, documentos e onde fazer", [
   ("n08", "Portal do CAR: Central de conteúdo, Manuais", "Pra fazer o seu, comece pelo manual oficial. No portal do CAR, em central de conteúdo, manuais."),
@@ -46,15 +46,15 @@ CAPITULOS = [
  ("Passo 5 de 6", "O cadastro pré-preenchido, etapa por etapa", [
   ("n10", "Tela inicial: três opções; cursor em Gerenciar cadastrante", "Na tela inicial, três opções. Antes de cadastrar, olha aqui o gerenciar cadastrante."),
   ("n10", "Gerenciar cadastrante aberto", "Cadastrante é quem o dono autoriza a fazer o CAR. Mas atenção: depois do envio, o cadastrante perde o acesso."),
-  ("n10", "Clique em Cadastrar novo imóvel; as sete etapas no alto", "E aí, como o consultor acompanha o cliente? Entrando como representante, numa etapa lá na frente. Agora sim: cadastrar novo imóvel. São sete etapas, e elas aparecem aqui no alto da tela."),
+  ("n10", "Clique em Cadastrar novo imóvel; as sete etapas no alto", "Pra acompanhar o cliente, o consultor entra como representante, numa etapa lá na frente. Agora sim: cadastrar novo imóvel. São sete etapas, e elas aparecem aqui no alto da tela."),
   ("n11", "Identificação: CPF e data fictícios sendo digitados", "Na identificação, eu digito o CPF e a data de nascimento. A título de exemplo, dados fictícios."),
-  ("n11", "Nome vem da Receita (campo travado)", "O sistema busca o nome na Receita Federal, e esse campo não dá pra editar. Nome errado na Receita? Corrija lá primeiro."),
+  ("n11", "Nome vem da Receita (campo travado)", "O sistema busca o nome na Receita Federal, e esse campo não dá pra editar. Se o nome estiver errado na Receita, corrija lá primeiro."),
   ("n11", "Avisos azul e vermelho", "E fica de olho nos avisos: azul é alerta e deixa seguir. Vermelho é pendência e trava o envio."),
   ("n12", "Etapa Imóvel: consulta ao Incra", "Agora a grande novidade. Na etapa imóvel, o sistema procura no Incra os imóveis ligados a esse CPF."),
   ("n12", "Atualizar consulta, documentação, associar, confirmar", "Clico em atualizar consulta, vejo a documentação, e associo o imóvel certo. Confirmo."),
-  ("n12", "Janela de confirmação do SNCR", "É um código do SNCR por CAR, e código cancelado nem deixa associar. Não apareceu o seu imóvel? Quase sempre o CCIR está no nome do antigo dono. Atualize no Incra primeiro."),
-  ("n13", "Desmembramento: Sim", "Mais abaixo, duas perguntas importantes. A área veio de um imóvel maior? Marque desmembramento e informe o CAR de origem."),
-  ("n13", "Documentação: reserva legal averbada", "Na documentação, a que mais dá problema: tem reserva legal averbada? Copie número, data e área exatamente como estão na matrícula."),
+  ("n12", "Janela de confirmação do SNCR", "É um código do SNCR por CAR, e código cancelado nem deixa associar. Se o seu imóvel não aparecer, quase sempre o CCIR está no nome do antigo dono. Atualize no Incra primeiro."),
+  ("n13", "Desmembramento: Sim", "Mais abaixo, dois campos importantes. Se a área veio de um imóvel maior, marque desmembramento e informe o CAR de origem."),
+  ("n13", "Documentação: reserva legal averbada", "Na documentação, o que mais dá problema é a reserva legal averbada. Copie número, data e área exatamente como estão na matrícula."),
   ("n13", "Etapa Representante: CPF do consultor", "Na etapa representante, o consultor se inclui com CPF e data de nascimento. Assim ele continua vendo o CAR depois do envio."),
  ]),
  ("Passo 6 de 6", "O mapa, o envio e onde a IA ajuda", [
@@ -64,10 +64,10 @@ CAPITULOS = [
   ("n14", "Aba APP: rio e faixa", "Na APP, você desenha o rio e informa a largura, e o sistema gera a faixa. Rio de até dez metros, trinta metros de cada lado."),
   ("n14", "Aba Reserva legal e quadro de áreas", "Por fim, a reserva legal, dentro do limite. E o quadro de áreas mostra o que vai sair no recibo."),
   ("n15", "Alertas e pendências", "Nos alertas e pendências, o sistema junta tudo o que encontrou. Pendência trava o envio."),
-  ("n15", "Resumo: tabela de sobreposições", "No resumo aparece a tabela de sobreposições. Tem conflito com o vizinho? Dá pra anexar o documento que prova o seu limite."),
+  ("n15", "Resumo: tabela de sobreposições", "No resumo aparece a tabela de sobreposições. Se houver conflito com o vizinho, dá pra anexar o documento que prova o seu limite."),
   ("n15", "Botão Finalizar com 'NÃO CLICAR AQUI'", "E este é o botão finalizar. Aqui eu não vou clicar, pra não ficar gerando informação falsa para o Estado."),
   ("n15", "Botão Finalizar (continua)", "No seu, você confere tudo e envia. Sai o número do CAR e o recibo. Guarde o recibo, que é ele que vale no banco."),
-  ("n16", "Painel: pergunta feita à IA", "E onde a inteligência artificial ajuda? Em conferir. Eu pedi pra ela a faixa de APP de um rio de doze metros de largura. Resposta: cinquenta metros."),
+  ("n16", "Painel: conferência feita com IA", "A inteligência artificial ajuda a conferir. Eu pedi pra ela a faixa de APP de um rio de doze metros de largura, e ela deu cinquenta metros."),
   ("n16", "Planalto: artigo 4º, faixa de 50 m destacada", "E aqui está, no artigo quarto da lei: de dez a cinquenta metros de largura, faixa de cinquenta metros. Confere."),
   ("n16", "Nota: A IA rascunha; quem assina responde", "A inteligência artificial rascunha. Quem assina responde."),
  ]),
