@@ -74,7 +74,7 @@ for bl in open(srt_ent, encoding='utf-8').read().strip().split('\n\n'):
 LEG = {'f1': ['Se este vídeo te ajudou,', 'deixa o like.'],
        'f2': ['E se inscreve no canal: toda semana sai', 'um passo a passo novo de serviço ambiental federal.'],
        'f3': ['E se você quiser o caminho completo, com os casos e os modelos,', 'o treinamento Rota Federal está no link da descrição.'],
-       'f4': ['Até a próxima.']}
+       'f4': ['Na descrição também estão as fontes oficiais que eu usei neste vídeo.', 'Bom trabalho, e até a próxima.']}
 base = CORTE - XF
 for k, t0 in vozes:
     pal = json.load(open(f'{AQUI}/{k}.pal.json')); n1 = len(LEG[k][0].split())

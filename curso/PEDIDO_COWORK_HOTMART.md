@@ -79,10 +79,10 @@ Curso independente, sem vínculo com órgãos públicos. Um projeto de @oanalist
   7. Fazer render
 - **Aulas que já entram:**
   - Módulo 0, aula 1, "Boas-vindas e como funciona": texto do item 5.
-  - Módulo 1, aula 1, "CAR: consultar, ler o recibo e o caminho para fazer o seu": vídeo `V02_CAR_v3_youtube.mp4`, que a
+  - Módulo 1, aula 1, "CAR: consultar, ler o recibo e o caminho para fazer o seu": vídeo `V02_CAR_v4b_youtube.mp4`, que a
     Conta C entregou no chat.
   - Módulo 2, aula 1, "Outorga na ANA: domínio do rio, níveis de risco e o pedido": vídeo
-    `V01_OUTORGA_ANA_v2_youtube.mp4`.
+    `V01_OUTORGA_ANA_v3_youtube.mp4`.
   - Os vídeos ficam no Drive do dono, em `Inteligência Ambiental/Vídeos/`. Se ainda não estiverem lá, pedir ao Francisco.
 - **Gamificação** (tudo o que a Hotmart oferece, decisão de 18/10):
   - progresso;
@@ -108,17 +108,22 @@ Transparência: o curso é produzido com inteligência artificial (pesquisa, rot
 Garantia: você tem 30 dias. Se não for para você, peça o reembolso pela Hotmart.
 ```
 
-## 6. Resultado (o Cowork preenche)
+## 6. Resultado (o Cowork preenche) — 19/10/2026, 14h
+
 | Item | Feito? | Link / observação |
 |---|---|---|
-| Produto criado | | |
-| Oferta Anual | | checkout: |
-| Oferta Vitalício | | checkout: |
-| Garantia (dias) | | |
-| Área de membros e módulos | | |
-| Aulas 0.1, 1.1 e 2.1 | | |
-| Certificado | | |
-| Status na Hotmart (análise, aprovado) | | |
-
-**Depois:** a Conta C cola os dois links de checkout em `rota-federal.html` (variável `CHECKOUT`, no fim da página) e
-publica. Os botões passam da lista de espera ao carrinho.
+| Produto criado | Sim | ID **8762796**, "Rota Federal: o serviço ambiental federal na tela real". Categoria "Ecologia e Meio Ambiente" (a Hotmart não tem "Educação > Meio Ambiente"). Imagem quadrada nova: `curso/imagens/rota_federal_quadrada_600.jpg` |
+| Página de vendas | Sim | externa: https://www.oanalistaambiental.com/rota-federal.html (Hotmart: go.hotmart.com/W108098446J) |
+| Oferta Vitalício (preço base) | Sim | R$ 147,00 · código `6gssdwfc` · checkout: **https://pay.hotmart.com/W108098446J?off=6gssdwfc** |
+| Oferta Anual | Sim | R$ 97,00 · código `78fdsxjf` · checkout: **https://pay.hotmart.com/W108098446J?off=78fdsxjf** |
+| Parcelamento | Sim | até 12x, juros do comprador; Recuperador automático DESLIGADO (cobrança recorrente fora do pedido) |
+| Garantia (dias) | Sim | 30 |
+| Checkout | Sim | nome, e-mail e CPF; cartão, Pix, boleto (+ NuPay, Apple Pay etc. que vieram ligados); cupom ligado; e-mail de suporte contato@oanalistaambiental.com. **Cores e logo: não achei no assistente novo** — pendente |
+| Área de membros e módulos | Sim | área própria "Rota Federal" (hotmart.com/club/rota-federal), módulos 0 a 7 criados |
+| Turmas | Parcial | Turma A (padrão, Vitalício) e **"Anual (12 meses)"** ligada à oferta Anual, com os 8 módulos visíveis. **A Hotmart não tem limite de tempo por turma nem nas configurações do produto** (conferido 19/10, 18h) — decisão do dono: ver LEMBRETES |
+| Aula 0.1 | Sim | "Boas-vindas e como funciona", texto do §5 |
+| Aula 0.2 | Sim | "Ferramentas federais" (DEMANDAS §1) |
+| Aulas 1.1 e 2.1 (vídeo) | Não | os MP4 ficam no Drive do dono; o envio de arquivo pela IA é bloqueado nesta sessão. O dono arrasta os dois vídeos na aula (2 min) |
+| Certificado e gamificação | Sim (19/10, 18h) | certificado ATIVO no modelo padrão da Hotmart (aluno, curso, data, organizador = nome de produtor do dono); arte com a marca: pendente. Gamificação ATIVA (texto padrão de boas-vindas) |
+| Afiliados | não mexido | produto novo nasce sem programa de afiliados ativo [conferir] |
+| Status na Hotmart | Rascunho | falta enviar para análise (depois das aulas em vídeo) |

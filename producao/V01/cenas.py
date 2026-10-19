@@ -14,22 +14,22 @@ CENAS = [
         "E dá para começar sem login nenhum. Vem comigo no primeiro acesso."),
 ("o04", "O primeiro erro é pedir no lugar errado. Rio que passa por mais de um estado, ou faz fronteira, é da União. O resto é do estado. "
         "E quem decide é a coordenada do ponto de captação, não a sede da fazenda. "
-        "O tutorial pergunta se você já tem as coordenadas. Tenho. Continuar."),
+        "O tutorial quer saber se você já tem as coordenadas. Eu tenho, então: continuar."),
 ("o05", "Aqui eu indico o ponto. Superficial, porque é rio. Formato em graus, minutos e segundos. "
         "Latitude: 9 graus, 3 minutos, 45,5 segundos sul. Repare: o decimal dos segundos vai com vírgula. "
         "Longitude: 39 graus, 59 minutos, 35,0 segundos oeste. Confirmar coordenadas."),
 ("o06", "Olha que interessante. O mapa vai direto para Juazeiro, na Bahia, na beira do São Francisco. "
         "E a plataforma lista três corpos hídricos perto do ponto. Dois trechos do Rio São Francisco, federal, órgão gestor ANA. "
-        "E um riacho estadual, de Pernambuco. Qual escolher? O do seu ponto. Confira antes de seguir."),
-("o07", "E se eu marcar o riacho estadual? Confirmo a geolocalização e veja: a plataforma avisa que o rio é de domínio estadual, "
+        "E um riacho estadual, de Pernambuco. Escolha sempre o do seu ponto, e confira antes de seguir."),
+("o07", "Agora eu marco o riacho estadual. Confirmo a geolocalização e veja: a plataforma avisa que o rio é de domínio estadual, "
         "e oferece me levar ao órgão de Pernambuco. Ou seja, ela mesma corrige o endereço do pedido."),
 ("o08", "Agora, o poço. Volto, marco subterrânea, e confirmo as mesmas coordenadas. "
-        "A resposta: coordenadas localizadas no estado da Bahia. "
+        "O resultado: coordenadas localizadas no estado da Bahia. "
         "Poço é sempre do estado, nunca da ANA. Está na Constituição, artigo 26."),
 ("o09", "Volto ao rio federal. Seleciono o São Francisco e confirmo a geolocalização. "
         "E aqui a plataforma pede a autenticação pelo gov.br. "
         "Daqui para frente é com o login de quem pede. Ninguém digita a senha por você. Por isso, a partir daqui, eu uso as telas dos tutoriais oficiais da ANA."),
-("o10", "Mas antes, uma pergunta: precisa mesmo pedir? A Resolução ANA 236, de 2024, separa os pedidos em três níveis de risco. "
+("o10", "Mas antes, veja se o pedido é mesmo necessário. A Resolução ANA 236, de 2024, separa os pedidos em três níveis de risco. "
         "Nível um: captação de até 86,4 metros cúbicos por dia, fora do semiárido e fora das bacias com regra especial. Está dispensado. "
         "Nível dois: entre outros, irrigação de até 300 hectares de cultura anual, ou mil de perene, menos arroz, cana e eucalipto. "
         "Se você aceitar o cálculo da plataforma, a outorga sai na hora. O resto é nível três, e vai para um especialista."),
@@ -38,27 +38,27 @@ CENAS = [
         "E a vigência de dez anos, que é a regra para irrigação abaixo de dois mil hectares."),
 ("o12", "Na segunda página, o anexo técnico. Área irrigada: 15 hectares. Um volume para cada mês, calculado pela própria plataforma. "
         "Volume anual: 289 mil metros cúbicos. Vazão máxima: 106,8 metros cúbicos por hora. "
-        "Será que bate? 289 mil, dividido pelos segundos do ano, dá 9,17 litros por segundo. Por 15 hectares, 0,61. Exatamente o que está no ato."),
+        "Vamos conferir: 289 mil, dividido pelos segundos do ano, dá 9,17 litros por segundo. Por 15 hectares, 0,61. Exatamente o que está no ato."),
 ("o13", "Antes de entrar, separe: a conta gov.br de quem pede, a coordenada do ponto da bomba, a área irrigada, o sistema e a cultura. "
-        "É consultor? O cliente entra uma vez e indica você como procurador. "
+        "Se você é consultor, o cliente entra uma vez e indica você como procurador. "
         "E atenção: quem tem cobrança ou multa da ANA em atraso não consegue fazer pedido novo."),
 ("o14", "Já logado, você escolhe o usuário e o empreendimento no alto da tela, e clica em nova outorga. Continuar. "
         "Primeiro, o termo de responsabilidade: o que você declara ali é verdadeiro, e os dados ficam públicos. "
         "Finalidade: irrigação. Tipo de interferência: captação. "
         "Depois, o nome do ponto, superficial, a UF e o município. Um pedido por ponto de captação."),
 ("o15", "As coordenadas de novo, em graus, minutos e segundos. Confirmar coordenadas. "
-        "A plataforma mostra o rio e o domínio. Está certo? Concordo com as informações. "
+        "A plataforma mostra o rio e o domínio. Estando certo, concordo com as informações. "
         "Se ela errar o rio, clique em discordo, informe o domínio e o nome certo, e justifique. O pedido vai para análise geográfica."),
 ("o16", "Nos dados da irrigação: o sistema, a área irrigada em hectares e a cultura mais frequente. Incluir. "
         "Dá para incluir vários sistemas no mesmo ponto, e a lixeira vermelha apaga o que entrou errado. "
         "Observações, se precisar. Continuar. E confirmar."),
 ("o17", "Este é o momento que decide o na hora. A plataforma calcula os volumes de cada mês e a vazão máxima. "
-        "Concorda com o cálculo? O pedido vai para o automático. Discorda? Preenche a planilha de irrigação, e vai para análise. "
+        "Se você concorda com o cálculo, o pedido vai para o automático. Se discorda, preenche a planilha de irrigação, e vai para análise. "
         "Depois, o tipo: outorga de direito de uso, ou preventiva. A preventiva só reserva a água, vale até três anos, e não autoriza usar. "
         "E este é o botão solicitar outorga. Aqui eu paro, porque é um exemplo."),
 ("o18", "Depois do pedido, acompanhe na lista de interferências, pela situação. "
         "Se a ANA mandar uma comunicação ou um ajuste, você tem dez dias. Perdeu o prazo, o pedido pode ser indeferido. "
-        "E a outorga saiu? Ela aparece na consulta de atos, que foi onde encontramos o caso deste vídeo."),
+        "Quando a outorga sai, ela aparece na consulta de atos, que foi onde encontramos o caso deste vídeo."),
 ("o19", "Três erros que travam o pedido. Mudar a coordenada ou a finalidade não é alteração: é pedido novo, com desistência do anterior. "
         "A renovação se pede entre 365 e 90 dias antes do vencimento. "
         "E a inteligência artificial ajuda a conferir as contas, mas confira sempre na norma. A inteligência artificial rascunha; quem assina responde."),

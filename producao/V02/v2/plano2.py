@@ -21,6 +21,12 @@ MARCAS = {
  'n15': ['No resumo', 'Tem conflito', 'E este é o botão finalizar', 'Aqui eu paro', 'Sai o número do CAR', 'Guarde o recibo'],
  'n16': ['Eu pedi a faixa', 'Resposta', 'E aqui está', 'Confere', 'A inteligência artificial rascunha', 'No próximo vídeo'],
 }
+# Apelidos (19/10): a chave continua a mesma (o gravador usa), mas a frase falada mudou (sem pergunta e resposta).
+ALIAS = {'E sabe quantos': 'E só um em cada', 'Um em cada quatro': 'cada quatro já', 'Quanto dá a soma': 'Somando as três',
+ 'E como está esse CAR hoje': 'E a situação desse', 'E aí, como o consultor': 'Para continuar acompanhando',
+ 'Nome errado': 'Se o nome estiver', 'Não apareceu': 'Se o seu imóvel', 'A área veio': 'Se a área veio',
+ 'tem reserva legal averbada': 'reserva legal averbada', 'Tem conflito': 'Se houver conflito',
+ 'Eu pedi a faixa': 'Eu pedi a ela', 'Resposta': 'e ela deu'}
 def norm(s):
     s = ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
     return re.findall(r'[a-z0-9]+', s)
@@ -35,7 +41,7 @@ for cid, _ in CENAS:
     seq = [t[0] for t in toks]
     m = {}
     for q in MARCAS.get(cid, []):
-        alvo = norm(voz(q)); achou = None
+        alvo = norm(voz(ALIAS.get(q, q))); achou = None
         for i in range(len(seq) - len(alvo) + 1):
             if seq[i:i + len(alvo)] == alvo: achou = toks[i][1]; break
         if achou is None: raise SystemExit(f'{cid}: não achei {q!r} -> {alvo}')

@@ -25,7 +25,7 @@ Scripts: `producao/youtube/`:
 |---|---|---|---|---|---|
 | 1 | **Lembrete de inscrição:** pílula com "Inscrever-se", o cursor clica, vira "Inscrito" e o sininho balança, com som baixo de clique | **uma vez**, entre 30 % e 40 % do vídeo, logo depois de um momento de valor (uma conta que fecha, uma regra que destrava) | 4 s | canto direito, x 1590–1880, y 770–860 (acima da marca "Inteligência Ambiental") | não |
 | 2 | **Faixa do treinamento:** foto do dono + "Passo a passo completo no treinamento Rota Federal" + "link na descrição" | **uma vez**, perto do fim do conteúdo, antes do fechamento | 6 s | embaixo à esquerda, x 40, y 930–1020 | não |
-| 3 | **Encerramento:** like (joinha), inscrição (botão + sininho), cartão Rota Federal com a foto, e as vagas da tela final | substitui o "Até lá!" | ~19 s | tela cheia, texto à esquerda e vagas à direita | sim (4 frases) |
+| 3 | **Encerramento:** like (joinha), inscrição (botão + sininho), cartão Rota Federal com a foto, e as vagas da tela final | substitui o "Até lá!" | ~24 s | tela cheia, texto à esquerda e vagas à direita | sim (4 frases) |
 
 Por quê:
 - Pedido curto, **depois** de entregar valor, converte mais e irrita menos.
@@ -49,7 +49,7 @@ Sempre afirmativas, curtas e naturais (sem pergunta). Alternar por vídeo (A, B,
 
 **Menção ao treinamento:**
 - **A (vídeos 1 e 2):** "E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link
-  da descrição."
+  da descrição." Fecho: "Na descrição também estão as fontes oficiais que eu usei neste vídeo. Bom trabalho, e até a próxima."
 - **B:** "O caminho completo deste serviço, com o caso inteiro e os modelos, está no treinamento Rota Federal. O link está na
   descrição."
 
@@ -67,18 +67,19 @@ no mesmo lugar e no mesmo tempo.
 | 0,5 s | joinha pulando + "Se este vídeo te ajudou, deixa o like" | "Se este vídeo te ajudou, deixa o like." |
 | 3,6 s | botão Inscrever-se, cursor clica, "Inscrito", sininho balança + "Toda semana, um passo a passo novo" | "E se inscreve no canal: toda semana sai um passo a passo novo de serviço ambiental federal." |
 | 9,2 s | cartão Rota Federal com a foto, "Francisco de Assis · revisão de todo o conteúdo", "Link na descrição"; aparecem as vagas da tela final | "E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link da descrição." |
-| 16,2 s | mesmo cartão | "Até a próxima." |
-| até 19,0 s | mesmo cartão (1,8 s de folga) | — |
+| 16,2 s | mesmo cartão | "Na descrição também estão as fontes oficiais que eu usei neste vídeo. Bom trabalho, e até a próxima." |
+| até 24,5 s | mesmo cartão (1,8 s de folga) | — |
 
-A tela final do YouTube vai de 9,2 s a 19,0 s do encerramento (cerca de 9,8 s; o YouTube aceita de 5 a 20 s).
+A tela final do YouTube vai de 9,2 s a 24,5 s do encerramento (cerca de 15 s; o YouTube aceita de 5 a 20 s). O `tempos.py`
+garante pelo menos 13,6 s de cartão; a última frase é longa de propósito, para o cartão não ficar mudo (silêncio ≤ 2 s).
 
 Cores e fonte: verde-escuro `#0B1A12`/`#16422A`, menta `#2BD48A`, ouro `#C79A2E`, Montserrat. A foto vem de
 `site/assets/avatar.jpg`.
 
 ## 4. Tela final do YouTube (Studio > Editor > Tela final)
 - **Início:** quando aparece o cartão Rota Federal.
-  - V02_CAR_v3_youtube: de **7:41** a **7:55** (cerca de 13,6 s).
-  - V01_OUTORGA_ANA_v2_youtube: de **8:21** a **8:34** (cerca de 13,6 s).
+  - V02_CAR_v4_youtube: de **7:33** a **7:48** (cerca de 15 s).
+  - V01_OUTORGA_ANA_v3_youtube: de **8:13** a **8:28** (cerca de 15 s).
   - O YouTube aceita de 5 a 20 s.
 - **Elementos** (as vagas tracejadas sutis no vídeo mostram onde encaixar):
   1. **Vídeo:** "Melhor para o espectador" ou o vídeo seguinte da série.
@@ -100,8 +101,8 @@ No máximo 2 por vídeo, sempre ligados ao que a narração diz:
 
 ## 6. Conferência (portão antes de entregar)
 - Mosaico com os quadros do lembrete, da faixa e do encerramento: nada cobre conteúdo citado.
-- Áudio: -16 LUFS e pico real até -2 dBTP. O `montar_yt.py` usa limitador e loudnorm em duas passadas; nesta rodada saiu
-  -1,8/-1,9.
+- Áudio: -16 LUFS e pico real até -1,5 dBTP. O `montar_yt.py` usa limitador e loudnorm em duas passadas; na reedição de
+  19/10 saiu -16,1 LUFS, pico -1,9 (V02) e -1,7 (V01).
 - Nenhum silêncio acima de 2 s. Por isso a folga final é de 1,8 s.
 - A legenda inclui o encerramento, com os tempos certos.
 - O link da descrição só entra com a página `rota-federal.html` no ar.
@@ -116,3 +117,4 @@ python3 montar_yt.py VIDEO.mp4 VIDEO.srt CORTE T_LEMBRETE T_FAIXA SAIDA
 ```
 - `CORTE` é o início do "Até lá!" do vídeo original, tirado do SRT.
 - Os dois tempos (`T_LEMBRETE` e `T_FAIXA`) vêm da regra da §1, depois de conferir o quadro.
+- Reedição de 19/10: V02 `444.28 157 427`; V01 `484.31 178.5 466` (em 457 a faixa cobria a nota "A IA confere a conta").

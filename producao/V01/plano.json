@@ -31,13 +31,13 @@
   }
  },
  "o04": {
-  "dur": 20.376,
+  "dur": 20.664,
   "m": {
    "O primeiro erro": 0.097,
    "Rio que passa": 2.854,
    "E quem decide": 9.316,
    "O tutorial pergunta": 14.186,
-   "Continuar": 18.88
+   "Continuar": 19.198
   }
  },
  "o05": {
@@ -53,33 +53,33 @@
   }
  },
  "o06": {
-  "dur": 24.12,
+  "dur": 22.824,
   "m": {
    "Olha que interessante": 0.097,
    "E a plataforma lista": 7.028,
    "Dois trechos": 11.002,
    "E um riacho": 15.684,
    "Qual escolher": 18.679,
-   "Confira antes": 21.969
+   "Confira antes": 20.672
   }
  },
  "o07": {
-  "dur": 14.424,
+  "dur": 14.472,
   "m": {
    "E se eu marcar": 0.097,
-   "Confirmo a geolocalização": 2.759,
-   "e oferece me levar": 7.818,
-   "Ou seja": 10.767
+   "Confirmo a geolocalização": 2.818,
+   "e oferece me levar": 7.877,
+   "Ou seja": 10.825
   }
  },
  "o08": {
-  "dur": 17.64,
+  "dur": 17.592,
   "m": {
    "Agora, o poço": 0.097,
    "marco subterrânea": 2.748,
    "e confirmo as mesmas": 4.127,
    "A resposta": 6.781,
-   "Poço é sempre": 11.002
+   "Poço é sempre": 10.967
   }
  },
  "o09": {
@@ -94,15 +94,15 @@
   }
  },
  "o10": {
-  "dur": 37.968,
+  "dur": 37.752,
   "m": {
    "Mas antes": 0.097,
-   "A Resolução ANA 236": 4.021,
-   "Nível um": 10.955,
-   "Está dispensado": 19.446,
-   "Nível dois": 21.344,
-   "Se você aceitar": 30.035,
-   "O resto é nível três": 34.387
+   "A Resolução ANA 236": 3.809,
+   "Nível um": 10.743,
+   "Está dispensado": 19.233,
+   "Nível dois": 21.132,
+   "Se você aceitar": 29.823,
+   "O resto é nível três": 34.175
   }
  },
  "o11": {
@@ -117,7 +117,7 @@
   }
  },
  "o12": {
-  "dur": 33.264,
+  "dur": 32.568,
   "m": {
    "Na segunda página": 0.097,
    "Área irrigada": 3.172,
@@ -125,17 +125,17 @@
    "Volume anual": 10.142,
    "Vazão máxima": 14.446,
    "Será que bate": 18.939,
-   "Por 15 hectares": 27.5,
-   "Exatamente": 30.955
+   "Por 15 hectares": 26.792,
+   "Exatamente": 30.248
   }
  },
  "o13": {
-  "dur": 20.256,
+  "dur": 20.04,
   "m": {
    "Antes de entrar": 0.097,
    "a coordenada do ponto": 4.342,
    "É consultor": 9.375,
-   "E atenção": 14.564
+   "E atenção": 14.351
   }
  },
  "o14": {
@@ -152,14 +152,14 @@
   }
  },
  "o15": {
-  "dur": 22.248,
+  "dur": 21.744,
   "m": {
    "As coordenadas de novo": 0.097,
    "Confirmar coordenadas": 4.304,
    "A plataforma mostra": 6.568,
-   "Concordo com as informações": 10.955,
-   "Se ela errar o rio": 13.502,
-   "O pedido vai": 19.54
+   "Concordo com as informações": 10.519,
+   "Se ela errar o rio": 13.007,
+   "O pedido vai": 19.045
   }
  },
  "o16": {
@@ -175,20 +175,20 @@
   }
  },
  "o17": {
-  "dur": 32.256,
+  "dur": 31.416,
   "m": {
    "Este é o momento": 0.097,
    "A plataforma calcula": 2.7,
    "Concorda com o cálculo": 6.84,
-   "Discorda": 11.191,
-   "Depois, o tipo": 16.439,
-   "A preventiva": 21.262,
-   "E este é o botão": 26.568,
-   "Aqui eu paro": 29.481
+   "Discorda": 10.896,
+   "Depois, o tipo": 15.601,
+   "A preventiva": 20.425,
+   "E este é o botão": 25.731,
+   "Aqui eu paro": 28.644
   }
  },
  "o18": {
-  "dur": 20.16,
+  "dur": 19.44,
   "m": {
    "Depois do pedido": 0.097,
    "Se a ANA mandar": 5.047,
