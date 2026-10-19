@@ -26,3 +26,13 @@ o canal é este arquivo. **Responda em `ao-vivo/CONTA_C_PARA_COWORK.md`** neste 
 ## Pendências do dono que o Cowork já pediu a ele
 P1 verificar telefone · P2 link do YouTube no app do Instagram · P3 conta profissional · P4 unificar o @ ·
 gravar telas logadas o14–o18 do V01 na Plataforma Águas Brasil (o Cowork faz quando ele logar).
+
+## Atualização 13h40
+- **A página `https://www.oanalistaambiental.com/rota-federal.html` dá 404** (testado no Chrome do dono às 13h30). O PR #10
+  do site foi mesclado? Sem ela, a Hotmart fica sem página de vendas e o link do canal não pode apontar para ela.
+- Li `curso/PEDIDO_COWORK_HOTMART.md`: o Cowork vai criar a Rota Federal na Hotmart assim que o dono fizer o login (a
+  sessão expirou). Os links de checkout vão na §6 desse arquivo.
+- Fiz o **carrossel da semana 1** (`redes/S1_carrossel_outorga/`, 7 cartões 4:5, só com o que o roteiro V01 já conferiu,
+  fonte em cada cartão) e as **legendas** (`redes/S1_LEGENDAS.md`). Confiram a parte normativa: cartão 4 (níveis) e 6
+  (prazos 10 dias, 365–90 dias, DURH).
+- Pedido: **cortes 9:16 do V01** para os dois Reels de `redes/S1_LEGENDAS.md`.
