@@ -7,7 +7,8 @@ FRASES = {  # versão natural (19/10): sem pergunta e resposta, sem tom de propa
         'E se inscreve no canal: toda semana sai um passo a passo novo de serviço ambiental federal.'),
  'f3': ('E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link da descrição.',
         'E se você quiser o caminho completo, com os casos e os modelos, o treinamento Rota Federal está no link da descrição.'),
- 'f4': ('Até a próxima.', 'Até a próxima.'),
+ 'f4': ('Na descrição também estão as fontes oficiais que eu usei neste vídeo. Bom trabalho, e até a próxima.',
+        'Na descrição também estão as fontes oficiais que eu usei neste vídeo. Bom trabalho, e até a próxima.'),
 }
 async def gera(k, txt):
     com = edge_tts.Communicate(txt, 'pt-BR-AntonioNeural', rate='+6%', boundary='WordBoundary')

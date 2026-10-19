@@ -112,7 +112,7 @@ const REAIS = {
       const bd = page.locator('text=Baixar demonstrativo').first();
       await vaiPara(page, bd); await bd.evaluate(e => window.__real(e));
       await ate(M['E se o imóvel']);
-      await page.evaluate(() => window.__nota('Já tem CAR? Retifique, não faça outro'));
+      await page.evaluate(() => window.__nota('Imóvel que já tem CAR: retifique, não faça outro'));
     }, P.dur);
   },
   async c05(ctx, P) {

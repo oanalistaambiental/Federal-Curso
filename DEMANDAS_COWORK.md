@@ -49,8 +49,8 @@ Encontrou um erro ou sentiu falta de algo? Escreva nos comentários desta aula.
 **Arquivos.** Foram entregues ao dono no chat da Conta C. O dono os salva no Drive, em `Inteligência Ambiental/Vídeos/`:
 | Vídeo | Arquivo | Legenda | Capa |
 |---|---|---|---|
-| V02 · CAR | `V02_CAR_v3_youtube.mp4` (7 min 55 s) | `V02_CAR_v3_youtube.srt` | `V02_CAPA.png` |
-| V01 · Outorga ANA | `V01_OUTORGA_ANA_v2_youtube.mp4` (8 min 34 s) | `V01_OUTORGA_ANA_v2_youtube.srt` | `V01_CAPA.png` |
+| V02 · CAR | `V02_CAR_v4b_youtube.mp4` (7 min 48 s, sem perguntas) | `V02_CAR_v4b_youtube.srt` | `V02_CAPA.png` |
+| V01 · Outorga ANA | `V01_OUTORGA_ANA_v3_youtube.mp4` (8 min 28 s, sem perguntas) | `V01_OUTORGA_ANA_v3_youtube.srt` | `V01_CAPA.png` |
 
 **Passos no YouTube Studio** (canal @I.Ambiental; **não** usar o @ambientalinteligencia):
 1. Criar > Enviar vídeos > escolher o MP4.

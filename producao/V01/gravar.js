@@ -95,9 +95,12 @@ const AB = 'https://aguasbrasil.snirh.gov.br';
 const ATO_P = n => 'data:image/png;base64,' + fs.readFileSync(path.join(DIR, 'assets', `ato-${n}.png`)).toString('base64');
 const COORD = ['9', '3', '45,5', '39', '59', '35,0']; const IDX = [5, 6, 7, 9, 10, 11];
 const P_ = (page, re) => page.evaluateHandle(r => [...document.querySelectorAll('p')].find(e => new RegExp(r).test(e.textContent.replace(/\s+/g, ' ').trim())), re);
-async function geoAbre(page) { await page.goto(AB + '/indicar-ponto-interferencia', { waitUntil: 'networkidle', timeout: 90000 }); await espera(5000); await page.evaluate(() => window.__monta()); }
-async function geoRapido(page) { for (let k = 0; k < 6; k++) { await page.locator('input').nth(IDX[k]).click(); await page.keyboard.type(COORD[k], { delay: 20 }); } }
-async function geoResultado(page) { await page.getByRole('button', { name: /Confirmar Coordenadas/i }).click(); await page.waitForSelector('datatable-body-row', { timeout: 40000 }); await espera(3500); }
+async function geoAbre(page) { await page.goto(AB + '/indicar-ponto-interferencia', { waitUntil: 'networkidle', timeout: 90000 }); await page.waitForFunction(() => document.querySelectorAll('input').length >= 12, null, { timeout: 120000 }); await espera(2500); await page.evaluate(() => window.__monta()); }
+async function geoRapido(page) {  // os 6 campos de graus/min/seg; os índices crus mudam quando a busca do mapa carrega
+  const cs = page.locator('input[type="text"]:not([role="combobox"]):not([placeholder*="Encontrar"])');
+  await page.waitForFunction(() => document.querySelectorAll('input[type="text"]:not([role="combobox"]):not([placeholder*="Encontrar"])').length >= 6, null, { timeout: 60000 });
+  for (let k = 0; k < 6; k++) { const el = cs.nth(k); await el.fill(COORD[k]); await el.dispatchEvent('blur'); } await espera(400); }
+async function geoResultado(page) { await page.getByRole('button', { name: /Confirmar Coordenadas/i }).click(); try { await page.waitForSelector('datatable-body-row', { timeout: 120000 }); } catch (e) { await page.screenshot({ path: path.join(DIR, 'sonda', 'falha_resultado.png') }); throw e; } await espera(3500); }
 async function linha(page, i) { const r = page.locator('datatable-body-row').nth(i); const b = await r.boundingBox(); return [1358, b.y + b.height / 2]; }
 async function clicaXY(page, R, xy) { await vaiPara(page, xy); await page.evaluate(([x, y]) => window.__clique(x, y), xy); R.marca('clique'); await page.mouse.click(xy[0], xy[1]); await espera(200); }
 async function atoAbre(page) {
@@ -174,7 +177,7 @@ const CENA = {
     await gravaCena(ctx, 'o04', async page => { await tag(page, 'TELA REAL · Águas Brasil · Primeiro acesso (sem login)');
       await page.goto(AB, { waitUntil: 'networkidle', timeout: 90000 }); await espera(2000); await page.getByText('Primeiro acesso', { exact: true }).first().click(); await espera(5000); await page.evaluate(() => window.__monta()); },
     async (page, R) => {
-      await R.ate(M['Rio que passa'] - 0.3); await cons(page, 'De quem é o rio?', ['Passa por mais de um estado ou faz fronteira: União (ANA)', 'Os demais rios: estado'], 'Constituição, art. 20, III, e art. 26, I');
+      await R.ate(M['Rio que passa'] - 0.3); await cons(page, 'Domínio do rio', ['Passa por mais de um estado ou faz fronteira: União (ANA)', 'Os demais rios: estado'], 'Constituição, art. 20, III, e art. 26, I');
       await consItem(page, 0); await R.ate(M['Rio que passa'] + 4.4); await consItem(page, 1);
       await R.ate(M['E quem decide']); await nota(page, 'Vale a coordenada do ponto de captação, não a sede');
       await R.ate(M['O tutorial pergunta']); await cons(page, ''); await nota(page, ''); const q = page.getByText('Você já tem as coordenadas', { exact: false }).first(); await vaiPara(page, q);

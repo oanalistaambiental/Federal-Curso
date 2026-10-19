@@ -1,7 +1,7 @@
 # Descrições do YouTube: vídeos 1 e 2 (versões com encerramento padrão)
 
-19/10/2026. Os capítulos seguem os tempos reais dos arquivos `V01_OUTORGA_ANA_v2_youtube.mp4` (8 min 34 s) e
-`V02_CAR_v3_youtube.mp4` (7 min 55 s). O padrão está em `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`. Nada vai ao ar sem o
+19/10/2026 (reedição sem pergunta-e-resposta). Os capítulos seguem os tempos reais dos arquivos
+`V01_OUTORGA_ANA_v3_youtube.mp4` (8 min 28 s) e `V02_CAR_v4_youtube.mp4` (7 min 48 s). O padrão está em `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`. Nada vai ao ar sem o
 "sim" do dono.
 
 ---
@@ -21,19 +21,19 @@ Capítulos
 0:00 Uma outorga real, na Consulta de Atos
 0:29 Outorga não é licença (Lei 9.433, art. 12)
 0:53 A Plataforma Águas Brasil
-1:18 Primeiro acesso: o rio é federal ou estadual?
-1:39 Digitando as coordenadas
+1:18 Primeiro acesso: rio federal ou estadual
+1:40 Digitando as coordenadas
 2:05 O resultado: ANA ou órgão estadual
-2:45 E o poço?
-3:03 Rio federal: login gov.br
-3:25 Os três níveis de risco (art. 83)
-4:04 O caminho de volta: as contas do ato
-4:59 O que separar antes
-5:20 O pedido, passo a passo
-7:04 Depois do pedido: prazos
-7:25 Renovação e onde a IA ajuda
-7:49 DURH e próximo vídeo
-8:08 Encerramento
+2:44 Poço: sempre do estado
+3:02 Rio federal: login gov.br
+3:24 Os três níveis de risco (art. 83)
+4:03 O caminho de volta: as contas do ato
+4:57 O que separar antes
+5:18 O pedido, passo a passo
+7:01 Depois do pedido: prazos
+7:21 Renovação e a IA na conferência
+7:45 DURH e próximo vídeo
+8:04 Encerramento
 
 Fontes oficiais (conferidas em 10/2026)
 • Resolução ANA nº 236/2024: https://www.gov.br/ana/pt-br/legislacao/resolucoes/resolucoes-regulatorias/2024/236
@@ -70,22 +70,22 @@ O caminho de volta é um CAR real e público de Paranaguá (PR), conferido na Co
 
 Capítulos
 0:00 8 milhões de CARs, 1 em cada 4 analisado
-0:20 O que diz a lei (art. 29)
-0:52 A curiosidade das perguntas frequentes
-1:14 Consultar um CAR de verdade
-1:46 As camadas declaradas
-2:08 O recibo: a soma das áreas
+0:19 O que diz a lei (art. 29) e o prazo do PRA
+0:53 A curiosidade das perguntas frequentes
+1:15 Consultar um CAR de verdade
+1:47 As camadas declaradas
+2:09 O recibo: a soma das áreas
 2:37 A situação de hoje
 3:02 Manual e documentos
 3:28 Onde fazer: o seu estado
 4:00 O pré-preenchido: cadastrante
-4:29 Identificação
-4:52 Imóvel e SNCR
-5:22 Desmembramento, reserva legal e representante
-5:49 O mapa: as cinco abas
-6:30 Alertas, resumo e envio
-7:01 Onde a IA ajuda
-7:28 Encerramento
+4:28 Identificação
+4:51 Imóvel e SNCR
+5:20 Desmembramento, reserva legal e representante
+5:46 O mapa: as cinco abas
+6:27 Alertas, resumo e envio
+6:58 A IA na conferência
+7:24 Encerramento
 
 Fontes oficiais (conferidas em 10/2026)
 • Lei 12.651/2012 (Código Florestal): https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651compilado.htm

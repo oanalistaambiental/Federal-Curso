@@ -79,10 +79,10 @@ Curso independente, sem vínculo com órgãos públicos. Um projeto de @oanalist
   7. Fazer render
 - **Aulas que já entram:**
   - Módulo 0, aula 1, "Boas-vindas e como funciona": texto do item 5.
-  - Módulo 1, aula 1, "CAR: consultar, ler o recibo e o caminho para fazer o seu": vídeo `V02_CAR_v3_youtube.mp4`, que a
+  - Módulo 1, aula 1, "CAR: consultar, ler o recibo e o caminho para fazer o seu": vídeo `V02_CAR_v4b_youtube.mp4`, que a
     Conta C entregou no chat.
   - Módulo 2, aula 1, "Outorga na ANA: domínio do rio, níveis de risco e o pedido": vídeo
-    `V01_OUTORGA_ANA_v2_youtube.mp4`.
+    `V01_OUTORGA_ANA_v3_youtube.mp4`.
   - Os vídeos ficam no Drive do dono, em `Inteligência Ambiental/Vídeos/`. Se ainda não estiverem lá, pedir ao Francisco.
 - **Gamificação** (tudo o que a Hotmart oferece, decisão de 18/10):
   - progresso;

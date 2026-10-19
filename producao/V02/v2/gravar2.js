@@ -117,7 +117,7 @@ const CENA = {
       const p2 = await P_('§ 2º O cadastramento não será considerado título'); await real(page, p2); await rolaAte(page, p2, 250, 800);
       await R.ate(M['No terceiro']); const p3 = await P_('obrigatória e por prazo indeterminado'); await real(page, p3);
       await R.ate(M['O que acabou']); const p4 = await P_('31 de dezembro de 2025'); await real(page, p4); await rolaAte(page, p4, 320, 800);
-      await nota(page, 'PRA: 31/12/2023 (mais de 4 módulos fiscais) e 31/12/2025 (até 4) · sem prorrogação até 19/10/2026');
+      await nota(page, 'Direito ao PRA: inscrição no CAR até 31/12/2023 (acima de 4 módulos) e 31/12/2025 (até 4) · Lei 12.651, art. 29, § 4º · sem prorrogação até 19/10/2026');
     }, P.dur); },
 
   async n03(ctx, P) { const M = P.m;
@@ -151,7 +151,7 @@ const CENA = {
         const e = await page.evaluateHandle(t => { const l = window.__acha(t); return l ? l.parentElement : null; }, t);
         await vaiPara(page, e.asElement()); await real(page, e); await espera(500);
       }
-      await R.ate(M['Se o imóvel do seu cliente']); await nota(page, 'Já tem CAR? Retifique, não faça outro');
+      await R.ate(M['Se o imóvel do seu cliente']); await nota(page, 'Imóvel que já tem CAR: retifique, não faça outro');
     }, P.dur); },
 
   async n05(ctx, P) { const M = P.m;
@@ -258,7 +258,7 @@ const CENA = {
       [M['e associo o imóvel'], F('man-029.png', 'Figura 28 do manual: associar') + ";setTimeout(()=>clicaF(0.935,0.6),300)"],
       [M['Confirmo'], F('man-030.png', 'Figura 29 do manual: confirmar') + ";setTimeout(()=>clicaF(0.69,0.88),200)"],
       [M['É um código'], `vaiF(0.5,0.55)`],
-      [M['Não apareceu'], `conselho('Travou no SNCR?',['CCIR no nome do antigo dono','Dado diferente da Receita','Atualize no Incra · CCIR pelo app Meu Imóvel Rural'],'Manual V2.0, itens 8.1 a 8.4');for(let i=0;i<3;i++)setTimeout(()=>consItem(i),i*1100)`],
+      [M['Não apareceu'], `conselho('Se travar no SNCR',['CCIR no nome do antigo dono','Dado diferente da Receita','Atualize no Incra · CCIR pelo app Meu Imóvel Rural'],'Manual V2.0, itens 8.1 a 8.4');for(let i=0;i<3;i++)setTimeout(()=>consItem(i),i*1100)`],
     ]), P.dur); },
 
   async n13(ctx, P) { const M = P.m;
@@ -302,7 +302,7 @@ const CENA = {
       if (a4) await a4.evaluate(e => { for (let k = 0; k < 4; k++) scrollBy(0, e.getBoundingClientRect().top - 120); }); },
     async (page, R) => {
       await R.ate(M['Eu pedi a faixa']);
-      await cons(page, 'Pergunta para a IA', ['Rio de 12 m de largura: qual a faixa de APP?', 'Resposta: 50 m de cada lado'], 'Conversa com IA (Claude), conferida na lei');
+      await cons(page, 'Conferência feita com IA', ['Rio de 12 m de largura', 'Faixa de APP: 50 m de cada lado, conferida no art. 4º'], 'Conversa com IA (Claude), conferida na lei');
       await consItem(page, 0); await R.ate(M['Resposta']); await consItem(page, 1);
       await R.ate(M['E aqui está'] - 0.3);
       const b = await page.evaluateHandle(() => [...document.querySelectorAll('p')].find(e => /^\s*b\) 50 \(cinquenta\) metros, para os cursos d.água que tenham de 10 \(dez\) a 50/.test(e.textContent.replace(/\s+/g, ' '))));

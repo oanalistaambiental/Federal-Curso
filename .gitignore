@@ -1,0 +1,6 @@
+
+# Áudio, vídeo e quadros de montagem ficam no Drive, nunca no git
+producao/youtube/*.mp3
+producao/youtube/*.wav
+producao/youtube/q_fim/
+producao/youtube/q_*/

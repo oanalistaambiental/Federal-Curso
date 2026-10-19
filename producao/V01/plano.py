@@ -25,6 +25,10 @@ MARCAS = {
  'o19': ['Três erros', 'Mudar a coordenada', 'A renovação', 'E a inteligência artificial ajuda', 'A inteligência artificial rascunha'],
  'o20': ['Agora você sabe', 'E fique de olho', 'a lista de interferências', 'No próximo vídeo'],
 }
+# Apelidos (19/10): chave igual (o gravador usa), frase nova (sem pergunta e resposta).
+ALIAS = {'O tutorial pergunta': 'O tutorial quer saber', 'Qual escolher': 'Escolha sempre', 'E se eu marcar': 'Agora eu marco',
+ 'A resposta': 'O resultado', 'Será que bate': 'Vamos conferir', 'É consultor': 'Se você é consultor',
+ 'Concorda com o cálculo': 'Se você concorda', 'Discorda': 'Se discorda', 'E a outorga saiu': 'Quando a outorga sai'}
 def norm(s):
     s = ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
     return re.findall(r'[a-z0-9]+', s)
@@ -39,7 +43,7 @@ for cid, _ in CENAS:
     seq = [t[0] for t in toks]
     m = {}
     for q in MARCAS.get(cid, []):
-        alvo = norm(voz(q)); achou = None
+        alvo = norm(voz(ALIAS.get(q, q))); achou = None
         for i in range(len(seq) - len(alvo) + 1):
             if seq[i:i + len(alvo)] == alvo: achou = toks[i][1]; break
         if achou is None: raise SystemExit(f'{cid}: não achei {q!r} -> {alvo}')
