@@ -91,6 +91,13 @@ conta.
   - **Ritmo:** 2 vídeos longos por mês + 3 cortes curtos por semana no primeiro mês.
   - **"IA no trabalho do consultor" vira bônus da Rota Federal.** **Recusados (não avançar):** série "Fiz com IA" e convidados.
 
+- 20/10/2026: **tom público sem vínculo de cargo e sem apelo de renda** (pedido do dono). Em site, capas, perfis, Hotmart e
+  textos de venda, **não ligar o Francisco a SEMAD, IEF, FEAM ou Igam** nem a "gestor ambiental de carreira", "fiscal" ou
+  "credenciado". Dizer "atua com meio ambiente em Minas Gerais desde 2014" ou "profissional da área ambiental em MG". Citar
+  os órgãos como tema e fonte continua normal. **Nada de "gere renda", "faturar" ou urgência de preço**: o texto cativa pela
+  empatia, pela qualidade dos dados e pela transparência. A trilha "Fazer render" passa a se chamar **"Atuar como consultor"**.
+  Aplicado no site em 20/10 (PR #19 do site) e nas capas.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.

@@ -86,7 +86,9 @@ Quando chegarem, entram na cena n12 (e numa cena nova n12b, se precisar) sem ref
 4. A vigência do corpo da IN 23/2025 (≈ 24/02/2026) é conta nossa. O vídeo não cita a data.
 
 ## Para o YouTube
-**Título** (escolha do dono):
+**Título aprovado pelo dono em 20/10/2026:** "Cadastro no Ibama (CTF/APP) e Certificado de Regularidade: passo a passo 2026" (a opção 1).
+
+**Opções que foram apresentadas:**
 1. **Cadastro no Ibama (CTF/APP) e Certificado de Regularidade: passo a passo 2026** (recomendado: traz a busca "cadastro do ibama")
 2. Como fazer o cadastro no Ibama e tirar o Certificado de Regularidade (tela real 2026)
 3. CTF/APP do Ibama: quem precisa, como se inscrever e o Certificado de Regularidade

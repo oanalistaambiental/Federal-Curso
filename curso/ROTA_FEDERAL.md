@@ -6,7 +6,7 @@ https://www.oanalistaambiental.com/rota-federal.html (PR #10 do `oanalistaambi/s
 ## 1. Promessa e público
 - **Para quem:** todo profissional da área ambiental, de **qualquer estado**: consultor, engenheiro, biólogo, geógrafo,
   agrônomo, gestor e técnico.
-- **Promessa:** aprender a fazer o serviço ambiental **federal** no sistema real e começar a ter renda com ele.
+- **Promessa:** aprender a fazer o serviço ambiental **federal** no sistema real, com segurança e a fonte de cada regra.
 - **Produção com IA**, no padrão-ouro: manual oficial conferido, fonte em cada regra, caso real público e tela real.
 - **Revisão humana de todo o conteúdo** por Francisco de Assis e por uma equipe de profissionais.
 - Aulas atualizadas quando o sistema ou a norma muda (selo "Manual conferido em mm/aaaa").
@@ -21,7 +21,7 @@ https://www.oanalistaambiental.com/rota-federal.html (PR #10 do `oanalistaambi/s
 | 4 | Flora federal | Sinaflor; DOF (emissor, receptor e saldo); registro de motosserra | `manuais/CAR_E_SINAFLOR.md` |
 | 5 | Resíduos no SINIR | MTR; CDF; DMR; login gov.br e perfis | `manuais/ANA_E_SINIR.md` |
 | 6 | Licenciamento federal | quando é do Ibama; como acompanhar; o que mudou com a Lei 15.190/2025 | — |
-| 7 | Fazer render | quanto cobrar; proposta e contrato; achar cliente com dado público; calendário de obrigações; prompts de IA por serviço | — |
+| 7 | Atuar como consultor | proposta, contrato e preço justo; dado público para ver onde o serviço é necessário; calendário de obrigações; prompts de IA por serviço | — |
 
 **Ordem de produção** (uma aula nova por semana, no mínimo):
 1. Módulo 1 (CAR), que tem a maior demanda e a base pronta.
