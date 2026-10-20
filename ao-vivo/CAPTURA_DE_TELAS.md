@@ -26,12 +26,24 @@ Recados para esta frente: escrever aqui embaixo, em "Recados recebidos", ou o do
 - Manifestos e o que ficou cadastrado: `producao/captura-de-telas/manifestos/`.
 - Descobertas: Nova Outorga da Águas Brasil ainda redireciona ao **REGLA**; CR do Ibama trava atividades ao emitir; dono sem CTF/AIDA (formulário gravado); RAPP bloqueado (lista das 20 atividades); MTR exige CPF vinculado a unidade; CAR exige novo login gov.br.
 
+## Atualização 19/10/2026, 23h20 — fim da sessão com o dono
+- **Total no PC:** 32 vídeos (823 MB): Ibama 11 · ANA 14 · CAR 6 · MTR 1, mais os prints e os manifestos (cópia em cada pasta de lote).
+- **ANA/REGLA completo até antes de "Solicitar Outorga"**: irrigação, volumes mensais calculados pelo sistema (182.551 m³/ano,
+  67,42 m³/h), tela Direito de Uso × Preventiva. O dono cancelou o pedido, mas a interferência 108572 ficou "Em Aberto".
+  Também gravados: Cobranças, Histórico e Informações Complementares (boas práticas de manejo).
+- **DURH:** só abre de 1º a 31/01 e exige outorga (Res. ANA 188/2024). Fica para janeiro.
+- **CAR:** Faça seu CAR (BA = sistema próprio; PR = dois caminhos), consulta pública e demonstrativo de Paranaguá,
+  pré-preenchido e retificação. **Os dois travam na etapa Imóvel: SNCR obrigatório.** As etapas seguintes (Documentação a
+  Resumo) estão no manual oficial V2.0 (abr/2026), já em PNG por página (`LOTE_03_CAR/manual/paginas/`) e com índice no manifesto.
+- **Falta:** subir a pasta `Captura_de_Telas` no Drive (o dono arrasta); limpar os cadastros no fim (REGISTRO_SISTEMAS);
+  MTR precisa de CPF vinculado a uma unidade.
+
 ## Lotes
 | Lote | Situação |
 |---|---|
-| 01 Ibama | gravado (11) — manifesto pronto |
-| 02 ANA | gravado (10) — aguardando o 'Concordo' do dono para as telas finais |
-| 03 CAR | Central gravada (imóvel do dono é de MG — decidir) ; falta pré-preenchido |
-| 04 SINIR | só a tela 'não vinculado' (precisa vínculo a unidade) |
+| 01 Ibama | gravado (11), manifesto pronto |
+| 02 ANA | gravado (14), REGLA até a confirmação do tipo de outorga; DURH em janeiro |
+| 03 CAR | gravado (6) + manual em PNG para as etapas 3 a 7 |
+| 04 SINIR | só a tela "não vinculado" (precisa de vínculo a uma unidade) |
 
 ## Recados recebidos
