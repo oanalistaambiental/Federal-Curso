@@ -21,7 +21,7 @@ Quem gravou: frente Captura de Telas (sessao do Claude com OBS + Chrome do dono)
 | Tomada | Motivo | O que precisa para gravar |
 |---|---|---|
 | V01_t05 (uso insignificante / declaração) | Depende do passo anterior | Idem |
-| V01_t07 (DURH) | Não explorado nesta sessão | Próxima sessão |
+| V01_t07 (DURH) | Só abre de 1º a 31/01 e exige outorga emitida (ver V01_t08) | Usuário outorgado, em janeiro |
 
 
 ## Tomadas novas (19/10/2026, noite, depois do "Concordo" do dono)
@@ -55,6 +55,31 @@ documentação da ANA antes de entrar no roteiro **[conferir]**.
 
 Prints: `prints/V01_t03e_resumo_botoes.png`, `prints/V01_t03f_confirmacao_tipo_outorga.png`.
 Corte: o início da V01_t03f (espera pelo clique do dono).
+
+
+## V01_t08 · Cobranças e Informações Complementares (gravada em 19/10/2026, 23h12)
+Arquivo: `V01_t08_cobrancas_historico_informacoes_complementares_REGLA.mp4` (5 min 44 s). Sem dado pessoal (nome do dono no "Olá": borrar o sobrenome).
+
+| Trecho | O que mostra |
+|---|---|
+| Águas Brasil sem empreendimento | Menus "Nova Outorga" e "Cobranças" **desabilitados** até escolher o empreendimento no seletor do topo |
+| Seletor → 31.0.0458543/74 | "Você está acessando O Analista Ambiental – Demonstração"; menus liberados; mapa vai para o ponto |
+| Cobranças | Emitir Boletos · Informações Complementares · Histórico de Cobranças (os três redirecionam ao REGLA com a página "Neste momento... será realizada no sistema REGLA") |
+| REGLA · Histórico da Cobrança | "Não há histórico de cobrança para esse empreendimento!" |
+| REGLA · Informações Complementares | Lista de pontos: **interferência 108572**, Captação, "Ponto 01 – Captação para irrigação", Irrigação, **Em Aberto**; Exportar Relatório |
+| Cadastrar Informações Complementares | **Manejo do solo** (plantio direto/práticas conservacionistas × convencional sem práticas), **Manejo da irrigação** (monitora clima/umidade do solo × nenhuma técnica), **Reservatório privado** (sim/não); marcadas as boas práticas; **Salvar não clicado** |
+
+**Para a aula [conferir]:** essas respostas alimentam os coeficientes de boas práticas da cobrança pelo uso da água nas bacias
+com cobrança federal (reduzem o valor). Conferir a deliberação do comitê ou a resolução da ANA antes de citar percentuais.
+
+**DURH (V01_t07): não gravável agora.** Segundo a página do serviço no gov.br, a DURH anual (captação e lançamento) só recebe
+dados de **1º a 31 de janeiro**, pela Plataforma Águas Brasil/Portal do Usuário, e é obrigatória só acima dos limites do
+Anexo I da **Resolução ANA nº 188/2024**. A DURH mensal é pelo app **DeclaraÁgua** (até o dia 7), e a diária, pela API de
+telemetria. Exige outorga emitida, que o empreendimento de demonstração não tem. Fonte:
+https://www.gov.br/ana/pt-br/servicos/fazer-a-declaracao-anual-de-uso-de-recursos-hidricos. Sugestão: gravar em janeiro
+com um usuário outorgado (cliente ou parceiro) ou usar o Guia do Automonitoramento da ANA.
+
+**Limpeza:** o pedido do REGLA foi cancelado, mas a **interferência 108572 ficou "Em Aberto"** em Informações Complementares (ver REGISTRO_SISTEMAS).
 
 ## Observações para a edição
 - **A "Nova Outorga" da Águas Brasil ainda redireciona ao REGLA**: "A Plataforma Águas Brasil no momento se encontra em processo de desenvolvimento. Para continuar com sua solicitação de outorga ... clique em [continuar] para ser direcionado(a) ao Sistema Federal de Regulação de Uso (REGLA). Importante: ... CPF regular ou CNPJ ativo junto à Receita Federal." O endereço antigo `www2.snirh.gov.br/cnarh/` (sem login) cai na página da ANA "o Portal do Usuário mudou"; logado, o REGLA abre em aba nova (`cnarh/restrito/cadastro_pedido.jsf`, v4.24.0.17).
