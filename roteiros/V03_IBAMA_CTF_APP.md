@@ -137,7 +137,7 @@ RAPP, TCFA (porte, cálculo, compensação e parcelamento) e o caso completo de 
 7:16 O Certificado não é licença
 7:44 Os 5 erros que mais travam
 8:18 Inteligência artificial conferida na FTE
-8:43 Encerramento
+8:42 Encerramento
 
 Um projeto de @oanalistaambiental.
 Transparência: este vídeo usa voz gerada por inteligência artificial, com roteiro pesquisado e revisão humana. A IA rascunha; quem assina responde.
@@ -166,3 +166,19 @@ federal, como fazer cadastro no ibama, ibama 2026, tcfa, rapp, fte ibama, consul
 - **Sem pergunta-e-resposta** (decisão do dono de 19/10, repassada pela Conta C e conferida no CLAUDE.md): as falas com
   pergunta retórica foram reescritas em frases afirmativas, e as cenas n01, n03–n05, n07, n12–n15 e n17 foram regravadas.
   A legenda final não tem nenhum "?".
+
+## Versão para o YouTube (v2, 20/10/2026): encerramento padrão do canal
+- Arquivo: `V03_IBAMA_CTF_APP_v2_youtube.mp4`, com 9 min 8 s.
+- Áudio: -16,0 LUFS, pico -1,9 dBTP.
+- Legenda: `.srt` com o encerramento.
+- Montagem: `producao/V03/yt/` (cópia dos scripts de `producao/youtube/`), com
+  `montar_yt.py V03_IBAMA_CTF_APP_v1.mp4 V03_IBAMA_CTF_APP_v1.srt 522.932 197 498.67 V03_IBAMA_CTF_APP_v2_youtube`.
+- **Lembrete de inscrição** (só visual, 4 s): em **3:17**, 36 % do vídeo, na cena do formulário de pessoa física. Não cobre
+  nenhum campo citado. O selo antigo da cena n09 saiu.
+- **Faixa do treinamento** (6 s, variação B): em **8:19**, no começo da cena da IA.
+- **Encerramento:** like e inscrição na **variação C**, treinamento na **variação B** e a frase das fontes. Nenhuma pergunta.
+- **Tela final do YouTube:** de **8:51** a **9:08** (cerca de 17 s).
+  - Vídeo: vaga à direita.
+  - Inscrever-se: círculo.
+- **Ferramenta grátis da Conta C** ("Minha atividade precisa de CTF/APP?"): pôr o link na descrição quando ela estiver no ar
+  no site.

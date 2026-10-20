@@ -12,3 +12,8 @@ __pycache__/
 chk_*.png
 *.srt
 V03_CAPA.png
+yt/*.mp3
+yt/q_*/
+yt/tempos.json
+yt/*.pal.json
+V03_*_youtube*

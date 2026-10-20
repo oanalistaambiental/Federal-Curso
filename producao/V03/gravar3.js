@@ -234,9 +234,9 @@ const CENA = {
       await R.ate(M['Você clica na lupa']); await aponta(page, R, page.locator('#dirigente_num_cpf_search'));
       await nota(page, 'Lupa → CPF → o nome vem do cadastro de pessoa física');
       await R.ate(M['Por isso ele tem']); await vaiPara(page, page.locator('#nom_dirigente'));
-      await R.ate(M['Depois, o declarante']); await nota(page, ''); await insc(page);
+      await R.ate(M['Depois, o declarante']); await nota(page, '');
       await R.ate(M['Pode ser o contador']); await escolhe(page, R, '#cod_cargo_vinculo', 'Contador', 1800);
-      await R.ate(M['Nos dados básicos']); await insc(page, false); await clica(page, R, page.locator('#empresa_nom_pessoa')); await digita(page, R, 'Posto Exemplo Ltda', 75);
+      await R.ate(M['Nos dados básicos']); await clica(page, R, page.locator('#empresa_nom_pessoa')); await digita(page, R, 'Posto Exemplo Ltda', 75);
       await R.ate(M['E a data de abertura']); await vaiPara(page, page.locator('#empresa_dat_constituicao')); await nota(page, 'Data de abertura: a do cartão do CNPJ na Receita Federal');
     }, P.dur); },
 
