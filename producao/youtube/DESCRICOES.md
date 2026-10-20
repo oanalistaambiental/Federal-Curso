@@ -107,9 +107,12 @@ Canal independente, sem vínculo com órgãos públicos. Dados pessoais aparecem
 
 ---
 
-## Vídeo 4 · Retificar o CAR e trocar o titular (rascunho; tempos do roteiro v1)
+## Vídeo 4 · Retificar o CAR e trocar o titular (versão 1, 20/10/2026)
 
-Os capítulos seguem os tempos do roteiro `roteiros/V04_RETIFICAR_E_TITULAR_CAR.md` e serão ajustados ao arquivo final.
+Capítulos com os tempos reais do arquivo `V04_CAR_RETIFICAR_v1_youtube.mp4` (7:38). Se o Cowork regravar as cenas logadas
+(c05 a c15), os tempos mudam: refazer com `producao/V04/montar4.py` (ele grava `tempos_corpo.json`).
+Tela final do YouTube: de **7:21** a **7:38** (cartão Rota Federal). Card "i": em **0:58** (c03, "Comprou um imóvel rural"),
+para o vídeo 2 ("Como fazer o CAR em 2026 pelo gov.br").
 
 **Títulos (até 70 caracteres; o dono escolhe):**
 1. `Como retificar o CAR e trocar o titular em 2026 pelo gov.br` (59)
@@ -122,22 +125,22 @@ Casos reais e públicos de Paranaguá (PR) mostram que a retificação mantém o
 
 Capítulos
 0:00 Retificar mantém o número do CAR
-0:22 Um CAR retificado e aprovado
-0:50 Comprou o imóvel: retifique, não duplique
-1:20 Onde começa: "Retifique seu CAR"
-1:48 Listar imóveis e o botão Retificar
-2:18 Botão apagado: os 4 motivos
-2:50 CAR já analisado: pedir a liberação
-3:28 Dentro da retificação
-3:52 Trocar o titular na Identificação
-4:30 Quem pode fazer: dono ou representante
-5:05 SNCR atualizado no Incra
-5:40 Empresa e representante
-6:05 Herança: espólio e inventariante
-6:35 Venda de uma parte: desmembramento
-7:05 Resumo e o passivo que vem com a terra
-7:30 A IA na justificativa
-7:56 Encerramento
+0:30 Um CAR retificado e aprovado
+0:53 Comprou o imóvel: retifique, não duplique
+1:16 Onde começa: "Retifique seu CAR"
+1:42 Listar imóveis e o botão Retificar
+2:12 Botão apagado: os 4 motivos
+2:37 CAR já analisado: pedir a liberação
+3:14 Dentro da retificação
+3:39 Trocar o titular na Identificação
+4:06 Quem pode fazer: dono ou representante
+4:35 SNCR atualizado no Incra
+5:07 Empresa e representante
+5:29 Herança: espólio e inventariante
+5:50 Venda de uma parte: desmembramento
+6:15 Resumo e o passivo que vem com a terra
+6:48 A IA na justificativa
+7:12 Encerramento
 
 Fontes oficiais (conferidas em 10/2026)
 • Manual do Módulo de Cadastro Pré-Preenchido (V2.0): https://www.gov.br/car/pt-br/central-de-conteudo/manuais/manual_modulo_cadastro_pre_preenchido.pdf/@@display-file/file
