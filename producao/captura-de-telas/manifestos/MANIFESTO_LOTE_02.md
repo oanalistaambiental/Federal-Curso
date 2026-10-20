@@ -20,10 +20,41 @@ Quem gravou: frente Captura de Telas (sessao do Claude com OBS + Chrome do dono)
 ## Não deu para gravar
 | Tomada | Motivo | O que precisa para gravar |
 |---|---|---|
-| V01_t03 depois do "Concordo com as informações" (vazões, regime mensal, resumo) | Trava de segurança: o ponto no Rio São Francisco é de exemplo e o pedido viraria declaração no nome do dono | O dono clicar em "Concordo" (aba do REGLA) ou usar o tutorial oficial da ANA |
-| V01_t04 (resumo + "Solicitar outorga") | Idem | Idem |
 | V01_t05 (uso insignificante / declaração) | Depende do passo anterior | Idem |
 | V01_t07 (DURH) | Não explorado nesta sessão | Próxima sessão |
+
+
+## Tomadas novas (19/10/2026, noite, depois do "Concordo" do dono)
+| Arquivo | Duração | O que mostra | Dado pessoal |
+|---|---|---|---|
+| `V01_t03d_REGLA_concordo_sistemas_irrigacao.mp4` | 6 min 35 s | Clique do dono em "Concordo com as informações"; abre "Sistemas de Irrigação": select de sistema (14 opções), área irrigada, cultura (124 opções), "Incluir". A extensão caiu no meio; a gravação foi salva | não |
+| `V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4` | 3 min 56 s | Tabela incluída (Gotejamento · 95 % · 10 ha · Uva); observação "Pedido demonstrativo para videoaula. Não protocolar."; "Continuar" → aviso "Se foram informados todos os dados da finalidade irrigação... Confirmar"; tela **Características da Solicitação de Regularização** com os volumes mensais calculados pelo sistema, Volume Anual e Vazão Máxima; passeio pelos botões Alterar Dados Informados, Cancelar, Não concordo, Concordo | empreendimento e nº CNARH no topo (nome de empresa: pode aparecer) |
+| `V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4` | 3 min 35 s | Começa com ~1–2 min de espera (cursor parado sobre "Concordo", clique do dono); tela **Confirmação de Solicitação de Regularização**: Outorga de Direito de Uso × Outorga Preventiva (textos completos), troca de rádio e volta, "Cancelar" e **"Solicitar Outorga" (⛔ não clicado)** | não |
+
+### Números calculados pelo REGLA (para a aula: "de onde vem cada número")
+Entrada: irrigação por gotejamento (eficiência 95 % atribuída pelo sistema), 10 ha de uva, ponto em Juazeiro/BA no Rio São Francisco.
+
+| Mês | m³/mês | Mês | m³/mês |
+|---|---|---|---|
+| Jan | 16.102,63 | Jul | 13.653,68 |
+| Fev | 14.505,79 | Ago | 15.953,16 |
+| Mar | 12.597,90 | Set | 16.901,58 |
+| Abr | 13.300,00 | Out | **19.281,58** (pico) |
+| Mai | 14.951,05 | Nov | 16.745,79 |
+| Jun | 13.063,16 | Dez | 15.494,74 |
+
+**Volume anual 182.551,06 m³ · Vazão máxima permitida 67,42 m³/h.** O usuário não digita vazão nem volume: o sistema calcula
+pela demanda da cultura e do clima do ponto, dividida pela eficiência do sistema. A forma do cálculo deve ser conferida na
+documentação da ANA antes de entrar no roteiro **[conferir]**.
+
+### Textos da tela final (literais, para o roteiro)
+- **Outorga de Direito de Uso:** autoriza o uso; necessária para a LO; sujeita à cobrança; 2 anos para iniciar a implantação e
+  6 para concluir; 3 anos sem uso pode levar à perda.
+- **Outorga Preventiva:** fase de planejamento, sem uso de água; ajuda na LP; reserva a quantidade, sem direito de uso; sem
+  cobrança; validade de até 3 anos, não renovável, conversível em outorga de direito de uso.
+
+Prints: `prints/V01_t03e_resumo_botoes.png`, `prints/V01_t03f_confirmacao_tipo_outorga.png`.
+Corte: o início da V01_t03f (espera pelo clique do dono).
 
 ## Observações para a edição
 - **A "Nova Outorga" da Águas Brasil ainda redireciona ao REGLA**: "A Plataforma Águas Brasil no momento se encontra em processo de desenvolvimento. Para continuar com sua solicitação de outorga ... clique em [continuar] para ser direcionado(a) ao Sistema Federal de Regulação de Uso (REGLA). Importante: ... CPF regular ou CNPJ ativo junto à Receita Federal." O endereço antigo `www2.snirh.gov.br/cnarh/` (sem login) cai na página da ANA "o Portal do Usuário mudou"; logado, o REGLA abre em aba nova (`cnarh/restrito/cadastro_pedido.jsf`, v4.24.0.17).
