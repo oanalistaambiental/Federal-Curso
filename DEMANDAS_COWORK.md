@@ -4,6 +4,7 @@ Atualizado em 19/10/2026 pela Conta C. O dono criou uma aba própria de demandas
 **fila** da frente federal: o Cowork faz na ordem, marca "feito" e devolve à Conta C o que for preciso (links e prints).
 
 Regras de toda demanda:
+- **nunca postar nada no @oanalistaambiental** (decisão do dono, 20/10): esta frente posta só no @ambientalinteligencia e no @I.Ambiental;
 - o dono faz o login; o Cowork não digita senha nem código;
 - nada é publicado sem o "sim" do dono: o vídeo sobe **privado**;
 - prints antes e depois de cada mudança;

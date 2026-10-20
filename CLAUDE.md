@@ -94,6 +94,10 @@ conta.
   - **Apps:** PRs Chão Geo #1 e Internacional #3 mesclados; seguir com curadoria padrão-ouro e melhorias.
   - **Metricool e vidIQ** ficaram ligados só ao @oanalistaambiental (servem para outras coisas depois).
 
+- 20/10/2026 (madrugada): **NÃO postar nada no @oanalistaambiental** (perfil pessoal do dono: Instagram, Facebook, YouTube
+  @oanalistaamb), nem pelo Metricool/vidIQ, nem pelo Cowork. Esta frente posta só no @ambientalinteligencia e no @I.Ambiental.
+  A citação "um projeto de @oanalistaambiental" na descrição/bio continua.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
