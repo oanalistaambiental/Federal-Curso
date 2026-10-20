@@ -15,3 +15,24 @@ Quem gravou: frente Captura de Telas · Login feito pelo dono: [x] gov.br (o CAR
 | V02_t01 a V02_t07 (cadastro pré-preenchido de imóvel novo) | Próximo passo desta sessão |
 | V02_t08 (demonstrativo público de Paranaguá) | Tem "não sou robô" — próximo passo |
 | V04_t02 (troca de titularidade) | O menu atual é "Gerenciar Vínculos" (representante e representante legal); não há "alterar proprietário" na Central |
+
+## V02_t08 · Consulta Pública → Demonstrativo (gravada em 19/10/2026, 21h23)
+Arquivo: `LOTE_03_CAR/V02_t08_consulta_publica_paranagua_demonstrativo.mp4` (13 min 07 s). Sem dado pessoal (CAR público,
+sem nome do titular). O dono resolveu o "não sou robô".
+
+| Trecho (ordem) | O que mostra |
+|---|---|
+| Claquete → menu lateral | `consultapublica.car.gov.br`: Imóveis, Base de Downloads, Painel de Regularização Ambiental, Geoserviços; mapa do Brasil com os imóveis em amarelo |
+| Lupa → busca | Campo "Informe o número do CAR ou município"; digitação de `PR-4118204-29174E3E36E84373ADE2199E7B78B190`; **só busca escolhendo a sugestão da lista** (Enter sozinho não faz nada) |
+| Pop-up no mapa | Status Ativo · Imóvel Rural · Paranaguá · 4,157 ha · atualizado em 29/05/2026; botões **Demonstrativo** e **Realizar download shapefile** (este pede caracteres) |
+| Demonstrativo (aba nova `car.gov.br/#/consultar/...`) | Página "Consultar demonstrativo do CAR" com a legenda das 4 situações (Ativo, Pendente, Suspenso, Cancelado) → "Consultar" → **reCAPTCHA** (o dono) |
+| Demonstrativo aberto | Ativo; Condição externa "Analisado, em conformidade com a Lei nº 12.651/2012, com ativos ambientais"; 4,16 ha; 0,26 módulo fiscal; centróide 25°33'30,69" S / 48°34'43,23" O; inscrição 01/12/2015; sem retificação; Informações Gerais 1–5 (declaratório, público, não é título, não substitui licença) |
+| Cobertura e RL | Remanescente 1,20 ha; consolidada 2,44 ha; servidão administrativa 0,52 ha; RL "Aprovada"; RL proposta 3,31 ha; total declarado 3,31 ha; APP e uso restrito "-" |
+| Regularidade | Texto sobre art. 12 da Lei 12.651/2012 e cálculo automático; **Excedente de RL + 2,58 ha**; nada a recompor; "Nenhuma sobreposição encontrada" |
+| Ícones | "Download do Demonstrativo" (PDF, pede novo reCAPTCHA; não clicado) e **"Versão para Impressão"** → pré-visualização do Chrome (2 folhas, Microsoft Print to PDF). Cortar o fim: a tomada termina parada nessa tela |
+
+**Para o roteiro [conferir]:** a RL proposta (3,31 ha) é maior que o remanescente declarado (1,20 ha). O excedente de
+2,58 ha não bate com uma conta simples de 20 % de 4,16 ha (0,83 ha), e a versão para impressão mostra "Averbada" onde a
+tela mostra "Aprovada". É bom caso para explicar que o demonstrativo mistura dado declarado e dado analisado. Conferir antes de
+afirmar qualquer coisa no vídeo.
+Print: `prints/V02_t08_impressao_2_folhas.png`.
