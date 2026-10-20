@@ -74,3 +74,20 @@ titular**. Sem CCIR/SNCR, o caminho é regularizar no Incra primeiro ou usar o m
 **[conferir]**. A barra de etapas não é clicável: não dá para ver Documentação, Geo e as outras etapas sem associar um SNCR.
 
 Rascunho criado: `cadastro.car.gov.br/imovel/2uwY18kF` (só a Identificação salva). **Excluir no fim** (ver REGISTRO_SISTEMAS).
+
+## V04_t02 · Retificação do imóvel do dono (gravada em 19/10/2026, 22h20)
+Arquivo: `LOTE_03_CAR/V04_t02_retificacao_floresta_roots_identificacao_imovel_SNCR_obrigatorio_MG.mp4` (5 min 08 s).
+**Borrar:** nome do imóvel "Floresta Roots", nº do recibo MG-3127701-..., **segundo titular** (PF, CPF e nome já mascarados pelo
+sistema, mas é terceiro), dados do imóvel e endereço. Imóvel em MG: usar só como tela genérica de retificação.
+
+| Trecho | O que mostra |
+|---|---|
+| Listar imóveis | Agora com 2 cards: "Em preenchimento" (o rascunho `2uwY18kF`, botão **Continuar cadastro**) e Floresta Roots (**Retificar**) |
+| Retificar imóvel | Cabeçalho com nome e nº do recibo; as mesmas 7 etapas; Identificação já traz os 2 titulares (CPF e nome mascarados) |
+| Regra dos botões | **"Próximo" fica desabilitado até "Salvar"** em cada etapa |
+| Imóvel | Mesmo texto da etapa, busca SNCR vazia, dados do imóvel, "Área do imóvel em 22/07/2008" (aparece na retificação) e endereço de correspondência |
+| **Bloqueio** | "Na UF informada (MG), a associação com SNCR é obrigatória para qualquer quantidade de módulos fiscais." O imóvel não tem SNCR associado e a retificação para na etapa 2 |
+
+**Conclusão do lote 03:** as etapas Documentação, Representante, Geo, Alertas e Resumo **não dão para gravar em tela real**
+sem um imóvel com SNCR do Incra no CPF do titular. Completar com os prints do manual oficial do módulo (v1.6.0) e com vídeos
+de referência, sem citar a fonte no vídeo (decisão do dono).
