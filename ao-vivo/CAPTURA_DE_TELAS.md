@@ -20,12 +20,18 @@ Recados para esta frente: escrever aqui embaixo, em "Recados recebidos", ou o do
   com CPF vinculado a uma unidade pelo administrador da empresa).
 - OBS e o controle do computador caíram desta sessão; a gravação volta quando o dono reconectar o app do Claude no PC.
 
+## Atualização 19/10/2026, 21h — sessão com o dono (OBS ligado)
+- **Gravado:** Lote 01 Ibama (11 tomadas), Lote 02 ANA (10, incl. REGLA), Lote 03 CAR (2, Central do Proprietário), Lote 04 MTR (1). 169 prints extraídos.
+- Mídia no PC do dono: `C:\Users\assys\Videos\Captura_de_Telas\LOTE_XX_*/` (falta subir no Drive `Inteligência Ambiental/Captura de Telas/`).
+- Manifestos e o que ficou cadastrado: `producao/captura-de-telas/manifestos/`.
+- Descobertas: Nova Outorga da Águas Brasil ainda redireciona ao **REGLA**; CR do Ibama trava atividades ao emitir; dono sem CTF/AIDA (formulário gravado); RAPP bloqueado (lista das 20 atividades); MTR exige CPF vinculado a unidade; CAR exige novo login gov.br.
+
 ## Lotes
 | Lote | Situação |
 |---|---|
-| 01 Ibama | parte pública explorada; falta logar e gravar |
-| 02 ANA | parte pública explorada; falta logar e gravar |
-| 03 CAR | entrada explorada; falta logar (imóvel fora de MG) |
-| 04 SINIR | entrada explorada; falta CPF vinculado a unidade |
+| 01 Ibama | gravado (11) — manifesto pronto |
+| 02 ANA | gravado (10) — aguardando o 'Concordo' do dono para as telas finais |
+| 03 CAR | Central gravada (imóvel do dono é de MG — decidir) ; falta pré-preenchido |
+| 04 SINIR | só a tela 'não vinculado' (precisa vínculo a unidade) |
 
 ## Recados recebidos
