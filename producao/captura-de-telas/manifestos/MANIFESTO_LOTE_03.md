@@ -36,3 +36,17 @@ sem nome do titular). O dono resolveu o "não sou robô".
 tela mostra "Aprovada". É bom caso para explicar que o demonstrativo mistura dado declarado e dado analisado. Conferir antes de
 afirmar qualquer coisa no vídeo.
 Print: `prints/V02_t08_impressao_2_folhas.png`.
+
+## V02_t01 · Faça seu CAR → estado (gravada em 19/10/2026, 21h50)
+Arquivo: `LOTE_03_CAR/V02_t01_faca_seu_car_estado_proprio_BA_e_dois_caminhos_PR.mp4` (2 min 26 s). Sem dado pessoal.
+
+| Trecho | O que mostra |
+|---|---|
+| Portal novo `gov.br/car` | Faixa "NOVO PORTAL DO CAR!" (o site passou por atualização) e os 3 cartões: Faça seu CAR, Envie seu CAR, Retifique seu CAR |
+| "Faça seu CAR" (`car.gov.br/#/baixar`) | "Selecione o estado do seu imóvel rural", lista com filtro "Digite para filtrar" |
+| **Bahia** | "Esse estado possui um sistema próprio. Realize o cadastro na plataforma oficial do estado." + botão **Acessar site do CAR estadual** (não clicado) |
+| **Paraná** | Os dois caminhos: **Acesse o módulo de cadastro pré-preenchido** e **Ou baixe o módulo de cadastro offline** (nenhum clicado; o offline baixa arquivo) |
+
+**Para a aula:** o primeiro passo do CAR é saber se o estado usa o Sicar federal ou sistema próprio. A tela mostra isso
+sozinha. Fazer o levantamento dos 27 estados (quais caem no aviso de "sistema próprio") antes do roteiro **[conferir]**.
+Print: `prints/V02_t01_PR_dois_caminhos.png`.
