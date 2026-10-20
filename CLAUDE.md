@@ -58,6 +58,17 @@ conta.
   de @oanalistaambiental". No vídeo, não. Todo vídeo do YouTube leva o encerramento padrão (like, inscrição, "vídeo toda
   semana" e o curso de forma discreta, com a foto dele): `producao/PADRAO_YOUTUBE_ENCERRAMENTO.md`.
 
+- 19/10/2026: **telas logadas sempre que agregarem.** O dono quer o vídeo dentro do sistema: rolar, abrir menus, mostrar
+  botões, preencher, de onde vem cada dado e qual sistema é mais apto. Quando a tela pede login, **pedir ao Cowork**; o
+  dono faz o login ou passa pela verificação. Marcar cada cena como pública ou logada já no roteiro e mandar o pacote
+  junto. Regra e fila: `producao/TELAS_LOGADAS_COWORK.md`.
+
+- 19/10/2026: **padrão do vídeo 3 aprovado para todos os próximos** ("salve sempre elas para as próximas configurações"):
+  pesquisa (manual e norma mais nova, tela pública, vídeos em alta no vidIQ, números oficiais, FAQ, divergências), roteiro,
+  gravação, voz e portões em **`producao/PADRAO_PRODUCAO_VIDEO.md`**.
+- 19/10/2026: **frente nova no Cowork: "Captura de Telas"**. O dono senta com o Cowork e gravam vários sistemas de uma vez,
+  em **lotes** (Ibama; ANA; CAR; SINIR...). Prompt da frente, regras, lotes e manifesto: **`producao/captura-de-telas/`**. A
+  conta dona do vídeo escreve o lote junto com o roteiro e faz a edição fina com o material que chega.
 - 19/10/2026: **nunca quiz nem pergunta-e-resposta**, em nenhum vídeo (YouTube e treinamento) e na Hotmart da Rota
   Federal. Nada de pergunta retórica seguida de resposta, cartão de pergunta nem aba de questões. O foco é o uso da
   plataforma, passo a passo, com frases afirmativas. As chamadas de inscrição e do curso devem ser naturais, em tom de
