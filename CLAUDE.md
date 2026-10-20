@@ -80,6 +80,20 @@ conta.
   - **Ritmo:** 2 vídeos longos por mês + 3 cortes curtos por semana no primeiro mês.
   - **"IA no trabalho do consultor" vira bônus da Rota Federal.** **Recusados (não avançar):** série "Fiz com IA" e convidados.
 
+- 20/10/2026: **segunda rodada de decisões** (todas as recomendações aceitas):
+  - **Vídeo 4 aprovado:** roteiro `roteiros/V04_RETIFICAR_E_TITULAR_CAR.md`, título "Como retificar o CAR e trocar o titular
+    em 2026 pelo gov.br".
+  - **Ferramenta CTF/APP publicada** (PR #16 do site) com a tabela em vigor e aviso da tabela nova (IN Ibama 23/2025); os 3
+    casos sem ficha ficam [conferir] (pergunta ao Ibama pelo Fala.BR quando der).
+  - **"Toda semana" fica** no canal e no curso: contam os cortes curtos e as aulas novas.
+  - **Vídeos 1 e 2 saem com a voz Antonio**; se derem resultado, regrava com a voz real do dono.
+  - **Instagram @ambientalinteligencia:** a mudança de nome foi do dono. Publicar o carrossel S1 e os 2 cortes do V01.
+  - **Os @ ficam como estão** (YouTube @I.Ambiental, Instagram @ambientalinteligencia).
+  - **INPI:** fazer a busca prévia da marca "Inteligência Ambiental".
+  - **Certificado da Rota Federal sem carga horária** até a grade fechar.
+  - **Apps:** PRs Chão Geo #1 e Internacional #3 mesclados; seguir com curadoria padrão-ouro e melhorias.
+  - **Metricool e vidIQ** ficaram ligados só ao @oanalistaambiental (servem para outras coisas depois).
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
