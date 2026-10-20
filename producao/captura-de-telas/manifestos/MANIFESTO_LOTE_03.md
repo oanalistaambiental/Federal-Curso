@@ -91,3 +91,19 @@ sistema, mas é terceiro), dados do imóvel e endereço. Imóvel em MG: usar só
 **Conclusão do lote 03:** as etapas Documentação, Representante, Geo, Alertas e Resumo **não dão para gravar em tela real**
 sem um imóvel com SNCR do Incra no CPF do titular. Completar com os prints do manual oficial do módulo (v1.6.0) e com vídeos
 de referência, sem citar a fonte no vídeo (decisão do dono).
+
+## Complemento: manual oficial do módulo pré-preenchido (etapas que não abriram em tela real)
+- **Manual do Módulo de Cadastro Pré-Preenchido, V2.0, abril/2026** (V1.0 de novembro/2025), 75 p., link oficial:
+  `https://cadastro.car.gov.br/docs/manual-modulo-cadastro-pre-preenchido.pdf` (vai na descrição do vídeo; o sistema mostra v1.6.0).
+- No PC: `LOTE_03_CAR/manual/manual-modulo-cadastro-pre-preenchido.pdf` e as páginas 6–75 em PNG (130 dpi) em
+  `LOTE_03_CAR/manual/paginas/manual_p-NN.png`. Para a edição: recortar só a figura (sem citar o manual no vídeo, decisão do dono).
+
+| Etapa | Páginas | Figuras |
+|---|---|---|
+| Regra de liberação e indicadores das etapas | 16–17 | Fig. 14 (indicadores), Fig. 15 (cabeçalho da retificação) |
+| SNCR obrigatório (configuração por UF) | 39 | — (texto: com a configuração ligada, UF e município ficam bloqueados e vêm do SNCR; desligada, viram alerta) |
+| Documentação | 43–55 | Fig. 34 (com SNCR), 35 (sem SNCR), 36–37 (posse), 38–41 (Reserva Legal averbada/aprovada, dentro ou fora do imóvel, compensação, legislação anterior à Lei 12.651) |
+| Representante | 56–59 | Fig. 42 ("Você é o representante?"), 43 (card), 44 (grid) |
+| Geo | 60–68 | Fig. 45 (etapa Geo), 46 (quadro de áreas); p. 62 = "Confirmar [etapa]" e liberação progressiva dos 5 agrupamentos; p. 63–68 = camadas (imóvel, cobertura, uso restrito, utilidade pública, APP, RL) e regras |
+| Alertas e Pendências | 69–71 | Fig. 47 |
+| Resumo e envio | 72–75 | Fig. 48 (resumo com sobreposição), 49 (documentação comprobatória), 50 (adesão ao PRA), 50 (modal de envio, ⛔ só como imagem) |
