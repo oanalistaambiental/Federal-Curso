@@ -17,13 +17,14 @@ edição fina sobre a voz que já existe.
 ## Lotes (ordem sugerida)
 | Lote | Arquivo | Sistemas | Login | Vídeos atendidos | Tempo estimado |
 |---|---|---|---|---|---|
+| **05 · PRÓXIMO** | `CURSO/producao/captura-de-telas/LOTE_05_MG_AGUA_SOUT.md` (mora no repositório do curso de MG) | Portal Ecossistemas, Cadu e SOUT do Igam (MG) | login do dono no Ecossistemas | **MG1 certidão de uso insignificante · MG2 outorga no SOUT** (pedido do dono de 20/10: são os próximos vídeos do Cowork) | 75–90 min |
 | **01** | `LOTE_01_IBAMA.md` | Serviços Ibama (CTF/APP, CTF/AIDA, CR, RAPP, TCFA) | gov.br do dono no Ibama | V03 CTF/APP e CR · CTF/AIDA do consultor · RAPP (janeiro) | 60–75 min |
 | **02** | `LOTE_02_AGUA_ANA.md` | Plataforma Águas Brasil (ANA), REGLA, DeclaraÁgua | gov.br do dono na ANA | V01 Outorga na ANA · declaração de regularidade · DURH | 45–60 min |
 | **03** | `LOTE_03_CAR.md` | Sicar (pré-preenchido), Consulta Pública do CAR | gov.br de um dono de imóvel (o dono ou autorizado) | V02 CAR · V04 retificar e trocar o titular | 60 min |
 | **04** | `LOTE_04_RESIDUOS_SINIR.md` | MTR Nacional (SINIR), DMR, CDF, Inventário | gov.br vinculado a um CNPJ gerador (autorizado) | MTR no SINIR · DMR · CDF | 45 min |
 | Depois | (a escrever) | Sinaflor e DOF+ (certificado A3), SEI do Ibama (peticionamento) | certificado A3 | Sinaflor/DOF+ · requerimentos do CTF | — |
 
-Dá para fazer **dois lotes por sessão** (ex.: 01 + 02 numa manhã). O lote 01 já tem tudo pronto. Os lotes 02 a 04 têm as
+**Ordem desde 20/10:** primeiro o lote 05 (MG), depois o 01. Dá para fazer **dois lotes por sessão** (ex.: 01 + 02 numa manhã). O lote 01 já tem tudo pronto. Os lotes 02 a 04 têm as
 telas listadas a partir dos manuais e serão refinados quando o roteiro de cada vídeo fechar.
 
 ## Regras de segurança (valem para todo lote)
