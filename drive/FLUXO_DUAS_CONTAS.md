@@ -7,7 +7,7 @@ Pedido do dono: o Drive da **contato@oanalistaambiental.com** está pesado. A pa
 **O espaço é descontado de quem é dono do arquivo, não de quem é dono da pasta.**
 - Um vídeo que a contato@ envia para uma pasta da gmail **continua pesando na contato@**.
 - Só pesa na gmail o arquivo **enviado ou copiado por alguém logado como gmail**.
-- Documentos, Planilhas e Apresentações do Google (nativos) não ocupam espaço. Pesam: vídeo, áudio, imagem, PDF, zip.
+- Documentos, Planilhas e Apresentações do Google também contam desde 2021, mas pesam quase nada (0,02 GB na contato@). O que pesa: imagem, vídeo, PDF, áudio, zip.
 
 ## Quem guarda o quê
 | Conta | Guarda | Não guarda |
