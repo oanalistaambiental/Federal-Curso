@@ -1,0 +1,90 @@
+# Manifesto da captura · LOTE 02 · 19/10/2026
+
+Quem gravou: frente Captura de Telas (sessao do Claude com OBS + Chrome do dono) · Login feito pelo dono: [x] gov.br · Navegador: Chrome, zoom 100 % com Windows em 125 % · Resolucao: 1920x1080, 30 fps, MP4 (sem audio)
+
+**Padrao de todas as tomadas:** 0,5 s de tela verde (claquete) no inicio (cortar); cursor desenhado (seta branca) com onda dourada no clique; **ha um 2o cursor laranja PARADO em ~x965,y600 (cursor da extensao) -> mascarar fixo**; faixa 'Claude comecou a depurar este navegador' + barra de abas no topo -> recortar a area da pagina (y>=145). Tempos abaixo sao aproximados (+-3 s): conferir no visual.
+
+| Tomada | Arquivo | Duracao | Marcos (tempo aprox. no video) | Mudou em relacao ao lote? | Dado pessoal na tela | Observacao |
+|---|---|---|---|---|---|---|
+| V01_t01 | V01_t01_pagina_inicial_4_cartoes.mp4 | 1:20 | 0:03 titulo; 0:07 subtitulo; 0:11 Primeiro acesso; 0:15 Ja sou usuario; 0:19 Quero ser representado; 0:24 Consulta de Atos; 0:46 Entrar com gov.br; 0:50 FIM | ver obs | nenhum |  |
+| V01_t02a | V01_t02a_entrar_govbr_autorizacao_dados.mp4 | 4:47 | ver nota | ver obs | tela gov.br sem dado; no fim, nome e CPF no cadastro | Clique em Entrar com gov.br -> tela gov.br 'Autorizacao para compartilhamento de Dados Pessoais' (servico: regulacao de uso da agua, cobranca, infracoes e multas; dados: identidade, nome e foto, e-mail, vinculacao de empresas, confiabilidades). Dono clicou Autorizar. Longa espera ate o clique (cortar). Ao final, formulario /usuario/cadastrar com nome e CPF do dono. |
+| V01_t02b | V01_t02b_cadastro_usuario_primeiro_acesso.mp4 | 1:10 | 0:02 Nome Completo; 0:06 nome social; 0:10 Declaro (e-mail); 0:16 E-mail; 0:19 Confirmar e-mail; 0:22 WhatsApp; 0:26 Contato adicional; 0:30 CEP; 0:33 Endereco; 0:36 UF; 0:39 Municipio; 0:42 Caixa Postal; 0:45 Continuar nao clicado; 0:49 FIM | ver obs | nome e CPF do dono | Primeiro acesso exige 'Cadastro de usuario': Dados do Usuario (nome e CPF do gov.br - borrar; nome social sim/nao), Responsavel pelo Contato (declaracao de que o e-mail e o principal meio de comunicacao com ANA/Estados/DF; e-mail e confirmacao; WhatsApp obrigatorio; telefone adicional; CEP, endereco, numero, complemento, bairro, UF, municipio, caixa postal) e aceite do Termo de Uso. Continuar NAO clicado. |
+| V01_t02c | V01_t02c_validacao_email.mp4 | 0:56 | 0:03 valide; 0:08 caixa de entrada (email); 0:13 reenviar; 0:17 alterar; 0:20 FIM | ver obs | e-mail do dono | apos Continuar do cadastro: 'Valide o seu e-mail para prosseguir' com o e-mail do dono (borrar), Reenviar e-mail com contador, Alterar e-mail. Dono validou pelo celular. |
+| V01_t02 | V01_t02_painel_usuario_menus.mp4 | 1:29 | 0:03 Ola; 0:06 O que deseja; 0:10 Voce nao possui; 0:14 Adicione; 0:19 REGLA; 0:25 Pagina Inicial; 0:28 Nova Outorga; 0:32 Transferencia; 0:36 Recuperar REGLA; 0:41 Editar Usuario; 0:44 Empreendimento; 0:48 Cobrancas; 0:51 Consultar Ato; 0:54 FIM | ver obs | nome do dono ('Ola, ...') | Painel 'Ola, [nome]' - 'Voce nao possui nenhum empreendimento relacionado' - dica: importar do REGLA pela opcao 'Recuperar Empreendimento Cadastrado no REGLA'. Menu: Nova Outorga, Solicitar Transferencia, Recuperar do REGLA, Editar Usuario de RH, Empreendimento (Adicionar/Detalhar/Atualizar/Outros Titulares/Responsaveis Tecnicos - sem Excluir), Cobrancas, Consultar Ato. Nova Outorga exige empreendimento selecionado (tooltip 'Favor selecionar um empreendimento antes de continuar'). |
+| V01_t03a | V01_t03a_cadastrar_empreendimento_parcial.mp4 | 6:50 | ver nota | ver obs | nome e CPF do titular; endereco | Cadastrar Empreendimento: URH titular (nome+CPF do dono: borrar), 'Cadastrar outro URH', nome do empreendimento, icone, mapa Esri, Decimal/GMS, lat/long + Confirmar Coordenadas (ponto no Padre Eustaquio), CEP 30720-060, endereco, numero, complemento, bairro. UF e Municipio NAO aceitaram entrada (campos travados). Trecho longo com tentativas (CEP redigitado, clique no mapa) - editar. Continuar NAO clicado; nada salvo. |
+| V01_t03b | V01_t03b_empreendimento_contato_e_confirmar_dados.mp4 | 7:08 | ver nota | ver obs | nome, e-mail, WhatsApp, endereco | Retomada: UF/Municipio preenchidos pela validacao CEP x coordenada (GET /geo/v1/municipio/validar-localizacao?cep=&latitude=&longitude=). Complemento sobrescrito pela faixa do CEP e corrigido. Responsavel pelo contato (nome, e-mail, WhatsApp - borrar), 'Utilizar endereco da sede', blocos Outros Titulares e Responsaveis Tecnicos, Continuar -> 'Confirmar Dados' (resumo). Confirmar clicado PELO DONO depois (fora da gravacao). |
+| V01_t03c | V01_t03c_empreendimento_criado_validar_email.mp4 | 0:00 | ver nota | ver obs | e-mail | Empreendimento criado: 31.0.0458543/74 - O Analista Ambiental - Demonstracao. Tela 'Valide o seu e-mail ... para obter acesso ao empreendimento'. |
+| V01_t06 | V01_t06_nova_outorga_redireciona_REGLA.mp4 | 0:00 | ver nota | ver obs | nenhum | Nova Outorga (com empreendimento selecionado) -> tela 'A Plataforma Aguas Brasil no momento se encontra em processo de desenvolvimento ... clique em [continuar] para ser direcionado(a) ao Sistema Federal de Regulacao de Uso (REGLA)'; exige CPF regular / CNPJ ativo. Continuar abre o REGLA em ABA NOVA (cnarh/restrito/cadastro_pedido.jsf). |
+| V01_t03 | V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4 | 0:00 | ver nota | ver obs | nenhum (dados do ponto sao de exemplo) | REGLA v4.24.0.17 'Formulario de Solicitacao de Outorga': Termo de Responsabilidade (5 itens; Res. ANA 236/2024; Lei 9.433/1997) marcado; Finalidade (16 opcoes) = Irrigacao; Tipo de interferencia = Captacao; Denominacao do ponto; Tipo de captacao Superficial; UF BA; Municipio Juazeiro; coordenadas GMS 9 24 36 S / 40 30 00 W; link 'Precisa de ajuda para obter coordenadas?'; Confirmar Coordenadas -> Rio Sao Francisco, Rio ou curso d'agua, dominio FEDERAL, com 'Concordo'/'Discordo das informacoes'. Concordo NAO clicado (bloqueio de seguranca: ponto ficticio). Trecho com erro de script entre 'tipo: Captacao' e 'marca Captacao' (~60 s, cortar). Rascunho fica no REGLA (sessao). |
+
+## Não deu para gravar
+| Tomada | Motivo | O que precisa para gravar |
+|---|---|---|
+| V01_t05 (uso insignificante / declaração) | Depende do passo anterior | Idem |
+| V01_t07 (DURH) | Só abre de 1º a 31/01 e exige outorga emitida (ver V01_t08) | Usuário outorgado, em janeiro |
+
+
+## Tomadas novas (19/10/2026, noite, depois do "Concordo" do dono)
+| Arquivo | Duração | O que mostra | Dado pessoal |
+|---|---|---|---|
+| `V01_t03d_REGLA_concordo_sistemas_irrigacao.mp4` | 6 min 35 s | Clique do dono em "Concordo com as informações"; abre "Sistemas de Irrigação": select de sistema (14 opções), área irrigada, cultura (124 opções), "Incluir". A extensão caiu no meio; a gravação foi salva | não |
+| `V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4` | 3 min 56 s | Tabela incluída (Gotejamento · 95 % · 10 ha · Uva); observação "Pedido demonstrativo para videoaula. Não protocolar."; "Continuar" → aviso "Se foram informados todos os dados da finalidade irrigação... Confirmar"; tela **Características da Solicitação de Regularização** com os volumes mensais calculados pelo sistema, Volume Anual e Vazão Máxima; passeio pelos botões Alterar Dados Informados, Cancelar, Não concordo, Concordo | empreendimento e nº CNARH no topo (nome de empresa: pode aparecer) |
+| `V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4` | 3 min 35 s | Começa com ~1–2 min de espera (cursor parado sobre "Concordo", clique do dono); tela **Confirmação de Solicitação de Regularização**: Outorga de Direito de Uso × Outorga Preventiva (textos completos), troca de rádio e volta, "Cancelar" e **"Solicitar Outorga" (⛔ não clicado)** | não |
+
+### Números calculados pelo REGLA (para a aula: "de onde vem cada número")
+Entrada: irrigação por gotejamento (eficiência 95 % atribuída pelo sistema), 10 ha de uva, ponto em Juazeiro/BA no Rio São Francisco.
+
+| Mês | m³/mês | Mês | m³/mês |
+|---|---|---|---|
+| Jan | 16.102,63 | Jul | 13.653,68 |
+| Fev | 14.505,79 | Ago | 15.953,16 |
+| Mar | 12.597,90 | Set | 16.901,58 |
+| Abr | 13.300,00 | Out | **19.281,58** (pico) |
+| Mai | 14.951,05 | Nov | 16.745,79 |
+| Jun | 13.063,16 | Dez | 15.494,74 |
+
+**Volume anual 182.551,06 m³ · Vazão máxima permitida 67,42 m³/h.** O usuário não digita vazão nem volume: o sistema calcula
+pela demanda da cultura e do clima do ponto, dividida pela eficiência do sistema. A forma do cálculo deve ser conferida na
+documentação da ANA antes de entrar no roteiro **[conferir]**.
+
+### Textos da tela final (literais, para o roteiro)
+- **Outorga de Direito de Uso:** autoriza o uso; necessária para a LO; sujeita à cobrança; 2 anos para iniciar a implantação e
+  6 para concluir; 3 anos sem uso pode levar à perda.
+- **Outorga Preventiva:** fase de planejamento, sem uso de água; ajuda na LP; reserva a quantidade, sem direito de uso; sem
+  cobrança; validade de até 3 anos, não renovável, conversível em outorga de direito de uso.
+
+Prints: `prints/V01_t03e_resumo_botoes.png`, `prints/V01_t03f_confirmacao_tipo_outorga.png`.
+Corte: o início da V01_t03f (espera pelo clique do dono).
+
+
+## V01_t08 · Cobranças e Informações Complementares (gravada em 19/10/2026, 23h12)
+Arquivo: `V01_t08_cobrancas_historico_informacoes_complementares_REGLA.mp4` (5 min 44 s). Sem dado pessoal (nome do dono no "Olá": borrar o sobrenome).
+
+| Trecho | O que mostra |
+|---|---|
+| Águas Brasil sem empreendimento | Menus "Nova Outorga" e "Cobranças" **desabilitados** até escolher o empreendimento no seletor do topo |
+| Seletor → 31.0.0458543/74 | "Você está acessando O Analista Ambiental – Demonstração"; menus liberados; mapa vai para o ponto |
+| Cobranças | Emitir Boletos · Informações Complementares · Histórico de Cobranças (os três redirecionam ao REGLA com a página "Neste momento... será realizada no sistema REGLA") |
+| REGLA · Histórico da Cobrança | "Não há histórico de cobrança para esse empreendimento!" |
+| REGLA · Informações Complementares | Lista de pontos: **interferência 108572**, Captação, "Ponto 01 – Captação para irrigação", Irrigação, **Em Aberto**; Exportar Relatório |
+| Cadastrar Informações Complementares | **Manejo do solo** (plantio direto/práticas conservacionistas × convencional sem práticas), **Manejo da irrigação** (monitora clima/umidade do solo × nenhuma técnica), **Reservatório privado** (sim/não); marcadas as boas práticas; **Salvar não clicado** |
+
+**Para a aula [conferir]:** essas respostas alimentam os coeficientes de boas práticas da cobrança pelo uso da água nas bacias
+com cobrança federal (reduzem o valor). Conferir a deliberação do comitê ou a resolução da ANA antes de citar percentuais.
+
+**DURH (V01_t07): não gravável agora.** Segundo a página do serviço no gov.br, a DURH anual (captação e lançamento) só recebe
+dados de **1º a 31 de janeiro**, pela Plataforma Águas Brasil/Portal do Usuário, e é obrigatória só acima dos limites do
+Anexo I da **Resolução ANA nº 188/2024**. A DURH mensal é pelo app **DeclaraÁgua** (até o dia 7), e a diária, pela API de
+telemetria. Exige outorga emitida, que o empreendimento de demonstração não tem. Fonte:
+https://www.gov.br/ana/pt-br/servicos/fazer-a-declaracao-anual-de-uso-de-recursos-hidricos. Sugestão: gravar em janeiro
+com um usuário outorgado (cliente ou parceiro) ou usar o Guia do Automonitoramento da ANA.
+
+**Limpeza:** o pedido do REGLA foi cancelado, mas a **interferência 108572 ficou "Em Aberto"** em Informações Complementares (ver REGISTRO_SISTEMAS).
+
+## Observações para a edição
+- **A "Nova Outorga" da Águas Brasil ainda redireciona ao REGLA**: "A Plataforma Águas Brasil no momento se encontra em processo de desenvolvimento. Para continuar com sua solicitação de outorga ... clique em [continuar] para ser direcionado(a) ao Sistema Federal de Regulação de Uso (REGLA). Importante: ... CPF regular ou CNPJ ativo junto à Receita Federal." O endereço antigo `www2.snirh.gov.br/cnarh/` (sem login) cai na página da ANA "o Portal do Usuário mudou"; logado, o REGLA abre em aba nova (`cnarh/restrito/cadastro_pedido.jsf`, v4.24.0.17).
+- Primeiro acesso: autorização de dados no gov.br → cadastro do usuário (e-mail é o canal oficial; WhatsApp obrigatório) → validação do e-mail → painel.
+- Empreendimento: **UF e Município são preenchidos pela validação CEP × coordenada** (o CEP tem de ser do mesmo município do ponto); o complemento é sobrescrito pela faixa do CEP. Não há "Excluir empreendimento" no menu.
+- No formato Decimal, coordenada só com vírgula ("-9,41"); com ponto aparece "Latitude fora do território válido".
+- REGLA: Finalidade (16 opções), validação "Campo obrigatório", resultado do ponto "Rio São Francisco · Rio ou Curso d'água · Federal · Juazeiro/BA" com "Concordo / Discordo das informações".
+- Trechos a cortar: V01_t02a (espera pela autorização do dono, ~4 min), V01_t03a (tentativas no campo UF), V01_t03 (≈60 s entre "tipo: Captação" e "marca Captação").

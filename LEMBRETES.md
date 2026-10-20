@@ -22,3 +22,8 @@ Pedido do dono (18/10/2026): "me lembre se eu demorar a responder". O primeiro v
 ## Resolvidos
 - 19/10/2026 (noite): títulos, ordem de publicação, Anual como assinatura sem renovação, modo guiado, divisão das contas, voz Antonio, projeto Cowork, postar daqui, V04, ritmo (2 longos/mês + 3 cortes/semana), "IA no trabalho do consultor" como bônus. Recusados: "Fiz com IA" e convidados.
 - 18/10/2026: o canal é do dono; começar pelo federal; vídeo 1 = outorga ANA; vídeo 2 = CAR; repositório principal = este.
+
+
+## Ideia do dono (19/10/2026, 20h28) — curadoria por métricas
+- Os vídeos federais do canal **Inteligência Ambiental** saem com narração gratuita. Os que tiverem **melhor resultado** (métricas de acesso) ganham uma versão com a **voz e o rosto reais do dono** no canal **O Analista Ambiental**, no padrão das aulas do curso. Fazer uma curadoria periódica dos números para escolher quais.
+- Cadastros feitos nos sistemas durante a captura **só são desfeitos depois que os vídeos estiverem 100 %** (lista em `producao/captura-de-telas/manifestos/REGISTRO_SISTEMAS.md`).
