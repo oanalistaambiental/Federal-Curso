@@ -50,3 +50,27 @@ Arquivo: `LOTE_03_CAR/V02_t01_faca_seu_car_estado_proprio_BA_e_dois_caminhos_PR.
 **Para a aula:** o primeiro passo do CAR é saber se o estado usa o Sicar federal ou sistema próprio. A tela mostra isso
 sozinha. Fazer o levantamento dos 27 estados (quais caem no aviso de "sistema próprio") antes do roteiro **[conferir]**.
 Print: `prints/V02_t01_PR_dois_caminhos.png`.
+
+## V02_t02–t03 · Módulo pré-preenchido (gravada em 19/10/2026, 22h03)
+Arquivo: `LOTE_03_CAR/V02_t02-03_pre_preenchido_entrada_cadastrante_identificacao_imovel_SNCR_obrigatorio.mp4` (12 min 15 s).
+**Dado pessoal:** CPF e nome do dono, mas já **mascarados pelo próprio sistema** (`029***.***-06`, "FRANCISCO DE*** ASS***...");
+o card "Floresta Roots" (imóvel do dono em MG) aparece em "Listar imóveis" → **cortar ou borrar** (marca federal evita MG).
+O dono digitou CPF e data de nascimento com o OBS gravando: cortar esse trecho (espera).
+
+| Trecho | O que mostra |
+|---|---|
+| `car.gov.br/intranet` → Gestão de Acesso | Cartões **Cadastro Pré-Preenchido** e **Central do Proprietário/Possuidor** (já logado no gov.br) |
+| Módulo `cadastro.car.gov.br` (v1.6.0) | Listar imóveis · Cadastrar novo imóvel · Gerenciar cadastrante · link do manual (`cadastro.car.gov.br/docs/manual-modulo-cadastro-pre-preenchido.pdf`) |
+| Gerenciar cadastrante | Texto: o cadastrante registra imóveis em nome do proprietário; **depois do envio perde o acesso**; para continuar, tem de virar **representante**; campos CPF, data de nascimento, nome, nome da mãe |
+| Listar imóveis | Busca por recibo ou nome; card com recibo mascarado, condição "Aguardando análise, passível de revisão de dados", botão Retificar |
+| Cadastrar novo imóvel | Barra de 7 etapas: Identificação · Imóvel · Documentação · Representante · Geo · Alertas e Pendências · Resumo |
+| Identificação | PF/PJ; CPF + data de nascimento → nome e nome da mãe vêm da Receita; tabela com CPF e nome mascarados; Salvar → "Os dados foram salvos com sucesso"; Próximo |
+| Imóvel | Texto da etapa (SNCR/SIGEF preenche nome, UF, município, titulares e documentação; desmembramento; alteração de área após 22/07/2008; acesso; endereço); busca no SNCR (nome, código SNCR, código SIGEF, UF, município) → "Nenhum documento encontrado"; dados do imóvel ("Sítio Demonstração Videoaula") |
+| **Bloqueio** | UF PR → alerta vermelho **"Na UF informada (PR), a associação com SNCR é obrigatória para qualquer quantidade de módulos fiscais. Associe um código SNCR válido para prosseguir."** Mesmo aviso em PE e RJ |
+| Lista de UF do módulo | Só: AL, AP, AM, CE, DF, MA, MG, PB, PR, PE, PI, RJ, RN, RS, RR, SE (os outros estados usam sistema próprio ou o módulo offline) **[conferir]** |
+
+**Para a aula (lição prática):** o pré-preenchido só funciona se o imóvel estiver no **SNCR do Incra ligado ao CPF/CNPJ do
+titular**. Sem CCIR/SNCR, o caminho é regularizar no Incra primeiro ou usar o módulo offline, nos estados que ainda o aceitam
+**[conferir]**. A barra de etapas não é clicável: não dá para ver Documentação, Geo e as outras etapas sem associar um SNCR.
+
+Rascunho criado: `cadastro.car.gov.br/imovel/2uwY18kF` (só a Identificação salva). **Excluir no fim** (ver REGISTRO_SISTEMAS).

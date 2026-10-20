@@ -10,4 +10,4 @@ Decisão do dono (19/10/2026, 20h28): não apagar agora; desfazer só no fim da 
 | gov.br | Autorização de compartilhamento de dados para a ANA | dono | gov.br › Privacidade › Autorizações |
 | Ibama | **Nada gravado** (dados básicos, atividades e inscrição AIDA só preenchidos e descartados) | — | — |
 | MTR | Nada | — | — |
-| CAR | Nada (parou no login gov.br) | — | — |
+| CAR (módulo pré-preenchido) | **Rascunho `2uwY18kF`**: Identificação salva com o CPF do dono (19/10, 22h); etapa Imóvel não salva (SNCR obrigatório) | dono (CPF) + Claude | Listar imóveis / rascunhos → excluir |
