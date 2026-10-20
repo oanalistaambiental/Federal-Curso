@@ -35,6 +35,31 @@ A pasta "CURSO" de MG (`1hCHMuxqLzYN-Q8NYbnLlR99xXugOBuut`) já é da gmail e se
 - **Conta C e Conta B (nuvem):** entregam os vídeos no chat. O conector do Drive desta nuvem está na contato@, então
   **não enviamos mídia por ele** (pesaria na contato@). Só criamos e editamos Documentos do Google.
 
+## Confirmado em 20/10: a contato@ é conta de organização (Google Workspace)
+O Drive recusou: "Não é possível transferir a propriedade para oanalistaambiental@gmail.com. Ela só pode ser transferida para
+outro usuário na mesma organização". Então o passo 1 abaixo **não funciona**; vale o caminho da cópia.
+
+### Qual caminho de cópia usar
+| Situação | Caminho | Observação |
+|---|---|---|
+| Poucos arquivos soltos | Logado como **gmail**: abrir a pasta, selecionar os arquivos (Ctrl+A), botão direito > **Fazer uma cópia** | O Drive não copia pasta inteira, só arquivos; a cópia sai como "Cópia de …" (renomear) |
+| Pasta grande com subpastas (ex.: "Curso e material antigo - GAMAL") | **rclone** no computador do dono, cópia feita dentro do Google (sem baixar) | Mantém a árvore de pastas e os nomes; ver abaixo |
+| Só para liberar espaço já, sem copiar | Apagar duplicados e versões velhas listados no inventário + esvaziar a lixeira | O dono confirma a lista antes |
+
+### rclone (pasta inteira, sem baixar)
+1. Instalar o rclone (rclone.org/downloads) no computador do dono.
+2. `rclone config` duas vezes, tipo "drive": um remoto `contato` (entra com a contato@) e um `gmail` (entra com a gmail). O dono
+   faz o login nas duas janelas do navegador; ninguém digita senha por ele.
+3. Testar sem copiar nada: `rclone copy "contato:Curso e material antigo - GAMAL" "gmail:Inteligência Ambiental · mídia/Curso antigo - GAMAL" --drive-server-side-across-configs --dry-run`
+4. Copiar de verdade: o mesmo comando sem `--dry-run` (acrescente `-P` para ver o progresso). Se o Google limitar
+   (erro 403 "rate limit" ou o teto de 750 GB por dia), basta rodar de novo no dia seguinte: o rclone continua de onde parou.
+5. Conferir: `rclone check "contato:..." "gmail:..."` (mesmos arquivos e tamanhos).
+6. Só então apagar a pasta na contato@ e **esvaziar a lixeira** da contato@.
+
+### Espaço na gmail
+A gmail grátis tem 15 GB, somados com o Gmail e o Fotos. Se o inventário mostrar mais que isso para mover, a saída é um
+plano do Google One na gmail (o dono decide; conferir o preço na hora) ou apagar antes os duplicados e as versões velhas.
+
 ## Como esvaziar a contato@ (uma vez só)
 1. **Tentar transferir a propriedade** (não precisa baixar nada): na contato@, selecionar os arquivos > Compartilhar >
    a gmail como editora > "Transferir propriedade"; depois, na gmail, aceitar o pedido. Se a opção não aparecer (contas de
