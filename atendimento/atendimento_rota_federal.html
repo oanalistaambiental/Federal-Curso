@@ -1,0 +1,322 @@
+<title>Atendimento Rota Federal</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: um telefone de atendimento ao centro (a conversa), e abaixo o guia de implantação para o dono. */
+:root{
+  --bg:#EEF2EC; --card:#FFFFFF; --ink:#13201A; --soft:#4B5B52; --faint:#7A887F;
+  --mata:#0E1512; --verde:#2E6B3E; --ouro:#C79A2E; --ouro-claro:#E3C06A;
+  --bolha-bot:#FFFFFF; --bolha-eu:#DCEBDD; --rule:#D3DCD5; --on-accent:#FFFFFF; --aviso:#A8452A;
+  --f-display:"Newsreader",Georgia,serif; --f-body:"Archivo",system-ui,sans-serif; --f-mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0B110E; --card:#141D18; --ink:#E7EDE6; --soft:#B4C1B8; --faint:#87958C;
+  --mata:#050806; --verde:#6FB57F; --ouro:#E3C06A; --ouro-claro:#F0D48E;
+  --bolha-bot:#1B2620; --bolha-eu:#1F3A27; --rule:#26332B; --on-accent:#08130B; --aviso:#E08A6C; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0B110E; --card:#141D18; --ink:#E7EDE6; --soft:#B4C1B8; --faint:#87958C;
+  --mata:#050806; --verde:#6FB57F; --ouro:#E3C06A; --ouro-claro:#F0D48E;
+  --bolha-bot:#1B2620; --bolha-eu:#1F3A27; --rule:#26332B; --on-accent:#08130B; --aviso:#E08A6C; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px;display:grid;gap:28px}
+.faixa-teste{background:var(--aviso);color:#fff;font-family:var(--f-mono);font-size:.74rem;letter-spacing:.06em;text-align:center;padding:.5rem 1rem;border-radius:8px}
+.topo h1{font-family:var(--f-display);font-weight:600;font-size:clamp(1.6rem,4vw,2.3rem);margin:.2rem 0;text-wrap:balance}
+.topo p{color:var(--soft);margin:0;max-width:62ch}
+.palco{display:grid;gap:24px;align-items:start}
+@media(min-width:900px){.palco{grid-template-columns:420px 1fr}}
+/* telefone */
+.fone{background:var(--card);border:1px solid var(--rule);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;height:min(720px,82vh);min-height:520px;box-shadow:0 18px 50px rgba(14,21,18,.12)}
+.fone-topo{background:var(--mata);color:#E7EDE6;display:flex;gap:.7rem;align-items:center;padding:.8rem 1rem}
+.avatar{width:40px;height:40px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#3b8a50,#173822);display:grid;place-items:center;font-family:var(--f-display);font-weight:600;color:#E3C06A;flex:none}
+.fone-topo b{display:block;font-size:.98rem}
+.fone-topo small{color:#9fb3a6;font-size:.78rem}
+.conversa{flex:1;overflow-y:auto;padding:1rem;display:flex;flex-direction:column;gap:.55rem;background:linear-gradient(var(--bg),var(--bg))}
+.msg{max-width:88%;padding:.6rem .8rem;border-radius:14px;white-space:pre-line;min-width:0;overflow-wrap:anywhere;animation:entra .25s ease}
+.msg.bot{background:var(--bolha-bot);border:1px solid var(--rule);border-top-left-radius:4px;align-self:flex-start}
+.msg.eu{background:var(--bolha-eu);border-top-right-radius:4px;align-self:flex-end}
+.msg a{color:var(--verde);font-weight:600}
+@keyframes entra{from{opacity:.0;transform:translateY(6px)}}
+@media (prefers-reduced-motion:reduce){.msg{animation:none}}
+.digitando{align-self:flex-start;color:var(--faint);font-size:.85rem;font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;padding:.6rem .8rem;border-top:1px solid var(--rule);background:var(--card)}
+.chip{font:inherit;font-size:.84rem;border:1.5px solid var(--verde);color:var(--verde);background:transparent;border-radius:999px;padding:.32rem .7rem;cursor:pointer}
+.chip:hover{background:var(--verde);color:var(--on-accent)}
+.chip.cta{background:var(--ouro);border-color:var(--ouro);color:#0E1512;font-weight:600}
+.chip:focus-visible,.envio button:focus-visible,.envio input:focus-visible{outline:3px solid var(--ouro);outline-offset:2px}
+.envio{display:flex;gap:.5rem;padding:.6rem .8rem;border-top:1px solid var(--rule);background:var(--card)}
+.envio input{flex:1;min-width:0;font:inherit;padding:.6rem .8rem;border:1.5px solid var(--rule);border-radius:999px;background:var(--bg);color:var(--ink)}
+.envio button{font:inherit;font-weight:600;border:0;border-radius:999px;padding:.6rem 1rem;background:var(--verde);color:var(--on-accent);cursor:pointer}
+/* checkout de teste */
+.oferta{display:grid;gap:.5rem;margin-top:.4rem}
+.of{border:1.5px solid var(--rule);border-radius:12px;padding:.6rem .7rem;background:var(--card)}
+.of.dest{border-color:var(--ouro)}
+.of b{font-family:var(--f-display);font-size:1.05rem}
+.of .preco{color:var(--verde);font-weight:700}
+.of button{margin-top:.4rem;font:inherit;font-weight:600;border:0;border-radius:8px;padding:.45rem .8rem;background:var(--ouro);color:#0E1512;cursor:pointer}
+/* painel lateral */
+.painel{display:grid;gap:18px;min-width:0}
+.caixa{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:1.1rem 1.2rem;min-width:0}
+.caixa h2{font-family:var(--f-display);font-weight:600;font-size:1.3rem;margin:0 0 .5rem}
+.caixa h3{font-size:1rem;margin:1rem 0 .3rem}
+.caixa p,.caixa li{color:var(--soft)}
+.caixa ol,.caixa ul{padding-left:1.2rem;margin:.3rem 0}
+.caixa li{margin:.25rem 0}
+.rotulo{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.mono{font-family:var(--f-mono);font-size:.82rem;background:var(--bg);border:1px solid var(--rule);border-radius:8px;padding:.6rem .7rem;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+.tabela{overflow-x:auto}
+th,td{border-bottom:1px solid var(--rule);text-align:left;padding:.4rem .5rem;vertical-align:top}
+th{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+.copiar{font:inherit;font-size:.8rem;border:1px solid var(--verde);color:var(--verde);background:transparent;border-radius:6px;padding:.2rem .55rem;cursor:pointer;margin-top:.35rem}
+</style>
+
+<div class="wrap">
+  <div class="faixa-teste">VERSÃO DE TESTE · os links de pagamento são fictícios · nada é cobrado · nada é publicado</div>
+
+  <header class="topo">
+    <span class="rotulo">Inteligência Ambiental · Rota Federal</span>
+    <h1>Atendimento automático da Rota Federal</h1>
+    <p>Teste como o visitante: digite um nome e pergunte do jeito que um aluno perguntaria (preço, pagamento, acesso, IA, se serve para o seu estado). As respostas seguem a página do curso e as decisões já aprovadas.</p>
+  </header>
+
+  <div class="palco">
+    <section class="fone" aria-label="Conversa de teste">
+      <div class="fone-topo">
+        <div class="avatar" aria-hidden="true">IA</div>
+        <div><b>Rota Federal · Atendimento</b><small>resposta automática · equipe Inteligência Ambiental</small></div>
+      </div>
+      <div class="conversa" id="conversa" aria-live="polite"></div>
+      <div class="chips" id="chips"></div>
+      <form class="envio" id="envio" autocomplete="off">
+        <label for="campo" class="rotulo" style="position:absolute;left:-9999px">Mensagem</label>
+        <input id="campo" placeholder="Escreva aqui…" maxlength="300">
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <aside class="painel">
+      <div class="caixa">
+        <h2>Como colocar no ar</h2>
+        <p>Três caminhos, do mais simples ao mais completo. Nenhum precisa de programação da sua parte.</p>
+        <h3>1. Link na bio e no canal (hoje)</h3>
+        <ol>
+          <li>Depois do seu "sim", esta página vai para o site como <b>oanalistaambiental.com/atendimento</b>, com os links reais da Hotmart.</li>
+          <li>Instagram @ambientalinteligencia: Editar perfil &gt; Links &gt; Adicionar link externo &gt; cole o endereço, título "Tire suas dúvidas".</li>
+          <li>YouTube @I.Ambiental: Personalização &gt; Informações básicas &gt; Links &gt; mesmo endereço. Na descrição de cada vídeo, uma linha "Dúvidas sobre o curso: link".</li>
+        </ol>
+        <h3>2. WhatsApp Business no seu número (grátis)</h3>
+        <ol>
+          <li>Instale o <b>WhatsApp Business</b> no número que vai atender (melhor um número só da marca).</li>
+          <li>Ferramentas comerciais &gt; <b>Mensagem de saudação</b>: cole o texto A abaixo.</li>
+          <li>Ferramentas comerciais &gt; <b>Respostas rápidas</b>: crie os atalhos da tabela (/preco, /pagamento…). Você ou a equipe digitam "/" e escolhem.</li>
+          <li>Ferramentas comerciais &gt; <b>Mensagem de ausência</b>: texto B (fora do horário).</li>
+          <li>Link para o botão "Falar no WhatsApp": <span class="mono">https://wa.me/55DDDNUMERO?text=Oi!%20Quero%20saber%20da%20Rota%20Federal</span> (troque DDD e número).</li>
+        </ol>
+        <p class="rotulo">Texto A · saudação</p>
+        <div class="mono" id="txtA">Olá! Aqui é o atendimento da Rota Federal, da Inteligência Ambiental. 🌿
+Me conta o seu nome e o que você quer saber: preço, pagamento, acesso às aulas, se serve para o seu estado ou como o curso usa IA.
+Se preferir, já pode ver tudo aqui: oanalistaambiental.com/rota-federal.html</div>
+        <button class="copiar" data-alvo="txtA" type="button">Copiar texto A</button>
+        <p class="rotulo" style="margin-top:.8rem">Texto B · ausência</p>
+        <div class="mono" id="txtB">Oi! Agora estamos fora do horário, mas a sua mensagem chegou. Enquanto isso, as respostas mais comuns estão aqui: oanalistaambiental.com/atendimento. Amanhã a equipe responde por aqui.</div>
+        <button class="copiar" data-alvo="txtB" type="button">Copiar texto B</button>
+        <h3>3. Robô de verdade no WhatsApp (depois)</h3>
+        <ul>
+          <li><b>Instagram (Direct):</b> Meta Business Suite &gt; Caixa de entrada &gt; Automações &gt; perguntas frequentes e resposta por palavra-chave ("curso", "preço"). Grátis. Também dá com o ManyChat.</li>
+          <li><b>WhatsApp com robô</b> (responde sozinho a qualquer hora): API oficial do WhatsApp (Meta Cloud API) por um serviço como ManyChat, Z-API ou Twilio. Precisa de um número só para o robô, conta comercial verificada na Meta e um plano do serviço; a Meta cobra por conversa iniciada [conferir os valores na hora de contratar]. O mesmo roteiro desta página vira o fluxo do robô.</li>
+        </ul>
+        <p style="font-size:.85rem">Nenhum passo pede a sua senha para mim ou para o Cowork: você faz os logins.</p>
+      </div>
+
+      <div class="caixa">
+        <h2>Atalhos de resposta rápida</h2>
+        <div class="tabela"><table id="atalhos"><thead><tr><th>Atalho</th><th>Texto</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  /* === CONFIGURAÇÃO (troque aqui quando for ao ar) === */
+  var TESTE = true;
+  var CHECKOUT = { anual: "#teste-anual", vitalicio: "#teste-vitalicio" };   /* links reais da Hotmart entram aqui, com o "sim" do dono */
+  var PAGINA = "https://www.oanalistaambiental.com/rota-federal.html";
+  var EMAIL = "contato@oanalistaambiental.com";
+
+  var nome = "";
+  var conversa = document.getElementById("conversa");
+  var chips = document.getElementById("chips");
+  var campo = document.getElementById("campo");
+
+  function limparNome(t){
+    var p = (t || "").replace(/[^A-Za-zÀ-ÿ' -]/g, " ").trim().split(/\s+/)[0] || "";
+    p = p.slice(0, 20);
+    return p ? p.charAt(0).toUpperCase() + p.slice(1).toLowerCase() : "";
+  }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function n(t){ return t.replace(/\{nome\}/g, nome || "você"); }
+
+  function falar(html, opcoes, extra){
+    var d = document.createElement("div"); d.className = "digitando"; d.textContent = "digitando…";
+    conversa.appendChild(d); conversa.scrollTop = conversa.scrollHeight;
+    var reduz = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    setTimeout(function(){
+      d.remove();
+      var m = document.createElement("div"); m.className = "msg bot"; m.innerHTML = n(html);
+      if (extra) m.appendChild(extra);
+      conversa.appendChild(m); conversa.scrollTop = conversa.scrollHeight;
+      mostrarChips(opcoes);
+    }, reduz ? 0 : 450);
+  }
+  function eu(t){
+    var m = document.createElement("div"); m.className = "msg eu"; m.textContent = t;
+    conversa.appendChild(m); conversa.scrollTop = conversa.scrollHeight;
+  }
+  function mostrarChips(lista){
+    chips.innerHTML = "";
+    (lista || MENU).forEach(function(k){
+      var b = document.createElement("button"); b.type = "button";
+      b.className = "chip" + (k === "comprar" ? " cta" : "");
+      b.textContent = ROTULO[k]; b.addEventListener("click", function(){ eu(ROTULO[k]); responder(k); });
+      chips.appendChild(b);
+    });
+  }
+
+  var ROTULO = {
+    comprar:"Quero entrar", preco:"Quanto custa?", pagamento:"Formas de pagamento", garantia:"Garantia",
+    acesso:"Como acesso as aulas?", conteudo:"O que vou aprender?", estado:"Serve para o meu estado?",
+    ia:"O curso usa IA?", certificado:"Tem certificado?", iniciante:"Sou iniciante", tempo:"Tenho pouco tempo",
+    caro:"Achei caro", servico:"Vocês fazem o serviço?", bonus:"Bônus", quem:"Quem está por trás?",
+    suporte:"Falar com a equipe", aprovacao:"Garante aprovação?", baixar:"Dá para baixar?", mg:"Sou aluno da Rota MG"
+  };
+  var MENU = ["comprar","preco","conteudo","acesso","estado","ia","garantia","suporte"];
+
+  var R = {
+    preco:{t:"{nome}, a Rota Federal está com preço de <b>turma fundadora</b>:\n• <b>Anual: R$ 97</b> (12 meses de aulas, bônus e atualizações). Depois da turma fundadora, R$ 197.\n• <b>Vitalício: R$ 147</b> (sem prazo). Depois, R$ 297.\nO Anual sai por menos de R$ 9 por mês, e você tem 30 dias de garantia.", o:["comprar","pagamento","garantia","conteudo"]},
+    pagamento:{t:"Pode pagar como preferir, {nome}: <b>cartão em até 12x</b> (com os juros da Hotmart), <b>Pix</b> ou <b>boleto</b>. O pagamento é feito na Hotmart, que é a plataforma do curso; nenhum dado de cartão passa por nós.", o:["comprar","preco","garantia"]},
+    garantia:{t:"Você tem <b>30 dias de garantia incondicional</b>, {nome}. Entrou, assistiu e achou que não é para você: pede o reembolso pela própria Hotmart e recebe o valor de volta, sem precisar explicar o motivo. O risco fica com a gente.", o:["comprar","preco","conteudo"]},
+    acesso:{t:"Assim que o pagamento é aprovado, {nome}, a Hotmart manda um e-mail com o acesso. As aulas ficam na área de membros <b>Rota Federal</b>, que você abre no computador ou no aplicativo da Hotmart no celular. Pix e cartão liberam na hora; boleto, quando o banco confirma.", o:["baixar","conteudo","comprar"]},
+    baixar:{t:"Os materiais de apoio (checklists, modelos e o mapa dos manuais) vêm em PDF, para baixar e usar no trabalho, {nome}. As aulas em vídeo você assiste na área de membros, no computador ou no app da Hotmart.", o:["acesso","conteudo","comprar"]},
+    conteudo:{t:"{nome}, a Rota Federal ensina o serviço ambiental federal <b>na tela real dos sistemas</b>, para qualquer estado:\n• <b>CAR</b>: consultar, ler o recibo, fazer, retificar e trocar o titular\n• <b>Água na ANA</b>: rio federal ou estadual, Plataforma Águas Brasil e o pedido de outorga\n• <b>Ibama</b>: CTF/APP, Certificado de Regularidade, RAPP e TCFA\n• <b>Flora</b> (Sinaflor e DOF), <b>resíduos</b> (MTR no SINIR) e licenciamento federal\n• <b>Fazer render</b>: quanto cobrar, proposta, contrato e como achar cliente com dado público\nAulas curtas, de 5 a 9 minutos, e aulas novas toda semana na turma fundadora.", o:["comprar","bonus","tempo","acesso"]},
+    estado:{t:"Serve, {nome}. CAR (Sicar federal), ANA, Ibama, SINIR e Sinaflor valem no <b>Brasil todo</b>. Onde o estado tem sistema próprio de CAR (como Bahia, São Paulo e Mato Grosso), a aula avisa e mostra onde fica. Cursos por estado virão separados.", o:["conteudo","comprar","mg"]},
+    mg:{t:"Para quem é de Minas Gerais, {nome}, existe o curso <b>A Rota Ambiental 2.0</b>, focado nos sistemas de MG. A Rota Federal fica com o que é federal e vale em qualquer estado. Quem já é aluno da Rota MG recebe uma condição especial por e-mail.", o:["conteudo","comprar","suporte"]},
+    ia:{t:"Usa, {nome}, e a gente diz isso às claras. A IA ajuda na pesquisa, no roteiro, na narração e nas telas animadas. Mas cada aula segue o padrão-ouro: <b>manual oficial conferido, fonte em cada regra, caso real público</b> e revisão humana de todo o conteúdo por Francisco de Assis e pela equipe. A regra da casa: <i>a IA rascunha; quem assina responde</i>. E tem um bônus que ensina você a usar a IA no seu trabalho do mesmo jeito.", o:["quem","bonus","comprar"]},
+    certificado:{t:"Tem, {nome}. O certificado é emitido pela Hotmart quando você conclui as aulas.", o:["comprar","conteudo"]},
+    iniciante:{t:"Pode vir, {nome}. Não precisa de experiência: o Módulo 0 explica o formato, e cada aula parte do primeiro acesso ao sistema, campo por campo. É um passo a passo na tela, do jeito que você vai fazer no dia a dia.", o:["conteudo","comprar","tempo"]},
+    tempo:{t:"Pensado para isso, {nome}: as aulas têm de <b>5 a 9 minutos</b>. Dá para assistir uma por dia, no celular, e aplicar logo em seguida. No Anual você tem 12 meses; no Vitalício, não tem prazo.", o:["comprar","preco"]},
+    caro:{t:"Entendo, {nome}. Olha a conta: no Anual são R$ 97 por 12 meses, menos de R$ 9 por mês, com aulas novas toda semana. E você tem 30 dias de garantia: se não servir, recebe o valor de volta. O preço de fundador vale só para a turma que entra agora.", o:["comprar","garantia","conteudo"]},
+    servico:{t:"Não, {nome}: a Rota Federal é um <b>curso</b>. A gente não faz o serviço nem dá consultoria individual. O curso ensina você a fazer o serviço federal (CAR, outorga na ANA, Ibama, SINIR) e a cobrar por ele. Também não tratamos de processos de Minas Gerais por aqui.", o:["conteudo","comprar","suporte"]},
+    bonus:{t:"Quem entra na turma fundadora leva, {nome}:\n• o <b>Mapa dos manuais federais</b>, com link, versão e o que mudou, atualizado todo mês\n• o <b>Calendário de obrigações federais</b> (RAPP, TCFA, DURH e renovações)\n• <b>Modelos</b> de proposta, contrato, procuração e checklist por serviço\n• o bônus <b>IA no trabalho do consultor</b>\n• acesso antecipado ao app <b>Chão Geo</b> (bases federais)", o:["comprar","conteudo","preco"]},
+    quem:{t:"O curso é um projeto de <b>@oanalistaambiental</b>, {nome}. Todo o conteúdo é revisado por <b>Francisco de Assis</b>, engenheiro florestal, mestre pela UFVJM e doutorando na UFMG, com mais de 1.500 perícias e vistorias, e por uma equipe de profissionais da área ambiental.", o:["ia","comprar","conteudo"]},
+    aprovacao:{t:"Não existe garantia de aprovação, {nome}, e quem promete isso está enganando. O curso ensina o caminho e o que o órgão confere; a decisão é sempre do órgão. O que a gente garante é o seu dinheiro de volta em 30 dias, se o curso não servir.", o:["garantia","conteudo","comprar"]},
+    suporte:{t:"Claro, {nome}. Dúvida sobre o conteúdo: escreva nos comentários da própria aula, que a equipe responde. Antes de comprar ou sobre pagamento: <b>" + EMAIL + "</b>. Se preferir, a página completa do curso está aqui: <a href=\"" + PAGINA + "\" target=\"_blank\" rel=\"noopener\">rota-federal</a>.", o:["comprar","preco","acesso"]}
+  };
+
+  var PALAVRAS = [
+    ["aprovacao",/aprov|garant\w* (que|de) (sai|passa|deferi)|deferid/],
+    ["garantia",/garant|reembols|devolu|devolv|arrepend|cancel/],
+    ["pagamento",/pag|pix|boleto|cart[aã]o|parcel|vezes|12x|juros/],
+    ["caro",/caro|car[ií]ssimo|sem dinheiro|desconto|cupom|barat/],
+    ["preco",/pre[cç]o|valor|quanto|custa|r\$|investimento|mensal|anual|vital[ií]cio/],
+    ["baixar",/baix|download|offline|pdf|material/],
+    ["acesso",/acess|login|entrar na|assist|[aá]rea de membros|hotmart|onde fica|liberad|e-?mail/],
+    ["mg",/minas|\bmg\b|rota ambiental|rota mg/],
+    ["estado",/estado|bahia|s[aã]o paulo|mato grosso|paran[aá]|goi[aá]s|par[aá]\b|brasil|meu estado|uf\b/],
+    ["ia",/\bia\b|intelig[eê]ncia artificial|rob[oô]|chatgpt|gerad|avatar|voz/],
+    ["certificado",/certificad|horas|carga hor/],
+    ["iniciante",/inician|come[cç]ando|experi[eê]ncia|leigo|do zero|estudante|rec[eé]m/],
+    ["tempo",/tempo|corrid|dura|minutos|quantas aulas|ritmo/],
+    ["servico",/faz(em)? (o|meu|a)|voc[eê]s fazem|consultoria|presta|contrat|elabora|fazer pra mim|fazer para mim/],
+    ["bonus",/b[oô]nus|brinde|modelo|planilha|app|aplicativo|ch[aã]o geo/],
+    ["quem",/quem|professor|francisco|forma[cç][aã]o|autor/],
+    ["conteudo",/conte[uú]do|aprend|m[oó]dulo|aula|car\b|outorga|ana\b|ibama|ctf|sinir|mtr|sinaflor|dof|tcfa|rapp/],
+    ["suporte",/d[uú]vida|suporte|contato|falar|atendente|humano|whats|telefone/],
+    ["comprar",/compr|quero|inscri|matr[ií]cul|assin|fechar|entrar|garantir|vaga|link/]
+  ];
+
+  function oferta(){
+    var w = document.createElement("div"); w.className = "oferta";
+    [["vitalicio","Vitalício","R$ 147","sem prazo · depois R$ 297",true],["anual","Anual","R$ 97","12 meses · depois R$ 197",false]].forEach(function(o){
+      var c = document.createElement("div"); c.className = "of" + (o[4] ? " dest" : "");
+      c.innerHTML = "<b>" + o[1] + "</b> · <span class=\"preco\">" + o[2] + "</span><br><small>" + o[3] + " · garantia de 30 dias</small><br>";
+      var b = document.createElement("button"); b.type = "button"; b.textContent = TESTE ? "Ir para o pagamento (TESTE)" : "Ir para o pagamento";
+      b.addEventListener("click", function(){ irPagar(o[0], o[1]); });
+      c.appendChild(b); w.appendChild(c);
+    });
+    return w;
+  }
+  function irPagar(chave, rotulo){
+    if (!TESTE && CHECKOUT[chave].indexOf("http") === 0){ window.location.href = CHECKOUT[chave]; return; }
+    falar("✅ <b>Checkout de TESTE</b>, {nome}: aqui abriria a página de pagamento da Hotmart do plano <b>" + esc(rotulo) + "</b>. Nada foi cobrado. Quando o curso for ao ar, este botão leva direto para a Hotmart.", ["acesso","garantia","suporte"]);
+  }
+
+  function responder(chave){
+    if (chave === "comprar"){
+      falar("Que bom, {nome}! Escolhe o plano. O <b>Vitalício</b> é o mais escolhido: você paga uma vez e fica com todas as aulas e atualizações, sem prazo.", ["garantia","pagamento","suporte"], oferta());
+      return;
+    }
+    var r = R[chave]; if (!r) return;
+    falar(r.t, r.o);
+  }
+
+  function entender(texto){
+    var t = texto.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    var tOrig = texto.toLowerCase();
+    for (var i = 0; i < PALAVRAS.length; i++){ if (PALAVRAS[i][1].test(tOrig) || PALAVRAS[i][1].test(t)) return PALAVRAS[i][0]; }
+    if (/^(oi|ola|bom dia|boa tarde|boa noite|e ai|opa)\b/.test(t)) return "saudacao";
+    if (/obrigad|valeu|show|top|perfeito|beleza/.test(t)) return "agradece";
+    return "";
+  }
+
+  function aoEnviar(texto){
+    texto = (texto || "").trim(); if (!texto) return;
+    eu(texto);
+    if (!nome){
+      var nm = limparNome(texto.replace(/^(meu nome [eé]|me chamo|sou o|sou a|eu sou)\s+/i, ""));
+      if (!nm || entender(texto)){ nome = ""; }
+      if (nm && !entender(texto)){
+        nome = nm;
+        falar("Prazer, {nome}! 😊 Eu respondo na hora as dúvidas sobre a <b>Rota Federal</b>, o curso que ensina o serviço ambiental federal (CAR, outorga na ANA, Ibama e SINIR) na tela real dos sistemas, para qualquer estado.\nToca num tema abaixo ou escreve a sua dúvida.", MENU);
+        return;
+      }
+      falar("Antes, me diz só o seu primeiro nome, para eu te atender direitinho.", []);
+      return;
+    }
+    var k = entender(texto);
+    if (k === "saudacao"){ falar("Oi, {nome}! Me conta a sua dúvida ou toca num tema abaixo.", MENU); return; }
+    if (k === "agradece"){ falar("Imagina, {nome}! Se quiser, já pode garantir o preço de fundador agora.", ["comprar","garantia","suporte"]); return; }
+    if (k){ responder(k); return; }
+    falar("Essa eu não entendi direito, {nome}. Toca num dos temas abaixo, ou escreve de outro jeito (por exemplo: \"preço\", \"pagamento\", \"acesso\", \"serve para o meu estado\").", MENU);
+  }
+
+  document.getElementById("envio").addEventListener("submit", function(e){
+    e.preventDefault(); var v = campo.value; campo.value = ""; aoEnviar(v);
+  });
+
+  /* tabela de atalhos (respostas rápidas do WhatsApp Business) a partir das mesmas respostas */
+  var corpo = document.querySelector("#atalhos tbody");
+  var ATALHOS = [["/preco","preco"],["/pagamento","pagamento"],["/garantia","garantia"],["/acesso","acesso"],["/conteudo","conteudo"],["/estado","estado"],["/ia","ia"],["/servico","servico"],["/caro","caro"],["/bonus","bonus"]];
+  ATALHOS.forEach(function(a){
+    var tr = document.createElement("tr");
+    var txt = R[a[1]].t.replace(/<[^>]+>/g,"").replace(/\{nome\}/g,"[nome]");
+    tr.innerHTML = "<td class=\"mono\" style=\"border:0;background:none;padding:.4rem .5rem\">" + a[0] + "</td><td>" + esc(txt).replace(/\n/g,"<br>") + "</td>";
+    corpo.appendChild(tr);
+  });
+  document.querySelectorAll(".copiar").forEach(function(b){
+    b.addEventListener("click", function(){
+      var t = document.getElementById(b.getAttribute("data-alvo")).textContent;
+      var ok = function(){ b.textContent = "Copiado"; setTimeout(function(){ b.textContent = "Copiar de novo"; }, 1500); };
+      if (navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(t).then(ok, function(){ selecionar(b); }); } else selecionar(b);
+    });
+  });
+  function selecionar(b){ var el = document.getElementById(b.getAttribute("data-alvo")); var r = document.createRange(); r.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+
+  /* início */
+  falar("Olá! 👋 Aqui é o atendimento da <b>Rota Federal</b>, da Inteligência Ambiental. Como posso te chamar?", []);
+})();
+</script>
