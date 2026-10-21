@@ -98,6 +98,12 @@ conta.
   @oanalistaamb), nem pelo Metricool/vidIQ, nem pelo Cowork. Esta frente posta só no @ambientalinteligencia e no @I.Ambiental.
   A citação "um projeto de @oanalistaambiental" na descrição/bio continua.
 
+- 21/10/2026: **vídeos no padrão "tela pura"** (CURSO, `producao/PADRAO_TELA_PURA.md`, ramo `captura/estrutura-frente`): F01 e
+  F02 refeitos; F03 a F05 com roteiro e passos 🎬. **Vozes grátis por enquanto** (Antonio +6 %); ElevenLabs só depois.
+  **As falas seguem o jeito de falar do dono** ("Olá, no vídeo de hoje…", "vem comigo", "aqui você preenche, é só clicar",
+  "espera carregar", "como vocês podem ver, é muito simples", "se gostou, curte aí, comenta…"): `producao/ESTILO_FALA_FEDERAL.md`.
+  Sem pergunta retórica, como sempre.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
