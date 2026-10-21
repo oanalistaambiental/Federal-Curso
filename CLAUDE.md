@@ -104,6 +104,16 @@ conta.
   "espera carregar", "como vocês podem ver, é muito simples", "se gostou, curte aí, comenta…"): `producao/ESTILO_FALA_FEDERAL.md`.
   Sem pergunta retórica, como sempre.
 
+- 21/10/2026: **perfis de IA por nicho e serviços online** (estudos, aguardam o "sim"):
+  - `pesquisa/PERFIS_NICHO_E_AVATARES.md`: 25 personagens (pescador, criador de passarinho/Sispass, carvoeiro, motorista
+    de carvão, motosserra, serraria, oficina etc.). **Preferência do dono: um perfil só** (@ambientalinteligencia), com
+    **séries fixas por nicho**; a segmentação vai no anúncio, e a série que vingar pode virar perfil próprio depois.
+  - `pesquisa/SERVICOS_ONLINE_E_REGRAS.md`: catálogo de serviços online recorrentes. **Trava legal:** a Lei 869/1952,
+    art. 217, IX proíbe o servidor de "pleitear, como procurador ou intermediário, junto às repartições públicas" (pela
+    letra, inclusive Ibama e MPA), e a senha gov.br é intransferível. **O dono não executa serviço em nome de cliente.**
+    Modelo seguro: "faça você mesmo com a nossa ajuda" (ferramenta, guia, lembrete de renovação pago). Indicar parceiro
+    pago e abrir MEI só depois da consulta à Comissão de Ética (rascunho no §4). Sispass e tudo de órgão de MG ficam fora.
+
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
 - **Nada vai ao ar sem o "sim" do dono:** roteiro, título, post, vídeo.
