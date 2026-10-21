@@ -7,7 +7,7 @@ Conteúdo normativo: o do V02, já conferido (`roteiros/V02_CAR_CADASTRO_AMBIENT
 abr/2026). **O vídeo V02 v4b continua valendo**; este é um vídeo novo, no formato novo. **Nada vai ao ar sem o "sim" do dono.**
 
 Vídeo e áudio ficam **fora do git** (Drive, `Inteligência Ambiental › Vídeos › Tela pura`, quando o dono pedir a subida).
-Nome: `F02_CAR_consulta_telapura_v1.mp4` + `.srt`. 5 min 46 s, 1920×1080, 30 fps, voz edge-tts `pt-BR-AntonioNeural` +6 %.
+Nome: `F02_CAR_consulta_telapura_v1.mp4` + `.srt`. 5 min 40 s, 1920×1080, 30 fps, voz edge-tts `pt-BR-AntonioNeural` +6 %.
 
 ## O que tem na tela (tudo público, gravado pela Conta C em 21/10/2026)
 | Tempo | Passos | Tela |
@@ -18,7 +18,7 @@ Nome: `F02_CAR_consulta_telapura_v1.mp4` + `.srt`. 5 min 46 s, 1920×1080, 30 fp
 | 3:12–3:44 | D01–D05 | Planalto, Lei 12.651, art. 29 (só o artigo, em escala 1,8) |
 | 3:44–4:02 | E01–E03 | gov.br/car, Perguntas frequentes › Inscrição no CAR: o texto antigo do prazo de 31/12/2018 |
 | 4:02–4:33 | G01–G04 | gov.br/car, Central de conteúdo › Manuais: Módulo de Cadastro Pré-Preenchido |
-| 4:33–5:46 | F01–F09, Z01, Z02 | gov.br/car › Faça seu CAR → car.gov.br/#/baixar: Paraná (pré-preenchido e offline), Bahia (sistema próprio), volta ao Paraná e **para no botão do login gov.br** (sem clicar); fecho do dono |
+| 4:33–5:40 | F01–F09, Z02 | gov.br/car › Faça seu CAR → car.gov.br/#/baixar: Paraná (pré-preenchido e offline), Bahia (sistema próprio), volta ao Paraná e **para no botão do login gov.br** (sem clicar); fecho do dono |
 
 Nenhuma tela traz nome de pessoa: a Consulta Pública não mostra titular, e o CNPJ da empresa de Paranaguá não aparece.
 Sem cartão, sem slide e sem figura de manual. A regra entra numa frase, em cima da tela (art. 29 no Planalto).
@@ -42,12 +42,12 @@ Sem cartão, sem slide e sem figura de manual. A regra entra numa frase, em cima
 ## Portão de entrega (§6) · resultado da versão 1
 | Item | Meta | Resultado |
 |---|---|---|
-| Storyboard (`storyboard.py`) | a tela mostra o que a voz diz | 114 quadros em 6 folhas, conferidos um a um |
-| LGPD (`qa_lgpd_par.py`, mesmos padrões do `qa_lgpd.py`, OCR 1 quadro/s) | 0 dado real | 346 quadros, 0 suspeitos (`PORTAO_v1.md`) |
+| Storyboard (`storyboard.py`) | a tela mostra o que a voz diz | 112 quadros em 6 folhas, conferidos |
+| LGPD (`qa_lgpd_par.py`, mesmos padrões do `qa_lgpd.py`, OCR 1 quadro/s) | 0 dado real | 340 quadros, 0 suspeitos (`PORTAO_v1.md`) |
 | Loudness | -16 ± 0,5 LUFS | -16,3 LUFS |
-| Pico | ≤ -1,5 dBFS | -4,6 dBFS |
-| Silêncio | ≤ 2 s | nenhum trecho ≥ 2 s abaixo de -45 dB |
-| Duração | 5 a 9 min | 5 min 46 s |
+| Pico | ≤ -1,5 dBFS | -4,7 dBFS |
+| Silêncio | ≤ 2 s | maior trecho abaixo de -45 dB: 1,6 s |
+| Duração | 5 a 9 min | 5 min 40 s |
 | Pergunta | nenhuma | 0 "?" na legenda e na fala |
 
 ## 🎬 Para o dono

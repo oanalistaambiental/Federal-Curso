@@ -230,7 +230,6 @@ const CENAS = {
       await R.passo('F07_estadual', async at => { await marca(p, await H(p, () => [...document.querySelectorAll('a,button')].find(e => e.offsetParent && /ACESSAR SITE DO CAR ESTADUAL/i.test(e.textContent)))); });
       await R.passo('F08_volta', async at => { await desmarca(p); await uf(R, 'Paraná (PR)'); await at('cursor'); await marca(p, await H(p, () => [...document.querySelectorAll('a,button,div')].filter(e => e.offsetParent && /ACESSE O MÓDULO DE CADASTRO PRÉ-PREENCHIDO/.test(e.textContent)).sort((a, b) => a.textContent.length - b.textContent.length)[0])); });
       await R.passo('F09_login', async at => { });
-      await R.passo('Z01_parar', async at => { });
       await R.passo('Z02_fecho', async at => { await desmarca(p); await cursor(p, 1220, 640, 1200); });
     });
   },
