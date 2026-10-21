@@ -9,31 +9,56 @@ de conferência no texto oficial está marcado [conferir].
 
 ---
 
-## 0. Antes de tudo: o que a lei de MG permite ao dono (servidor efetivo da FEAM)
+## 0. Antes de tudo: o que vale para o dono (servidor efetivo da FEAM), atualizado em 21/10/2026
 
-**A pesquisa achou uma trava na lei.** Ela não proíbe o negócio, mas proíbe a forma "eu faço por você".
+**Atualização com a resposta da Comissão de Ética.** O dono mandou a resposta da **Comissão de Ética da Semad**, de
+**29/04/2021**, a uma consulta de outro analista ambiental (Supram), em e-mail encaminhado em 2023 e 2024. A pergunta
+era se um analista pode prestar **consultoria ambiental** fora do horário, para empreendimentos licenciados pelos
+**municípios**. Para não expor nomes nem e-mails de terceiros, o PDF fica fora do repositório e com o dono.
 
-| Norma | O que diz | Efeito |
-|---|---|---|
-| **Lei estadual 869/1952, art. 217, IX** | É proibido ao servidor "pleitear, como procurador ou intermediário, junto às **repartições públicas**", salvo vencimentos e vantagens de parente até o 2º grau | O texto não limita a repartição a MG: pela letra, **alcança Ibama, MPA e órgãos de outros estados**. Pena de suspensão de até 90 dias (art. 246) |
-| Lei 869/1952, art. 217, VI e VII | proíbe gerir empresa comercial e exercer comércio | abrir MEI ou empresa para isso é arriscado |
-| **Decreto 48.417/2022, art. 4º, III e V** | conflito de interesses: atividade em "matérias correlatas" ao cargo; atuar como procurador, consultor ou intermediário de interesse privado no Executivo | consultoria ambiental é matéria correlata ao cargo de analista ambiental |
-| Decreto 46.644/2014 (Código de Ética), art. 10, XVIII | veda atividade que possa significar conflito de interesse | reforça o anterior |
-| Termos de uso do gov.br | a senha é "pessoal e intransferível" | **usar a senha gov.br do cliente viola os termos**, além do risco de LGPD |
-| Código Penal, art. 321 (advocacia administrativa) | patrocinar interesse privado "valendo-se da qualidade de funcionário" | só se configura se o dono usar o cargo; ainda assim o art. 217, IX vale [conferir texto no Planalto, que estava fora do ar] |
+**O que a comissão respondeu**
+- **"Não foi encontrada vedação expressa"** para essa atividade nas normas vigentes, inclusive nas da CGE e do Conset.
+- A única vedação citada é a da **Lei federal 12.813/2013, art. 5º, VII**, que **vale só para o Executivo federal**, e
+  não para o servidor estadual.
+- Pede **muita cautela**, com base no Código de Conduta Ética (Decreto 46.644/2014):
+  - art. 7º: fidelidade ao interesse público e impessoalidade;
+  - arts. 9º e 10, em especial o art. 10, I (usar cargo ou amizade), VII (vantagem), XII (informação privilegiada) e
+    XVIII (atividade que signifique conflito de interesse);
+  - art. 11: não aceitar vantagem de quem tem interesse em ato do órgão.
+- Exemplos de conflito que a comissão aponta:
+  - analisar outro ato autorizativo do **mesmo empreendimento** atendido;
+  - **fiscalizar** esse empreendimento;
+  - analisar **fases seguintes ou renovações**, se o Estado reassumir o licenciamento. A LC 140/2011, art. 17 dá
+    fiscalização comum aos entes.
+- Nesses casos o servidor deve **se declarar impedido**, sem que os impedimentos atrapalhem o trabalho no Estado.
+- **Recomendação final:** avaliar **com a chefia**, no caso concreto.
 
-**O que não se achou:**
-- parecer da CGE, da AGE ou do Conset sobre servidor do Sisema em serviço privado;
-- procuração eletrônica geral no gov.br para a licença de pesca, o CTF ou o Sispass;
-- confirmação oficial de "despachante" como ocupação de MEI.
+**Leitura para os serviços do dono**
+1. **A trava que este estudo tinha posto foi exagerada.** A comissão não tratou o art. 217, IX da Lei 869/1952 como
+   proibição da consultoria. Esse inciso foi citado pelo próprio consulente, e a comissão não o aplicou. Ele continua
+   no texto da lei, mas a leitura do órgão foi de **não haver vedação expressa** à prestação de serviço.
+2. Serviços **federais** (MPA, Ibama, ANA, Sicar fora de MG) e de **outros estados** ficam ainda **mais longe** da
+   atuação do dono do que o caso consultado, que eram municípios de MG. O risco de cruzar com processo que ele analisa é
+   bem menor.
+3. **Cuidados que continuam:**
+   - **Nada em órgão de MG** nem com empreendimento que possa passar pela FEAM. O Decreto 48.417/2022, art. 4º, V, que
+     é **posterior à resposta**, trata como conflito atuar como procurador, consultor ou intermediário de interesse
+     privado **nos órgãos do Executivo estadual**. Sispass de MG (IEF) fica fora.
+   - Nunca usar informação interna nem o cargo, e nunca citar o cargo na venda (regra de 20/10, tom público).
+   - **Senha gov.br do cliente nunca:** ela é intransferível pelos termos de uso. Usar atendimento assistido ou a
+     representação que o sistema prevê.
+   - Se um cliente aparecer em processo do dono, **declarar impedimento**.
+   - Seguindo a recomendação da comissão, **conversar com a chefia** e guardar o registro. É **recomendável, não uma
+     trava**.
+4. **Os modelos A e D continuam bons**, mas deixam de ser obrigatórios. O dono pode executar serviços federais e de
+   outros estados com os cuidados acima. Também pode usar sócios e amigos (Modelo D) para ganhar escala ou para manter
+   distância de MG.
 
-**Leitura:** a ética do **curso** já foi resolvida com o RH em 15/10/2026. **Executar serviço em nome de cliente é outra
-coisa** e, pela letra do art. 217, IX, é proibido em qualquer órgão. O caminho seguro é o **"faça você mesmo, com a
-nossa ajuda"**, em produto e ferramenta, e não o serviço por procuração. A consulta formal (§4) tira a dúvida do resto.
-
-**Sispass em MG:** quem gere é o **IEF**, órgão do Sisema. Fica totalmente fora, tanto da marca quanto do serviço.
-
----
+**Outros pontos**
+- **MEI ou empresa:** o art. 217, VII permite ser cotista e o inciso VI proíbe só a gerência de empresa **comercial ou
+  industrial**. O próprio consulente lembrou que prestação de serviço não é comércio nem indústria. Ser cotista sem
+  gerência é o mais seguro. MEI de serviço é viável, conferindo a ocupação permitida [conferir lista do MEI].
+- **Lei 12.813/2013** (federal): não se aplica ao dono, o que a comissão confirmou.
 
 ## 1. Catálogo dos serviços (o que existe, quem precisa, de quanto em quanto tempo)
 
@@ -83,16 +108,21 @@ O cliente faz na conta dele. O dono vende o mapa, a ferramenta e o lembrete.
    do contato).
 4. **Vídeo e curso** (Rota Federal e séries do perfil): o que já está aprovado.
 
-### Modelo B: parceiro executa, o dono indica (só depois da consulta)
+### Modelo B: parceiro executa, o dono indica
 Um consultor ou despachante **sem vínculo com o dono** faz o serviço em nome do cliente, com procuração e contrato
 próprios. O dono só produz o conteúdo e indica.
-- O pagamento seria por indicação (afiliado). **Precisa de resposta da consulta**, porque a indicação paga pode ser
-  vista como intermediação "indireta".
+- O pagamento é por indicação (afiliado). Vale o mesmo cuidado do §0: nada que envolva órgão de MG.
 - Bom para: CTF/RAPP/CR de empresa, CAR com retificação, MTR e DMR.
 
-### Modelo C: o dono executa em nome do cliente (não fazer)
-É barrado pela letra do art. 217, IX da Lei 869/1952 e pelos termos do gov.br. **Não fazer, nem fora de MG**, a não ser
-que a consulta formal autorize por escrito, o que é improvável.
+### Modelo C: o dono executa (permitido com cuidados, atualizado em 21/10/2026)
+Pela resposta da Comissão de Ética (§0), não há vedação expressa. O dono pode executar serviços **federais e de outros
+estados**:
+- fora do horário de trabalho;
+- sem órgão de MG;
+- sem a senha gov.br do cliente;
+- declarando impedimento se houver cruzamento com o trabalho na FEAM.
+
+Recomendação: avisar a chefia e guardar o registro.
 
 ### Modelo D: o sócio ou um amigo executa, e o dono cuida da marca (escolha do dono em 21/10/2026)
 O dono avisou que tem **sócios cotistas e amigos** que podem tocar a execução. Não é preciso esperar a consulta para
@@ -151,8 +181,8 @@ desenhar o modelo; ela continua sendo opcional, como garantia.
 
 ---
 
-## 4. Rascunho da consulta à Comissão de Ética (Decreto 48.417/2022, art. 6º)
-O dono envia, se quiser. Guardar a resposta por escrito.
+## 4. Rascunho de consulta (opcional; já existe a resposta de 2021 no §0)
+Só se o dono quiser uma resposta específica para o caso dele, depois do Decreto 48.417/2022. Guardar a resposta por escrito.
 
 > À Comissão de Ética da FEAM (ou ao Conselho de Ética Pública – Conset)
 >

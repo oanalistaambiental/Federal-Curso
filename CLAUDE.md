@@ -108,14 +108,20 @@ conta.
   - `pesquisa/PERFIS_NICHO_E_AVATARES.md`: 25 personagens (pescador, criador de passarinho/Sispass, carvoeiro, motorista
     de carvão, motosserra, serraria, oficina etc.). **Preferência do dono: um perfil só** (@ambientalinteligencia), com
     **séries fixas por nicho**; a segmentação vai no anúncio, e a série que vingar pode virar perfil próprio depois.
-  - `pesquisa/SERVICOS_ONLINE_E_REGRAS.md`: catálogo de serviços online recorrentes. **Trava legal:** a Lei 869/1952,
-    art. 217, IX proíbe o servidor de "pleitear, como procurador ou intermediário, junto às repartições públicas" (pela
-    letra, inclusive Ibama e MPA), e a senha gov.br é intransferível. **O dono não executa serviço em nome de cliente.**
-    Modelo seguro: "faça você mesmo com a nossa ajuda" (ferramenta, guia, lembrete de renovação pago). Indicar parceiro
-    pago e abrir MEI só depois da consulta à Comissão de Ética (rascunho no §4). Sispass e tudo de órgão de MG ficam fora.
-  - **Escolha do dono (21/10): Modelo D.** Sócios cotistas ou amigos executam pela empresa deles. O dono fica como
-    cotista sem gerência e cuida da marca, do conteúdo e das ferramentas. A consulta à Comissão de Ética é **opcional**:
-    não travar o plano nela.
+  - `pesquisa/SERVICOS_ONLINE_E_REGRAS.md`: catálogo de serviços online recorrentes (licença de pesca, Sispass, CTF/RAPP/
+    TCFA/CR, LPU, CAR+ITR, MTR/DMR).
+  - **Atualizado com a resposta da Comissão de Ética da Semad (29/04/2021, enviada pelo dono em 21/10):**
+    - "não foi encontrada vedação expressa" a analista ambiental prestar consultoria fora do horário;
+    - a Lei 12.813/2013 vale só para o Executivo federal;
+    - pede cautela com o Código de Ética (Decreto 46.644/2014): declarar impedimento se o empreendimento passar por ele
+      e avaliar com a chefia.
+  - **O dono pode executar serviços federais e de outros estados**, com quatro cuidados:
+    - nada em órgão de MG (Decreto 48.417/2022, art. 4º, V; Sispass de MG é do IEF);
+    - nunca a senha gov.br do cliente;
+    - nunca citar o cargo;
+    - impedimento quando houver cruzamento.
+  - **Modelo D** (sócios cotistas ou amigos executam; o dono como cotista sem gerência) segue como opção de escala.
+  - A consulta nova é opcional. O PDF da resposta fica com o dono, fora do git, porque traz nomes de terceiros.
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
