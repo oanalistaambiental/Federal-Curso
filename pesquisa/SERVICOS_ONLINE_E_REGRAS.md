@@ -94,6 +94,49 @@ próprios. O dono só produz o conteúdo e indica.
 É barrado pela letra do art. 217, IX da Lei 869/1952 e pelos termos do gov.br. **Não fazer, nem fora de MG**, a não ser
 que a consulta formal autorize por escrito, o que é improvável.
 
+### Modelo D: o sócio ou um amigo executa, e o dono cuida da marca (escolha do dono em 21/10/2026)
+O dono avisou que tem **sócios cotistas e amigos** que podem tocar a execução. Não é preciso esperar a consulta para
+desenhar o modelo; ela continua sendo opcional, como garantia.
+
+**Divisão**
+- **O dono:** marca, conteúdo, perfis, ferramentas do site e guias.
+  - Fica como **cotista, sem gerência**: o art. 217, VII permite ser "acionista, quotista ou comandatário", e o
+    inciso VI proíbe só "a gerência ou administração".
+  - **Não assina, não protocola e não fala com órgão** em nome de cliente (inciso IX).
+- **Sócio administrador ou amigo, com empresa própria:**
+  - atende o cliente, assina o contrato e a procuração, executa nos sistemas e cobra;
+  - o contrato e a LGPD ficam com a empresa dele;
+  - quem atende o cliente nunca usa o cargo do dono.
+- **Como o dinheiro circula:** o perfil e o site geram o pedido, e o botão "quero que façam para mim" leva ao WhatsApp
+  ou ao formulário da empresa do sócio. O dono recebe pela participação nas cotas ou por um acordo de marca e
+  conteúdo, nunca por "despachar".
+
+**Limites que continuam**
+- Nada em órgão de MG: Sispass em MG (IEF), Semad, Feam, IEF e Igam. Vale para o sócio também, por causa do conflito de
+  interesses do dono.
+- Senha gov.br do cliente nunca fica com ninguém. Onde o sistema não aceita representante, o atendimento é
+  **assistido**: o cliente entra com a conta dele numa chamada de vídeo e o atendente conduz. Onde aceita (CTF da
+  empresa, cadastrante do CAR, contador no ITR), entra com a procuração ou o vínculo previsto [conferir sistema a
+  sistema].
+- Seguro-defeso continua fora.
+- O Decreto 48.417/2022, art. 4º, III ("matérias correlatas") é o ponto que a consulta resolveria. Ela fica **opcional**.
+
+**Serviços para o sócio executar (do mais fácil ao mais rentável)**
+| Serviço | Como faz | Cobrança sugerida (hipótese, sem preço de mercado achado) |
+|---|---|---|
+| Licença de pesca federal e estadual | atendimento assistido por vídeo; estrangeiro sem CPF pode ser cadastrado por um brasileiro | R$ 29 a R$ 49 mais a taxa; lembrete anual incluso |
+| Sispass fora de MG (renovação, anilhas, transferência) | assistido | R$ 49 a R$ 99 por ano |
+| LPU de motosserra | assistido ou pelo CTF do cliente | R$ 49 a R$ 79 |
+| CTF + RAPP + TCFA + CR para pequena empresa | representante ou declarante no CTF | mensalidade de R$ 49 a R$ 149 (consultorias cobram de R$ 900 a R$ 2.900 por mês em pacotes maiores) |
+| CAR, retificação e ITR + CCIR | cadastrante do CAR e contador parceiro no ITR | CAR de R$ 500 a R$ 3.000 (mercado); ITR e CCIR anuais |
+| MTR e DMR de resíduos | usuário vinculado ao gerador | mensalidade por gerador |
+
+**Primeiros passos**
+1. Escolher o sócio ou amigo que executa. Ele precisa de CNPJ com CNAE de serviços administrativos ou de consultoria.
+2. Contrato entre a empresa dele e a marca do dono: cotas ou acordo de marca, conteúdo e indicação.
+3. Começar pela licença de pesca, com piloto de 30 dias na piracema, e pelo pacote CTF/RAPP, para vender em janeiro.
+4. O lembrete de renovação vira o produto recorrente da empresa.
+
 ---
 
 ## 3. Ordem sugerida (o que o dono fará)

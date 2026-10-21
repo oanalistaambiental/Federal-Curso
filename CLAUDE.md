@@ -113,6 +113,9 @@ conta.
     letra, inclusive Ibama e MPA), e a senha gov.br é intransferível. **O dono não executa serviço em nome de cliente.**
     Modelo seguro: "faça você mesmo com a nossa ajuda" (ferramenta, guia, lembrete de renovação pago). Indicar parceiro
     pago e abrir MEI só depois da consulta à Comissão de Ética (rascunho no §4). Sispass e tudo de órgão de MG ficam fora.
+  - **Escolha do dono (21/10): Modelo D.** Sócios cotistas ou amigos executam pela empresa deles. O dono fica como
+    cotista sem gerência e cuida da marca, do conteúdo e das ferramentas. A consulta à Comissão de Ética é **opcional**:
+    não travar o plano nela.
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
