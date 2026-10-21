@@ -1,0 +1,672 @@
+{
+ "video": "F01_outorga_ANA_telapura_v1.mp4",
+ "duracao": 469.99,
+ "loudness_antes": -21.8,
+ "ganho": 5.8,
+ "passos": [
+  {
+   "id": "P01_home",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 0.0,
+   "duracao": 20.6,
+   "voz": 19.8,
+   "fala": "Olá! No vídeo de hoje eu vou mostrar como é que se pede a outorga na ANA, pela Plataforma Águas Brasil. A outorga é a autorização pra usar a água de um rio: captar, lançar efluente ou barrar. É um tutorial fácil. Vem comigo, que eu vou mostrar a tela e o passo a passo aqui pra vocês.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S1",
+     "inicio": 0.39,
+     "duracao_saida": 20.6,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P02_cartoes",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 20.6,
+   "duracao": 19.95,
+   "voz": 19.15,
+   "fala": "Essa é a página inicial, e aqui são quatro caminhos. Primeiro acesso é pra quem ainda não tem outorga. Já sou usuário leva pro login do gov.br. Quero ser representado é pro cliente indicar o consultor. E a Consulta de Atos é pública: você consegue ver sem login.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S1",
+     "inicio": 20.99,
+     "duracao_saida": 19.95,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P03_tutorial",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 40.55,
+   "duracao": 13.66,
+   "voz": 7.56,
+   "fala": "Vou clicar em primeiro acesso. A plataforma já mostra um tutorial rápido, e aí é só clicar em continuar.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S1",
+     "inicio": 40.94,
+     "duracao_saida": 13.66,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P04_tipo",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 54.22,
+   "duracao": 14.42,
+   "voz": 13.58,
+   "fala": "Aqui você indica o ponto de captação. Superficial é rio, córrego ou represa, e subterrânea é poço. Nesse ponto eu marco superficial, e no formato, graus, minutos e segundos.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S2",
+     "inicio": 0.39,
+     "duracao_saida": 14.42,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P05_lat",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 68.64,
+   "duracao": 11.89,
+   "voz": 11.09,
+   "fala": "Na latitude põe nove graus, três minutos e 45,5 segundos, sul. É importante ter atenção nesse ponto: o decimal dos segundos vai com vírgula.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S2",
+     "inicio": 14.81,
+     "duracao_saida": 11.89,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P06_lon",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 80.53,
+   "duracao": 14.62,
+   "voz": 13.82,
+   "fala": "Na longitude, trinta e nove graus, cinquenta e nove minutos e 35,0 segundos, oeste. Essa coordenada é a da bomba, e não a da sede da fazenda. Agora clica em confirmar coordenadas.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S2",
+     "inicio": 26.7,
+     "duracao_saida": 14.62,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P07_mapa",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 95.15,
+   "duracao": 9.27,
+   "voz": 8.47,
+   "fala": "Espera carregar um pouquinho aqui. Prontinho: o mapa já vai pra Juazeiro, na Bahia, na margem do Rio São Francisco.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S2",
+     "inicio": 41.32,
+     "duracao_saida": 9.27,
+     "cortes": [
+      [
+       42.62,
+       46.19
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "P08_lista",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 104.42,
+   "duracao": 17.96,
+   "voz": 17.16,
+   "fala": "Logo abaixo, essa plataforma já cruza o ponto com os rios da região. A tabela mostra o domínio e o órgão gestor de cada um. Os dois trechos do São Francisco são federais. Rio que passa por mais de um estado é da União, pela Constituição, artigo 20.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S2",
+     "inicio": 54.16,
+     "duracao_saida": 17.96,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P09_riacho",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 122.38,
+   "duracao": 8.1,
+   "voz": 7.3,
+   "fala": "Esse riacho aqui é estadual, de Pernambuco. Pelo artigo 26 da Constituição, ele é do estado.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S2",
+     "inicio": 72.12,
+     "duracao_saida": 8.1,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P10_estadual",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 130.48,
+   "duracao": 9.63,
+   "voz": 8.83,
+   "fala": "Se eu marco o riacho e confirmo, a plataforma avisa que o domínio é estadual. Ela já mostra o caminho pro órgão gestor de Pernambuco.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S2",
+     "inicio": 80.22,
+     "duracao_saida": 9.63,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P11_poco",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 140.11,
+   "duracao": 15.15,
+   "voz": 14.35,
+   "fala": "Agora o poço. A gente volta aqui, marca subterrânea com as mesmas coordenadas e confirma. A resposta diz que o ponto fica no estado da Bahia. Poço é sempre do estado, então ele não entra aqui na ANA.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S3",
+     "inicio": 0.39,
+     "duracao_saida": 15.15,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "P12_federal",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 155.26,
+   "duracao": 12.94,
+   "voz": 12.14,
+   "fala": "De volta ao rio federal: marco o São Francisco e confirmo. Agora a plataforma pede o login do gov.br. Daqui em diante, cada pessoa entra com a própria conta.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S4",
+     "inicio": 0.39,
+     "duracao_saida": 12.94,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "A01_atos",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 168.2,
+   "duracao": 12.85,
+   "voz": 10.75,
+   "fala": "Antes do pedido, eu vou mostrar onde ele chega. Aqui na Consulta de Atos, que é pública, você digita o número: 11063 de 2026.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S5",
+     "inicio": 0.39,
+     "duracao_saida": 12.85,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "A02_ato",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 181.05,
+   "duracao": 14.65,
+   "voz": 13.85,
+   "fala": "Essa é uma outorga real, de 25 de setembro de 2026, com o sobrenome e o CPF ocultos. Irrigação, captação no Rio São Francisco, em Juazeiro: os mesmos campos que a gente vai preencher.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S5",
+     "inicio": 13.24,
+     "duracao_saida": 14.65,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "A03_rodape",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 195.7,
+   "duracao": 11.34,
+   "voz": 10.54,
+   "fala": "A coordenada vem da tela de geolocalização, e a vigência é de dez anos. E aqui no rodapé está escrito: este ato foi gerado pela Plataforma Águas Brasil.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S5",
+     "inicio": 27.89,
+     "duracao_saida": 11.34,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "A04_anexo",
+   "tipo": "pública (gravada pela Conta C)",
+   "inicio": 207.04,
+   "duracao": 11.02,
+   "voz": 10.22,
+   "fala": "No anexo técnico ficam os volumes de cada mês, o volume anual e a vazão máxima. Esses números saem do cálculo do sistema, que a gente vai ver no pedido.",
+   "fonte": [
+    {
+     "video": "gravação própria (Playwright) · cena S5",
+     "inicio": 39.23,
+     "duracao_saida": 11.02,
+     "cortes": []
+    }
+   ]
+  },
+  {
+   "id": "L01_painel",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 218.06,
+   "duracao": 11.87,
+   "voz": 11.02,
+   "fala": "Agora o pedido. Vem comigo na tela logada. Depois do login, aparece esse painel, e o nome aqui no alto já vem puxado da conta gov.br.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t02 (V01_t02_painel_usuario_menus.mp4)",
+     "inicio": 2.0,
+     "duracao_saida": 11.87,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L02_menu",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 229.93,
+   "duracao": 14.77,
+   "voz": 13.92,
+   "fala": "No menu lateral ficam Nova Outorga e a transferência de outorga. Logo abaixo, a recuperação do empreendimento do antigo REGLA. Em editar usuário, você corrige o e-mail, o telefone e o endereço de contato.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t02 (V01_t02_painel_usuario_menus.mp4)",
+     "inicio": 26.0,
+     "duracao_saida": 14.77,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L03_bloqueio",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 244.7,
+   "duracao": 9.35,
+   "voz": 8.5,
+   "fala": "Cobranças e Nova Outorga ficam bloqueadas até você escolher um empreendimento. Quando o ponteiro passa por cima, aparece o aviso.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t02 (V01_t02_painel_usuario_menus.mp4)",
+     "inicio": 66.0,
+     "duracao_saida": 9.33,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L04_redireciona",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 254.05,
+   "duracao": 20.07,
+   "voz": 19.22,
+   "fala": "Com o empreendimento escolhido aqui no seletor do alto, clica em Nova Outorga. Aparece esse aviso: o pedido ainda segue no REGLA, o Sistema Federal de Regulação de Uso. Lembrando que o CPF precisa estar regular, ou o CNPJ ativo, na Receita Federal. Aí clica em continuar.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t06 (V01_t06_nova_outorga_redireciona_REGLA.mp4)",
+     "inicio": 1.0,
+     "duracao_saida": 11.0,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t06 (V01_t06_nova_outorga_redireciona_REGLA.mp4)",
+     "inicio": 108.0,
+     "duracao_saida": 9.07,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L05_termo",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 274.12,
+   "duracao": 16.33,
+   "voz": 15.48,
+   "fala": "Prontinho, esse é o REGLA. O formulário começa pelo termo de responsabilidade, pela Resolução ANA 236, de 2024. Aqui é só marcar. O que você declara fica sob a sua responsabilidade.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03 (V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4)",
+     "inicio": 62.0,
+     "duracao_saida": 16.33,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L06_finalidade",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 290.45,
+   "duracao": 12.47,
+   "voz": 11.62,
+   "fala": "Na finalidade põe irrigação. São dezesseis opções na lista. No tipo de interferência, captação. Cada pedido trata de um ponto e de uma finalidade.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03 (V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4)",
+     "inicio": 79.0,
+     "duracao_saida": 6.5,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t03 (V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4)",
+     "inicio": 152.0,
+     "duracao_saida": 5.97,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L07_ponto",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 302.92,
+   "duracao": 10.76,
+   "voz": 9.91,
+   "fala": "Nos dados do ponto, a título de exemplo, vai o nome do ponto e a captação superficial. Depois, a UF Bahia e o município de Juazeiro.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03 (V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4)",
+     "inicio": 162.5,
+     "duracao_saida": 4.5,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t03 (V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4)",
+     "inicio": 176.0,
+     "duracao_saida": 3.5,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t03 (V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4)",
+     "inicio": 187.0,
+     "duracao_saida": 2.77,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L08_coord",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 313.68,
+   "duracao": 8.82,
+   "voz": 7.97,
+   "fala": "Aqui as coordenadas entram de novo, em graus, minutos e segundos. Depois clica em confirmar coordenadas.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03 (V01_t03_REGLA_formulario_outorga_ate_corpo_hidrico.mp4)",
+     "inicio": 255.0,
+     "duracao_saida": 8.83,
+     "velocidade": 2.5,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L09_resultado",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 322.5,
+   "duracao": 16.95,
+   "voz": 16.1,
+   "fala": "O REGLA já devolve o corpo hídrico: Rio São Francisco, rio ou curso d'água, domínio federal. Com o rio certo, você concorda com as informações. Com o rio errado, você discorda e justifica, e o ponto vai pra análise geográfica.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03d (V01_t03d_REGLA_concordo_sistemas_irrigacao.mp4)",
+     "inicio": 1.0,
+     "duracao_saida": 8.5,
+     "velocidade": 1.0,
+     "topo_recorte": 144
+    },
+    {
+     "video": "Drive Lote 02 · t03d (V01_t03d_REGLA_concordo_sistemas_irrigacao.mp4)",
+     "inicio": 346.0,
+     "duracao_saida": 8.47,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L10_sistema",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 339.45,
+   "duracao": 10.98,
+   "voz": 10.13,
+   "fala": "Agora vêm os sistemas de irrigação. Nesse ponto põe o sistema: aqui, gotejamento. Na área irrigada, em hectares, dez.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03d (V01_t03d_REGLA_concordo_sistemas_irrigacao.mp4)",
+     "inicio": 355.0,
+     "duracao_saida": 10.97,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L11_cultura",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 350.43,
+   "duracao": 12.99,
+   "voz": 12.14,
+   "fala": "Na cultura mais frequente, uva. Aí clica em incluir. Como vocês podem ver, a tabela já mostra a eficiência que o sistema atribui ao gotejamento: noventa e cinco por cento.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03d (V01_t03d_REGLA_concordo_sistemas_irrigacao.mp4)",
+     "inicio": 367.0,
+     "duracao_saida": 11.0,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t03e (V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4)",
+     "inicio": 60.0,
+     "duracao_saida": 2.0,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L12_obs",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 363.42,
+   "duracao": 12.56,
+   "voz": 11.71,
+   "fala": "Em observações cabe uma nota sobre o pedido. Aí avança em continuar. O aviso pede a confirmação de que todos os dados da irrigação foram informados, e é só confirmar.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03e (V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4)",
+     "inicio": 66.0,
+     "duracao_saida": 5.0,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t03e (V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4)",
+     "inicio": 76.5,
+     "duracao_saida": 3.0,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t03e (V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4)",
+     "inicio": 99.0,
+     "duracao_saida": 2.5,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    },
+    {
+     "video": "Drive Lote 02 · t03e (V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4)",
+     "inicio": 112.5,
+     "duracao_saida": 2.07,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L13_caracteristicas",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 375.98,
+   "duracao": 12.85,
+   "voz": 12.0,
+   "fala": "Espera carregar aqui. Prontinho: essa é a tela de características da solicitação. Ela traz o ponto, o rio, o domínio federal e a irrigação, com os dez hectares.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03e (V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4)",
+     "inicio": 146.0,
+     "duracao_saida": 12.87,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L14_volumes",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 388.83,
+   "duracao": 11.7,
+   "voz": 10.85,
+   "fala": "Mais abaixo vêm os volumes de cada mês. Você não digita volume nem vazão. O sistema calcula a partir da cultura, da área e do sistema de irrigação.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03e (V01_t03e_REGLA_irrigacao_resumo_volumes_vazao.mp4)",
+     "inicio": 186.0,
+     "duracao_saida": 11.7,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L15_totais",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 400.53,
+   "duracao": 12.99,
+   "voz": 12.14,
+   "fala": "Essa informação é importante: o volume anual dá 182.551 metros cúbicos, e a vazão máxima permitida, 67,42 metros cúbicos por hora.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03f (V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4)",
+     "inicio": 58.0,
+     "duracao_saida": 13.0,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L16_botoes",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 413.52,
+   "duracao": 15.44,
+   "voz": 14.59,
+   "fala": "Em concordo, o pedido vai pro automático, e no nível de risco dois a outorga sai na hora. Em não concordo, você vai pra planilha de irrigação e pra análise técnica, pela Resolução ANA 236, artigo 83.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03f (V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4)",
+     "inicio": 71.0,
+     "duracao_saida": 15.43,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L17_tipo",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 428.96,
+   "duracao": 9.37,
+   "voz": 8.52,
+   "fala": "Na confirmação você escolhe o tipo. A outorga de direito de uso autoriza usar a água, e é a que a licença de operação pede.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03f (V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4)",
+     "inicio": 100.0,
+     "duracao_saida": 9.37,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L18_preventiva",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 438.33,
+   "duracao": 9.37,
+   "voz": 8.52,
+   "fala": "A outorga preventiva só reserva a água na fase de planejamento. Ela vale até três anos, não renova e não autoriza o uso.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03f (V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4)",
+     "inicio": 180.0,
+     "duracao_saida": 9.37,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "L19_solicitar",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 447.7,
+   "duracao": 11.46,
+   "voz": 10.61,
+   "fala": "Esse é o botão Solicitar Outorga. Aqui eu paro, porque é um pedido de exemplo. No seu, confere o ponto, o rio e a área antes de solicitar.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03f (V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4)",
+     "inicio": 199.0,
+     "duracao_saida": 11.47,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  },
+  {
+   "id": "Z01_fecho",
+   "tipo": "logada (Cowork, Lote 02, 19/10/2026)",
+   "inicio": 459.16,
+   "duracao": 10.83,
+   "voz": 9.98,
+   "fala": "Como vocês podem ver, é muito simples. Se gostou, curte aí e comenta. Qualquer dúvida, é só deixar aqui nos comentários.",
+   "fonte": [
+    {
+     "video": "Drive Lote 02 · t03f (V01_t03f_REGLA_concordo_confirmacao_tipo_outorga_ATE_SOLICITAR.mp4)",
+     "inicio": 210.0,
+     "duracao_saida": 10.83,
+     "velocidade": 1.0,
+     "topo_recorte": 87
+    }
+   ]
+  }
+ ]
+}
