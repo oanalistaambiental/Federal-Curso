@@ -122,6 +122,15 @@ conta.
     - impedimento quando houver cruzamento.
   - **Modelo D** (sócios cotistas ou amigos executam; o dono como cotista sem gerência) segue como opção de escala.
   - A consulta nova é opcional. O PDF da resposta fica com o dono, fora do git, porque traz nomes de terceiros.
+  - **Estudo de mercado v2 (21/10, sem a trava):** `pesquisa/ESTUDO_MERCADO_2026_SERVICOS_E_PRODUTOS.md`. Carros-chefe
+    propostos:
+    - **pré-análise socioambiental do imóvel rural** (crédito barrado pelo Banco Central, EUDR em 30/12/2026, PRODES
+      nos imóveis pequenos em 2027), com o "Relatório do imóvel" no Chão Geo;
+    - **NR-1 psicossocial + PGR** com a ART de engenheiro de segurança do dono (frente de SST, separada);
+    - recorrência: pacote CTF/RAPP/CR, PGRS/MTR, licença de pesca e Sispass assistidos, clube mensal e alerta de
+      vencimentos;
+    - infoprodutos: pack de prompts de IA, kit de planilhas, kit EUDR, "Seu crédito vai passar?".
+    - Aguarda o "sim".
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).

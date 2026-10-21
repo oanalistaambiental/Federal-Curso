@@ -1,5 +1,8 @@
 # Estudo: serviços online e recorrentes que o dono pode oferecer (pesquisa de 21/10/2026)
 
+> **Versão 2 (21/10/2026):** as recomendações foram refeitas, sem a trava, em `ESTUDO_MERCADO_2026_SERVICOS_E_PRODUTOS.md`.
+> Este arquivo fica como catálogo dos serviços e registro da resposta da Comissão de Ética (§0).
+
 Pedido do dono (21/10/2026): pesquisar serviços simples, feitos online e para clientes de fora de MG, de preferência
 com renovação periódica, para ele fazer pessoalmente, com app ou terceirizado. O exemplo é a licença de pesca, que é
 dos temas mais vistos.
