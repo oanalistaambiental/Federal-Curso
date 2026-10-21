@@ -1,0 +1,186 @@
+{
+ "titulo": "Outorga federal na ANA · Águas Brasil e REGLA",
+ "passos": [
+  [
+   "P01_home",
+   "pub",
+   "Olá! No vídeo de hoje eu vou mostrar como pedir a outorga na Agência Nacional de Águas, pela Plataforma Águas Brasil. A outorga serve para autorizar o uso da água de um rio: captar, lançar efluente ou barrar. É um tutorial fácil: vem comigo, que eu vou mostrar a tela e o passo a passo."
+  ],
+  [
+   "P02_cartoes",
+   "pub",
+   "Aqui na página inicial são quatro caminhos. Primeiro acesso é para quem ainda não tem outorga. Já sou usuário leva ao login pelo gov.br. Quero ser representado é para o cliente indicar o consultor como representante. E a Consulta de Atos é pública, você consegue ver sem login."
+  ],
+  [
+   "P03_tutorial",
+   "pub",
+   "No primeiro acesso, a plataforma mostra um tutorial rápido. Essa informação é importante: ela pede as coordenadas do ponto de captação. Aí é só clicar em continuar."
+  ],
+  [
+   "P04_tipo",
+   "pub",
+   "Aqui você indica o ponto. Superficial é rio, córrego ou represa. Subterrânea é poço. Nesse ponto eu marco superficial. E no formato, GMS, que é graus, minutos e segundos."
+  ],
+  [
+   "P05_lat",
+   "pub",
+   "Na latitude põe nove graus, três minutos e 45,5 segundos, sul. É importante ter atenção nesse ponto: o decimal dos segundos vai com vírgula."
+  ],
+  [
+   "P06_lon",
+   "pub",
+   "Na longitude, trinta e nove graus, cinquenta e nove minutos e 35,0 segundos, oeste. Essa coordenada é a da bomba, e não a da sede da fazenda. Agora é só clicar em confirmar coordenadas."
+  ],
+  [
+   "P07_mapa",
+   "pub",
+   "Espera carregar aqui. Pronto: o mapa já vai para Juazeiro, na Bahia, na margem do Rio São Francisco."
+  ],
+  [
+   "P08_lista",
+   "pub",
+   "Logo abaixo, essa plataforma já cruza o ponto com os rios. A tabela mostra o domínio e o órgão gestor de cada um. Os dois trechos do São Francisco são federais. Rio que banha mais de um estado é da União, pela Constituição, artigo 20."
+  ],
+  [
+   "P09_riacho",
+   "pub",
+   "Esse riacho aqui é estadual, de Pernambuco. Pelo artigo 26 da Constituição, ele é do estado."
+  ],
+  [
+   "P10_estadual",
+   "pub",
+   "Se eu marco o riacho e confirmo, a plataforma avisa que o domínio é estadual. Ela já mostra o caminho para o órgão gestor de Pernambuco."
+  ],
+  [
+   "P11_poco",
+   "pub",
+   "Agora o poço. Aí volta, marca subterrânea, com as mesmas coordenadas, e confirma. A resposta diz que o ponto fica no estado da Bahia. Água subterrânea é sempre do estado, nunca da ANA."
+  ],
+  [
+   "P12_federal",
+   "pub",
+   "De volta ao rio federal: marco o São Francisco e confirmo. Agora a plataforma pede o login gov.br. Daqui em diante, cada pessoa entra com a própria conta."
+  ],
+  [
+   "A01_atos",
+   "pub",
+   "Antes do pedido, eu vou mostrar onde ele chega. Aqui na Consulta de Atos, que é pública, é só digitar o número, 11063 de 2026."
+  ],
+  [
+   "A02_ato",
+   "pub",
+   "Essa é uma outorga real, de 25 de setembro de 2026, com o sobrenome e o CPF ocultos. Irrigação, captação no Rio São Francisco, em Juazeiro: os mesmos campos que a gente vai preencher."
+  ],
+  [
+   "A03_rodape",
+   "pub",
+   "A coordenada vem da tela de geolocalização, e a vigência é de dez anos. E aqui no rodapé está escrito: este ato foi gerado pela Plataforma Águas Brasil."
+  ],
+  [
+   "A04_anexo",
+   "pub",
+   "No anexo técnico ficam os volumes de cada mês, o volume anual e a vazão máxima. Esses números saem do cálculo do sistema, que a gente vai ver no pedido."
+  ],
+  [
+   "L01_painel",
+   "log",
+   "Agora, o pedido. Depois do login, aparece esse painel. O nome aqui no alto vem da conta gov.br de quem entrou."
+  ],
+  [
+   "L02_menu",
+   "log",
+   "No menu lateral ficam Nova Outorga, a transferência de outorga e a recuperação do empreendimento do antigo REGLA. Em editar usuário, você corrige o e-mail, o telefone e o endereço de contato."
+  ],
+  [
+   "L03_bloqueio",
+   "log",
+   "Cobranças e Nova Outorga ficam bloqueadas até você escolher um empreendimento. Quando o ponteiro passa por cima, aparece o aviso."
+  ],
+  [
+   "L04_redireciona",
+   "log",
+   "Com o empreendimento escolhido aqui no seletor do alto, é só clicar em Nova Outorga. Aparece esse aviso: o pedido ainda segue no REGLA, o Sistema Federal de Regulação de Uso. O CPF precisa estar regular, ou o CNPJ ativo, na Receita Federal. Aí é só clicar em continuar."
+  ],
+  [
+   "L05_termo",
+   "log",
+   "No REGLA, o formulário começa pelo termo de responsabilidade, com base na Resolução ANA 236, de 2024. Aqui é só marcar. O que você declara fica sob a sua responsabilidade."
+  ],
+  [
+   "L06_finalidade",
+   "log",
+   "Na finalidade põe irrigação. São dezesseis opções na lista. No tipo de interferência, captação. Cada pedido trata de um ponto e de uma finalidade."
+  ],
+  [
+   "L07_ponto",
+   "log",
+   "Nos dados do ponto você preenche o nome do ponto, a captação superficial, a UF Bahia e o município de Juazeiro."
+  ],
+  [
+   "L08_coord",
+   "log",
+   "Aqui as coordenadas entram de novo, em graus, minutos e segundos. Depois é só clicar em confirmar coordenadas."
+  ],
+  [
+   "L09_resultado",
+   "log",
+   "O REGLA já devolve o corpo hídrico: Rio São Francisco, rio ou curso d'água, domínio federal. Com o rio certo, você concorda com as informações. Com o rio errado, você discorda e justifica, e o ponto vai para análise geográfica."
+  ],
+  [
+   "L10_sistema",
+   "log",
+   "Agora os sistemas de irrigação. Nesse ponto põe o sistema: aqui, gotejamento. Na área irrigada, em hectares, dez."
+  ],
+  [
+   "L11_cultura",
+   "log",
+   "Na cultura mais frequente, uva. Aí é só clicar em incluir. Como vocês podem ver, a tabela já mostra a eficiência que o sistema atribui ao gotejamento: noventa e cinco por cento."
+  ],
+  [
+   "L12_obs",
+   "log",
+   "Em observações cabe uma nota sobre o pedido. Avança em continuar. O aviso pede a confirmação de que todos os dados da irrigação foram informados. É só confirmar."
+  ],
+  [
+   "L13_caracteristicas",
+   "log",
+   "Espera carregar aqui. Essa é a tela de características da solicitação: o ponto, o rio, o domínio federal e a irrigação, com os dez hectares."
+  ],
+  [
+   "L14_volumes",
+   "log",
+   "Mais abaixo vêm os volumes de cada mês. Você não digita volume nem vazão: o sistema calcula a partir da cultura, da área e do sistema de irrigação."
+  ],
+  [
+   "L15_totais",
+   "log",
+   "Essa informação é importante: o volume anual dá 182.551 metros cúbicos, e a vazão máxima permitida, 67,42 metros cúbicos por hora."
+  ],
+  [
+   "L16_botoes",
+   "log",
+   "Em concordo, o pedido vai para o automático, e no nível de risco dois a outorga sai na hora. Em não concordo, você vai para a planilha de irrigação e para a análise técnica, pela Resolução ANA 236, artigo 83."
+  ],
+  [
+   "L17_tipo",
+   "log",
+   "Na confirmação você escolhe o tipo. A outorga de direito de uso autoriza usar a água, e é a que a licença de operação pede."
+  ],
+  [
+   "L18_preventiva",
+   "log",
+   "A outorga preventiva só reserva a água na fase de planejamento. Ela vale até três anos, não renova e não autoriza o uso."
+  ],
+  [
+   "L19_solicitar",
+   "log",
+   "Esse é o botão Solicitar Outorga. Aqui eu paro, porque é um pedido de exemplo. Antes de solicitar, confira o ponto, o rio e a área."
+  ],
+  [
+   "Z01_fecho",
+   "pub",
+   "Como vocês podem ver, é muito simples. Se gostou, curte aí e comenta. Qualquer dúvida, é só deixar aqui nos comentários."
+  ]
+ ],
+ "estilo": "fala do dono (pedido de 21/10): familiar, guiando na tela; só frases afirmativas"
+}
