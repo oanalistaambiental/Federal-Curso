@@ -28,6 +28,9 @@ conta.
 - Rota Federal publicada no site; Anual R$ 97 (assinatura sem renovação) e Vitalício R$ 147; certificado sem carga horária.
 - Divisão: Conta C = CAR, ANA, Ibama e V04; Conta B = V03, Lei 15.190, MTR/SINIR, Sinaflor/DOF. Cowork = telas logadas, YouTube,
   junção final, Hotmart.
+- **Serviços online e perfis de nicho** (21/10, estudos que aguardam o "sim"): a Comissão de Ética da Semad (2021) não viu
+  vedação a serviços fora de MG; cuidados: nada em órgão de MG, nunca a senha gov.br do cliente, nunca citar o cargo,
+  impedimento quando cruzar. Um perfil só (@ambientalinteligencia) com séries por nicho. Estudo de mercado v2 em `pesquisa/`.
 
 ## Economia de cota (curadoria de 20/10/2026; regra completa em `CURSO/producao/FLUXO_INTELIGENTE_E_MODELOS.md`, §5)
 - **Sonnet é o padrão** da sessão; Opus só numa pergunta pontual. Sessão nova por frente ou por dia; acima de ~150 mil tokens
@@ -39,11 +42,6 @@ conta.
   **As falas seguem o jeito de falar do dono** ("Olá, no vídeo de hoje…", "vem comigo", "aqui você preenche, é só clicar",
   "espera carregar", "como vocês podem ver, é muito simples", "se gostou, curte aí, comenta…"): `producao/ESTILO_FALA_FEDERAL.md`.
   Sem pergunta retórica, como sempre.
-
-- 21/10/2026: **perfis de nicho, serviços e mercado** (estudos, aguardam o "sim"; registro completo em `DECISOES_DO_DONO.md`):
-  `pesquisa/PERFIS_NICHO_E_AVATARES.md`, `SERVICOS_ONLINE_E_REGRAS.md` e `ESTUDO_MERCADO_2026_SERVICOS_E_PRODUTOS.md`.
-  **Regra permanente:** o dono pode prestar serviço federal e de outros estados (Comissão de Ética da Semad, 2021), sem
-  órgão de MG, sem a senha gov.br do cliente, sem citar o cargo e declarando impedimento quando houver cruzamento.
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
