@@ -1,0 +1,227 @@
+{
+ "meta": {
+  "video": "F02",
+  "titulo": "CAR nacional · consultar e o caminho para fazer",
+  "edicao": 1,
+  "voz": "edge-tts pt-BR-AntonioNeural +6%",
+  "data": "2026-10-21",
+  "regras": "tela pura (PADRAO_TELA_PURA.md); sem pergunta; estilo do dono (recado de 21/10)",
+  "estilo": "producao/ESTILO_FALA_FEDERAL.md (21/10/2026)"
+ },
+ "aulas": [
+  {
+   "id": "F02",
+   "titulo": "CAR nacional · consultar e o caminho para fazer",
+   "passos": [
+    [
+     "A01_ola",
+     "Olá! No vídeo de hoje eu vou mostrar como é que se consulta um CAR e o caminho pra fazer o seu."
+    ],
+    [
+     "A02_serve",
+     "O CAR é o registro ambiental do imóvel rural, com a reserva legal e as APPs, e vale pro Brasil todo."
+    ],
+    [
+     "A03_tutorial",
+     "É um tutorial fácil: vem comigo, que eu vou mostrar a tela e o passo a passo aqui pra vocês."
+    ],
+    [
+     "A04_contador",
+     "Essa é a Consulta Pública do CAR. Aqui você consegue ver o total de imóveis inscritos: mais de oito milhões."
+    ],
+    [
+     "A05_areas",
+     "Logo do lado ficam as áreas declaradas: reserva legal, preservação permanente, vegetação nativa e área consolidada."
+    ],
+    [
+     "A06_soma",
+     "Isso aqui a gente consegue através dos desenhos que cada dono fez no cadastro, somados."
+    ],
+    [
+     "A07_filtros",
+     "Pra achar um imóvel, você tem três filtros: o estado, o município ou o número de registro."
+    ],
+    [
+     "A08_exemplo",
+     "A título de exemplo, eu vou usar um CAR público de Paranaguá, no Paraná, anexado num processo da prefeitura."
+    ],
+    [
+     "A09_digita",
+     "Aqui você preenche o número de registro, do jeito que está no recibo, caractere por caractere."
+    ],
+    [
+     "A10_codigo",
+     "Essa informação é importante: PR é o estado, e o número seguinte é o código do município no IBGE."
+    ],
+    [
+     "A11_buscar",
+     "Agora é só clicar em Buscar. Espera carregar um pouquinho, que o mapa já vai direto pro imóvel."
+    ],
+    [
+     "B01_linhas",
+     "Prontinho. Essas linhas amarelas são os limites dos imóveis declarados nessa região."
+    ],
+    [
+     "B02_painel",
+     "Nessa setinha aqui fica o painel de camadas do mapa."
+    ],
+    [
+     "B03_imoveis",
+     "A camada de imóveis rurais declarados já vem ligada: é ela que desenha as linhas amarelas."
+    ],
+    [
+     "B04_cobertura",
+     "Aí eu ligo a cobertura do solo declarada. Aparecem a vegetação nativa e a área consolidada."
+    ],
+    [
+     "B05_rl",
+     "Agora a reserva legal declarada, que o dono propôs dentro do imóvel."
+    ],
+    [
+     "B06_app",
+     "E a área de preservação permanente declarada, a APP, que acompanha rios e nascentes."
+    ],
+    [
+     "B07_recibo",
+     "É desses desenhos que saem as áreas do recibo e do demonstrativo do imóvel."
+    ],
+    [
+     "C01_detalhes",
+     "Descendo um pouquinho, logo abaixo do mapa, ficam os detalhes da pesquisa."
+    ],
+    [
+     "C02_registro",
+     "O registro de inscrição é o número que identifica esse imóvel em todo o sistema."
+    ],
+    [
+     "C03_datas",
+     "Inscrito em primeiro de dezembro de 2015. A última retificação está vazia, ou seja, ele nunca foi retificado."
+    ],
+    [
+     "C04_local",
+     "Depois vêm o município, o estado e as coordenadas do imóvel."
+    ],
+    [
+     "C05_area",
+     "A área é de 4,16 hectares, e isso dá 0,26 módulo fiscal."
+    ],
+    [
+     "C06_modulo",
+     "O módulo fiscal muda de município pra município, e várias regras do Código Florestal usam esse tamanho."
+    ],
+    [
+     "C07_sem_nome",
+     "Nome e documento do dono não aparecem aqui. A consulta mostra o imóvel, e não a pessoa."
+    ],
+    [
+     "C08_botoes",
+     "Logo abaixo tem dois botões. Baixar feições traz os desenhos, e baixar demonstrativo traz a situação de hoje."
+    ],
+    [
+     "C09_clica",
+     "Eu clico em baixar demonstrativo, e o sistema pede a verificação de que você não é um robô."
+    ],
+    [
+     "C10_paro",
+     "Essa verificação quem faz é você, então aqui eu paro. Depois dela, sai o PDF."
+    ],
+    [
+     "C11_retificar",
+     "É importante ter atenção nesse ponto. Se o imóvel já tem CAR, não faça outro: o caminho é retificar."
+    ],
+    [
+     "C12_sobrepor",
+     "Um cadastro novo por cima do antigo gera sobreposição e pode deixar os dois pendentes."
+    ],
+    [
+     "D01_lei",
+     "A base de tudo isso está no Código Florestal, a Lei 12.651, no artigo 29."
+    ],
+    [
+     "D02_caput",
+     "O CAR é um registro público eletrônico, obrigatório pra todos os imóveis rurais."
+    ],
+    [
+     "D03_titulo",
+     "No parágrafo segundo: o cadastro não é título, ou seja, não prova que a terra é sua."
+    ],
+    [
+     "D04_prazo",
+     "No parágrafo terceiro: a inscrição é obrigatória e por prazo indeterminado."
+    ],
+    [
+     "D05_pra",
+     "O que venceu foi o prazo pra ter direito ao PRA, no parágrafo quarto: fim de 2023 e fim de 2025."
+    ],
+    [
+     "E01_faq",
+     "Agora a gente volta aqui no portal do CAR, nas perguntas frequentes sobre inscrição no CAR."
+    ],
+    [
+     "E02_abre",
+     "Eu abro a pergunta sobre o prazo de inscrição do imóvel rural."
+    ],
+    [
+     "E03_2018",
+     "Repara que a resposta ainda fala em 31 de dezembro de 2018. É texto antigo: o que vale é a lei."
+    ],
+    [
+     "G01_manuais",
+     "Antes de começar o seu, vale a pena ler o manual oficial. Ele fica aqui, na central de conteúdo, em manuais."
+    ],
+    [
+     "G02_pre",
+     "Esse manual você pega nessa plataforma: o do módulo pré-preenchido, versão 2.0, de abril de 2026."
+    ],
+    [
+     "G03_separe",
+     "Ele pede pra separar a conta gov.br do dono, e o CPF e a data de nascimento de todos os donos."
+    ],
+    [
+     "G04_ccir",
+     "E também o CCIR atualizado, que você pega no Incra, e os dados da matrícula do imóvel."
+    ],
+    [
+     "F01_portal",
+     "Pra fazer o cadastro, o caminho começa aqui, na página inicial do portal do CAR."
+    ],
+    [
+     "F02_faca",
+     "Nesse ponto você clica em Faça seu CAR. Espera carregar, que ele já pede o estado do imóvel."
+    ],
+    [
+     "F03_parana",
+     "Prontinho. Eu escolho o Paraná, que faz o cadastro no sistema federal, o Sicar."
+    ],
+    [
+     "F04_caminhos",
+     "Aparecem dois caminhos: o módulo pré-preenchido, que roda no navegador, e o módulo offline, pra instalar."
+    ],
+    [
+     "F05_cruza",
+     "Essa plataforma já cruza os dados da Receita e do Incra. O dono só revisa e completa."
+    ],
+    [
+     "F06_bahia",
+     "Agora a Bahia. O aviso mostra que esse estado tem sistema próprio de cadastro."
+    ],
+    [
+     "F07_estadual",
+     "Nesses estados, esse botão leva pro site do CAR estadual."
+    ],
+    [
+     "F08_volta",
+     "Aí volta pro Paraná, e o cursor fica no módulo pré-preenchido."
+    ],
+    [
+     "F09_login",
+     "Ao clicar aqui, o sistema pede o login gov.br do dono do imóvel. Daqui pra frente, eu paro."
+    ],
+    [
+     "Z02_fecho",
+     "Como vocês podem ver, é muito simples. Se gostou, curte aí e comenta. Qualquer dúvida, é só deixar aqui nos comentários."
+    ]
+   ]
+  }
+ ]
+}
