@@ -31,6 +31,9 @@ conta.
 - **Telas logadas sempre que agregarem** (19/10): cena logada marcada no roteiro e pedida ao Cowork (`producao/TELAS_LOGADAS_COWORK.md`);
   o dono faz o login. Padrão de produção de todo vídeo (pesquisa, roteiro, gravação, voz, portões): `producao/PADRAO_PRODUCAO_VIDEO.md`.
 - **Tom público** (20/10): sem vínculo de cargo (Semad, IEF, Feam, Igam) e sem apelo de renda; o módulo 7 chama-se "Atuar como consultor".
+- **Tela pura** (21/10): todo vídeo novo segue `producao/PADRAO_TELA_PURA.md` e `producao/PADRAO_OURO_VIDEO_APROVADO.md` do
+  CURSO (no `main` desde 28/10); F01 e F02 refeitos, F03 a F05 com roteiro e passos 🎬. Voz grátis (Antonio +6 %) por
+  enquanto; as falas seguem o jeito de falar do dono (`producao/ESTILO_FALA_FEDERAL.md`), sem pergunta retórica.
 - **Serviços online e perfis de nicho** (21/10, estudos que aguardam o "sim"): a Comissão de Ética da Semad (2021) não viu
   vedação a serviços fora de MG; cuidados: nada em órgão de MG, nunca a senha gov.br do cliente, nunca citar o cargo,
   impedimento quando cruzar. Um perfil só (@ambientalinteligencia) com séries por nicho. Estudo de mercado v2 em `pesquisa/`.
@@ -39,12 +42,6 @@ conta.
 - **Sonnet é o padrão** da sessão; Opus só numa pergunta pontual. Sessão nova por frente ou por dia; acima de ~150 mil tokens
   de contexto, encerrar e abrir outra (o estado está em `LEMBRETES.md` e `ao-vivo/`).
 - Lembrete agendado sempre em **sessão nova** ("tarefa leve"), nunca ligado a uma sessão antiga.
-
-- 21/10/2026: **vídeos no padrão "tela pura"** (CURSO, `producao/PADRAO_TELA_PURA.md`, ramo `captura/estrutura-frente`): F01 e
-  F02 refeitos; F03 a F05 com roteiro e passos 🎬. **Vozes grátis por enquanto** (Antonio +6 %); ElevenLabs só depois.
-  **As falas seguem o jeito de falar do dono** ("Olá, no vídeo de hoje…", "vem comigo", "aqui você preenche, é só clicar",
-  "espera carregar", "como vocês podem ver, é muito simples", "se gostou, curte aí, comenta…"): `producao/ESTILO_FALA_FEDERAL.md`.
-  Sem pergunta retórica, como sempre.
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
