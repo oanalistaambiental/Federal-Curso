@@ -127,3 +127,9 @@ Saiu do `CLAUDE.md` em 20/10/2026 para o arquivo de regras ficar curto: o `CLAUD
   os órgãos como tema e fonte continua normal. **Nada de "gere renda", "faturar" ou urgência de preço**: o texto cativa pela
   empatia, pela qualidade dos dados e pela transparência. A trilha "Fazer render" passa a se chamar **"Atuar como consultor"**.
   Aplicado no site em 20/10 (PR #19 do site) e nas capas.
+
+- 21/10/2026: **vídeos no padrão "tela pura"** (CURSO, `producao/PADRAO_TELA_PURA.md`, ramo `captura/estrutura-frente`): F01 e
+  F02 refeitos; F03 a F05 com roteiro e passos 🎬. **Vozes grátis por enquanto** (Antonio +6 %); ElevenLabs só depois.
+  **As falas seguem o jeito de falar do dono** ("Olá, no vídeo de hoje…", "vem comigo", "aqui você preenche, é só clicar",
+  "espera carregar", "como vocês podem ver, é muito simples", "se gostou, curte aí, comenta…"): `producao/ESTILO_FALA_FEDERAL.md`.
+  Sem pergunta retórica, como sempre.
