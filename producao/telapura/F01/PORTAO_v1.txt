@@ -1,0 +1,6 @@
+loudness -16.2 LUFS (meta -16 ± 0,5): ok
+pico real -2.2 dBFS (meta <= -1,5): ok
+silêncios > 2 s: 0 ok
+duração 7.83 min (meta 5 a 9): ok
+LGPD (OCR, 1 quadro/s, 470 quadros): 0 suspeitos ok
+PORTÃO: APROVADO

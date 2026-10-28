@@ -1,6 +1,6 @@
 {
  "video": "F02_CAR_consulta_telapura_v1.mp4",
- "duracao_s": 346.3,
+ "duracao_s": 339.82,
  "ganho_db": 3.9,
  "loudness_antes": -19.9,
  "falas": [
@@ -311,14 +311,8 @@
    "texto": "Ao clicar aqui, o sistema pede o login gov.br do dono do imóvel. Daqui pra frente, eu paro."
   },
   {
-   "id": "Z01_parar",
-   "t": 329.32,
-   "cena": "s7",
-   "texto": "No seu, pare antes de finalizar e confere o quadro de áreas. O checklist está no material da aula."
-  },
-  {
    "id": "Z02_fecho",
-   "t": 336.4,
+   "t": 329.92,
    "cena": "s7",
    "texto": "Como vocês podem ver, é muito simples. Se gostou, curte aí e comenta. Qualquer dúvida, é só deixar aqui nos comentários."
   }
@@ -369,8 +363,14 @@
   {
    "cena": "s7",
    "de": 1792544540.64,
-   "ate": 1792544566.053,
+   "ate": 1792544549.017,
    "saida": 320.89
+  },
+  {
+   "cena": "s7",
+   "de": 1792544555.498,
+   "ate": 1792544566.053,
+   "saida": 329.27
   }
  ],
  "zoom": {

@@ -49,7 +49,8 @@ evs = []        # (tipo, t_saída)
 tout = 0.0
 for c in CENAS:
     L = json.load(open(f"{W_}/quadros/{c}/log.json"))
-    ps = [e for e in L["log"] if e["tipo"] == "passo"]; fins = [e for e in L["log"] if e["tipo"] == "fim"]
+    ps = [e for e in L["log"] if e["tipo"] == "passo" and e["id"] in TXT]   # passo tirado das falas sai da montagem
+    fins = [e for e in L["log"] if e["tipo"] == "fim" and e["id"] in TXT]
     t0 = ps[0]["t"] - (0.15 if c != "s1" else 0.0); t1 = fins[-1]["t"] + 0.15
     # intervalos de voz na gravação
     voz = [(e["t"] + LEAD, e["t"] + LEAD + D[e["id"]]["dur"]) for e in ps]
