@@ -37,7 +37,7 @@ Regras:
 ```
 Aprenda a fazer o serviço ambiental federal na tela real dos sistemas, em qualquer estado: CAR, outorga na ANA (Plataforma Águas Brasil), Ibama (CTF/APP, RAPP e TCFA), MTR no SINIR e DOF no Sinaflor.
 
-Cada aula parte de um documento real e público e volta até o que foi preenchido para ele sair (o "caminho de volta"), com o manual oficial conferido, a lei citada na fonte e checklist em PDF. Aulas curtas, de 5 a 9 minutos, e um módulo inteiro sobre como transformar isso em renda: quanto cobrar, proposta, contrato e como achar cliente com dado público.
+Cada aula parte de um documento real e público e volta até o que foi preenchido para ele sair (o "caminho de volta"), com o manual oficial conferido, a lei citada na fonte e checklist em PDF. Aulas curtas, de 5 a 9 minutos, e um módulo sobre atuar como consultor: proposta, contrato, preço justo e dado público para ver onde o serviço é necessário.
 
 Produzido com inteligência artificial no padrão-ouro (manual oficial, fonte em cada regra e caso real) e revisado por Francisco de Assis, engenheiro florestal, mestre pela UFVJM e doutorando na UFMG, com mais de 1.500 perícias e vistorias, e por uma equipe de profissionais da área ambiental. As aulas são atualizadas sempre que o sistema ou a norma muda.
 
@@ -76,7 +76,7 @@ Curso independente, sem vínculo com órgãos públicos. Um projeto de @oanalist
   4. Flora federal
   5. Resíduos no SINIR
   6. Licenciamento federal
-  7. Fazer render
+  7. Atuar como consultor
 - **Aulas que já entram:**
   - Módulo 0, aula 1, "Boas-vindas e como funciona": texto do item 5.
   - Módulo 1, aula 1, "CAR: consultar, ler o recibo e o caminho para fazer o seu": vídeo `V02_CAR_v4b_youtube.mp4`, que a
@@ -100,7 +100,7 @@ Bem-vindo à Rota Federal, turma fundadora.
 
 Como funciona:
 • Cada aula mostra o sistema real, com o manual oficial conferido (selo "Manual conferido em mm/aaaa") e a lei na fonte.
-• Aulas novas entram toda semana. A ordem: CAR, ANA, Ibama, SINIR, Sinaflor e o módulo "Fazer render".
+• Aulas novas entram toda semana. A ordem: CAR, ANA, Ibama, SINIR, Sinaflor e o módulo "Atuar como consultor".
 • Dúvidas: escreva nos comentários da aula, pelo tema. A equipe responde.
 
 Transparência: o curso é produzido com inteligência artificial (pesquisa, roteiro, narração e telas animadas) e todo o conteúdo é revisado por Francisco de Assis e pela equipe. A IA rascunha; quem assina responde.

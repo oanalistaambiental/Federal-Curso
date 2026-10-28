@@ -28,6 +28,9 @@ conta.
 - Rota Federal publicada no site; Anual R$ 97 (assinatura sem renovação) e Vitalício R$ 147; certificado sem carga horária.
 - Divisão: Conta C = CAR, ANA, Ibama e V04; Conta B = V03, Lei 15.190, MTR/SINIR, Sinaflor/DOF. Cowork = telas logadas, YouTube,
   junção final, Hotmart.
+- **Telas logadas sempre que agregarem** (19/10): cena logada marcada no roteiro e pedida ao Cowork (`producao/TELAS_LOGADAS_COWORK.md`);
+  o dono faz o login. Padrão de produção de todo vídeo (pesquisa, roteiro, gravação, voz, portões): `producao/PADRAO_PRODUCAO_VIDEO.md`.
+- **Tom público** (20/10): sem vínculo de cargo (Semad, IEF, Feam, Igam) e sem apelo de renda; o módulo 7 chama-se "Atuar como consultor".
 - **Serviços online e perfis de nicho** (21/10, estudos que aguardam o "sim"): a Comissão de Ética da Semad (2021) não viu
   vedação a serviços fora de MG; cuidados: nada em órgão de MG, nunca a senha gov.br do cliente, nunca citar o cargo,
   impedimento quando cruzar. Um perfil só (@ambientalinteligencia) com séries por nicho. Estudo de mercado v2 em `pesquisa/`.

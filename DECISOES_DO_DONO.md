@@ -108,3 +108,22 @@ Saiu do `CLAUDE.md` em 20/10/2026 para o arquivo de regras ficar curto: o `CLAUD
       vencimentos;
     - infoprodutos: pack de prompts de IA, kit de planilhas, kit EUDR, "Seu crédito vai passar?".
     - Aguarda o "sim".
+
+- 19/10/2026: **telas logadas sempre que agregarem.** O dono quer o vídeo dentro do sistema: rolar, abrir menus, mostrar
+  botões, preencher, de onde vem cada dado e qual sistema é mais apto. Quando a tela pede login, **pedir ao Cowork**; o
+  dono faz o login ou passa pela verificação. Marcar cada cena como pública ou logada já no roteiro e mandar o pacote
+  junto. Regra e fila: `producao/TELAS_LOGADAS_COWORK.md`.
+
+- 19/10/2026: **padrão do vídeo 3 aprovado para todos os próximos** ("salve sempre elas para as próximas configurações"):
+  pesquisa (manual e norma mais nova, tela pública, vídeos em alta no vidIQ, números oficiais, FAQ, divergências), roteiro,
+  gravação, voz e portões em **`producao/PADRAO_PRODUCAO_VIDEO.md`**.
+- 19/10/2026: **frente nova no Cowork: "Captura de Telas"**. O dono senta com o Cowork e gravam vários sistemas de uma vez,
+  em **lotes** (Ibama; ANA; CAR; SINIR...). Prompt da frente, regras, lotes e manifesto: **`producao/captura-de-telas/`**. A
+  conta dona do vídeo escreve o lote junto com o roteiro e faz a edição fina com o material que chega.
+
+- 20/10/2026: **tom público sem vínculo de cargo e sem apelo de renda** (pedido do dono). Em site, capas, perfis, Hotmart e
+  textos de venda, **não ligar o Francisco a SEMAD, IEF, FEAM ou Igam** nem a "gestor ambiental de carreira", "fiscal" ou
+  "credenciado". Dizer "atua com meio ambiente em Minas Gerais desde 2014" ou "profissional da área ambiental em MG". Citar
+  os órgãos como tema e fonte continua normal. **Nada de "gere renda", "faturar" ou urgência de preço**: o texto cativa pela
+  empatia, pela qualidade dos dados e pela transparência. A trilha "Fazer render" passa a se chamar **"Atuar como consultor"**.
+  Aplicado no site em 20/10 (PR #19 do site) e nas capas.
