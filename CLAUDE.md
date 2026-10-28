@@ -40,33 +40,10 @@ conta.
   "espera carregar", "como vocês podem ver, é muito simples", "se gostou, curte aí, comenta…"): `producao/ESTILO_FALA_FEDERAL.md`.
   Sem pergunta retórica, como sempre.
 
-- 21/10/2026: **perfis de IA por nicho e serviços online** (estudos, aguardam o "sim"):
-  - `pesquisa/PERFIS_NICHO_E_AVATARES.md`: 25 personagens (pescador, criador de passarinho/Sispass, carvoeiro, motorista
-    de carvão, motosserra, serraria, oficina etc.). **Preferência do dono: um perfil só** (@ambientalinteligencia), com
-    **séries fixas por nicho**; a segmentação vai no anúncio, e a série que vingar pode virar perfil próprio depois.
-  - `pesquisa/SERVICOS_ONLINE_E_REGRAS.md`: catálogo de serviços online recorrentes (licença de pesca, Sispass, CTF/RAPP/
-    TCFA/CR, LPU, CAR+ITR, MTR/DMR).
-  - **Atualizado com a resposta da Comissão de Ética da Semad (29/04/2021, enviada pelo dono em 21/10):**
-    - "não foi encontrada vedação expressa" a analista ambiental prestar consultoria fora do horário;
-    - a Lei 12.813/2013 vale só para o Executivo federal;
-    - pede cautela com o Código de Ética (Decreto 46.644/2014): declarar impedimento se o empreendimento passar por ele
-      e avaliar com a chefia.
-  - **O dono pode executar serviços federais e de outros estados**, com quatro cuidados:
-    - nada em órgão de MG (Decreto 48.417/2022, art. 4º, V; Sispass de MG é do IEF);
-    - nunca a senha gov.br do cliente;
-    - nunca citar o cargo;
-    - impedimento quando houver cruzamento.
-  - **Modelo D** (sócios cotistas ou amigos executam; o dono como cotista sem gerência) segue como opção de escala.
-  - A consulta nova é opcional. O PDF da resposta fica com o dono, fora do git, porque traz nomes de terceiros.
-  - **Estudo de mercado v2 (21/10, sem a trava):** `pesquisa/ESTUDO_MERCADO_2026_SERVICOS_E_PRODUTOS.md`. Carros-chefe
-    propostos:
-    - **pré-análise socioambiental do imóvel rural** (crédito barrado pelo Banco Central, EUDR em 30/12/2026, PRODES
-      nos imóveis pequenos em 2027), com o "Relatório do imóvel" no Chão Geo;
-    - **NR-1 psicossocial + PGR** com a ART de engenheiro de segurança do dono (frente de SST, separada);
-    - recorrência: pacote CTF/RAPP/CR, PGRS/MTR, licença de pesca e Sispass assistidos, clube mensal e alerta de
-      vencimentos;
-    - infoprodutos: pack de prompts de IA, kit de planilhas, kit EUDR, "Seu crédito vai passar?".
-    - Aguarda o "sim".
+- 21/10/2026: **perfis de nicho, serviços e mercado** (estudos, aguardam o "sim"; registro completo em `DECISOES_DO_DONO.md`):
+  `pesquisa/PERFIS_NICHO_E_AVATARES.md`, `SERVICOS_ONLINE_E_REGRAS.md` e `ESTUDO_MERCADO_2026_SERVICOS_E_PRODUTOS.md`.
+  **Regra permanente:** o dono pode prestar serviço federal e de outros estados (Comissão de Ética da Semad, 2021), sem
+  órgão de MG, sem a senha gov.br do cliente, sem citar o cargo e declarando impedimento quando houver cruzamento.
 
 ## Regras que não mudam (herdadas do CURSO)
 - **Fale com o dono sempre em português do Brasil** (conversa, PRs e commits).
