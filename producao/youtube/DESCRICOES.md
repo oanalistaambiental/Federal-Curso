@@ -105,6 +105,66 @@ Canal independente, sem vínculo com órgãos públicos. Dados pessoais aparecem
 #CAR #cadastroambientalrural #codigoflorestal #consultoriaambiental #Sicar
 ```
 
+---
+
+## Vídeo 4 · Retificar o CAR e trocar o titular (versão 1, 20/10/2026)
+
+Capítulos com os tempos reais do arquivo `V04_CAR_RETIFICAR_v1_youtube.mp4` (7:38). Se o Cowork regravar as cenas logadas
+(c05 a c15), os tempos mudam: refazer com `producao/V04/montar4.py` (ele grava `tempos_corpo.json`).
+Tela final do YouTube: de **7:21** a **7:38** (cartão Rota Federal). Card "i": em **0:58** (c03, "Comprou um imóvel rural"),
+para o vídeo 2 ("Como fazer o CAR em 2026 pelo gov.br").
+
+**Títulos (até 70 caracteres; o dono escolhe):**
+1. `Como retificar o CAR e trocar o titular em 2026 pelo gov.br` (59)
+2. `Comprei um imóvel rural: como passar o CAR para o meu nome (2026)` (65)
+
+**Descrição:**
+```
+Como retificar o Cadastro Ambiental Rural e trocar o titular (venda, herança, desmembramento) no Módulo Pré-Preenchido do Sicar, pelo gov.br, sem arquivo .ret (manual V2.0, abr/2026, conferido em 10/2026).
+Casos reais e públicos de Paranaguá (PR) mostram que a retificação mantém o número do CAR.
+
+Capítulos
+0:00 Retificar mantém o número do CAR
+0:30 Um CAR retificado e aprovado
+0:53 Comprou o imóvel: retifique, não duplique
+1:16 Onde começa: "Retifique seu CAR"
+1:42 Listar imóveis e o botão Retificar
+2:12 Botão apagado: os 4 motivos
+2:37 CAR já analisado: pedir a liberação
+3:14 Dentro da retificação
+3:39 Trocar o titular na Identificação
+4:06 Quem pode fazer: dono ou representante
+4:35 SNCR atualizado no Incra
+5:07 Empresa e representante
+5:29 Herança: espólio e inventariante
+5:50 Venda de uma parte: desmembramento
+6:15 Resumo e o passivo que vem com a terra
+6:48 A IA na justificativa
+7:12 Encerramento
+
+Fontes oficiais (conferidas em 10/2026)
+• Manual do Módulo de Cadastro Pré-Preenchido (V2.0): https://www.gov.br/car/pt-br/central-de-conteudo/manuais/manual_modulo_cadastro_pre_preenchido.pdf/@@display-file/file
+• Manual da Central do Proprietário/Possuidor: https://www.gov.br/car/pt-br/central-de-conteudo/manuais/manual_central_do_proprietario_possuidor-1.pdf/@@display-file/file
+• Perguntas frequentes do CAR: https://www.gov.br/car/pt-br/canais_atendimento/perguntas-frequentes
+• Decreto 7.830/2012 (art. 6º): https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7830.htm
+• Lei 12.651/2012 (arts. 2º, 18 e 29): https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651compilado.htm
+• Instrução Normativa MMA nº 2/2014: https://car.gov.br/leis/IN_CAR.pdf
+• Lei 5.868/1972 (SNCR, art. 2º, § 3º): https://www.planalto.gov.br/ccivil_03/leis/l5868.htm
+• Consulta Pública do CAR: https://consulta.car.gov.br
+• Estados com sistema próprio têm rotina própria de retificação e troca de titular: consulte o órgão do CAR do seu estado.
+
+Rota Federal: tutoriais completos, casos reais e modelos, revisados por Francisco de Assis → https://www.oanalistaambiental.com/rota-federal.html
+
+Inscreva-se: https://www.youtube.com/@I.Ambiental?sub_confirmation=1
+Instagram da marca: @ambientalinteligencia
+Um projeto de @oanalistaambiental (O Analista Ambiental)
+
+A narração usa voz gerada por IA; todo o conteúdo é revisado por humano. A IA rascunha; quem assina responde.
+Canal independente, sem vínculo com órgãos públicos. Dados pessoais aparecem ocultos; telas de exemplo com dados fictícios.
+
+#CAR #cadastroambientalrural #retificacao #codigoflorestal #Sicar
+```
+
 ## Ao subir (os dois)
 - Legenda: enviar o `.srt` do mesmo arquivo (português do Brasil).
 - Marcar **"Conteúdo alterado ou sintético: Sim"** (voz de IA).

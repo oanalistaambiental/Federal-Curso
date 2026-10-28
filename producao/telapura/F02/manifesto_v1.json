@@ -1,0 +1,514 @@
+{
+ "video": "F02_CAR_consulta_telapura_v1.mp4",
+ "duracao_s": 339.82,
+ "ganho_db": 3.9,
+ "loudness_antes": -19.9,
+ "falas": [
+  {
+   "id": "A01_ola",
+   "t": 0.25,
+   "cena": "s1",
+   "texto": "Olá! No vídeo de hoje eu vou mostrar como é que se consulta um CAR e o caminho pra fazer o seu."
+  },
+  {
+   "id": "A02_serve",
+   "t": 6.69,
+   "cena": "s1",
+   "texto": "O CAR é o registro ambiental do imóvel rural, com a reserva legal e as APPs, e vale pro Brasil todo."
+  },
+  {
+   "id": "A03_tutorial",
+   "t": 13.71,
+   "cena": "s1",
+   "texto": "É um tutorial fácil: vem comigo, que eu vou mostrar a tela e o passo a passo aqui pra vocês."
+  },
+  {
+   "id": "A04_contador",
+   "t": 19.8,
+   "cena": "s1",
+   "texto": "Essa é a Consulta Pública do CAR. Aqui você consegue ver o total de imóveis inscritos: mais de oito milhões."
+  },
+  {
+   "id": "A05_areas",
+   "t": 27.73,
+   "cena": "s1",
+   "texto": "Logo do lado ficam as áreas declaradas: reserva legal, preservação permanente, vegetação nativa e área consolidada."
+  },
+  {
+   "id": "A06_soma",
+   "t": 35.92,
+   "cena": "s1",
+   "texto": "Isso aqui a gente consegue através dos desenhos que cada dono fez no cadastro, somados."
+  },
+  {
+   "id": "A07_filtros",
+   "t": 41.8,
+   "cena": "s1",
+   "texto": "Pra achar um imóvel, você tem três filtros: o estado, o município ou o número de registro."
+  },
+  {
+   "id": "A08_exemplo",
+   "t": 48.24,
+   "cena": "s1",
+   "texto": "A título de exemplo, eu vou usar um CAR público de Paranaguá, no Paraná, anexado num processo da prefeitura."
+  },
+  {
+   "id": "A09_digita",
+   "t": 55.19,
+   "cena": "s1",
+   "texto": "Aqui você preenche o número de registro, do jeito que está no recibo, caractere por caractere."
+  },
+  {
+   "id": "A10_codigo",
+   "t": 61.62,
+   "cena": "s1",
+   "texto": "Essa informação é importante: PR é o estado, e o número seguinte é o código do município no IBGE."
+  },
+  {
+   "id": "A11_buscar",
+   "t": 68.9,
+   "cena": "s1",
+   "texto": "Agora é só clicar em Buscar. Espera carregar um pouquinho, que o mapa já vai direto pro imóvel."
+  },
+  {
+   "id": "B01_linhas",
+   "t": 75.75,
+   "cena": "s2",
+   "texto": "Prontinho. Essas linhas amarelas são os limites dos imóveis declarados nessa região."
+  },
+  {
+   "id": "B02_painel",
+   "t": 82.07,
+   "cena": "s2",
+   "texto": "Nessa setinha aqui fica o painel de camadas do mapa."
+  },
+  {
+   "id": "B03_imoveis",
+   "t": 85.6,
+   "cena": "s2",
+   "texto": "A camada de imóveis rurais declarados já vem ligada: é ela que desenha as linhas amarelas."
+  },
+  {
+   "id": "B04_cobertura",
+   "t": 91.48,
+   "cena": "s2",
+   "texto": "Aí eu ligo a cobertura do solo declarada. Aparecem a vegetação nativa e a área consolidada."
+  },
+  {
+   "id": "B05_rl",
+   "t": 98.5,
+   "cena": "s2",
+   "texto": "Agora a reserva legal declarada, que o dono propôs dentro do imóvel."
+  },
+  {
+   "id": "B06_app",
+   "t": 103.32,
+   "cena": "s2",
+   "texto": "E a área de preservação permanente declarada, a APP, que acompanha rios e nascentes."
+  },
+  {
+   "id": "B07_recibo",
+   "t": 109.46,
+   "cena": "s2",
+   "texto": "É desses desenhos que saem as áreas do recibo e do demonstrativo do imóvel."
+  },
+  {
+   "id": "C01_detalhes",
+   "t": 114.35,
+   "cena": "s2",
+   "texto": "Descendo um pouquinho, logo abaixo do mapa, ficam os detalhes da pesquisa."
+  },
+  {
+   "id": "C02_registro",
+   "t": 119.37,
+   "cena": "s2",
+   "texto": "O registro de inscrição é o número que identifica esse imóvel em todo o sistema."
+  },
+  {
+   "id": "C03_datas",
+   "t": 124.36,
+   "cena": "s2",
+   "texto": "Inscrito em primeiro de dezembro de 2015. A última retificação está vazia, ou seja, ele nunca foi retificado."
+  },
+  {
+   "id": "C04_local",
+   "t": 132.78,
+   "cena": "s2",
+   "texto": "Depois vêm o município, o estado e as coordenadas do imóvel."
+  },
+  {
+   "id": "C05_area",
+   "t": 137.49,
+   "cena": "s2",
+   "texto": "A área é de 4,16 hectares, e isso dá 0,26 módulo fiscal."
+  },
+  {
+   "id": "C06_modulo",
+   "t": 143.51,
+   "cena": "s2",
+   "texto": "O módulo fiscal muda de município pra município, e várias regras do Código Florestal usam esse tamanho."
+  },
+  {
+   "id": "C07_sem_nome",
+   "t": 150.28,
+   "cena": "s2",
+   "texto": "Nome e documento do dono não aparecem aqui. A consulta mostra o imóvel, e não a pessoa."
+  },
+  {
+   "id": "C08_botoes",
+   "t": 157.28,
+   "cena": "s2",
+   "texto": "Logo abaixo tem dois botões. Baixar feições traz os desenhos, e baixar demonstrativo traz a situação de hoje."
+  },
+  {
+   "id": "C09_clica",
+   "t": 165.48,
+   "cena": "s2",
+   "texto": "Eu clico em baixar demonstrativo, e o sistema pede a verificação de que você não é um robô."
+  },
+  {
+   "id": "C10_paro",
+   "t": 171.24,
+   "cena": "s2",
+   "texto": "Essa verificação quem faz é você, então aqui eu paro. Depois dela, sai o PDF."
+  },
+  {
+   "id": "C11_retificar",
+   "t": 178.32,
+   "cena": "s2",
+   "texto": "É importante ter atenção nesse ponto. Se o imóvel já tem CAR, não faça outro: o caminho é retificar."
+  },
+  {
+   "id": "C12_sobrepor",
+   "t": 186.54,
+   "cena": "s2",
+   "texto": "Um cadastro novo por cima do antigo gera sobreposição e pode deixar os dois pendentes."
+  },
+  {
+   "id": "D01_lei",
+   "t": 192.61,
+   "cena": "s3",
+   "texto": "A base de tudo isso está no Código Florestal, a Lei 12.651, no artigo 29."
+  },
+  {
+   "id": "D02_caput",
+   "t": 199.62,
+   "cena": "s3",
+   "texto": "O CAR é um registro público eletrônico, obrigatório pra todos os imóveis rurais."
+  },
+  {
+   "id": "D03_titulo",
+   "t": 205.12,
+   "cena": "s3",
+   "texto": "No parágrafo segundo: o cadastro não é título, ou seja, não prova que a terra é sua."
+  },
+  {
+   "id": "D04_prazo",
+   "t": 211.24,
+   "cena": "s3",
+   "texto": "No parágrafo terceiro: a inscrição é obrigatória e por prazo indeterminado."
+  },
+  {
+   "id": "D05_pra",
+   "t": 216.4,
+   "cena": "s3",
+   "texto": "O que venceu foi o prazo pra ter direito ao PRA, no parágrafo quarto: fim de 2023 e fim de 2025."
+  },
+  {
+   "id": "E01_faq",
+   "t": 224.47,
+   "cena": "s4",
+   "texto": "Agora a gente volta aqui no portal do CAR, nas perguntas frequentes sobre inscrição no CAR."
+  },
+  {
+   "id": "E02_abre",
+   "t": 230.16,
+   "cena": "s4",
+   "texto": "Eu abro a pergunta sobre o prazo de inscrição do imóvel rural."
+  },
+  {
+   "id": "E03_2018",
+   "t": 234.33,
+   "cena": "s4",
+   "texto": "Repara que a resposta ainda fala em 31 de dezembro de 2018. É texto antigo: o que vale é a lei."
+  },
+  {
+   "id": "G01_manuais",
+   "t": 242.56,
+   "cena": "s5",
+   "texto": "Antes de começar o seu, vale a pena ler o manual oficial. Ele fica aqui, na central de conteúdo, em manuais."
+  },
+  {
+   "id": "G02_pre",
+   "t": 250.77,
+   "cena": "s5",
+   "texto": "Esse manual você pega nessa plataforma: o do módulo pré-preenchido, versão 2.0, de abril de 2026."
+  },
+  {
+   "id": "G03_separe",
+   "t": 259.05,
+   "cena": "s5",
+   "texto": "Ele pede pra separar a conta gov.br do dono, e o CPF e a data de nascimento de todos os donos."
+  },
+  {
+   "id": "G04_ccir",
+   "t": 266.39,
+   "cena": "s5",
+   "texto": "E também o CCIR atualizado, que você pega no Incra, e os dados da matrícula do imóvel."
+  },
+  {
+   "id": "F01_portal",
+   "t": 273.2,
+   "cena": "s6",
+   "texto": "Pra fazer o cadastro, o caminho começa aqui, na página inicial do portal do CAR."
+  },
+  {
+   "id": "F02_faca",
+   "t": 278.66,
+   "cena": "s6",
+   "texto": "Nesse ponto você clica em Faça seu CAR. Espera carregar, que ele já pede o estado do imóvel."
+  },
+  {
+   "id": "F03_parana",
+   "t": 285.86,
+   "cena": "s7",
+   "texto": "Prontinho. Eu escolho o Paraná, que faz o cadastro no sistema federal, o Sicar."
+  },
+  {
+   "id": "F04_caminhos",
+   "t": 292.15,
+   "cena": "s7",
+   "texto": "Aparecem dois caminhos: o módulo pré-preenchido, que roda no navegador, e o módulo offline, pra instalar."
+  },
+  {
+   "id": "F05_cruza",
+   "t": 299.69,
+   "cena": "s7",
+   "texto": "Essa plataforma já cruza os dados da Receita e do Incra. O dono só revisa e completa."
+  },
+  {
+   "id": "F06_bahia",
+   "t": 305.96,
+   "cena": "s7",
+   "texto": "Agora a Bahia. O aviso mostra que esse estado tem sistema próprio de cadastro."
+  },
+  {
+   "id": "F07_estadual",
+   "t": 311.96,
+   "cena": "s7",
+   "texto": "Nesses estados, esse botão leva pro site do CAR estadual."
+  },
+  {
+   "id": "F08_volta",
+   "t": 316.36,
+   "cena": "s7",
+   "texto": "Aí volta pro Paraná, e o cursor fica no módulo pré-preenchido."
+  },
+  {
+   "id": "F09_login",
+   "t": 321.54,
+   "cena": "s7",
+   "texto": "Ao clicar aqui, o sistema pede o login gov.br do dono do imóvel. Daqui pra frente, eu paro."
+  },
+  {
+   "id": "Z02_fecho",
+   "t": 329.92,
+   "cena": "s7",
+   "texto": "Como vocês podem ver, é muito simples. Se gostou, curte aí e comenta. Qualquer dúvida, é só deixar aqui nos comentários."
+  }
+ ],
+ "pedacos": [
+  {
+   "cena": "s1",
+   "de": 1792545626.687,
+   "ate": 1792545702.033,
+   "saida": 0.0
+  },
+  {
+   "cena": "s2",
+   "de": 1792544622.056,
+   "ate": 1792544738.915,
+   "saida": 75.35
+  },
+  {
+   "cena": "s3",
+   "de": 1792545201.939,
+   "ate": 1792545233.8,
+   "saida": 192.21
+  },
+  {
+   "cena": "s4",
+   "de": 1792545029.062,
+   "ate": 1792545047.155,
+   "saida": 224.07
+  },
+  {
+   "cena": "s5",
+   "de": 1792545080.787,
+   "ate": 1792545111.424,
+   "saida": 242.16
+  },
+  {
+   "cena": "s6",
+   "de": 1792544486.047,
+   "ate": 1792544498.706,
+   "saida": 272.8
+  },
+  {
+   "cena": "s7",
+   "de": 1792544504.346,
+   "ate": 1792544539.781,
+   "saida": 285.46
+  },
+  {
+   "cena": "s7",
+   "de": 1792544540.64,
+   "ate": 1792544549.017,
+   "saida": 320.89
+  },
+  {
+   "cena": "s7",
+   "de": 1792544555.498,
+   "ate": 1792544566.053,
+   "saida": 329.27
+  }
+ ],
+ "zoom": {
+  "A09_digita": [
+   1150,
+   150,
+   1.5
+  ],
+  "A10_codigo": [
+   1150,
+   150,
+   1.5
+  ],
+  "E03_2018": [
+   965,
+   320,
+   1.45
+  ],
+  "C02_registro": [
+   700,
+   640,
+   1.4
+  ],
+  "C03_datas": [
+   700,
+   640,
+   1.4
+  ],
+  "C04_local": [
+   700,
+   640,
+   1.4
+  ],
+  "C05_area": [
+   700,
+   640,
+   1.4
+  ],
+  "C06_modulo": [
+   700,
+   640,
+   1.4
+  ],
+  "C07_sem_nome": [
+   700,
+   640,
+   1.4
+  ],
+  "C09_clica": [
+   560,
+   330,
+   1.5
+  ],
+  "C10_paro": [
+   560,
+   330,
+   1.5
+  ],
+  "E01_faq": [
+   960,
+   420,
+   1.45
+  ],
+  "E02_abre": [
+   960,
+   420,
+   1.45
+  ],
+  "G01_manuais": [
+   960,
+   420,
+   1.5
+  ],
+  "G02_pre": [
+   960,
+   420,
+   1.5
+  ],
+  "G03_separe": [
+   960,
+   420,
+   1.5
+  ],
+  "G04_ccir": [
+   960,
+   420,
+   1.5
+  ],
+  "F02_faca": [
+   960,
+   440,
+   1.45
+  ],
+  "F03_parana": [
+   1000,
+   420,
+   1.5
+  ],
+  "F04_caminhos": [
+   1000,
+   420,
+   1.5
+  ],
+  "F05_cruza": [
+   1000,
+   420,
+   1.5
+  ],
+  "F06_bahia": [
+   1000,
+   420,
+   1.5
+  ],
+  "F07_estadual": [
+   1000,
+   420,
+   1.5
+  ],
+  "F08_volta": [
+   1000,
+   420,
+   1.5
+  ],
+  "F09_login": [
+   1000,
+   420,
+   1.5
+  ],
+  "Z01_parar": [
+   1000,
+   420,
+   1.5
+  ],
+  "Z02_fecho": [
+   1000,
+   420,
+   1.5
+  ]
+ },
+ "eventos": 76
+}
